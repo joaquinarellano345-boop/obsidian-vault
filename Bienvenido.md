@@ -1,28 +1,36 @@
 ---
 tags: [inicio]
 created: 2026-07-27
+updated: 2026-07-27
 ---
 
 # 🌌 Bienvenido al Universo HJAZZI
 
-Este es tu **segundo cerebro visual** — una red de conocimiento interconectada donde cada proyecto es un planeta y cada idea una estrella.
+Este es tu **segundo cerebro visual** — documentación completa de todo el ecosistema.
 
-## 🗺️ Cómo navegar
-
-1. **Canvas visual** → Abrí `_canvas/universo-hjazzi.canvas` para ver el mapa completo
-2. **Notas** → Cada carpeta tiene documentación detallada
-3. **Grafo** → Click en el ícono de grafo (○) para ver todas las conexiones
+## 🚨 Documentos de emergencia
+Si perdés el VPS, empezá por acá:
+- [[docs/manual-vps|📖 Manual completo del VPS]] — TODO documentado
+- [[docs/rutas-criticas|📁 Rutas críticas]] — Dónde está cada archivo
+- [[docs/checklist-reconstruccion|🚨 Checklist de reconstrucción]] — Paso a paso
+- [[docs/mapa-tiendas|🛒 Mapa de tiendas]] — Las 8 tiendas
 
 ## 🪐 Planetas del ecosistema
+| Planeta | Canvas | Notas |
+|---------|--------|-------|
+| 💹 Trading Agent | [[_canvas/trading-agent|Abrir]] | [[trading/bitacora|Bitácora]] |
+| 🧬 Meta Evolution | [[_canvas/meta-evolution|Abrir]] | [[meta-evolution/arquitectura|Arquitectura]] |
+| 🎵 Montevideo Sonoro | [[_canvas/montevideo-sonoro-eden|Abrir]] | [[montevideo-sonoro/eden|Edén]] |
+| 🛒 Tiendas | [[_canvas/tiendas|Abrir]] | [[docs/mapa-tiendas|Mapa]] |
+| 💼 Freelance | — | [[freelance/el-gallo|El Gallo]] |
+| 🔧 Recursos | — | [[recursos/vps|VPS]] · [[recursos/api-keys|API Keys]] |
 
-| Planeta | Canvas | Carpeta |
-|---------|--------|---------|
-| 💹 Trading Agent | [[_canvas/trading-agent\|Abrir]] | `trading/` |
-| 🧬 Meta Evolution | [[_canvas/meta-evolution\|Abrir]] | `meta-evolution/` |
-| 🎵 Montevideo Sonoro | [[_canvas/montevideo-sonoro-eden\|Abrir]] | `montevideo-sonoro/` |
-| 🛒 Tiendas | [[_canvas/tiendas\|Abrir]] | `tiendas/` |
-| 💼 Freelance | — | `freelance/` |
-| 🔧 Recursos | — | `recursos/` |
+## 🗺️ Canvas visuales
+- 🌌 [[_canvas/universo-hjazzi|Universo principal]]
+- 💹 [[_canvas/trading-agent|Constelación Trading]]
+- 🧬 [[_canvas/meta-evolution|12 Capas Meta Evolution]]
+- 🎵 [[_canvas/montevideo-sonoro-eden|Edén · Jorge Drexler]]
+- 🛒 [[_canvas/tiendas|Ecosistema de Tiendas]]
 
 ---
-*Generado por Hermes Agent · [[_canvas/universo-hjazzi|Ver canvas principal]]*
+*Generado por Hermes Agent · 2026-07-27*
