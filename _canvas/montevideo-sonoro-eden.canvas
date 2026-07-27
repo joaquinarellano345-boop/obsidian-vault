@@ -1,0 +1,149 @@
+{
+  "nodes": [
+    {
+      "id": "d0a637eb2ff49993",
+      "type": "group",
+      "x": -60,
+      "y": -60,
+      "width": 1240,
+      "height": 1700,
+      "label": "Montevideo Sonoro — Edén · Jorge Drexler · Carrasco",
+      "color": "4"
+    },
+    {
+      "id": "fff966d2ba8060cb",
+      "type": "text",
+      "x": 60,
+      "y": 20,
+      "width": 500,
+      "height": 130,
+      "color": "6",
+      "text": "# Edén\n## Jorge Drexler\n### Carrasco · Avenida Italia"
+    },
+    {
+      "id": "65fbdd75c5facb1f",
+      "type": "text",
+      "x": 60,
+      "y": 180,
+      "width": 500,
+      "height": 340,
+      "color": "1",
+      "text": "## Ficha técnica\n- **Canción:** Edén\n- **Artista:** Jorge Drexler\n- **Barrio:** Carrasco\n- **Referencia:** Avenida Italia\n- **Municipio:** E\n- **Álbum:** Radar\n- **Sello:** Ayuí / Tacuabé\n- **Año:** 1994\n- **Coord:** 34°53' S · 56°05' W"
+    },
+    {
+      "id": "397baeb2c6dde2d7",
+      "type": "text",
+      "x": 60,
+      "y": 550,
+      "width": 500,
+      "height": 240,
+      "color": "5",
+      "text": "## Sobre la canción\nCuenta la historia de un amigo del músico y sus viajes a Brasil; esta peripecia comenzaba:\n\n> *«cruzando Avenida Italia, haciendo dedo hasta el Chuy»*\n\na la altura de Avenida Bolivia."
+    },
+    {
+      "id": "15acd02c07955417",
+      "type": "text",
+      "x": 640,
+      "y": 20,
+      "width": 280,
+      "height": 60,
+      "color": "3",
+      "text": "## 📱 Video\nEscaneá el QR o click abajo\n→ [Ver en YouTube](https://www.youtube.com/watch?v=t0uJAoXCRhA)"
+    },
+    {
+      "id": "b16dd3a73be1b618",
+      "type": "text",
+      "x": 640,
+      "y": 130,
+      "width": 480,
+      "height": 70,
+      "color": "2",
+      "text": "## 📍 Mapa de Montevideo Sonoro\n*(captura con ubicación de la canción)*"
+    },
+    {
+      "id": "58816022d631de16",
+      "type": "text",
+      "x": 640,
+      "y": 250,
+      "width": 480,
+      "height": 70,
+      "color": "4",
+      "text": "## 🖼️ Foto de la zona\nAvenida Italia, Carrasco — a color"
+    },
+    {
+      "id": "379d970ac1e806d4",
+      "type": "text",
+      "x": 640,
+      "y": 370,
+      "width": 480,
+      "height": 70,
+      "color": "1",
+      "text": "## 🎞️ Cabecera B&N\nVersión recortada en blanco y negro\n*(usada como cabecera de la ficha)*"
+    },
+    {
+      "id": "a1361bde75b944ea",
+      "type": "link",
+      "x": 640,
+      "y": 480,
+      "width": 480,
+      "height": 90,
+      "url": "https://www.youtube.com/watch?v=t0uJAoXCRhA"
+    },
+    {
+      "id": "66e667da54a10efe",
+      "type": "link",
+      "x": 640,
+      "y": 600,
+      "width": 480,
+      "height": 90,
+      "url": "https://www.montevideosonoro.uy/notes/eden"
+    }
+  ],
+  "edges": [
+    {
+      "id": "2664874aeda2ae64",
+      "fromNode": "fff966d2ba8060cb",
+      "fromSide": "bottom",
+      "toNode": "65fbdd75c5facb1f",
+      "toSide": "top",
+      "color": "6",
+      "label": "datos"
+    },
+    {
+      "id": "0e5de3fbca7787b0",
+      "fromNode": "65fbdd75c5facb1f",
+      "fromSide": "bottom",
+      "toNode": "397baeb2c6dde2d7",
+      "toSide": "top",
+      "color": "1",
+      "label": "historia"
+    },
+    {
+      "id": "afb324b51134ba07",
+      "fromNode": "15acd02c07955417",
+      "fromSide": "bottom",
+      "toNode": "a1361bde75b944ea",
+      "toSide": "top",
+      "color": "3",
+      "label": "video"
+    },
+    {
+      "id": "863f87632f63531f",
+      "fromNode": "a1361bde75b944ea",
+      "fromSide": "bottom",
+      "toNode": "66e667da54a10efe",
+      "toSide": "top",
+      "color": "5",
+      "label": "sitio oficial"
+    },
+    {
+      "id": "c0fd3a65e19ba696",
+      "fromNode": "58816022d631de16",
+      "fromSide": "bottom",
+      "toNode": "379d970ac1e806d4",
+      "toSide": "top",
+      "color": "1",
+      "label": "versión B&N"
+    }
+  ]
+}

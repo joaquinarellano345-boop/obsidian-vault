@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "e7904a357f8be558",
+      "type": "group",
+      "x": -60,
+      "y": -60,
+      "width": 1500,
+      "height": 800,
+      "label": "🛒 Ecosistema de Tiendas",
+      "color": "2"
+    },
+    {
+      "id": "bc75d6e0269c67be",
+      "type": "text",
+      "x": 50,
+      "y": 60,
+      "width": 420,
+      "height": 130,
+      "color": "1",
+      "text": "# UROPIC\nProductos importados\nFlask + SQLite\nuropic.hjazzi.com"
+    },
+    {
+      "id": "29d856c5fa69f40e",
+      "type": "text",
+      "x": 520,
+      "y": 60,
+      "width": 420,
+      "height": 130,
+      "color": "2",
+      "text": "# Shangrilá\nDecoración y hogar\nshangrila.hjazzi.com"
+    },
+    {
+      "id": "bb44ad7e40a248f1",
+      "type": "text",
+      "x": 990,
+      "y": 60,
+      "width": 420,
+      "height": 130,
+      "color": "4",
+      "text": "# Estilo y Vida\nModa y accesorios\nestiloyvida.hjazzi.com\nProductos con marca HJAZZI"
+    },
+    {
+      "id": "0ed581c97416482d",
+      "type": "text",
+      "x": 50,
+      "y": 380,
+      "width": 420,
+      "height": 130,
+      "color": "5",
+      "text": "# Logis\nLogística y envíos\nlogis.hjazzi.com"
+    },
+    {
+      "id": "c6be5f1fe6149f49",
+      "type": "text",
+      "x": 520,
+      "y": 380,
+      "width": 420,
+      "height": 130,
+      "color": "6",
+      "text": "# Nicolás\nServicios profesionales\nnicolas.hjazzi.com"
+    },
+    {
+      "id": "2977e40ea57f0446",
+      "type": "text",
+      "x": 990,
+      "y": 380,
+      "width": 420,
+      "height": 130,
+      "color": "3",
+      "text": "# Lead Capture\nCaptación de leads\nleadcapture.hjazzi.com"
+    }
+  ],
+  "edges": [
+    {
+      "id": "979827437a0252fe",
+      "fromNode": "bc75d6e0269c67be",
+      "fromSide": "right",
+      "toNode": "29d856c5fa69f40e",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "1dd95c26ac5cb160",
+      "fromNode": "bc75d6e0269c67be",
+      "fromSide": "right",
+      "toNode": "bb44ad7e40a248f1",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "75d1762dda10e17e",
+      "fromNode": "29d856c5fa69f40e",
+      "fromSide": "right",
+      "toNode": "bb44ad7e40a248f1",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "d34d6f47c52f0c2f",
+      "fromNode": "29d856c5fa69f40e",
+      "fromSide": "right",
+      "toNode": "0ed581c97416482d",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "6e6410bde7ba11d6",
+      "fromNode": "bb44ad7e40a248f1",
+      "fromSide": "right",
+      "toNode": "0ed581c97416482d",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "7fede90778a0b778",
+      "fromNode": "bb44ad7e40a248f1",
+      "fromSide": "right",
+      "toNode": "c6be5f1fe6149f49",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "c0df9044db5d206a",
+      "fromNode": "0ed581c97416482d",
+      "fromSide": "right",
+      "toNode": "c6be5f1fe6149f49",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "c6976a8010c75c6a",
+      "fromNode": "0ed581c97416482d",
+      "fromSide": "right",
+      "toNode": "2977e40ea57f0446",
+      "toSide": "left",
+      "color": "2"
+    },
+    {
+      "id": "8c91cd4185d03565",
+      "fromNode": "c6be5f1fe6149f49",
+      "fromSide": "right",
+      "toNode": "2977e40ea57f0446",
+      "toSide": "left",
+      "color": "2"
+    }
+  ]
+}

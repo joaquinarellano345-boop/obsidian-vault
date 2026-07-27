@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "c7e4a0a74e42a8ba",
+      "type": "group",
+      "x": -60,
+      "y": -60,
+      "width": 1200,
+      "height": 1200,
+      "label": "💹 Trading Agent",
+      "color": "3"
+    },
+    {
+      "id": "e6c1ee5c4a781c0a",
+      "type": "text",
+      "x": 50,
+      "y": 60,
+      "width": 340,
+      "height": 160,
+      "color": "3",
+      "text": "# 🎯 OBJETIVO\n$100 → $1,000\nCuenta demo IC Markets\nID: 10073823\nServer: cTrader demo"
+    },
+    {
+      "id": "7c6432534ee1adb3",
+      "type": "text",
+      "x": 430,
+      "y": 60,
+      "width": 340,
+      "height": 160,
+      "color": "1",
+      "text": "# 🤖 ESTRATEGIA\nAprendizaje autónomo\nAnálisis multi-timeframe\nGestión de riesgo dinámica\nCircuit breaker"
+    },
+    {
+      "id": "4341240f5589ecc4",
+      "type": "text",
+      "x": 810,
+      "y": 60,
+      "width": 340,
+      "height": 160,
+      "color": "2",
+      "text": "# 📊 BROKERS\nIC Markets (demo+real)\ncTrader ID 31436\nApp: Trading Agent HJAZZI"
+    },
+    {
+      "id": "0cf74d6bf32579e3",
+      "type": "text",
+      "x": 50,
+      "y": 360,
+      "width": 340,
+      "height": 160,
+      "color": "5",
+      "text": "# 🧠 MODELOS\nDeepSeek V4 · Claude\nIndicadores: RSI, MACD, EMA\nSentiment analysis"
+    },
+    {
+      "id": "499c2feea0664e6b",
+      "type": "text",
+      "x": 430,
+      "y": 360,
+      "width": 340,
+      "height": 160,
+      "color": "4",
+      "text": "# 📈 BITÁCORA\n[[trading/bitacora|Registro de trades]]\n[[trading/estrategia|Estrategia actual]]\n[[trading/analisis|Análisis semanal]]"
+    }
+  ],
+  "edges": [
+    {
+      "id": "25d65e356dd289f9",
+      "fromNode": "e6c1ee5c4a781c0a",
+      "fromSide": "right",
+      "toNode": "7c6432534ee1adb3",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "6dceb727e6ed1a1a",
+      "fromNode": "e6c1ee5c4a781c0a",
+      "fromSide": "right",
+      "toNode": "4341240f5589ecc4",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "6b7775af6156c0dc",
+      "fromNode": "e6c1ee5c4a781c0a",
+      "fromSide": "right",
+      "toNode": "0cf74d6bf32579e3",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "d87cd379e74d5c0e",
+      "fromNode": "e6c1ee5c4a781c0a",
+      "fromSide": "right",
+      "toNode": "499c2feea0664e6b",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "cba2a8b635663665",
+      "fromNode": "7c6432534ee1adb3",
+      "fromSide": "right",
+      "toNode": "4341240f5589ecc4",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "1b478fe73659565a",
+      "fromNode": "7c6432534ee1adb3",
+      "fromSide": "right",
+      "toNode": "0cf74d6bf32579e3",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "ea0971d6d5a28e48",
+      "fromNode": "7c6432534ee1adb3",
+      "fromSide": "right",
+      "toNode": "499c2feea0664e6b",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "88ad2aa021f8e8c9",
+      "fromNode": "4341240f5589ecc4",
+      "fromSide": "right",
+      "toNode": "0cf74d6bf32579e3",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "bd5ae7ec4cd57a51",
+      "fromNode": "4341240f5589ecc4",
+      "fromSide": "right",
+      "toNode": "499c2feea0664e6b",
+      "toSide": "left",
+      "color": "3"
+    },
+    {
+      "id": "5ff0d5ec2914f2aa",
+      "fromNode": "0cf74d6bf32579e3",
+      "fromSide": "right",
+      "toNode": "499c2feea0664e6b",
+      "toSide": "left",
+      "color": "3"
+    }
+  ]
+}

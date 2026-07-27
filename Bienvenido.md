@@ -1,21 +1,28 @@
 ---
-created: 2026-06-24
-tags: [meta]
+tags: [inicio]
+created: 2026-07-27
 ---
 
-# Bienvenido a mi Vault de Obsidian
+# 🌌 Bienvenido al Universo HJAZZI
 
-Este vault está sincronizado con Hermes Agent via GitHub.
+Este es tu **segundo cerebro visual** — una red de conocimiento interconectada donde cada proyecto es un planeta y cada idea una estrella.
 
-## Estructura
-- **notas/** — Notas rápidas y referencia
-- **proyectos/** — Documentación de proyectos activos
-- **diario/** — Notas diarias
-- **referencias/** — Material de estudio y skills
+## 🗺️ Cómo navegar
 
-## Skills de Obsidian instalados en Hermes
-- obsidian-cli — Interactuar con Obsidian en vivo
-- obsidian-markdown — Sintaxis Obsidian (wikilinks, callouts)
-- obsidian-bases — Bases de datos estilo Airtable
-- json-canvas — Mapas mentales y diagramas
-- defuddle — Extraer markdown limpio de webs
+1. **Canvas visual** → Abrí `_canvas/universo-hjazzi.canvas` para ver el mapa completo
+2. **Notas** → Cada carpeta tiene documentación detallada
+3. **Grafo** → Click en el ícono de grafo (○) para ver todas las conexiones
+
+## 🪐 Planetas del ecosistema
+
+| Planeta | Canvas | Carpeta |
+|---------|--------|---------|
+| 💹 Trading Agent | [[_canvas/trading-agent\|Abrir]] | `trading/` |
+| 🧬 Meta Evolution | [[_canvas/meta-evolution\|Abrir]] | `meta-evolution/` |
+| 🎵 Montevideo Sonoro | [[_canvas/montevideo-sonoro-eden\|Abrir]] | `montevideo-sonoro/` |
+| 🛒 Tiendas | [[_canvas/tiendas\|Abrir]] | `tiendas/` |
+| 💼 Freelance | — | `freelance/` |
+| 🔧 Recursos | — | `recursos/` |
+
+---
+*Generado por Hermes Agent · [[_canvas/universo-hjazzi|Ver canvas principal]]*

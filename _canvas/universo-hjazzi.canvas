@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "id": "17a4e534675f8182",
+      "type": "group",
+      "x": -100,
+      "y": -100,
+      "width": 2200,
+      "height": 1800,
+      "label": "🌌 UNIVERSO HJAZZI",
+      "color": "6"
+    },
+    {
+      "id": "8fe096f7e0ffa352",
+      "type": "text",
+      "x": 750,
+      "y": 600,
+      "width": 350,
+      "height": 180,
+      "color": "4",
+      "text": "# 🜁 HJAZZI\n## Núcleo Creativo\n*Ecosistema autónomo de proyectos*\n\n[[Bienvenido|🏠 Inicio]] | [[_canvas/universo-hjazzi|🌌 Canvas]]"
+    },
+    {
+      "id": "2f4286258f83411a",
+      "type": "text",
+      "x": 1190,
+      "y": 200,
+      "width": 380,
+      "height": 130,
+      "color": "3",
+      "text": "# 💰 TRADING\n💹 Trading Agent autónomo\nMeta: $100 → $1,000\nForex/CFD · IC Markets · cTrader"
+    },
+    {
+      "id": "01ff8e49ee4a186b",
+      "type": "text",
+      "x": 1190,
+      "y": 420,
+      "width": 380,
+      "height": 130,
+      "color": "1",
+      "text": "# 🧬 META EVOLUTION\n🛡️ Sistema de 12 capas\nAuto-reparación · Monitoreo\nBenchmark diario · Telegram"
+    },
+    {
+      "id": "2a4a2a90bdcf4db7",
+      "type": "text",
+      "x": 1190,
+      "y": 640,
+      "width": 380,
+      "height": 130,
+      "color": "5",
+      "text": "# 🎵 MONTEVIDEO SONORO\n🗺️ Mapa musical de Montevideo\nCanciones + barrios\n[[montevideo-sonoro/eden|Edén · Drexler · Carrasco]]"
+    },
+    {
+      "id": "580ec52320da4e3b",
+      "type": "text",
+      "x": 1190,
+      "y": 860,
+      "width": 380,
+      "height": 130,
+      "color": "2",
+      "text": "# 🛒 TIENDAS\n🏪 Ecommerce autónomo\nUROPIC · Shangrilá\nEstilo y Vida · Logis · Nicolás"
+    },
+    {
+      "id": "f3fc09b57a24bf8d",
+      "type": "text",
+      "x": 1190,
+      "y": 1080,
+      "width": 380,
+      "height": 130,
+      "color": "6",
+      "text": "# 💼 FREELANCE\n🧾 Trabajos freelance\nEl Gallo · Ferretería\nLandings · Propuestas"
+    },
+    {
+      "id": "88ef9f4221961189",
+      "type": "text",
+      "x": 1190,
+      "y": 1300,
+      "width": 380,
+      "height": 130,
+      "color": "4",
+      "text": "# 🔧 RECURSOS\n⚙️ Skills · Scripts · Memos\nAPI keys · Servidores\nVPS · Dominios · DNS"
+    }
+  ],
+  "edges": [
+    {
+      "id": "1d7e37e4b3d2bdc0",
+      "fromNode": "8fe096f7e0ffa352",
+      "fromSide": "right",
+      "toNode": "2f4286258f83411a",
+      "toSide": "left",
+      "color": "3",
+      "label": "trading"
+    },
+    {
+      "id": "bd257c1d2b106a4b",
+      "fromNode": "8fe096f7e0ffa352",
+      "fromSide": "right",
+      "toNode": "01ff8e49ee4a186b",
+      "toSide": "left",
+      "color": "1",
+      "label": "meta"
+    },
+    {
+      "id": "3aa25ba2d47fcea3",
+      "fromNode": "8fe096f7e0ffa352",
+      "fromSide": "right",
+      "toNode": "2a4a2a90bdcf4db7",
+      "toSide": "left",
+      "color": "5",
+      "label": "montevideo"
+    },
+    {
+      "id": "c7543184cb993f53",
+      "fromNode": "8fe096f7e0ffa352",
+      "fromSide": "right",
+      "toNode": "580ec52320da4e3b",
+      "toSide": "left",
+      "color": "2",
+      "label": "tiendas"
+    },
+    {
+      "id": "0e479049b05bbf39",
+      "fromNode": "8fe096f7e0ffa352",
+      "fromSide": "right",
+      "toNode": "f3fc09b57a24bf8d",
+      "toSide": "left",
+      "color": "6",
+      "label": "freelance"
+    },
+    {
+      "id": "15daab60d1f38bd3",
+      "fromNode": "8fe096f7e0ffa352",
+      "fromSide": "right",
+      "toNode": "88ef9f4221961189",
+      "toSide": "left",
+      "color": "4",
+      "label": "recursos"
+    }
+  ]
+}
