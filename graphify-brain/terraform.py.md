@@ -1,0 +1,22 @@
+---
+source_file: "graphify/extractors/terraform.py"
+type: "code"
+community: "_read_text"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/_read_text
+---
+
+# terraform.py
+
+## Connections
+- [[Terraform extractor. Moved verbatim from graphifyextract.py.]] - `rationale_for` [EXTRACTED]
+- [[_make_id()]] - `imports` [EXTRACTED]
+- [[extract.py]] - `imports_from` [EXTRACTED]
+- [[extract_terraform()]] - `contains` [EXTRACTED]
+- [[extractors__init__.py]] - `re_exports` [EXTRACTED]
+- [[extractorsbase.py]] - `imports_from` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/_read_text

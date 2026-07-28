@@ -1,0 +1,229 @@
+---
+type: community
+cohesion: 0.05
+members: 111
+---
+
+# extract.py
+
+**Cohesion:** 0.05 - loosely connected
+**Members:** 111 nodes
+
+## Members
+- [[Any_3]] - code
+- [[Apply language-provided importexportuse facts to graph edges.]] - rationale - graphify/extractors/resolution.py
+- [[Compatibility wrapper for the JSTS symbol-resolution post-pass.]] - rationale - graphify/extract.py
+- [[Deterministic structural extraction from source code using tree-sitter. Outputs]] - rationale - graphify/extract.py
+- [[Emit type-relation and type-reference use facts for a class declaration node.]] - rationale - graphify/extractors/resolution.py
+- [[Extract require('module') from Lua variable_declaration nodes.]] - rationale - graphify/extract.py
+- [[Get the name from a node using config.name_field, falling back to child types.]] - rationale - graphify/extract.py
+- [[Guard against `exports` targets that escape the package directory     (e.g. .e]] - rationale - graphify/extractors/resolution.py
+- [[LanguageConfig]] - code - graphify/extractors/models.py
+- [[Local binding of a default import the `Foo` in `import Foo from '.x'`.      Th]] - rationale - graphify/extractors/resolution.py
+- [[Local name of a default export, or None for anonymous defaults.      Handles `ex]] - rationale - graphify/extractors/resolution.py
+- [[Merge a class (and its methods) declared in a header with its definition in]] - rationale - graphify/extractors/resolution.py
+- [[Nearest tsconfig.jsonjsconfig.json walking up from start_dir.      `jsconfig.js]] - rationale - graphify/extractors/resolution.py
+- [[Parse a tsconfigjsconfig as JSON, falling back to JSONC (2153).      Mirrors t]] - rationale - graphify/extractors/resolution.py
+- [[Path_30]] - code
+- [[Re-point dangling Java ``implements````inherits`` edges to the real     definit]] - rationale - graphify/extractors/resolution.py
+- [[Recursively read path aliases from a tsconfig, following extends chains.      Ch]] - rationale - graphify/extractors/resolution.py
+- [[Resolve `raw` against the most specific matching tsconfig alias pattern.      Wi]] - rationale - graphify/extractors/resolution.py
+- [[Resolve a JSTSSvelte import target to a local file when it exists.]] - rationale - graphify/extractors/resolution.py
+- [[Resolve a Lua require() module name to a node id.      Lua module names use dots]] - rationale - graphify/extractors/resolution.py
+- [[Resolve a Pascal classinterface name to the node ID of its defining file's clas]] - rationale - graphify/extractors/resolution.py
+- [[Resolve a Pascal unit name to the graphify node ID of its source file.      Scan]] - rationale - graphify/extractors/resolution.py
+- [[Resolve a quoted include path to a real file on disk.      Searches relative to]] - rationale - graphify/extractors/resolution.py
+- [[Resolve an `exports` map value (string or condition object) to a     relative ta]] - rationale - graphify/extractors/resolution.py
+- [[Resolve one module-path candidate to a .py file (dir+__init__, exact, or     wit]] - rationale - graphify/extractors/resolution.py
+- [[Return (specificity, captured text, is_wildcard) when pattern matches raw.]] - rationale - graphify/extractors/resolution.py
+- [[Return ``(dir, base_stem)`` for a headerimpl source file, else None.      The b]] - rationale - graphify/extractors/resolution.py
+- [[Return baseinterface type names from an extends_clause or implements_clause.]] - rationale - graphify/extractors/resolution.py
+- [[Return the highest ancestor directory that looks like a Pascal project root.]] - rationale - graphify/extractors/resolution.py
+- [[Rewrite only colliding node IDs, using source path as the disambiguator.      Mo]] - rationale - graphify/extractors/resolution.py
+- [[Strip  line comments,   block comments, and trailing commas from JSONC.]] - rationale - graphify/extractors/resolution.py
+- [[Two-pass import resolution turn file-level imports into class-level edges.]] - rationale - graphify/extractors/resolution.py
+- [[Walk a TS type annotation tree; append (name, role) tuples.      role is 'type']] - rationale - graphify/extractors/resolution.py
+- [[Walk up from start_dir to find tsconfigjsconfig.json and return compilerOptions]] - rationale - graphify/extractors/resolution.py
+- [[_NamespaceExportFact]] - code - graphify/extractors/models.py
+- [[_StarExportFact]] - code - graphify/extractors/models.py
+- [[_SymbolAliasFact]] - code - graphify/extractors/models.py
+- [[_SymbolDeclarationFact]] - code - graphify/extractors/models.py
+- [[_SymbolExportFact]] - code - graphify/extractors/models.py
+- [[_SymbolImportFact]] - code - graphify/extractors/models.py
+- [[_SymbolResolutionFacts]] - code - graphify/extractors/models.py
+- [[_SymbolUseFact]] - code - graphify/extractors/models.py
+- [[_apply_symbol_resolution_facts()]] - code - graphify/extractors/resolution.py
+- [[_augment_js_reexport_edges()]] - code - graphify/extract.py
+- [[_augment_symbol_resolution_edges()]] - code - graphify/extractors/resolution.py
+- [[_collect_js_symbol_resolution_facts()]] - code - graphify/extractors/resolution.py
+- [[_collect_python_symbol_resolution_facts()]] - code - graphify/extractors/resolution.py
+- [[_contained_in_package()]] - code - graphify/extractors/resolution.py
+- [[_decldef_class_stem()]] - code - graphify/extractors/resolution.py
+- [[_disambiguate_colliding_node_ids()]] - code - graphify/extractors/resolution.py
+- [[_find_js_config()]] - code - graphify/extractors/resolution.py
+- [[_find_workspace_root()]] - code - graphify/extractors/resolution.py
+- [[_import_lua()]] - code - graphify/extract.py
+- [[_js_call_identifier()]] - code - graphify/extractors/resolution.py
+- [[_js_default_export_name()]] - code - graphify/extractors/resolution.py
+- [[_js_default_import_name()]] - code - graphify/extractors/resolution.py
+- [[_js_export_clause()]] - code - graphify/extractors/resolution.py
+- [[_js_export_statement_is_star()]] - code - graphify/extractors/resolution.py
+- [[_js_exported_declaration_names()]] - code - graphify/extractors/resolution.py
+- [[_js_lexical_aliases()]] - code - graphify/extractors/resolution.py
+- [[_js_module_specifier()]] - code - graphify/extractors/resolution.py
+- [[_js_named_specifiers()]] - code - graphify/extractors/resolution.py
+- [[_js_namespace_export_name()]] - code - graphify/extractors/resolution.py
+- [[_js_source_path()]] - code - graphify/extractors/resolution.py
+- [[_js_top_level_function_bodies()]] - code - graphify/extractors/resolution.py
+- [[_load_tsconfig_aliases()]] - code - graphify/extractors/resolution.py
+- [[_load_tsconfig_base_url()]] - code - graphify/extractors/resolution.py
+- [[_load_workspace_packages()]] - code - graphify/extractors/resolution.py
+- [[_match_tsconfig_alias()]] - code - graphify/extractors/resolution.py
+- [[_merge_decl_def_classes()]] - code - graphify/extractors/resolution.py
+- [[_node_disambiguation_source_key()]] - code - graphify/extractors/resolution.py
+- [[_package_entry_candidates()]] - code - graphify/extractors/resolution.py
+- [[_parse_js_tree()]] - code - graphify/extractors/resolution.py
+- [[_parse_python_tree()]] - code - graphify/extractors/resolution.py
+- [[_pascal_project_root()]] - code - graphify/extractors/resolution.py
+- [[_pascal_resolve_class()]] - code - graphify/extractors/resolution.py
+- [[_pascal_resolve_unit()]] - code - graphify/extractors/resolution.py
+- [[_pnpm_workspace_globs()]] - code - graphify/extractors/resolution.py
+- [[_probe_python_module_candidate()]] - code - graphify/extractors/resolution.py
+- [[_python_call_identifier()]] - code - graphify/extractors/resolution.py
+- [[_python_import_from_module()]] - code - graphify/extractors/resolution.py
+- [[_python_imported_names()]] - code - graphify/extractors/resolution.py
+- [[_python_top_level_function_bodies()]] - code - graphify/extractors/resolution.py
+- [[_read_json_config()]] - code - graphify/extractors/resolution.py
+- [[_read_tsconfig_aliases()]] - code - graphify/extractors/resolution.py
+- [[_resolve_c_include_path()]] - code - graphify/extractors/resolution.py
+- [[_resolve_cross_file_imports()]] - code - graphify/extractors/resolution.py
+- [[_resolve_export_target()]] - code - graphify/extractors/resolution.py
+- [[_resolve_java_type_references()]] - code - graphify/extractors/resolution.py
+- [[_resolve_js_import_path()]] - code - graphify/extractors/resolution.py
+- [[_resolve_lua_import_target()]] - code - graphify/extractors/resolution.py
+- [[_resolve_name()]] - code - graphify/extract.py
+- [[_resolve_python_module_path()]] - code - graphify/extractors/resolution.py
+- [[_resolve_tsconfig_alias()]] - code - graphify/extractors/resolution.py
+- [[_resolve_workspace_import()]] - code - graphify/extractors/resolution.py
+- [[_source_key()]] - code - graphify/extractors/resolution.py
+- [[_strip_jsonc()]] - code - graphify/extractors/resolution.py
+- [[_ts_collect_type_refs()]] - code - graphify/extractors/resolution.py
+- [[_ts_heritage_clause_entries()]] - code - graphify/extractors/resolution.py
+- [[_ts_walk_class_members()]] - code - graphify/extractors/resolution.py
+- [[_walk_js_tree()]] - code - graphify/extractors/resolution.py
+- [[_walk_python_tree()]] - code - graphify/extractors/resolution.py
+- [[_workspace_globs()]] - code - graphify/extractors/resolution.py
+- [[_xaml_communitytoolkit_members()]] - code - graphify/extract.py
+- [[_xaml_pascal_name()]] - code - graphify/extract.py
+- [[`compilerOptions.baseUrl` of the nearest config, as an absolute directory.]] - rationale - graphify/extractors/resolution.py
+- [[extract.py]] - code - graphify/extract.py
+- [[extractorsmodels.py]] - code - graphify/extractors/models.py
+- [[models — moved verbatim from graphifyextract.py.]] - rationale - graphify/extractors/models.py
+- [[resolution — moved verbatim from graphifyextract.py.]] - rationale - graphify/extractors/resolution.py
+- [[resolution.py]] - code - graphify/extractors/resolution.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/extractpy
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 101 edges to [[_COMMUNITY__read_text]]
+- 65 edges to [[_COMMUNITY_engine.py]]
+- 17 edges to [[_COMMUNITY_Path]]
+- 14 edges to [[_COMMUNITY__extract_pascal_regex]]
+- 12 edges to [[_COMMUNITY_test_dotnet.py]]
+- 11 edges to [[_COMMUNITY_extract]]
+- 11 edges to [[_COMMUNITY__is_type_like_definition]]
+- 10 edges to [[_COMMUNITY_test_import_extension_resolution.py]]
+- 9 edges to [[_COMMUNITY_extract_astro]]
+- 7 edges to [[_COMMUNITY_test_pascal.py]]
+- 7 edges to [[_COMMUNITY_test_vue_extraction.py]]
+- 6 edges to [[_COMMUNITY_test_languages.py]]
+- 5 edges to [[_COMMUNITY__rewire_unique_stub_nodes]]
+- 5 edges to [[_COMMUNITY_run_language_resolvers]]
+- 4 edges to [[_COMMUNITY_test_extract.py]]
+- 4 edges to [[_COMMUNITY__edge_labels]]
+- 4 edges to [[_COMMUNITY_test_js_import_resolution.py]]
+- 4 edges to [[_COMMUNITY__xaml_binding_refs]]
+- 4 edges to [[_COMMUNITY_CsharpNameResolver]]
+- 4 edges to [[_COMMUNITY__resolve_js_import_target]]
+- 4 edges to [[_COMMUNITY_test_manifest_ingest.py]]
+- 4 edges to [[_COMMUNITY_test_src_layout_import_resolution.py]]
+- 3 edges to [[_COMMUNITY__cpp_declarator_name]]
+- 3 edges to [[_COMMUNITY_test_multilang.py]]
+- 2 edges to [[_COMMUNITY_test_cache.py]]
+- 2 edges to [[_COMMUNITY__load_graphifyignore]]
+- 2 edges to [[_COMMUNITY__relations]]
+- 2 edges to [[_COMMUNITY_extract_python]]
+- 2 edges to [[_COMMUNITY__extract_python_rationale]]
+- 2 edges to [[_COMMUNITY_test_ruby_resolution.py]]
+- 2 edges to [[_COMMUNITY__labels]]
+- 2 edges to [[_COMMUNITY_extract_dart]]
+- 2 edges to [[_COMMUNITY_extract_fortran]]
+- 2 edges to [[_COMMUNITY_extract_objc]]
+- 2 edges to [[_COMMUNITY_extract_terraform]]
+- 2 edges to [[_COMMUNITY_test_mcp_ingest.py]]
+- 2 edges to [[_COMMUNITY_pascal_resolution.py]]
+- 1 edge to [[_COMMUNITY_save_semantic_cache]]
+- 1 edge to [[_COMMUNITY_classify_file]]
+- 1 edge to [[_COMMUNITY__is_noise_dir]]
+- 1 edge to [[_COMMUNITY_detect.py]]
+- 1 edge to [[_COMMUNITY_extract_js]]
+- 1 edge to [[_COMMUNITY__extract_parallel]]
+- 1 edge to [[_COMMUNITY_extract_dm]]
+- 1 edge to [[_COMMUNITY_extract_markdown]]
+- 1 edge to [[_COMMUNITY_extract_powershell_manifest]]
+- 1 edge to [[_COMMUNITY_verilog.py]]
+- 1 edge to [[_COMMUNITY_paths.py]]
+- 1 edge to [[_COMMUNITY_disambiguate_ambiguous_candidates]]
+- 1 edge to [[_COMMUNITY_security.py]]
+- 1 edge to [[_COMMUNITY_sanitize_metadata]]
+- 1 edge to [[_COMMUNITY_symbol_resolution.py]]
+- 1 edge to [[_COMMUNITY_resolve_bash_source_edges]]
+- 1 edge to [[_COMMUNITY_validate_extraction]]
+- 1 edge to [[_COMMUNITY_clear_cache]]
+- 1 edge to [[_COMMUNITY_test_analyze.py]]
+- 1 edge to [[_COMMUNITY_test_builtin_global_type_refs.py]]
+- 1 edge to [[_COMMUNITY_test_case_sensitive_resolution.py]]
+- 1 edge to [[_COMMUNITY_test_cpp_objc_cross_file_calls.py]]
+- 1 edge to [[_COMMUNITY_test_cpp_preprocess.py]]
+- 1 edge to [[_COMMUNITY_test_cross_extension_reexport_self_cycle.py]]
+- 1 edge to [[_COMMUNITY_test_cross_language_call_resolution.py]]
+- 1 edge to [[_COMMUNITY_test_csharp_member_calls.py]]
+- 1 edge to [[_COMMUNITY_test_extract_cache_location.py]]
+- 1 edge to [[_COMMUNITY_test_extraction_spec_ids.py]]
+- 1 edge to [[_COMMUNITY_test_extractors_registry.py]]
+- 1 edge to [[_COMMUNITY_test_file_node_id_spec.py]]
+- 1 edge to [[_COMMUNITY_make_id]]
+- 1 edge to [[_COMMUNITY_test_import_self_loops.py]]
+- 1 edge to [[_COMMUNITY_test_indirect_dispatch.py]]
+- 1 edge to [[_COMMUNITY_test_indirect_dispatch_assign_return.py]]
+- 1 edge to [[_COMMUNITY_test_indirect_dispatch_getattr.py]]
+- 1 edge to [[_COMMUNITY_test_java_member_calls.py]]
+- 1 edge to [[_COMMUNITY_test_java_type_resolution.py]]
+- 1 edge to [[_COMMUNITY_test_jsconfig_baseurl.py]]
+- 1 edge to [[_COMMUNITY_test_phantom_cross_package_call.py]]
+- 1 edge to [[_COMMUNITY_test_phantom_external_import.py]]
+- 1 edge to [[_COMMUNITY_test_php_type_resolution.py]]
+- 1 edge to [[_COMMUNITY_test_pipeline.py]]
+- 1 edge to [[_COMMUNITY_test_python_decorators.py]]
+- 1 edge to [[_COMMUNITY_test_python_import_resolution.py]]
+- 1 edge to [[_COMMUNITY_test_swift_builtin_noise.py]]
+- 1 edge to [[_COMMUNITY_test_swift_computed_properties.py]]
+- 1 edge to [[_COMMUNITY_test_swift_cross_file_calls.py]]
+- 1 edge to [[_COMMUNITY_test_swift_import_resolution.py]]
+- 1 edge to [[_COMMUNITY_test_ts_decorators.py]]
+- 1 edge to [[_COMMUNITY_test_ts_generators.py]]
+- 1 edge to [[_COMMUNITY_test_ts_inheritance.py]]
+- 1 edge to [[_COMMUNITY_test_ts_namespace.py]]
+- 1 edge to [[_COMMUNITY_test_ts_receiver_member_calls.py]]
+
+## Top bridge nodes
+- [[extract.py]] - degree 374, connects to 90 communities
+- [[resolution.py]] - degree 85, connects to 8 communities
+- [[Path_30]] - degree 42, connects to 3 communities
+- [[_load_tsconfig_aliases()]] - degree 10, connects to 3 communities
+- [[_load_tsconfig_base_url()]] - degree 10, connects to 3 communities

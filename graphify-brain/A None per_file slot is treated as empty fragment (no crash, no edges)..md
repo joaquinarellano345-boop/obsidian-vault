@@ -1,0 +1,17 @@
+---
+source_file: "tests/test_symbol_resolution.py"
+type: "rationale"
+community: "test_symbol_resolution.py"
+location: "L952"
+tags:
+  - graphify/rationale
+  - graphify/EXTRACTED
+  - community/test_symbol_resolutionpy
+---
+
+# A None per_file slot is treated as empty fragment (no crash, no edges).
+
+## Connections
+- [[test_resolve_python_import_guided_calls_per_file_none_slot()]] - `rationale_for` [EXTRACTED]
+
+#graphify/rationale #graphify/EXTRACTED #community/test_symbol_resolutionpy

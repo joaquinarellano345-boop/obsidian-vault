@@ -1,0 +1,4538 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": ".run",
+      "x": 0,
+      "y": 0,
+      "width": 1540,
+      "height": 820,
+      "color": "1"
+    },
+    {
+      "id": "n_vela_3_velasystem_init",
+      "type": "file",
+      "file": ".__init__()_1.md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_velasystem_connect",
+      "type": "file",
+      "file": "._connect().md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_trademanager_filling_mode",
+      "type": "file",
+      "file": "._filling_mode().md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_velasystem_log_signal_context",
+      "type": "file",
+      "file": "._log_signal_context().md",
+      "x": 620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_regimefilter_adx",
+      "type": "file",
+      "file": ".adx().md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_regimefilter_atr_series",
+      "type": "file",
+      "file": ".atr_series().md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_velasystem_backtest",
+      "type": "file",
+      "file": ".backtest().md",
+      "x": 1220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_marketdata_candles",
+      "type": "file",
+      "file": ".candles().md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_regimefilter_check",
+      "type": "file",
+      "file": ".check().md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_velasystem_debug",
+      "type": "file",
+      "file": ".debug().md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_state_drawdown",
+      "type": "file",
+      "file": ".drawdown().md",
+      "x": 620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_executor_enter",
+      "type": "file",
+      "file": ".enter().md",
+      "x": 820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_trademanager_get_position",
+      "type": "file",
+      "file": ".get_position().md",
+      "x": 1020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_velasystem_info",
+      "type": "file",
+      "file": ".info().md",
+      "x": 1220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_marketdata_init_symbol",
+      "type": "file",
+      "file": ".init_symbol().md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_riskmanager_kill_switch_active",
+      "type": "file",
+      "file": ".kill_switch_active().md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_state_load",
+      "type": "file",
+      "file": ".load().md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_riskmanager_lot_size",
+      "type": "file",
+      "file": ".lot_size().md",
+      "x": 620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_trademanager_manage",
+      "type": "file",
+      "file": ".manage().md",
+      "x": 820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_marketdata_pip_size",
+      "type": "file",
+      "file": ".pip_size().md",
+      "x": 1020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_state_reset_day",
+      "type": "file",
+      "file": ".reset_day().md",
+      "x": 1220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_riskmanager_risk_pct",
+      "type": "file",
+      "file": ".risk_pct().md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_velasystem_run",
+      "type": "file",
+      "file": ".run()_1.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_state_save",
+      "type": "file",
+      "file": ".save().md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_marketdata_seconds_to_bar_close",
+      "type": "file",
+      "file": ".seconds_to_bar_close().md",
+      "x": 620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_marketdata_spread_pips",
+      "type": "file",
+      "file": ".spread_pips().md",
+      "x": 820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_dealprocessor_sync",
+      "type": "file",
+      "file": ".sync().md",
+      "x": 1020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_marketdata_tick",
+      "type": "file",
+      "file": ".tick().md",
+      "x": 1220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_state_update_peak",
+      "type": "file",
+      "file": ".update_peak().md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_816",
+      "type": "file",
+      "file": "After entry, the trade goes through these stages       1. OPEN full position,.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_any",
+      "type": "file",
+      "file": "Any.md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_770",
+      "type": "file",
+      "file": "Calculates lot size accounting for           - Desired risk in USD           -.md",
+      "x": 620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_245",
+      "type": "file",
+      "file": "Detect and activate the correct EURUSD symbol on IC Markets..md",
+      "x": 820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_executor",
+      "type": "file",
+      "file": "Executor.md",
+      "x": 1020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_239",
+      "type": "file",
+      "file": "Handles MT5 data fetching with IC Markets symbol verification..md",
+      "x": 1220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_marketdata",
+      "type": "file",
+      "file": "MarketData.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_regimefilter",
+      "type": "file",
+      "file": "RegimeFilter.md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_370",
+      "type": "file",
+      "file": "Returns (tradeable, reason).         All three sub-filters must pass..md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_riskmanager",
+      "type": "file",
+      "file": "RiskManager.md",
+      "x": 620,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_292",
+      "type": "file",
+      "file": "Seconds until next M15 candle close (+2s buffer)..md",
+      "x": 820,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_1463",
+      "type": "file",
+      "file": "Show current signals without executing any trades..md",
+      "x": 1020,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_signal",
+      "type": "file",
+      "file": "Signal.md",
+      "x": 1220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_state",
+      "type": "file",
+      "file": "State.md",
+      "x": 20,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_trademanager",
+      "type": "file",
+      "file": "TradeManager.md",
+      "x": 220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_velasystem",
+      "type": "file",
+      "file": "VELASystem.md",
+      "x": 420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_307",
+      "type": "file",
+      "file": "Wilder's ADX implementation.         Returns (adx_series, plus_di, minus_di) \u2014 a.md",
+      "x": 620,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ndarray",
+      "type": "file",
+      "file": "ndarray.md",
+      "x": 820,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "devDependencies",
+      "x": 1620,
+      "y": 0,
+      "width": 1540,
+      "height": 720,
+      "color": "2"
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_eslint_js",
+      "type": "file",
+      "file": "@eslintjs.md",
+      "x": 1640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_eslint_js",
+      "type": "file",
+      "file": "@eslintjs_1.md",
+      "x": 1840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_eslint_js",
+      "type": "file",
+      "file": "@eslintjs_2.md",
+      "x": 2040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_types_react",
+      "type": "file",
+      "file": "@typesreact.md",
+      "x": 2240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_types_react",
+      "type": "file",
+      "file": "@typesreact_1.md",
+      "x": 2440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_types_react",
+      "type": "file",
+      "file": "@typesreact_2.md",
+      "x": 2640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_types_react_dom",
+      "type": "file",
+      "file": "@typesreact-dom.md",
+      "x": 2840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_types_react_dom",
+      "type": "file",
+      "file": "@typesreact-dom_1.md",
+      "x": 1640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_types_react_dom",
+      "type": "file",
+      "file": "@typesreact-dom_2.md",
+      "x": 1840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_vitejs_plugin_react",
+      "type": "file",
+      "file": "@vitejsplugin-react.md",
+      "x": 2040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_vitejs_plugin_react",
+      "type": "file",
+      "file": "@vitejsplugin-react_1.md",
+      "x": 2240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_vitejs_plugin_react",
+      "type": "file",
+      "file": "@vitejsplugin-react_2.md",
+      "x": 2440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_autoprefixer",
+      "type": "file",
+      "file": "autoprefixer.md",
+      "x": 2640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_autoprefixer",
+      "type": "file",
+      "file": "autoprefixer_1.md",
+      "x": 2840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_autoprefixer",
+      "type": "file",
+      "file": "autoprefixer_2.md",
+      "x": 1640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies.md",
+      "x": 1840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies_1.md",
+      "x": 2040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_eslint",
+      "type": "file",
+      "file": "eslint.md",
+      "x": 2240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_eslint",
+      "type": "file",
+      "file": "eslint_1.md",
+      "x": 2440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_eslint",
+      "type": "file",
+      "file": "eslint_2.md",
+      "x": 2640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_eslint_plugin_react_hooks",
+      "type": "file",
+      "file": "eslint-plugin-react-hooks.md",
+      "x": 2840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_eslint_plugin_react_hooks",
+      "type": "file",
+      "file": "eslint-plugin-react-hooks_1.md",
+      "x": 1640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_eslint_plugin_react_hooks",
+      "type": "file",
+      "file": "eslint-plugin-react-hooks_2.md",
+      "x": 1840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_eslint_plugin_react_refresh",
+      "type": "file",
+      "file": "eslint-plugin-react-refresh.md",
+      "x": 2040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_eslint_plugin_react_refresh",
+      "type": "file",
+      "file": "eslint-plugin-react-refresh_1.md",
+      "x": 2240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_eslint_plugin_react_refresh",
+      "type": "file",
+      "file": "eslint-plugin-react-refresh_2.md",
+      "x": 2440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_globals",
+      "type": "file",
+      "file": "globals.md",
+      "x": 2640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_globals",
+      "type": "file",
+      "file": "globals_1.md",
+      "x": 2840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_globals",
+      "type": "file",
+      "file": "globals_2.md",
+      "x": 1640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_postcss",
+      "type": "file",
+      "file": "postcss.md",
+      "x": 1840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_json_postcss",
+      "type": "file",
+      "file": "postcss_1.md",
+      "x": 2040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_postcss",
+      "type": "file",
+      "file": "postcss_2.md",
+      "x": 2240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_postcss",
+      "type": "file",
+      "file": "postcss_3.md",
+      "x": 2440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_tailwindcss",
+      "type": "file",
+      "file": "tailwindcss.md",
+      "x": 2640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_tailwindcss",
+      "type": "file",
+      "file": "tailwindcss_1.md",
+      "x": 2840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_tailwindcss",
+      "type": "file",
+      "file": "tailwindcss_2.md",
+      "x": 1640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_devdependencies_vite",
+      "type": "file",
+      "file": "vite.md",
+      "x": 1840,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_json_vite",
+      "type": "file",
+      "file": "vite_1.md",
+      "x": 2040,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_devdependencies_vite",
+      "type": "file",
+      "file": "vite_2.md",
+      "x": 2240,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_vite",
+      "type": "file",
+      "file": "vite_3.md",
+      "x": 2440,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "vela_3.py",
+      "x": 3240,
+      "y": 0,
+      "width": 1540,
+      "height": 720,
+      "color": "3"
+    },
+    {
+      "id": "n_vela_3_signalengine_is_rejection_candle",
+      "type": "file",
+      "file": "._is_rejection_candle().md",
+      "x": 3260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_backtestengine_metrics",
+      "type": "file",
+      "file": "._metrics().md",
+      "x": 3460,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_structureengine_classify_structure",
+      "type": "file",
+      "file": ".classify_structure().md",
+      "x": 3660,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_liquidityengine_detect",
+      "type": "file",
+      "file": ".detect().md",
+      "x": 3860,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_structureengine_detect_bos",
+      "type": "file",
+      "file": ".detect_bos().md",
+      "x": 4060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_signalengine_evaluate",
+      "type": "file",
+      "file": ".evaluate().md",
+      "x": 4260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_structureengine_find_swings",
+      "type": "file",
+      "file": ".find_swings().md",
+      "x": 4460,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_backtestengine_run",
+      "type": "file",
+      "file": ".run().md",
+      "x": 3260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_backtestengine_walk_forward",
+      "type": "file",
+      "file": ".walk_forward().md",
+      "x": 3460,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_bos",
+      "type": "file",
+      "file": "BOS.md",
+      "x": 3660,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_backtestengine",
+      "type": "file",
+      "file": "BacktestEngine.md",
+      "x": 3860,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_bttrade",
+      "type": "file",
+      "file": "BtTrade.md",
+      "x": 4060,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_472",
+      "type": "file",
+      "file": "Classify structure using last 4 swings of each type.         Bullish  HH (highe.md",
+      "x": 4260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_config",
+      "type": "file",
+      "file": "Config_2.md",
+      "x": 4460,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_dataframe",
+      "type": "file",
+      "file": "DataFrame.md",
+      "x": 3260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_dealprocessor",
+      "type": "file",
+      "file": "DealProcessor.md",
+      "x": 3460,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_500",
+      "type": "file",
+      "file": "Detect a Break of Structure on the last closed candle (-2).         Returns BO.md",
+      "x": 3660,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_direction",
+      "type": "file",
+      "file": "Direction.md",
+      "x": 3860,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_enum",
+      "type": "file",
+      "file": "Enum.md",
+      "x": 4060,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_728",
+      "type": "file",
+      "file": "For a long retest last closed candle should have a bullish close         with a.md",
+      "x": 4260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_537",
+      "type": "file",
+      "file": "Liquidity sweep definition         BULLISH sweep candle wicks BELOW a swing lo.md",
+      "x": 4460,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_liquidityengine",
+      "type": "file",
+      "file": "LiquidityEngine.md",
+      "x": 3260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_logger",
+      "type": "file",
+      "file": "Logger.md",
+      "x": 3460,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_451",
+      "type": "file",
+      "file": "Returns (swing_highs, swing_lows) for all confirmed pivots.         We exclude t.md",
+      "x": 3660,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_653",
+      "type": "file",
+      "file": "Returns a Signal if full setup is valid, else None..md",
+      "x": 3860,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_553",
+      "type": "file",
+      "file": "Scan recent candles for fresh liquidity sweeps.         Returns list of Sweep ob.md",
+      "x": 4060,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_signalengine",
+      "type": "file",
+      "file": "SignalEngine.md",
+      "x": 4260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_signalstate",
+      "type": "file",
+      "file": "SignalState.md",
+      "x": 4460,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_1029",
+      "type": "file",
+      "file": "Simulate VELA 3.0 on historical data.         Bar-by-bar at each bar we check s.md",
+      "x": 3260,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_structureengine",
+      "type": "file",
+      "file": "StructureEngine.md",
+      "x": 3460,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_structuretype",
+      "type": "file",
+      "file": "StructureType.md",
+      "x": 3660,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_sweep",
+      "type": "file",
+      "file": "Sweep.md",
+      "x": 3860,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_436",
+      "type": "file",
+      "file": "Swing identification a bar is a swing high if its high is the highest     in a.md",
+      "x": 4060,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_swingpoint",
+      "type": "file",
+      "file": "SwingPoint.md",
+      "x": 4260,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_636",
+      "type": "file",
+      "file": "Three-step entry sequence       Step 1 Liquidity sweep detected (stop hunt con.md",
+      "x": 4460,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_1238",
+      "type": "file",
+      "file": "Two-period walk-forward           IS  (60%) development  validation.md",
+      "x": 3260,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_build_logger",
+      "type": "file",
+      "file": "build_logger().md",
+      "x": 3460,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3",
+      "type": "file",
+      "file": "vela_3.py.md",
+      "x": 3660,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_vela_3_rationale_1",
+      "type": "file",
+      "file": "unnamed.md",
+      "x": 3860,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "BarberPremium/src/App.jsx",
+      "x": 4860,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "4"
+    },
+    {
+      "id": "n_barberpremium_src_pages_about_about",
+      "type": "file",
+      "file": "About().md",
+      "x": 4880,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_pages_about",
+      "type": "file",
+      "file": "About.jsx.md",
+      "x": 5080,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_app_app",
+      "type": "file",
+      "file": "App().md",
+      "x": 5280,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_app",
+      "type": "file",
+      "file": "BarberPremiumsrcApp.jsx.md",
+      "x": 5480,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_components_hero",
+      "type": "file",
+      "file": "BarberPremiumsrccomponentsHero.jsx.md",
+      "x": 5680,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_components_navbar",
+      "type": "file",
+      "file": "BarberPremiumsrccomponentsNavbar.jsx.md",
+      "x": 5880,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_components_productcard",
+      "type": "file",
+      "file": "BarberPremiumsrccomponentsProductCard.jsx.md",
+      "x": 4880,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_data_products",
+      "type": "file",
+      "file": "BarberPremiumsrcdataproducts.js.md",
+      "x": 5080,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_main",
+      "type": "file",
+      "file": "BarberPremiumsrcmain.jsx.md",
+      "x": 5280,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_app_blog",
+      "type": "file",
+      "file": "Blog().md",
+      "x": 5480,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_components_cart_cart",
+      "type": "file",
+      "file": "Cart().md",
+      "x": 5680,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_components_cart",
+      "type": "file",
+      "file": "Cart.jsx.md",
+      "x": 5880,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_context_cartcontext_cartcontext",
+      "type": "file",
+      "file": "CartContext.md",
+      "x": 4880,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_context_cartcontext",
+      "type": "file",
+      "file": "CartContext.jsx.md",
+      "x": 5080,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_context_cartcontext_cartprovider",
+      "type": "file",
+      "file": "CartProvider().md",
+      "x": 5280,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_pages_contact_contact",
+      "type": "file",
+      "file": "Contact().md",
+      "x": 5480,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_pages_contact",
+      "type": "file",
+      "file": "Contact.jsx.md",
+      "x": 5680,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_components_hero_hero",
+      "type": "file",
+      "file": "Hero().md",
+      "x": 5880,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_pages_home_home",
+      "type": "file",
+      "file": "Home().md",
+      "x": 4880,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_pages_home",
+      "type": "file",
+      "file": "Home.jsx.md",
+      "x": 5080,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_components_navbar_navbar",
+      "type": "file",
+      "file": "Navbar().md",
+      "x": 5280,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_components_productcard_productcard",
+      "type": "file",
+      "file": "ProductCard().md",
+      "x": 5480,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_pages_productdetail_productdetail",
+      "type": "file",
+      "file": "ProductDetail().md",
+      "x": 5680,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_pages_productdetail",
+      "type": "file",
+      "file": "ProductDetail.jsx.md",
+      "x": 5880,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_app_scrolltotop",
+      "type": "file",
+      "file": "ScrollToTop().md",
+      "x": 4880,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_pages_shop_shop",
+      "type": "file",
+      "file": "Shop().md",
+      "x": 5080,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_pages_shop",
+      "type": "file",
+      "file": "Shop.jsx.md",
+      "x": 5280,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_data_products_categories",
+      "type": "file",
+      "file": "categories.md",
+      "x": 5480,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_data_products_products",
+      "type": "file",
+      "file": "products.md",
+      "x": 5680,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_src_context_cartcontext_usecart",
+      "type": "file",
+      "file": "useCart().md",
+      "x": 5880,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "models.py",
+      "x": 6260,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "5"
+    },
+    {
+      "id": "n_base",
+      "type": "file",
+      "file": "Base.md",
+      "x": 6280,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_models_cv",
+      "type": "file",
+      "file": "CV.md",
+      "x": 6480,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_models_invoice",
+      "type": "file",
+      "file": "Invoice.md",
+      "x": 6680,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_models_product",
+      "type": "file",
+      "file": "Product.md",
+      "x": 6880,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_billing_py_session",
+      "type": "file",
+      "file": "Session_2.md",
+      "x": 7080,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_cvs_py_session",
+      "type": "file",
+      "file": "Session_3.md",
+      "x": 7280,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_products_py_session",
+      "type": "file",
+      "file": "Session_4.md",
+      "x": 6280,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_models_user",
+      "type": "file",
+      "file": "User.md",
+      "x": 6480,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_models_userrole",
+      "type": "file",
+      "file": "UserRole.md",
+      "x": 6680,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_ads",
+      "type": "file",
+      "file": "ads.py.md",
+      "x": 6880,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_billing",
+      "type": "file",
+      "file": "billing.py.md",
+      "x": 7080,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_billing_create_invoice",
+      "type": "file",
+      "file": "create_invoice().md",
+      "x": 7280,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_products_create_product",
+      "type": "file",
+      "file": "create_product().md",
+      "x": 6280,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_cvs",
+      "type": "file",
+      "file": "cvs.py.md",
+      "x": 6480,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_ads_generate_ads",
+      "type": "file",
+      "file": "generate_ads().md",
+      "x": 6680,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_cvs_generate_cv",
+      "type": "file",
+      "file": "generate_cv().md",
+      "x": 6880,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_products_py_get",
+      "type": "file",
+      "file": "get_1.md",
+      "x": 7080,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_models",
+      "type": "file",
+      "file": "models.py.md",
+      "x": 7280,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_ads_py_post",
+      "type": "file",
+      "file": "post.md",
+      "x": 6280,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_billing_py_post",
+      "type": "file",
+      "file": "post_2.md",
+      "x": 6480,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_cvs_py_post",
+      "type": "file",
+      "file": "post_3.md",
+      "x": 6680,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_products_py_post",
+      "type": "file",
+      "file": "post_4.md",
+      "x": 6880,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_products",
+      "type": "file",
+      "file": "products.py.md",
+      "x": 7080,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_products_read_product",
+      "type": "file",
+      "file": "read_product().md",
+      "x": 7280,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_products_read_products",
+      "type": "file",
+      "file": "read_products().md",
+      "x": 6280,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_str",
+      "type": "file",
+      "file": "str.md",
+      "x": 6480,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "dependencies",
+      "x": 7660,
+      "y": 0,
+      "width": 1100,
+      "height": 620,
+      "color": "6"
+    },
+    {
+      "id": "n_barberpremium_package_dependencies_clsx",
+      "type": "file",
+      "file": "clsx.md",
+      "x": 7680,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_json_clsx",
+      "type": "file",
+      "file": "clsx_1.md",
+      "x": 7880,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_dependencies_clsx",
+      "type": "file",
+      "file": "clsx_2.md",
+      "x": 8080,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_clsx",
+      "type": "file",
+      "file": "clsx_3.md",
+      "x": 8280,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_dependencies",
+      "type": "file",
+      "file": "dependencies.md",
+      "x": 8480,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_dependencies",
+      "type": "file",
+      "file": "dependencies_1.md",
+      "x": 7680,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_dependencies_framer_motion",
+      "type": "file",
+      "file": "framer-motion.md",
+      "x": 7880,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_dependencies_framer_motion",
+      "type": "file",
+      "file": "framer-motion_1.md",
+      "x": 8080,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_framer_motion",
+      "type": "file",
+      "file": "framer-motion_2.md",
+      "x": 8280,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_dependencies_lucide_react",
+      "type": "file",
+      "file": "lucide-react.md",
+      "x": 8480,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_dependencies_lucide_react",
+      "type": "file",
+      "file": "lucide-react_1.md",
+      "x": 7680,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_lucide_react",
+      "type": "file",
+      "file": "lucide-react_2.md",
+      "x": 7880,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_dependencies_react",
+      "type": "file",
+      "file": "react.md",
+      "x": 8080,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_json_react",
+      "type": "file",
+      "file": "react_1.md",
+      "x": 8280,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_dependencies_react",
+      "type": "file",
+      "file": "react_2.md",
+      "x": 8480,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_react",
+      "type": "file",
+      "file": "react_3.md",
+      "x": 7680,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_dependencies_react_dom",
+      "type": "file",
+      "file": "react-dom.md",
+      "x": 7880,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_dependencies_react_dom",
+      "type": "file",
+      "file": "react-dom_1.md",
+      "x": 8080,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_react_dom",
+      "type": "file",
+      "file": "react-dom_2.md",
+      "x": 8280,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_dependencies_react_router_dom",
+      "type": "file",
+      "file": "react-router-dom.md",
+      "x": 8480,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_dependencies_react_router_dom",
+      "type": "file",
+      "file": "react-router-dom_1.md",
+      "x": 7680,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_react_router_dom",
+      "type": "file",
+      "file": "react-router-dom_2.md",
+      "x": 7880,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_dependencies_tailwind_merge",
+      "type": "file",
+      "file": "tailwind-merge.md",
+      "x": 8080,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_dependencies_tailwind_merge",
+      "type": "file",
+      "file": "tailwind-merge_1.md",
+      "x": 8280,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_json_tailwind_merge",
+      "type": "file",
+      "file": "tailwind-merge_2.md",
+      "x": 8480,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "schemas.py",
+      "x": 0,
+      "y": 900,
+      "width": 1100,
+      "height": 620,
+      "color": "1"
+    },
+    {
+      "id": "n_cosmohub_app_schemas_adrequest",
+      "type": "file",
+      "file": "AdRequest.md",
+      "x": 20,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_adresponse",
+      "type": "file",
+      "file": "AdResponse.md",
+      "x": 220,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_basemodel",
+      "type": "file",
+      "file": "BaseModel.md",
+      "x": 420,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_cvcreate",
+      "type": "file",
+      "file": "CVCreate.md",
+      "x": 620,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_cvout",
+      "type": "file",
+      "file": "CVOut.md",
+      "x": 820,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_config",
+      "type": "file",
+      "file": "Config_1.md",
+      "x": 20,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_invoicecreate",
+      "type": "file",
+      "file": "InvoiceCreate.md",
+      "x": 220,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_invoiceout",
+      "type": "file",
+      "file": "InvoiceOut.md",
+      "x": 420,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_oauth2passwordrequestform",
+      "type": "file",
+      "file": "OAuth2PasswordRequestForm.md",
+      "x": 620,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_productbase",
+      "type": "file",
+      "file": "ProductBase.md",
+      "x": 820,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_productcreate",
+      "type": "file",
+      "file": "ProductCreate.md",
+      "x": 20,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_productout",
+      "type": "file",
+      "file": "ProductOut.md",
+      "x": 220,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_auth_py_session",
+      "type": "file",
+      "file": "Session_1.md",
+      "x": 420,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_token",
+      "type": "file",
+      "file": "Token.md",
+      "x": 620,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_tokendata",
+      "type": "file",
+      "file": "TokenData.md",
+      "x": 820,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_userbase",
+      "type": "file",
+      "file": "UserBase.md",
+      "x": 20,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_usercreate",
+      "type": "file",
+      "file": "UserCreate.md",
+      "x": 220,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas_userout",
+      "type": "file",
+      "file": "UserOut.md",
+      "x": 420,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_auth_login",
+      "type": "file",
+      "file": "login().md",
+      "x": 620,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_auth_py_post",
+      "type": "file",
+      "file": "post_1.md",
+      "x": 820,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_auth_register",
+      "type": "file",
+      "file": "register().md",
+      "x": 20,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_routers_auth",
+      "type": "file",
+      "file": "routersauth.py.md",
+      "x": 220,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_schemas",
+      "type": "file",
+      "file": "schemas.py.md",
+      "x": 420,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "automation_loop.py",
+      "x": 1620,
+      "y": 900,
+      "width": 1100,
+      "height": 620,
+      "color": "2"
+    },
+    {
+      "id": "n_youtube_client_rationale_86",
+      "type": "file",
+      "file": "Actualiza los metadatos de un video existente..md",
+      "x": 1640,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_youtube_client_rationale_17",
+      "type": "file",
+      "file": "Autentica al usuario y devuelve el servicio de YouTube..md",
+      "x": 1840,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generator_rationale_4",
+      "type": "file",
+      "file": "Genera un t\u00edtulo llamativo para el video..md",
+      "x": 2040,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generator_rationale_10",
+      "type": "file",
+      "file": "Genera una descripci\u00f3n optimizada para el video..md",
+      "x": 2240,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generator_rationale_17",
+      "type": "file",
+      "file": "Genera una lista de etiquetas relevantes..md",
+      "x": 2440,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_youtube_client_rationale_49",
+      "type": "file",
+      "file": "Sube un video a YouTube..md",
+      "x": 1640,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_youtube_client_rationale_107",
+      "type": "file",
+      "file": "Sube un video y lo programa para una fecha espec\u00edfica..md",
+      "x": 1840,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_automation_loop",
+      "type": "file",
+      "file": "automation_loop.py.md",
+      "x": 2040,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_config_config",
+      "type": "file",
+      "file": "configconfig.py.md",
+      "x": 2240,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generator_generate_description",
+      "type": "file",
+      "file": "generate_description().md",
+      "x": 2440,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generator_generate_tags",
+      "type": "file",
+      "file": "generate_tags().md",
+      "x": 1640,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generator_generate_title",
+      "type": "file",
+      "file": "generate_title().md",
+      "x": 1840,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_generator",
+      "type": "file",
+      "file": "generator.py.md",
+      "x": 2040,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_youtube_client_get_authenticated_service",
+      "type": "file",
+      "file": "get_authenticated_service().md",
+      "x": 2240,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_automation_loop_get_next_video",
+      "type": "file",
+      "file": "get_next_video().md",
+      "x": 2440,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_automation_loop_log_message",
+      "type": "file",
+      "file": "log_message().md",
+      "x": 1640,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_automation_loop_main_loop",
+      "type": "file",
+      "file": "main_loop().md",
+      "x": 1840,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_youtube_client_schedule_video",
+      "type": "file",
+      "file": "schedule_video().md",
+      "x": 2040,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_youtube_client_update_video",
+      "type": "file",
+      "file": "update_video().md",
+      "x": 2240,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_youtube_client_upload_video",
+      "type": "file",
+      "file": "upload_video().md",
+      "x": 2440,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_youtube_client",
+      "type": "file",
+      "file": "youtube_client.py.md",
+      "x": 1640,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "app/auth.py",
+      "x": 3240,
+      "y": 900,
+      "width": 880,
+      "height": 520,
+      "color": "3"
+    },
+    {
+      "id": "n_cosmohub_app_auth_py_session",
+      "type": "file",
+      "file": "Session.md",
+      "x": 3260,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_auth",
+      "type": "file",
+      "file": "appauth.py.md",
+      "x": 3460,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_main",
+      "type": "file",
+      "file": "appmain.py.md",
+      "x": 3660,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_tests_conftest_client",
+      "type": "file",
+      "file": "client().md",
+      "x": 3860,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_tests_conftest",
+      "type": "file",
+      "file": "conftest.py.md",
+      "x": 3260,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_auth_create_access_token",
+      "type": "file",
+      "file": "create_access_token().md",
+      "x": 3460,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_database",
+      "type": "file",
+      "file": "database.py.md",
+      "x": 3660,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_tests_conftest_db_session",
+      "type": "file",
+      "file": "db_session().md",
+      "x": 3860,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_fixture",
+      "type": "file",
+      "file": "fixture.md",
+      "x": 3260,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_main_py_get",
+      "type": "file",
+      "file": "get.md",
+      "x": 3460,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_auth_get_current_user",
+      "type": "file",
+      "file": "get_current_user().md",
+      "x": 3660,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_database_get_db",
+      "type": "file",
+      "file": "get_db().md",
+      "x": 3860,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_auth_get_password_hash",
+      "type": "file",
+      "file": "get_password_hash().md",
+      "x": 3260,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_main_read_root",
+      "type": "file",
+      "file": "read_root().md",
+      "x": 3460,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_timedelta",
+      "type": "file",
+      "file": "timedelta.md",
+      "x": 3660,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_auth_verify_password",
+      "type": "file",
+      "file": "verify_password().md",
+      "x": 3860,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "HortmaWeb/src/App.jsx",
+      "x": 4860,
+      "y": 900,
+      "width": 880,
+      "height": 520,
+      "color": "4"
+    },
+    {
+      "id": "n_hortmaweb_src_app_app",
+      "type": "file",
+      "file": "App()_1.md",
+      "x": 4880,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_components_footer_footer",
+      "type": "file",
+      "file": "Footer().md",
+      "x": 5080,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_components_footer",
+      "type": "file",
+      "file": "Footer.jsx.md",
+      "x": 5280,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_components_hero_hero",
+      "type": "file",
+      "file": "Hero()_1.md",
+      "x": 5480,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_app",
+      "type": "file",
+      "file": "HortmaWebsrcApp.jsx.md",
+      "x": 4880,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_components_hero",
+      "type": "file",
+      "file": "HortmaWebsrccomponentsHero.jsx.md",
+      "x": 5080,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_components_navbar",
+      "type": "file",
+      "file": "HortmaWebsrccomponentsNavbar.jsx.md",
+      "x": 5280,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_components_productcard",
+      "type": "file",
+      "file": "HortmaWebsrccomponentsProductCard.jsx.md",
+      "x": 5480,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_data_products",
+      "type": "file",
+      "file": "HortmaWebsrcdataproducts.js.md",
+      "x": 4880,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_main",
+      "type": "file",
+      "file": "HortmaWebsrcmain.jsx.md",
+      "x": 5080,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_components_navbar_navbar",
+      "type": "file",
+      "file": "Navbar()_1.md",
+      "x": 5280,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_components_productcard_productcard",
+      "type": "file",
+      "file": "ProductCard()_1.md",
+      "x": 5480,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_data_products_categories",
+      "type": "file",
+      "file": "categories_1.md",
+      "x": 4880,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_src_data_products_products",
+      "type": "file",
+      "file": "products_1.md",
+      "x": 5080,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "BarberPremium/package.json",
+      "x": 6260,
+      "y": 900,
+      "width": 880,
+      "height": 420,
+      "color": "5"
+    },
+    {
+      "id": "n_barberpremium_package",
+      "type": "file",
+      "file": "BarberPremiumpackage.json.md",
+      "x": 6280,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_scripts_build",
+      "type": "file",
+      "file": "build.md",
+      "x": 6480,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_scripts_dev",
+      "type": "file",
+      "file": "dev.md",
+      "x": 6680,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_scripts_lint",
+      "type": "file",
+      "file": "lint.md",
+      "x": 6880,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_name",
+      "type": "file",
+      "file": "name.md",
+      "x": 6280,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_scripts_preview",
+      "type": "file",
+      "file": "preview.md",
+      "x": 6480,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_private",
+      "type": "file",
+      "file": "private.md",
+      "x": 6680,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_scripts",
+      "type": "file",
+      "file": "scripts.md",
+      "x": 6880,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_type",
+      "type": "file",
+      "file": "type.md",
+      "x": 6280,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_barberpremium_package_version",
+      "type": "file",
+      "file": "version.md",
+      "x": 6480,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "CosmicAgent33",
+      "x": 7660,
+      "y": 900,
+      "width": 880,
+      "height": 420,
+      "color": "6"
+    },
+    {
+      "id": "n_cosmicagent33_main_cosmicagent33_init",
+      "type": "file",
+      "file": ".__init__().md",
+      "x": 7680,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmicagent33_main_cosmicagent33_animate_thinking",
+      "type": "file",
+      "file": "._animate_thinking().md",
+      "x": 7880,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmicagent33_main_cosmicagent33_load_system_prompt",
+      "type": "file",
+      "file": "._load_system_prompt().md",
+      "x": 8080,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmicagent33_main_cosmicagent33_print_slow",
+      "type": "file",
+      "file": "._print_slow().md",
+      "x": 8280,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmicagent33_main_cosmicagent33_chat",
+      "type": "file",
+      "file": ".chat().md",
+      "x": 7680,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmicagent33_main_rationale_31",
+      "type": "file",
+      "file": "Animaci\u00f3n de cargapensando..md",
+      "x": 7880,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmicagent33_main_cosmicagent33",
+      "type": "file",
+      "file": "CosmicAgent33.md",
+      "x": 8080,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmicagent33_main",
+      "type": "file",
+      "file": "CosmicAgent33main.py.md",
+      "x": 8280,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmicagent33_main_rationale_23",
+      "type": "file",
+      "file": "Efecto de escritura tipo m\u00e1quina de escribir..md",
+      "x": 7680,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmicagent33_main_main",
+      "type": "file",
+      "file": "main().md",
+      "x": 7880,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "HortmaWeb/package.json",
+      "x": 0,
+      "y": 1600,
+      "width": 880,
+      "height": 420,
+      "color": "1"
+    },
+    {
+      "id": "n_hortmaweb_package",
+      "type": "file",
+      "file": "HortmaWebpackage.json.md",
+      "x": 20,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_scripts_build",
+      "type": "file",
+      "file": "build_1.md",
+      "x": 220,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_scripts_dev",
+      "type": "file",
+      "file": "dev_1.md",
+      "x": 420,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_scripts_lint",
+      "type": "file",
+      "file": "lint_1.md",
+      "x": 620,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_name",
+      "type": "file",
+      "file": "name_1.md",
+      "x": 20,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_scripts_preview",
+      "type": "file",
+      "file": "preview_1.md",
+      "x": 220,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_private",
+      "type": "file",
+      "file": "private_1.md",
+      "x": 420,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_scripts",
+      "type": "file",
+      "file": "scripts_1.md",
+      "x": 620,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_type",
+      "type": "file",
+      "file": "type_1.md",
+      "x": 20,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_hortmaweb_package_version",
+      "type": "file",
+      "file": "version_1.md",
+      "x": 220,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "label": "test_api.py",
+      "x": 1620,
+      "y": 1600,
+      "width": 660,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_cosmohub_tests_test_api",
+      "type": "file",
+      "file": "test_api.py.md",
+      "x": 1640,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_tests_test_api_test_billing_mock",
+      "type": "file",
+      "file": "test_billing_mock().md",
+      "x": 1840,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_tests_test_api_test_create_product",
+      "type": "file",
+      "file": "test_create_product().md",
+      "x": 2040,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_tests_test_api_test_generate_ads",
+      "type": "file",
+      "file": "test_generate_ads().md",
+      "x": 1640,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_tests_test_api_test_read_root",
+      "type": "file",
+      "file": "test_read_root().md",
+      "x": 1840,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_tests_test_api_test_register_and_login",
+      "type": "file",
+      "file": "test_register_and_login().md",
+      "x": 2040,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "label": "Settings",
+      "x": 3240,
+      "y": 1600,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_basesettings",
+      "type": "file",
+      "file": "BaseSettings.md",
+      "x": 3260,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_core_config_config",
+      "type": "file",
+      "file": "Config.md",
+      "x": 3460,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_core_config_settings",
+      "type": "file",
+      "file": "Settings.md",
+      "x": 3260,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_core_config",
+      "type": "file",
+      "file": "coreconfig.py.md",
+      "x": 3460,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g15",
+      "type": "group",
+      "label": "ad_generator.py",
+      "x": 4860,
+      "y": 1600,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_cosmohub_app_services_ad_generator",
+      "type": "file",
+      "file": "ad_generator.py.md",
+      "x": 4880,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_services_ad_generator_generate_ad_variants",
+      "type": "file",
+      "file": "generate_ad_variants().md",
+      "x": 5080,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g16",
+      "type": "group",
+      "label": "payment.py",
+      "x": 6260,
+      "y": 1600,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_cosmohub_app_services_payment_create_preference",
+      "type": "file",
+      "file": "create_preference().md",
+      "x": 6280,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_services_payment",
+      "type": "file",
+      "file": "payment.py.md",
+      "x": 6480,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g17",
+      "type": "group",
+      "label": "pdf_generator.py",
+      "x": 7660,
+      "y": 1600,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_cosmohub_app_services_pdf_generator_create_cv_pdf",
+      "type": "file",
+      "file": "create_cv_pdf().md",
+      "x": 7680,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_cosmohub_app_services_pdf_generator",
+      "type": "file",
+      "file": "pdf_generator.py.md",
+      "x": 7880,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g18",
+      "type": "group",
+      "label": "BarberPremium/eslint.config.js",
+      "x": 0,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_barberpremium_eslint_config",
+      "type": "file",
+      "file": "BarberPremiumeslint.config.js.md",
+      "x": 20,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g19",
+      "type": "group",
+      "label": "BarberPremium/postcss.config.js",
+      "x": 1620,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_barberpremium_postcss_config",
+      "type": "file",
+      "file": "BarberPremiumpostcss.config.js.md",
+      "x": 1640,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g20",
+      "type": "group",
+      "label": "BarberPremium/tailwind.config.js",
+      "x": 3240,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_barberpremium_tailwind_config",
+      "type": "file",
+      "file": "BarberPremiumtailwind.config.js.md",
+      "x": 3260,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g21",
+      "type": "group",
+      "label": "BarberPremium/vite.config.js",
+      "x": 4860,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_barberpremium_vite_config",
+      "type": "file",
+      "file": "BarberPremiumvite.config.js.md",
+      "x": 4880,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g22",
+      "type": "group",
+      "label": "__init__.py",
+      "x": 6260,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_config_init",
+      "type": "file",
+      "file": "__init__.py.md",
+      "x": 6280,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g23",
+      "type": "group",
+      "label": "HortmaWeb/eslint.config.js",
+      "x": 7660,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_hortmaweb_eslint_config",
+      "type": "file",
+      "file": "HortmaWebeslint.config.js.md",
+      "x": 7680,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g24",
+      "type": "group",
+      "label": "HortmaWeb/postcss.config.js",
+      "x": 0,
+      "y": 2580,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_hortmaweb_postcss_config",
+      "type": "file",
+      "file": "HortmaWebpostcss.config.js.md",
+      "x": 20,
+      "y": 2660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g25",
+      "type": "group",
+      "label": "HortmaWeb/tailwind.config.js",
+      "x": 1620,
+      "y": 2580,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_hortmaweb_tailwind_config",
+      "type": "file",
+      "file": "HortmaWebtailwind.config.js.md",
+      "x": 1640,
+      "y": 2660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g26",
+      "type": "group",
+      "label": "HortmaWeb/vite.config.js",
+      "x": 3240,
+      "y": 2580,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_hortmaweb_vite_config",
+      "type": "file",
+      "file": "HortmaWebvite.config.js.md",
+      "x": 3260,
+      "y": 2660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g27",
+      "type": "group",
+      "label": "setup_constancy_secrets.ps1",
+      "x": 4860,
+      "y": 2580,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_setup_constancy_secrets",
+      "type": "file",
+      "file": "setup_constancy_secrets.ps1.md",
+      "x": 4880,
+      "y": 2660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g28",
+      "type": "group",
+      "label": "vela_check.py",
+      "x": 6260,
+      "y": 2580,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_vela_check",
+      "type": "file",
+      "file": "vela_check.py.md",
+      "x": 6280,
+      "y": 2660,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_barberpremium_package_barberpremium_package_dependencies",
+      "fromNode": "n_barberpremium_package",
+      "toNode": "n_barberpremium_package_dependencies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_barberpremium_package_devdependencies",
+      "fromNode": "n_barberpremium_package",
+      "toNode": "n_barberpremium_package_devdependencies",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_barberpremium_package_name",
+      "fromNode": "n_barberpremium_package",
+      "toNode": "n_barberpremium_package_name",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_barberpremium_package_private",
+      "fromNode": "n_barberpremium_package",
+      "toNode": "n_barberpremium_package_private",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_barberpremium_package_scripts",
+      "fromNode": "n_barberpremium_package",
+      "toNode": "n_barberpremium_package_scripts",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_barberpremium_package_type",
+      "fromNode": "n_barberpremium_package",
+      "toNode": "n_barberpremium_package_type",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_barberpremium_package_version",
+      "fromNode": "n_barberpremium_package",
+      "toNode": "n_barberpremium_package_version",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_scripts_barberpremium_package_scripts_build",
+      "fromNode": "n_barberpremium_package_scripts",
+      "toNode": "n_barberpremium_package_scripts_build",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_scripts_barberpremium_package_scripts_dev",
+      "fromNode": "n_barberpremium_package_scripts",
+      "toNode": "n_barberpremium_package_scripts_dev",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_scripts_barberpremium_package_scripts_lint",
+      "fromNode": "n_barberpremium_package_scripts",
+      "toNode": "n_barberpremium_package_scripts_lint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_scripts_barberpremium_package_scripts_preview",
+      "fromNode": "n_barberpremium_package_scripts",
+      "toNode": "n_barberpremium_package_scripts_preview",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_barberpremium_package_dependencies_clsx",
+      "fromNode": "n_barberpremium_package_dependencies",
+      "toNode": "n_barberpremium_package_dependencies_clsx",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_barberpremium_package_dependencies_framer_motion",
+      "fromNode": "n_barberpremium_package_dependencies",
+      "toNode": "n_barberpremium_package_dependencies_framer_motion",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_barberpremium_package_dependencies_lucide_react",
+      "fromNode": "n_barberpremium_package_dependencies",
+      "toNode": "n_barberpremium_package_dependencies_lucide_react",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_barberpremium_package_dependencies_react",
+      "fromNode": "n_barberpremium_package_dependencies",
+      "toNode": "n_barberpremium_package_dependencies_react",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_barberpremium_package_dependencies_react_dom",
+      "fromNode": "n_barberpremium_package_dependencies",
+      "toNode": "n_barberpremium_package_dependencies_react_dom",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_barberpremium_package_dependencies_react_router_dom",
+      "fromNode": "n_barberpremium_package_dependencies",
+      "toNode": "n_barberpremium_package_dependencies_react_router_dom",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_barberpremium_package_dependencies_tailwind_merge",
+      "fromNode": "n_barberpremium_package_dependencies",
+      "toNode": "n_barberpremium_package_dependencies_tailwind_merge",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_clsx_barberpremium_package_json_clsx",
+      "fromNode": "n_barberpremium_package_dependencies_clsx",
+      "toNode": "n_barberpremium_package_json_clsx",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_framer_motion_hortmaweb_package_json_framer_motion",
+      "fromNode": "n_barberpremium_package_dependencies_framer_motion",
+      "toNode": "n_hortmaweb_package_json_framer_motion",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_lucide_react_hortmaweb_package_json_lucide_react",
+      "fromNode": "n_barberpremium_package_dependencies_lucide_react",
+      "toNode": "n_hortmaweb_package_json_lucide_react",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_react_barberpremium_package_json_react",
+      "fromNode": "n_barberpremium_package_dependencies_react",
+      "toNode": "n_barberpremium_package_json_react",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_react_dom_hortmaweb_package_json_react_dom",
+      "fromNode": "n_barberpremium_package_dependencies_react_dom",
+      "toNode": "n_hortmaweb_package_json_react_dom",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_react_router_dom_hortmaweb_package_json_react_router_dom",
+      "fromNode": "n_barberpremium_package_dependencies_react_router_dom",
+      "toNode": "n_hortmaweb_package_json_react_router_dom",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_dependencies_tailwind_merge_hortmaweb_package_json_tailwind_merge",
+      "fromNode": "n_barberpremium_package_dependencies_tailwind_merge",
+      "toNode": "n_hortmaweb_package_json_tailwind_merge",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_autoprefixer",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_autoprefixer",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_eslint",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_eslint",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_eslint_js",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_eslint_js",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_eslint_plugin_react_hooks",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_eslint_plugin_react_hooks",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_eslint_plugin_react_refresh",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_eslint_plugin_react_refresh",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_globals",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_globals",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_postcss",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_postcss",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_tailwindcss",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_tailwindcss",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_types_react",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_types_react",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_types_react_dom",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_types_react_dom",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_vite",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_vite",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_barberpremium_package_devdependencies_vitejs_plugin_react",
+      "fromNode": "n_barberpremium_package_devdependencies",
+      "toNode": "n_barberpremium_package_devdependencies_vitejs_plugin_react",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_eslint_js_hortmaweb_package_json_eslint_js",
+      "fromNode": "n_barberpremium_package_devdependencies_eslint_js",
+      "toNode": "n_hortmaweb_package_json_eslint_js",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_types_react_hortmaweb_package_json_types_react",
+      "fromNode": "n_barberpremium_package_devdependencies_types_react",
+      "toNode": "n_hortmaweb_package_json_types_react",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_types_react_dom_hortmaweb_package_json_types_react_dom",
+      "fromNode": "n_barberpremium_package_devdependencies_types_react_dom",
+      "toNode": "n_hortmaweb_package_json_types_react_dom",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_vitejs_plugin_react_hortmaweb_package_json_vitejs_plugin_react",
+      "fromNode": "n_barberpremium_package_devdependencies_vitejs_plugin_react",
+      "toNode": "n_hortmaweb_package_json_vitejs_plugin_react",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_autoprefixer_hortmaweb_package_json_autoprefixer",
+      "fromNode": "n_barberpremium_package_devdependencies_autoprefixer",
+      "toNode": "n_hortmaweb_package_json_autoprefixer",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_eslint_hortmaweb_package_json_eslint",
+      "fromNode": "n_barberpremium_package_devdependencies_eslint",
+      "toNode": "n_hortmaweb_package_json_eslint",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_eslint_plugin_react_hooks_hortmaweb_package_json_eslint_plugin_react_hooks",
+      "fromNode": "n_barberpremium_package_devdependencies_eslint_plugin_react_hooks",
+      "toNode": "n_hortmaweb_package_json_eslint_plugin_react_hooks",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_eslint_plugin_react_refresh_hortmaweb_package_json_eslint_plugin_react_refresh",
+      "fromNode": "n_barberpremium_package_devdependencies_eslint_plugin_react_refresh",
+      "toNode": "n_hortmaweb_package_json_eslint_plugin_react_refresh",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_globals_hortmaweb_package_json_globals",
+      "fromNode": "n_barberpremium_package_devdependencies_globals",
+      "toNode": "n_hortmaweb_package_json_globals",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_postcss_barberpremium_package_json_postcss",
+      "fromNode": "n_barberpremium_package_devdependencies_postcss",
+      "toNode": "n_barberpremium_package_json_postcss",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_tailwindcss_hortmaweb_package_json_tailwindcss",
+      "fromNode": "n_barberpremium_package_devdependencies_tailwindcss",
+      "toNode": "n_hortmaweb_package_json_tailwindcss",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_package_devdependencies_vite_barberpremium_package_json_vite",
+      "fromNode": "n_barberpremium_package_devdependencies_vite",
+      "toNode": "n_barberpremium_package_json_vite",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_app_app",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_app_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_app_blog",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_app_blog",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_app_scrolltotop",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_app_scrolltotop",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_components_cart",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_components_cart",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_components_cart_cart",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_components_cart_cart",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_components_navbar",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_components_navbar",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_components_navbar_navbar",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_components_navbar_navbar",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_context_cartcontext",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_context_cartcontext",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_context_cartcontext_cartprovider",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_context_cartcontext_cartprovider",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_about",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_about",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_about_about",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_about_about",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_contact",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_contact",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_contact_contact",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_contact_contact",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_home",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_home",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_home_home",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_home_home",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_productdetail",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_productdetail",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_productdetail_productdetail",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_productdetail_productdetail",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_shop",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_shop",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_pages_shop_shop",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_pages_shop_shop",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_barberpremium_src_main",
+      "fromNode": "n_barberpremium_src_app",
+      "toNode": "n_barberpremium_src_main",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_app_app_barberpremium_src_main",
+      "fromNode": "n_barberpremium_src_app_app",
+      "toNode": "n_barberpremium_src_main",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_cart_barberpremium_src_components_cart_cart",
+      "fromNode": "n_barberpremium_src_components_cart",
+      "toNode": "n_barberpremium_src_components_cart_cart",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_cart_barberpremium_src_context_cartcontext",
+      "fromNode": "n_barberpremium_src_components_cart",
+      "toNode": "n_barberpremium_src_context_cartcontext",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_cart_barberpremium_src_context_cartcontext_usecart",
+      "fromNode": "n_barberpremium_src_components_cart",
+      "toNode": "n_barberpremium_src_context_cartcontext_usecart",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_cart_cart_barberpremium_src_context_cartcontext_usecart",
+      "fromNode": "n_barberpremium_src_components_cart_cart",
+      "toNode": "n_barberpremium_src_context_cartcontext_usecart",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_hero_barberpremium_src_components_hero_hero",
+      "fromNode": "n_barberpremium_src_components_hero",
+      "toNode": "n_barberpremium_src_components_hero_hero",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_hero_barberpremium_src_pages_home",
+      "fromNode": "n_barberpremium_src_components_hero",
+      "toNode": "n_barberpremium_src_pages_home",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_hero_hero_barberpremium_src_pages_home",
+      "fromNode": "n_barberpremium_src_components_hero_hero",
+      "toNode": "n_barberpremium_src_pages_home",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_navbar_barberpremium_src_components_navbar_navbar",
+      "fromNode": "n_barberpremium_src_components_navbar",
+      "toNode": "n_barberpremium_src_components_navbar_navbar",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_navbar_barberpremium_src_context_cartcontext",
+      "fromNode": "n_barberpremium_src_components_navbar",
+      "toNode": "n_barberpremium_src_context_cartcontext",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_navbar_barberpremium_src_context_cartcontext_usecart",
+      "fromNode": "n_barberpremium_src_components_navbar",
+      "toNode": "n_barberpremium_src_context_cartcontext_usecart",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_navbar_navbar_barberpremium_src_context_cartcontext_usecart",
+      "fromNode": "n_barberpremium_src_components_navbar_navbar",
+      "toNode": "n_barberpremium_src_context_cartcontext_usecart",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_productcard_barberpremium_src_components_productcard_productcard",
+      "fromNode": "n_barberpremium_src_components_productcard",
+      "toNode": "n_barberpremium_src_components_productcard_productcard",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_productcard_barberpremium_src_context_cartcontext",
+      "fromNode": "n_barberpremium_src_components_productcard",
+      "toNode": "n_barberpremium_src_context_cartcontext",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_productcard_barberpremium_src_context_cartcontext_usecart",
+      "fromNode": "n_barberpremium_src_components_productcard",
+      "toNode": "n_barberpremium_src_context_cartcontext_usecart",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_productcard_barberpremium_src_pages_home",
+      "fromNode": "n_barberpremium_src_components_productcard",
+      "toNode": "n_barberpremium_src_pages_home",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_productcard_barberpremium_src_pages_shop",
+      "fromNode": "n_barberpremium_src_components_productcard",
+      "toNode": "n_barberpremium_src_pages_shop",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_productcard_productcard_barberpremium_src_context_cartcontext_usecart",
+      "fromNode": "n_barberpremium_src_components_productcard_productcard",
+      "toNode": "n_barberpremium_src_context_cartcontext_usecart",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_productcard_productcard_barberpremium_src_pages_home",
+      "fromNode": "n_barberpremium_src_components_productcard_productcard",
+      "toNode": "n_barberpremium_src_pages_home",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_components_productcard_productcard_barberpremium_src_pages_shop",
+      "fromNode": "n_barberpremium_src_components_productcard_productcard",
+      "toNode": "n_barberpremium_src_pages_shop",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_context_cartcontext_barberpremium_src_context_cartcontext_cartcontext",
+      "fromNode": "n_barberpremium_src_context_cartcontext",
+      "toNode": "n_barberpremium_src_context_cartcontext_cartcontext",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_context_cartcontext_barberpremium_src_context_cartcontext_cartprovider",
+      "fromNode": "n_barberpremium_src_context_cartcontext",
+      "toNode": "n_barberpremium_src_context_cartcontext_cartprovider",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_context_cartcontext_barberpremium_src_context_cartcontext_usecart",
+      "fromNode": "n_barberpremium_src_context_cartcontext",
+      "toNode": "n_barberpremium_src_context_cartcontext_usecart",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_context_cartcontext_barberpremium_src_pages_productdetail",
+      "fromNode": "n_barberpremium_src_context_cartcontext",
+      "toNode": "n_barberpremium_src_pages_productdetail",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_context_cartcontext_usecart_barberpremium_src_pages_productdetail",
+      "fromNode": "n_barberpremium_src_context_cartcontext_usecart",
+      "toNode": "n_barberpremium_src_pages_productdetail",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_context_cartcontext_usecart_barberpremium_src_pages_productdetail_productdetail",
+      "fromNode": "n_barberpremium_src_context_cartcontext_usecart",
+      "toNode": "n_barberpremium_src_pages_productdetail_productdetail",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_data_products_barberpremium_src_data_products_categories",
+      "fromNode": "n_barberpremium_src_data_products",
+      "toNode": "n_barberpremium_src_data_products_categories",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_data_products_barberpremium_src_data_products_products",
+      "fromNode": "n_barberpremium_src_data_products",
+      "toNode": "n_barberpremium_src_data_products_products",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_data_products_barberpremium_src_pages_home",
+      "fromNode": "n_barberpremium_src_data_products",
+      "toNode": "n_barberpremium_src_pages_home",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_data_products_barberpremium_src_pages_productdetail",
+      "fromNode": "n_barberpremium_src_data_products",
+      "toNode": "n_barberpremium_src_pages_productdetail",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_data_products_barberpremium_src_pages_shop",
+      "fromNode": "n_barberpremium_src_data_products",
+      "toNode": "n_barberpremium_src_pages_shop",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_data_products_products_barberpremium_src_pages_home",
+      "fromNode": "n_barberpremium_src_data_products_products",
+      "toNode": "n_barberpremium_src_pages_home",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_data_products_products_barberpremium_src_pages_productdetail",
+      "fromNode": "n_barberpremium_src_data_products_products",
+      "toNode": "n_barberpremium_src_pages_productdetail",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_data_products_products_barberpremium_src_pages_shop",
+      "fromNode": "n_barberpremium_src_data_products_products",
+      "toNode": "n_barberpremium_src_pages_shop",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_data_products_categories_barberpremium_src_pages_shop",
+      "fromNode": "n_barberpremium_src_data_products_categories",
+      "toNode": "n_barberpremium_src_pages_shop",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_pages_about_barberpremium_src_pages_about_about",
+      "fromNode": "n_barberpremium_src_pages_about",
+      "toNode": "n_barberpremium_src_pages_about_about",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_pages_contact_barberpremium_src_pages_contact_contact",
+      "fromNode": "n_barberpremium_src_pages_contact",
+      "toNode": "n_barberpremium_src_pages_contact_contact",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_pages_home_barberpremium_src_pages_home_home",
+      "fromNode": "n_barberpremium_src_pages_home",
+      "toNode": "n_barberpremium_src_pages_home_home",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_pages_productdetail_barberpremium_src_pages_productdetail_productdetail",
+      "fromNode": "n_barberpremium_src_pages_productdetail",
+      "toNode": "n_barberpremium_src_pages_productdetail_productdetail",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_barberpremium_src_pages_shop_barberpremium_src_pages_shop_shop",
+      "fromNode": "n_barberpremium_src_pages_shop",
+      "toNode": "n_barberpremium_src_pages_shop_shop",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_main_cosmicagent33",
+      "fromNode": "n_cosmicagent33_main",
+      "toNode": "n_cosmicagent33_main_cosmicagent33",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_main_main",
+      "fromNode": "n_cosmicagent33_main",
+      "toNode": "n_cosmicagent33_main_main",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_cosmicagent33_main_cosmicagent33_animate_thinking",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33",
+      "toNode": "n_cosmicagent33_main_cosmicagent33_animate_thinking",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_cosmicagent33_main_cosmicagent33_chat",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33",
+      "toNode": "n_cosmicagent33_main_cosmicagent33_chat",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_cosmicagent33_main_cosmicagent33_init",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33",
+      "toNode": "n_cosmicagent33_main_cosmicagent33_init",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_cosmicagent33_main_cosmicagent33_load_system_prompt",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33",
+      "toNode": "n_cosmicagent33_main_cosmicagent33_load_system_prompt",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_cosmicagent33_main_cosmicagent33_print_slow",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33",
+      "toNode": "n_cosmicagent33_main_cosmicagent33_print_slow",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_cosmicagent33_main_main",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33",
+      "toNode": "n_cosmicagent33_main_main",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_init_cosmicagent33_main_cosmicagent33_load_system_prompt",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33_init",
+      "toNode": "n_cosmicagent33_main_cosmicagent33_load_system_prompt",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_init_cosmicagent33_main_cosmicagent33_print_slow",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33_init",
+      "toNode": "n_cosmicagent33_main_cosmicagent33_print_slow",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_print_slow_cosmicagent33_main_main",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33_print_slow",
+      "toNode": "n_cosmicagent33_main_main",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_print_slow_cosmicagent33_main_rationale_23",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33_print_slow",
+      "toNode": "n_cosmicagent33_main_rationale_23",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_animate_thinking_cosmicagent33_main_cosmicagent33_chat",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33_animate_thinking",
+      "toNode": "n_cosmicagent33_main_cosmicagent33_chat",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_animate_thinking_cosmicagent33_main_rationale_31",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33_animate_thinking",
+      "toNode": "n_cosmicagent33_main_rationale_31",
+      "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmicagent33_main_cosmicagent33_chat_cosmicagent33_main_main",
+      "fromNode": "n_cosmicagent33_main_cosmicagent33_chat",
+      "toNode": "n_cosmicagent33_main_main",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_auth_cosmohub_app_auth_create_access_token",
+      "fromNode": "n_cosmohub_app_auth",
+      "toNode": "n_cosmohub_app_auth_create_access_token",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_auth_cosmohub_app_auth_get_current_user",
+      "fromNode": "n_cosmohub_app_auth",
+      "toNode": "n_cosmohub_app_auth_get_current_user",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_auth_cosmohub_app_auth_get_password_hash",
+      "fromNode": "n_cosmohub_app_auth",
+      "toNode": "n_cosmohub_app_auth_get_password_hash",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_auth_cosmohub_app_auth_verify_password",
+      "fromNode": "n_cosmohub_app_auth",
+      "toNode": "n_cosmohub_app_auth_verify_password",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_auth_cosmohub_app_database",
+      "fromNode": "n_cosmohub_app_auth",
+      "toNode": "n_cosmohub_app_database",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_auth_cosmohub_app_database_get_db",
+      "fromNode": "n_cosmohub_app_auth",
+      "toNode": "n_cosmohub_app_database_get_db",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_auth_create_access_token_timedelta",
+      "fromNode": "n_cosmohub_app_auth_create_access_token",
+      "toNode": "n_timedelta",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_timedelta_vela_3_dealprocessor_sync",
+      "fromNode": "n_timedelta",
+      "toNode": "n_vela_3_dealprocessor_sync",
+      "label": "calls [INFERRED]"
+    },
+    {
+      "id": "e_cosmohub_app_auth_get_current_user_cosmohub_app_auth_py_session",
+      "fromNode": "n_cosmohub_app_auth_get_current_user",
+      "toNode": "n_cosmohub_app_auth_py_session",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_core_config_cosmohub_app_core_config_settings",
+      "fromNode": "n_cosmohub_app_core_config",
+      "toNode": "n_cosmohub_app_core_config_settings",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_core_config_settings_basesettings",
+      "fromNode": "n_cosmohub_app_core_config_settings",
+      "toNode": "n_basesettings",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_core_config_settings_cosmohub_app_core_config_config",
+      "fromNode": "n_cosmohub_app_core_config_settings",
+      "toNode": "n_cosmohub_app_core_config_config",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_database_cosmohub_app_database_get_db",
+      "fromNode": "n_cosmohub_app_database",
+      "toNode": "n_cosmohub_app_database_get_db",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_database_cosmohub_app_main",
+      "fromNode": "n_cosmohub_app_database",
+      "toNode": "n_cosmohub_app_main",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_database_cosmohub_app_models",
+      "fromNode": "n_cosmohub_app_database",
+      "toNode": "n_cosmohub_app_models",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_database_cosmohub_tests_conftest",
+      "fromNode": "n_cosmohub_app_database",
+      "toNode": "n_cosmohub_tests_conftest",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_database_get_db_cosmohub_tests_conftest",
+      "fromNode": "n_cosmohub_app_database_get_db",
+      "toNode": "n_cosmohub_tests_conftest",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_main_cosmohub_app_main_read_root",
+      "fromNode": "n_cosmohub_app_main",
+      "toNode": "n_cosmohub_app_main_read_root",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_main_cosmohub_tests_conftest",
+      "fromNode": "n_cosmohub_app_main",
+      "toNode": "n_cosmohub_tests_conftest",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_main_py_get_cosmohub_app_main_read_root",
+      "fromNode": "n_cosmohub_app_main_py_get",
+      "toNode": "n_cosmohub_app_main_read_root",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_cosmohub_app_models_cv",
+      "fromNode": "n_cosmohub_app_models",
+      "toNode": "n_cosmohub_app_models_cv",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_cosmohub_app_models_invoice",
+      "fromNode": "n_cosmohub_app_models",
+      "toNode": "n_cosmohub_app_models_invoice",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_cosmohub_app_models_product",
+      "fromNode": "n_cosmohub_app_models",
+      "toNode": "n_cosmohub_app_models_product",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_cosmohub_app_models_user",
+      "fromNode": "n_cosmohub_app_models",
+      "toNode": "n_cosmohub_app_models_user",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_cosmohub_app_models_userrole",
+      "fromNode": "n_cosmohub_app_models",
+      "toNode": "n_cosmohub_app_models_userrole",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_enum",
+      "fromNode": "n_cosmohub_app_models",
+      "toNode": "n_enum",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_userrole_str",
+      "fromNode": "n_cosmohub_app_models_userrole",
+      "toNode": "n_str",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_user_base",
+      "fromNode": "n_cosmohub_app_models_user",
+      "toNode": "n_base",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_user_cosmohub_app_routers_ads_generate_ads",
+      "fromNode": "n_cosmohub_app_models_user",
+      "toNode": "n_cosmohub_app_routers_ads_generate_ads",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_user_cosmohub_app_routers_billing_create_invoice",
+      "fromNode": "n_cosmohub_app_models_user",
+      "toNode": "n_cosmohub_app_routers_billing_create_invoice",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_user_cosmohub_app_routers_cvs_generate_cv",
+      "fromNode": "n_cosmohub_app_models_user",
+      "toNode": "n_cosmohub_app_routers_cvs_generate_cv",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_models_user_cosmohub_app_routers_products_create_product",
+      "fromNode": "n_cosmohub_app_models_user",
+      "toNode": "n_cosmohub_app_routers_products_create_product",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_base_cosmohub_app_models_cv",
+      "fromNode": "n_base",
+      "toNode": "n_cosmohub_app_models_cv",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_base_cosmohub_app_models_invoice",
+      "fromNode": "n_base",
+      "toNode": "n_cosmohub_app_models_invoice",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_base_cosmohub_app_models_product",
+      "fromNode": "n_base",
+      "toNode": "n_cosmohub_app_models_product",
+      "label": "inherits [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_ads_cosmohub_app_routers_ads_generate_ads",
+      "fromNode": "n_cosmohub_app_routers_ads",
+      "toNode": "n_cosmohub_app_routers_ads_generate_ads",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_ads_py_post_cosmohub_app_routers_ads_generate_ads",
+      "fromNode": "n_cosmohub_app_routers_ads_py_post",
+      "toNode": "n_cosmohub_app_routers_ads_generate_ads",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_ads_generate_ads_cosmohub_app_schemas_adrequest",
+      "fromNode": "n_cosmohub_app_routers_ads_generate_ads",
+      "toNode": "n_cosmohub_app_schemas_adrequest",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_auth_cosmohub_app_routers_auth_login",
+      "fromNode": "n_cosmohub_app_routers_auth",
+      "toNode": "n_cosmohub_app_routers_auth_login",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_auth_cosmohub_app_routers_auth_register",
+      "fromNode": "n_cosmohub_app_routers_auth",
+      "toNode": "n_cosmohub_app_routers_auth_register",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_auth_py_post_cosmohub_app_routers_auth_login",
+      "fromNode": "n_cosmohub_app_routers_auth_py_post",
+      "toNode": "n_cosmohub_app_routers_auth_login",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_auth_py_post_cosmohub_app_routers_auth_register",
+      "fromNode": "n_cosmohub_app_routers_auth_py_post",
+      "toNode": "n_cosmohub_app_routers_auth_register",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_auth_register_cosmohub_app_routers_auth_py_session",
+      "fromNode": "n_cosmohub_app_routers_auth_register",
+      "toNode": "n_cosmohub_app_routers_auth_py_session",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_auth_register_cosmohub_app_schemas_usercreate",
+      "fromNode": "n_cosmohub_app_routers_auth_register",
+      "toNode": "n_cosmohub_app_schemas_usercreate",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_auth_py_session_cosmohub_app_routers_auth_login",
+      "fromNode": "n_cosmohub_app_routers_auth_py_session",
+      "toNode": "n_cosmohub_app_routers_auth_login",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_auth_login_oauth2passwordrequestform",
+      "fromNode": "n_cosmohub_app_routers_auth_login",
+      "toNode": "n_oauth2passwordrequestform",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_billing_cosmohub_app_routers_billing_create_invoice",
+      "fromNode": "n_cosmohub_app_routers_billing",
+      "toNode": "n_cosmohub_app_routers_billing_create_invoice",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_billing_py_post_cosmohub_app_routers_billing_create_invoice",
+      "fromNode": "n_cosmohub_app_routers_billing_py_post",
+      "toNode": "n_cosmohub_app_routers_billing_create_invoice",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_billing_create_invoice_cosmohub_app_routers_billing_py_session",
+      "fromNode": "n_cosmohub_app_routers_billing_create_invoice",
+      "toNode": "n_cosmohub_app_routers_billing_py_session",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_billing_create_invoice_cosmohub_app_schemas_invoicecreate",
+      "fromNode": "n_cosmohub_app_routers_billing_create_invoice",
+      "toNode": "n_cosmohub_app_schemas_invoicecreate",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_cvs_cosmohub_app_routers_cvs_generate_cv",
+      "fromNode": "n_cosmohub_app_routers_cvs",
+      "toNode": "n_cosmohub_app_routers_cvs_generate_cv",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_cvs_py_post_cosmohub_app_routers_cvs_generate_cv",
+      "fromNode": "n_cosmohub_app_routers_cvs_py_post",
+      "toNode": "n_cosmohub_app_routers_cvs_generate_cv",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_cvs_generate_cv_cosmohub_app_routers_cvs_py_session",
+      "fromNode": "n_cosmohub_app_routers_cvs_generate_cv",
+      "toNode": "n_cosmohub_app_routers_cvs_py_session",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_cvs_generate_cv_cosmohub_app_schemas_cvcreate",
+      "fromNode": "n_cosmohub_app_routers_cvs_generate_cv",
+      "toNode": "n_cosmohub_app_schemas_cvcreate",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_cosmohub_app_routers_products_create_product",
+      "fromNode": "n_cosmohub_app_routers_products",
+      "toNode": "n_cosmohub_app_routers_products_create_product",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_cosmohub_app_routers_products_read_product",
+      "fromNode": "n_cosmohub_app_routers_products",
+      "toNode": "n_cosmohub_app_routers_products_read_product",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_cosmohub_app_routers_products_read_products",
+      "fromNode": "n_cosmohub_app_routers_products",
+      "toNode": "n_cosmohub_app_routers_products_read_products",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_py_post_cosmohub_app_routers_products_create_product",
+      "fromNode": "n_cosmohub_app_routers_products_py_post",
+      "toNode": "n_cosmohub_app_routers_products_create_product",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_create_product_cosmohub_app_routers_products_py_session",
+      "fromNode": "n_cosmohub_app_routers_products_create_product",
+      "toNode": "n_cosmohub_app_routers_products_py_session",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_create_product_cosmohub_app_schemas_productcreate",
+      "fromNode": "n_cosmohub_app_routers_products_create_product",
+      "toNode": "n_cosmohub_app_schemas_productcreate",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_py_session_cosmohub_app_routers_products_read_product",
+      "fromNode": "n_cosmohub_app_routers_products_py_session",
+      "toNode": "n_cosmohub_app_routers_products_read_product",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_py_session_cosmohub_app_routers_products_read_products",
+      "fromNode": "n_cosmohub_app_routers_products_py_session",
+      "toNode": "n_cosmohub_app_routers_products_read_products",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_py_get_cosmohub_app_routers_products_read_product",
+      "fromNode": "n_cosmohub_app_routers_products_py_get",
+      "toNode": "n_cosmohub_app_routers_products_read_product",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_routers_products_py_get_cosmohub_app_routers_products_read_products",
+      "fromNode": "n_cosmohub_app_routers_products_py_get",
+      "toNode": "n_cosmohub_app_routers_products_read_products",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_adrequest",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_adrequest",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_adresponse",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_adresponse",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_cvcreate",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_cvcreate",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_cvout",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_cvout",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_invoicecreate",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_invoicecreate",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_invoiceout",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_invoiceout",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_productbase",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_productbase",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_productcreate",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_productcreate",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_productout",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_productout",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_token",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_token",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_tokendata",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_tokendata",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_cosmohub_app_schemas_cosmohub_app_schemas_userbase",
+      "fromNode": "n_cosmohub_app_schemas",
+      "toNode": "n_cosmohub_app_schemas_userbase",
+      "label": "contains [EXTRACTED]"
+    }
+  ]
+}

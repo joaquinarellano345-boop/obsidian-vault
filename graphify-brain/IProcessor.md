@@ -1,0 +1,19 @@
+---
+source_file: "tests/fixtures/sample.cs"
+type: "code"
+community: "DataProcessor"
+location: "L7"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/DataProcessor
+---
+
+# IProcessor
+
+## Connections
+- [[.Process()]] - `method` [EXTRACTED]
+- [[DataProcessor]] - `implements` [EXTRACTED]
+- [[sample.cs]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/DataProcessor

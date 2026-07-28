@@ -1,0 +1,19 @@
+---
+source_file: "tests/test_extract.py"
+type: "code"
+community: "_extract_parallel"
+location: "L1521"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/_extract_parallel
+---
+
+# test_extract_parallel_still_spawns_pool_for_multiple_workers()
+
+## Connections
+- [[Guard the 2173 skip 1 worker must still take the pool path.]] - `rationale_for` [EXTRACTED]
+- [[_extract_parallel()]] - `calls` [EXTRACTED]
+- [[test_extract.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/_extract_parallel

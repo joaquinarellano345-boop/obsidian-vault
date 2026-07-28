@@ -1,0 +1,19 @@
+---
+source_file: "tests/test_languages.py"
+type: "code"
+community: "_edge_labels"
+location: "L1029"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/_edge_labels
+---
+
+# test_swift_parameter_return_generic_and_field_contexts()
+
+## Connections
+- [[_edge_labels()]] - `calls` [EXTRACTED]
+- [[extract_swift()]] - `calls` [EXTRACTED]
+- [[test_languages.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/_edge_labels

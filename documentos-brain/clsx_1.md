@@ -1,0 +1,17 @@
+---
+source_file: "BarberPremium/package.json"
+type: "concept"
+community: "dependencies"
+location: "L13"
+tags:
+  - graphify/concept
+  - graphify/EXTRACTED
+  - community/dependencies
+---
+
+# clsx
+
+## Connections
+- [[clsx]] - `imports` [EXTRACTED]
+
+#graphify/concept #graphify/EXTRACTED #community/dependencies

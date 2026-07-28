@@ -1,0 +1,17 @@
+---
+source_file: "tests/test_obsidian_dangling_member.py"
+type: "rationale"
+community: "export.py"
+location: "L1"
+tags:
+  - graphify/rationale
+  - graphify/EXTRACTED
+  - community/exportpy
+---
+
+# Regression test for issue #1236: to_obsidian must not crash with KeyError when a
+
+## Connections
+- [[test_obsidian_dangling_member.py]] - `rationale_for` [EXTRACTED]
+
+#graphify/rationale #graphify/EXTRACTED #community/exportpy

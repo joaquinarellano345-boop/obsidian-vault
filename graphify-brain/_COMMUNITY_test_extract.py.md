@@ -1,0 +1,241 @@
+---
+type: community
+cohesion: 0.01
+members: 193
+---
+
+# test_extract.py
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 193 nodes
+
+## Members
+- [[1402 (Go) the sourceless-stub fix landed in six extractors but the Go copy]] - rationale - tests/test_extract.py
+- [[1402 a class defined once but referenced via type annotations in N other     f]] - rationale - tests/test_extract.py
+- [[1462 (dedicated extractors) the imported-type-stub disambiguation (the     ``o]] - rationale - tests/test_extract.py
+- [[1462 imported stdlibtype stubs with the same label are distinct uses     when]] - rationale - tests/test_extract.py
+- [[1522 two distinct paths whose only difference is a separator-vs-punctuation]] - rationale - tests/test_extract.py
+- [[1899 variant B a symbol whose name normalizes to nothing (a minified `$`     f]] - rationale - tests/test_extract.py
+- [[1941 `--out far-away-dir` must not basename every in-root node.      The CLI]] - rationale - tests/test_extract.py
+- [[2082 must not over-resolve an aliased import of an EXTERNALuncorpus     modul]] - rationale - tests/test_extract.py
+- [[2082 the aliased `calls` edge must survive a warm (cache-hit) re-extract.]] - rationale - tests/test_extract.py
+- [[2141 repro a call to a function defined in a sourced file must produce a     r]] - rationale - tests/test_extract.py
+- [[2171 `source lib.sh` with no . prefix must bind to the sibling file.      Onl]] - rationale - tests/test_extract.py
+- [[2171 a sourced lib with a bash shebang but no extension must resolve.      _SH]] - rationale - tests/test_extract.py
+- [[2172 `${VAR}` must resolve against the variable's tracked base.      2079 alw]] - rationale - tests/test_extract.py
+- [[A JSTS call with no local definition and no import must NOT bind to a     same-]] - rationale - tests/test_extract.py
+- [[A JSON file whose root is an array is data, never a configmanifest.]] - rationale - tests/test_extract.py
+- [[A `module.func()` call must resolve only against a module the caller's own     f]] - rationale - tests/test_extract.py
+- [[A call to a command that is not a function in any sourced file (an external]] - rationale - tests/test_extract.py
+- [[A cross-file `calls` edge must be EXTRACTED when the caller's file has     an `i]] - rationale - tests/test_extract.py
+- [[A data-shaped .json (eval fixture  dataset) must NOT emit per-key nodes.]] - rationale - tests/test_extract.py
+- [[A lowercase-receiver member call (`obj.run()`, `self.run()`) must NOT be     res]] - rationale - tests/test_extract.py
+- [[A real cross-file call must NOT be erased by a same-named test mock.      srcca]] - rationale - tests/test_extract.py
+- [[A shebang-only bash CLI must contribute nodes with the same ID scheme     as a .]] - rationale - tests/test_extract.py
+- [[A variable-built source path with no matching file on disk must emit no     impo]] - rationale - tests/test_extract.py
+- [[After merging multiple files, no internal edges should be dangling.]] - rationale - tests/test_extract.py
+- [[An arbitrarily-named JSON with config keys (dependencies) is still extracted.]] - rationale - tests/test_extract.py
+- [[An untracked variable (assigned from the environment, or not assigned in     thi]] - rationale - tests/test_extract.py
+- [[Bash extractor must route node metadata through sanitize_metadata so     HTML-se]] - rationale - tests/test_extract.py
+- [[Calls made inside a nested (inner) function body must be collected.]] - rationale - tests/test_extract.py
+- [[End-to-end integration of 2079 + 2141 (21572139) a library sourced     via]] - rationale - tests/test_extract.py
+- [[Entrypoint node must have a distinct ID from a function also named 'script'.]] - rationale - tests/test_extract.py
+- [[Every bash file produces a `bash_entrypoint` node distinct from the file node, j]] - rationale - tests/test_extract.py
+- [[Extract functions, source imports, and cross-function calls from a .sh file.]] - rationale - graphify/extractors/bash.py
+- [[Extract structure and dependency edges from a configmanifest .json file.]] - rationale - graphify/extractors/json_config.py
+- [[One src def + many same-named test stubs + caller = exactly one src edge.]] - rationale - tests/test_extract.py
+- [[Path_13]] - code
+- [[Path_22]] - code
+- [[Resolve a top-level assignment's value to a directory, or None if untracked.]] - rationale - graphify/extractors/bash.py
+- [[Same input always produces same output.]] - rationale - tests/test_extract.py
+- [[The 2171 bare-name branch keeps the existence gate a name that resolves to]] - rationale - tests/test_extract.py
+- [[The canonical script-dir idiom must keep working (2079 regression guard).]] - rationale - tests/test_extract.py
+- [[The issue's own motivating shape (2082) `from pkg import mod as alias`     gua]] - rationale - tests/test_extract.py
+- [[The pre-1261 rglob-per-extension implementation, kept as a parity oracle.]] - rationale - tests/test_extract.py
+- [[The real 1446 shape a viewset action `approve()` delegates to a SERVICE     ac]] - rationale - tests/test_extract.py
+- [[Top-level function call attaches to the entrypoint node, not orphaned.]] - rationale - tests/test_extract.py
+- [[True if a .json file is a recognized configmanifest worth AST-extracting.]] - rationale - graphify/extractors/json_config.py
+- [[Two different files' same-named, otherwise-undefined base class must not     col]] - rationale - tests/test_extract.py
+- [[Two genuine NON-test defs of the same name + one caller = ZERO edges.      Prov]] - rationale - tests/test_extract.py
+- [[Unqualified cross-file calls must not guess between duplicate helper names.]] - rationale - tests/test_extract.py
+- [[User-defined function shadowing an external command (installfindetc.) must sti]] - rationale - tests/test_extract.py
+- [[When 'source' is a user-defined function, 'source .file.sh' must emit a     cal]] - rationale - tests/test_extract.py
+- [[When the class name is defined in 2+ files, the qualified call must not     reso]] - rationale - tests/test_extract.py
+- [[Wiring check the .tsx config must use tree-sitter's `language_tsx`.]] - rationale - tests/test_extract.py
+- [[Wiring the source-backed call resolver must not re-emit the ``imports_from``]] - rationale - tests/test_extract.py
+- [[_bash_assignment_base()]] - code - graphify/extractors/bash.py
+- [[_is_config_json()]] - code - graphify/extractors/json_config.py
+- [[_legacy_collect_files()]] - code - tests/test_extract.py
+- [[`$(build)` must not be recorded as a call edge to build().]] - rationale - tests/test_extract.py
+- [[`(helper)` (process substitution) must not be recorded as a call edge.]] - rationale - tests/test_extract.py
+- [[`ClassName.method()` across files resolves to the class-qualified method     nod]] - rationale - tests/test_extract.py
+- [[`from . import mod as alias` -- a relative sibling-module import with an     ali]] - rationale - tests/test_extract.py
+- [[`from pkg import mod as alias` must resolve `alias.func()` the same way the]] - rationale - tests/test_extract.py
+- [[`import mod as alias` must resolve `alias.func()` the same way `import mod`]] - rationale - tests/test_extract.py
+- [[`import pkg.mod as alias` -- the dotted absolute-import form the issue     flagg]] - rationale - tests/test_extract.py
+- [[`module.func()` where `module` is imported resolves to the callable that     mod]] - rationale - tests/test_extract.py
+- [[`source $CONFIG_FILE` strips to an empty suffix — nothing literal is     left]] - rationale - tests/test_extract.py
+- [[`source ${DIR}libx.sh` (the `dirname ${BASH_SOURCE0}` idiom) must     re]] - rationale - tests/test_extract.py
+- [[`source ${D}..secret.sh` must hit the ``..`` guard. The target file     exis]] - rationale - tests/test_extract.py
+- [[`source lib${X}.sh` keeps an expansion in the suffix, so the     ``$``-in-suf]] - rationale - tests/test_extract.py
+- [[`this.X = () = {}`  `this.X = function(){}` in a constructor-style     functio]] - rationale - tests/test_extract.py
+- [[by_label_by_id()]] - code - tests/test_extract.py
+- [[collect_files must scan every directory at most once and never descend     into]] - rationale - tests/test_extract.py
+- [[collect_files()]] - code - graphify/extract.py
+- [[extract() must run sequential when _extract_parallel signals failure (returns Fa]] - rationale - tests/test_extract.py
+- [[extract_bash must surface the data cross-file resolution needs a     ``bash_sou]] - rationale - tests/test_extract.py
+- [[extract_bash returns error dict when tree-sitter-bash not installed (mocked).]] - rationale - tests/test_extract.py
+- [[extract_bash()]] - code - graphify/extractors/bash.py
+- [[extract_json()]] - code - graphify/extractors/json_config.py
+- [[origin_file is an internal disambiguation hint (1462) consumed only by the]] - rationale - tests/test_extract.py
+- [[parametrize_4]] - code
+- [[test_bash_var_sourced_function_call_resolves()]] - code - tests/test_extract.py
+- [[test_case_insensitive_suffix_filtering()]] - code - tests/test_extract.py
+- [[test_collect_files_follows_symlinked_directory()]] - code - tests/test_extract.py
+- [[test_collect_files_from_dir()]] - code - tests/test_extract.py
+- [[test_collect_files_handles_circular_symlinks()]] - code - tests/test_extract.py
+- [[test_collect_files_parity_with_legacy_on_fixtures()]] - code - tests/test_extract.py
+- [[test_collect_files_parity_with_legacy_synthetic()]] - code - tests/test_extract.py
+- [[test_collect_files_skips_hidden()]] - code - tests/test_extract.py
+- [[test_collect_files_skips_out_of_root_symlinked_directory()]] - code - tests/test_extract.py
+- [[test_collect_files_skips_out_of_root_symlinked_file_by_default()]] - code - tests/test_extract.py
+- [[test_collect_files_walks_each_directory_once()]] - code - tests/test_extract.py
+- [[test_cpp_unresolved_base_class_stubs_stay_disambiguated_by_file()]] - code - tests/test_extract.py
+- [[test_cross_file_call_god_node_guard_two_real_defs()]] - code - tests/test_extract.py
+- [[test_cross_file_call_promoted_to_extracted_with_import_evidence()]] - code - tests/test_extract.py
+- [[test_cross_file_call_survives_many_test_mocks()]] - code - tests/test_extract.py
+- [[test_cross_file_call_survives_same_named_test_mock()]] - code - tests/test_extract.py
+- [[test_cross_file_calls_skip_ambiguous_duplicate_labels()]] - code - tests/test_extract.py
+- [[test_cross_file_type_annotation_refs_resolve_to_single_node()]] - code - tests/test_extract.py
+- [[test_degenerate_symbol_name_does_not_leak_absolute_id()]] - code - tests/test_extract.py
+- [[test_dispatch_includes_sh_and_json()]] - code - tests/test_extract.py
+- [[test_extract.py]] - code - tests/test_extract.py
+- [[test_extract_bash_attributes_script_invocation_to_function()]] - code - tests/test_extract.py
+- [[test_extract_bash_bare_source_missing_file_fabricates_nothing()]] - code - tests/test_extract.py
+- [[test_extract_bash_bare_source_name_resolves_to_sibling()]] - code - tests/test_extract.py
+- [[test_extract_bash_call_into_extensionless_sourced_lib_resolves()]] - code - tests/test_extract.py
+- [[test_extract_bash_call_to_external_command_stays_unlinked()]] - code - tests/test_extract.py
+- [[test_extract_bash_call_to_sourced_function_resolves()]] - code - tests/test_extract.py
+- [[test_extract_bash_calls_have_extracted_confidence()]] - code - tests/test_extract.py
+- [[test_extract_bash_creates_entrypoint_node()]] - code - tests/test_extract.py
+- [[test_extract_bash_emits_calls_edges()]] - code - tests/test_extract.py
+- [[test_extract_bash_emits_defines_edges()]] - code - tests/test_extract.py
+- [[test_extract_bash_emits_raw_calls_and_bash_sources_for_sourced_calls()]] - code - tests/test_extract.py
+- [[test_extract_bash_emits_script_invocation_calls()]] - code - tests/test_extract.py
+- [[test_extract_bash_emits_source_imports_from()]] - code - tests/test_extract.py
+- [[test_extract_bash_entrypoint_no_collision_with_function_named_script()]] - code - tests/test_extract.py
+- [[test_extract_bash_finds_functions()]] - code - tests/test_extract.py
+- [[test_extract_bash_missing_grammar_returns_error()]] - code - tests/test_extract.py
+- [[test_extract_bash_nested_function_calls_recorded()]] - code - tests/test_extract.py
+- [[test_extract_bash_no_dangling_edges()]] - code - tests/test_extract.py
+- [[test_extract_bash_no_self_loops()]] - code - tests/test_extract.py
+- [[test_extract_bash_node_metadata_is_sanitized()]] - code - tests/test_extract.py
+- [[test_extract_bash_process_substitution_not_recorded()]] - code - tests/test_extract.py
+- [[test_extract_bash_rejects_command_substitution_as_call()]] - code - tests/test_extract.py
+- [[test_extract_bash_relative_script_invocation_targets_existing_entrypoint()]] - code - tests/test_extract.py
+- [[test_extract_bash_shadowing_function_is_recorded()]] - code - tests/test_extract.py
+- [[test_extract_bash_skip_builtins_in_calls()]] - code - tests/test_extract.py
+- [[test_extract_bash_skips_dynamic_script_invocation()]] - code - tests/test_extract.py
+- [[test_extract_bash_skips_missing_and_shadowed_script_invocations()]] - code - tests/test_extract.py
+- [[test_extract_bash_source_suffix_guard_mid_path_variable()]] - code - tests/test_extract.py
+- [[test_extract_bash_source_suffix_guard_rejects_traversal()]] - code - tests/test_extract.py
+- [[test_extract_bash_source_suffix_guard_whole_variable_path()]] - code - tests/test_extract.py
+- [[test_extract_bash_source_user_defined_emits_calls_not_imports_from()]] - code - tests/test_extract.py
+- [[test_extract_bash_source_via_variable_path_no_match_emits_no_dead_edge()]] - code - tests/test_extract.py
+- [[test_extract_bash_source_via_variable_path_resolves_to_real_file()]] - code - tests/test_extract.py
+- [[test_extract_bash_sourced_call_does_not_duplicate_source_edge()]] - code - tests/test_extract.py
+- [[test_extract_bash_top_level_call_attributes_to_entrypoint()]] - code - tests/test_extract.py
+- [[test_extract_bash_var_source_script_dir_idiom_still_resolves()]] - code - tests/test_extract.py
+- [[test_extract_bash_var_source_untracked_var_keeps_script_dir_guess()]] - code - tests/test_extract.py
+- [[test_extract_bash_var_source_uses_tracked_assignment_base()]] - code - tests/test_extract.py
+- [[test_extract_disambiguates_duplicate_symbol_ids_by_source_path()]] - code - tests/test_extract.py
+- [[test_extract_does_not_rewire_constructor_method_to_same_named_class()]] - code - tests/test_extract.py
+- [[test_extract_does_not_rewire_inheritance_stub_to_same_named_function()]] - code - tests/test_extract.py
+- [[test_extract_extensionless_bash_cli_end_to_end()]] - code - tests/test_extract.py
+- [[test_extract_falls_back_to_sequential_when_parallel_returns_false()]] - code - tests/test_extract.py
+- [[test_extract_js_this_assigned_methods()]] - code - tests/test_extract.py
+- [[test_extract_json_config_by_filename_still_extracted()]] - code - tests/test_extract.py
+- [[test_extract_json_config_by_key_probe()]] - code - tests/test_extract.py
+- [[test_extract_json_data_file_skipped()]] - code - tests/test_extract.py
+- [[test_extract_json_dependencies_become_imports()]] - code - tests/test_extract.py
+- [[test_extract_json_extends_resolved()]] - code - tests/test_extract.py
+- [[test_extract_json_handles_invalid_json()]] - code - tests/test_extract.py
+- [[test_extract_json_import_and_extends_targets_are_real_nodes()]] - code - tests/test_extract.py
+- [[test_extract_json_large_file_skipped()]] - code - tests/test_extract.py
+- [[test_extract_json_nested_contains()]] - code - tests/test_extract.py
+- [[test_extract_json_no_self_loops()]] - code - tests/test_extract.py
+- [[test_extract_json_top_level_array_skipped()]] - code - tests/test_extract.py
+- [[test_extract_json_top_level_keys()]] - code - tests/test_extract.py
+- [[test_extract_keeps_stub_when_multiple_real_definitions_match()]] - code - tests/test_extract.py
+- [[test_extract_merges_multiple_files()]] - code - tests/test_extract.py
+- [[test_extract_no_missing_dep_warning_when_sql_installed()]] - code - tests/test_extract.py
+- [[test_extract_no_warning_when_all_code_has_extractors()]] - code - tests/test_extract.py
+- [[test_extract_progress_final_line_uses_consistent_denominator()]] - code - tests/test_extract.py
+- [[test_extract_rewires_unique_inheritance_stub_to_real_definition()]] - code - tests/test_extract.py
+- [[test_extract_tsx_uses_tsx_grammar()]] - code - tests/test_extract.py
+- [[test_extract_updates_raw_call_callers_after_duplicate_id_disambiguation()]] - code - tests/test_extract.py
+- [[test_extract_warns_on_code_files_with_no_ast_extractor()]] - code - tests/test_extract.py
+- [[test_extract_warns_when_sql_extra_missing()]] - code - tests/test_extract.py
+- [[test_go_cross_file_type_refs_resolve_to_single_node()]] - code - tests/test_extract.py
+- [[test_go_imported_type_stubs_do_not_collide_across_source_files()]] - code - tests/test_extract.py
+- [[test_imported_type_stubs_do_not_collide_across_source_files()]] - code - tests/test_extract.py
+- [[test_js_cross_file_call_without_import_emits_no_edge()]] - code - tests/test_extract.py
+- [[test_make_id_consistent()]] - code - tests/test_extract.py
+- [[test_make_id_no_leading_trailing_underscores()]] - code - tests/test_extract.py
+- [[test_make_id_strips_dots_and_underscores()]] - code - tests/test_extract.py
+- [[test_matlab_m_not_extracted_as_garbage()]] - code - tests/test_extract.py
+- [[test_no_dangling_edges_on_extract()]] - code - tests/test_extract.py
+- [[test_origin_file_is_not_serialized_into_extract_output()]] - code - tests/test_extract.py
+- [[test_out_of_tree_cache_root_keeps_source_file_relative_to_scan_root()]] - code - tests/test_extract.py
+- [[test_python_aliased_call_survives_warm_cache()]] - code - tests/test_extract.py
+- [[test_python_dotted_import_alias_module_call_resolves()]] - code - tests/test_extract.py
+- [[test_python_external_aliased_import_fabricates_no_call_edge()]] - code - tests/test_extract.py
+- [[test_python_from_import_alias_module_call_resolves()]] - code - tests/test_extract.py
+- [[test_python_import_as_alias_module_call_resolves()]] - code - tests/test_extract.py
+- [[test_python_instance_member_call_not_overconnected()]] - code - tests/test_extract.py
+- [[test_python_module_qualified_call_requires_the_import()]] - code - tests/test_extract.py
+- [[test_python_module_qualified_call_resolves_extracted()]] - code - tests/test_extract.py
+- [[test_python_qualified_call_ambiguous_class_bails()]] - code - tests/test_extract.py
+- [[test_python_qualified_call_resolves_when_method_name_collides_with_caller()]] - code - tests/test_extract.py
+- [[test_python_qualified_class_method_call_resolves_extracted()]] - code - tests/test_extract.py
+- [[test_python_relative_from_import_alias_module_call_resolves()]] - code - tests/test_extract.py
+- [[test_python_try_except_from_import_alias_module_call_resolves()]] - code - tests/test_extract.py
+- [[test_semantic_reference_edges_carry_context_and_source()]] - code - tests/test_extract.py
+- [[test_separator_collision_paths_get_distinct_ids()]] - code - tests/test_extract.py
+- [[tsconfig.json must still be AST-extracted even without telltale keys.]] - rationale - tests/test_extract.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/test_extractpy
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 54 edges to [[_COMMUNITY_extract]]
+- 19 edges to [[_COMMUNITY_extract_js]]
+- 15 edges to [[_COMMUNITY__read_text]]
+- 13 edges to [[_COMMUNITY_extract_python]]
+- 7 edges to [[_COMMUNITY_Path]]
+- 6 edges to [[_COMMUNITY__load_graphifyignore]]
+- 5 edges to [[_COMMUNITY__rewire_unique_stub_nodes]]
+- 4 edges to [[_COMMUNITY_extract.py]]
+- 3 edges to [[_COMMUNITY__is_noise_dir]]
+- 3 edges to [[_COMMUNITY_make_id]]
+- 3 edges to [[_COMMUNITY__extract_parallel]]
+- 2 edges to [[_COMMUNITY_build_from_json]]
+- 2 edges to [[_COMMUNITY_clear_cache]]
+- 2 edges to [[_COMMUNITY_e]]
+- 2 edges to [[_COMMUNITY_engine.py]]
+- 1 edge to [[_COMMUNITY_graphifybuild.py]]
+- 1 edge to [[_COMMUNITY_detect.py]]
+- 1 edge to [[_COMMUNITY_test_pipeline.py]]
+- 1 edge to [[_COMMUNITY_sanitize_metadata]]
+- 1 edge to [[_COMMUNITY_extract_dart]]
+
+## Top bridge nodes
+- [[test_extract.py]] - degree 172, connects to 15 communities
+- [[collect_files()]] - degree 20, connects to 7 communities
+- [[extract_bash()]] - degree 43, connects to 4 communities
+- [[extract_json()]] - degree 23, connects to 4 communities
+- [[_legacy_collect_files()]] - degree 7, connects to 2 communities

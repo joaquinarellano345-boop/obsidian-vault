@@ -1,0 +1,18 @@
+---
+source_file: "tests/test_languages.py"
+type: "code"
+community: "_read_text"
+location: "L2559"
+tags:
+  - graphify/code
+  - graphify/INFERRED
+  - community/_read_text
+---
+
+# test_dmm_extracts_type_paths_as_uses_edges()
+
+## Connections
+- [[extract_dmm()]] - `calls` [INFERRED]
+- [[test_languages.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/INFERRED #community/_read_text

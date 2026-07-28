@@ -1,0 +1,17 @@
+---
+source_file: "worked/example/raw/processor.py"
+type: "rationale"
+community: "storage.py"
+location: "L21"
+tags:
+  - graphify/rationale
+  - graphify/EXTRACTED
+  - community/storagepy
+---
+
+# Pull non-stopword tokens from text, deduplicated.
+
+## Connections
+- [[extract_keywords()]] - `rationale_for` [EXTRACTED]
+
+#graphify/rationale #graphify/EXTRACTED #community/storagepy
