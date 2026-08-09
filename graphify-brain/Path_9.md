@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "export.py"
+community: "test_export.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/test_exportpy
 ---
 
 # Path
@@ -18,4 +18,4 @@ tags:
 - [[to_json()]] - `calls` [EXTRACTED]
 - [[to_obsidian()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/exportpy
+#graphify/code #graphify/EXTRACTED #community/test_exportpy

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "rationale"
-community: "test_languages.py"
+community: "extract_groovy"
 location: "L2384"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/extract_groovy
 ---
 
 # `class X extends Base` must emit an inherits edge.      tree-sitter-groovy expos
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_groovy_extends_edge()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_languagespy
+#graphify/rationale #graphify/EXTRACTED #community/extract_groovy

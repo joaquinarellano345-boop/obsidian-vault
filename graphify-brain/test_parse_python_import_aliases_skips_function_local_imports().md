@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_symbol_resolution.py"
 type: "code"
-community: "symbol_resolution.py"
+community: "parse_python_import_aliases"
 location: "L638"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/symbol_resolutionpy
+  - community/parse_python_import_aliases
 ---
 
 # test_parse_python_import_aliases_skips_function_local_imports()
@@ -16,4 +16,4 @@ tags:
 - [[parse_python_import_aliases()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/symbol_resolutionpy
+#graphify/code #graphify/EXTRACTED #community/parse_python_import_aliases

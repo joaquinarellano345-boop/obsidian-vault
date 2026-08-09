@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "test_image_vision.py"
+community: "llm.py"
 location: "L930"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_image_visionpy
+  - community/llmpy
 ---
 
 # Build the Bedrock Converse user content list (raw bytes, not base64).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_bedrock_content()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_image_visionpy
+#graphify/rationale #graphify/EXTRACTED #community/llmpy

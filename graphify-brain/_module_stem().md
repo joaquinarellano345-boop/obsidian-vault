@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "code"
-community: "symbol_resolution.py"
+community: "parse_python_import_aliases"
 location: "L115"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/symbol_resolutionpy
+  - community/parse_python_import_aliases
 ---
 
 # _module_stem()
@@ -16,4 +16,4 @@ tags:
 - [[parse_python_import_aliases()]] - `calls` [EXTRACTED]
 - [[symbol_resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/symbol_resolutionpy
+#graphify/code #graphify/EXTRACTED #community/parse_python_import_aliases

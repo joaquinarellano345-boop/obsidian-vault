@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "test_languages.py"
+community: "_edges_with_relation"
 location: "L53"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/_edges_with_relation
 ---
 
 # _edges_with_relation()
@@ -33,4 +33,4 @@ tags:
 - [[test_swift_call_edges_have_call_context()]] - `calls` [EXTRACTED]
 - [[test_swift_import_edges_have_import_context()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_languagespy
+#graphify/code #graphify/EXTRACTED #community/_edges_with_relation

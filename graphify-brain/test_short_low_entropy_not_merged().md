@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "test_dedup.py"
+community: "deduplicate_entities"
 location: "L64"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_deduppy
+  - community/deduplicate_entities
 ---
 
 # test_short_low_entropy_not_merged()
@@ -16,4 +16,4 @@ tags:
 - [[deduplicate_entities()]] - `calls` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_deduppy
+#graphify/code #graphify/EXTRACTED #community/deduplicate_entities

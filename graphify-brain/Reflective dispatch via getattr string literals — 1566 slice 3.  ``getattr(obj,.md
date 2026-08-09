@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_indirect_dispatch_getattr.py"
 type: "rationale"
-community: "test_indirect_dispatch_getattr.py"
+community: "test_indirect_dispatch.py"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_indirect_dispatch_getattrpy
+  - community/test_indirect_dispatchpy
 ---
 
 # Reflective dispatch via getattr string literals — #1566 slice 3.  ``getattr(obj,
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_indirect_dispatch_getattr.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_indirect_dispatch_getattrpy
+#graphify/rationale #graphify/EXTRACTED #community/test_indirect_dispatchpy

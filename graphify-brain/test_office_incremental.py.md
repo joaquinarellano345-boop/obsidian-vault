@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_office_incremental.py"
 type: "code"
-community: "convert_office_file"
+community: "test_office_incremental.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/convert_office_file
+  - community/test_office_incrementalpy
 ---
 
 # test_office_incremental.py
@@ -19,4 +19,4 @@ tags:
 - [[test_modified_docx_reconverts_sidecar()]] - `contains` [EXTRACTED]
 - [[test_unchanged_docx_sidecar_not_rewritten()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/convert_office_file
+#graphify/code #graphify/EXTRACTED #community/test_office_incrementalpy

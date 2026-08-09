@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "test_dedup.py"
+community: "test_crossfile_concept_merge_deterministic_across_hash_seeds"
 location: "L822"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_deduppy
+  - community/test_crossfile_concept_merge_deterministic_across_hash_seeds
 ---
 
 # test_crossfile_concept_merge_deterministic_across_hash_seeds()
@@ -15,4 +15,4 @@ tags:
 - [[2182 determinism, 17532074 precedent the survivor must not depend on     PY]] - `rationale_for` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_deduppy
+#graphify/code #graphify/EXTRACTED #community/test_crossfile_concept_merge_deterministic_across_hash_seeds

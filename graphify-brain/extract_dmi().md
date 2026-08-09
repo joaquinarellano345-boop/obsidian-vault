@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/dm.py"
 type: "code"
-community: "_read_text"
+community: "_make_id"
 location: "L275"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # extract_dmi()
@@ -25,4 +25,4 @@ tags:
 - [[test_dmi_no_error()]] - `calls` [INFERRED]
 - [[test_dmi_state_contained_by_file()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

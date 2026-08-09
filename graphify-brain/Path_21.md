@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "test_multilang.py"
+community: "extract_go"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_multilangpy
+  - community/extract_go
 ---
 
 # Path
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[extract_go()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_multilangpy
+#graphify/code #graphify/EXTRACTED #community/extract_go

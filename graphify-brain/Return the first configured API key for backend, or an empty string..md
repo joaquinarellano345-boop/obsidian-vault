@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "test_llm_backends.py"
+community: "detect_backend"
 location: "L1080"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_llm_backendspy
+  - community/detect_backend
 ---
 
 # Return the first configured API key for backend, or an empty string.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_get_backend_api_key()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_llm_backendspy
+#graphify/rationale #graphify/EXTRACTED #community/detect_backend

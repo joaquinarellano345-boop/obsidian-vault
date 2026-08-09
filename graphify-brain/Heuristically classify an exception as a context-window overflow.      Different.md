@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "_extract_with_adaptive_retry"
+community: "llm.py"
 location: "L1883"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_with_adaptive_retry
+  - community/llmpy
 ---
 
 # Heuristically classify an exception as a context-window overflow.      Different
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_looks_like_context_exceeded()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_with_adaptive_retry
+#graphify/rationale #graphify/EXTRACTED #community/llmpy

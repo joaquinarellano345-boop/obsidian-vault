@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "rationale"
-community: "build"
+community: "test_build_calls_dedup"
 location: "L126"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build
+  - community/test_build_calls_dedup
 ---
 
 # build() should deduplicate near-identical nodes across extractions.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_build_calls_dedup()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build
+#graphify/rationale #graphify/EXTRACTED #community/test_build_calls_dedup

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "_is_variant_pair"
+community: "_llm_tiebreak"
 location: "L197"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_is_variant_pair
+  - community/_llm_tiebreak
 ---
 
 # test_variant_pair_helper()
@@ -16,4 +16,4 @@ tags:
 - [[_is_variant_pair()]] - `calls` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_is_variant_pair
+#graphify/code #graphify/EXTRACTED #community/_llm_tiebreak

@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.07
-members: 57
+members: 56
 ---
 
 # test_pascal.py
 
 **Cohesion:** 0.07 - loosely connected
-**Members:** 57 nodes
+**Members:** 56 nodes
 
 ## Members
 - [[A class method appears in both the interface declaration and the     implementat]] - rationale - tests/test_pascal.py
@@ -16,7 +16,6 @@ members: 57
 - [[Extract package metadata from Lazarus .lpk package files (XML format).      .lpk]] - rationale - graphify/extract.py
 - [[Extract units, classes, procedures, uses-imports, and calls from PascalDelphi f]] - rationale - graphify/extractors/pascal.py
 - [[Path_27]] - code
-- [[Path_26]] - code
 - [[Tests for the PascalDelphi extractor.]] - rationale - tests/test_pascal.py
 - [[_dup_edges()]] - code - tests/test_pascal.py
 - [[_edges_with_relation()_2]] - code - tests/test_pascal.py
@@ -76,9 +75,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 13 edges to [[_COMMUNITY__read_text]]
-- 7 edges to [[_COMMUNITY_extract.py]]
-- 5 edges to [[_COMMUNITY__extract_pascal_regex]]
+- 13 edges to [[_COMMUNITY__make_id]]
+- 8 edges to [[_COMMUNITY__extract_pascal_regex]]
+- 4 edges to [[_COMMUNITY_extract.py]]
 - 3 edges to [[_COMMUNITY_e]]
 - 1 edge to [[_COMMUNITY_Path]]
 - 1 edge to [[_COMMUNITY_test_dotnet.py]]
@@ -86,8 +85,8 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_run_language_resolvers]]
 
 ## Top bridge nodes
+- [[extract_lazarus_package()]] - degree 15, connects to 6 communities
 - [[extract_pascal()]] - degree 27, connects to 5 communities
-- [[extract_lazarus_package()]] - degree 15, connects to 5 communities
 - [[extract_delphi_form()]] - degree 16, connects to 3 communities
 - [[extract_lazarus_form()]] - degree 15, connects to 3 communities
 - [[test_pascal_no_duplicate_method_edges_regex()]] - degree 3, connects to 1 community

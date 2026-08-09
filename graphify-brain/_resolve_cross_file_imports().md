@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "code"
-community: "extract.py"
+community: "_make_id"
 location: "L1853"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/_make_id
 ---
 
 # _resolve_cross_file_imports()
@@ -20,4 +20,4 @@ tags:
 - [[extract.py]] - `imports` [EXTRACTED]
 - [[resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extractpy
+#graphify/code #graphify/EXTRACTED #community/_make_id

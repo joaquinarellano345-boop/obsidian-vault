@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_pg_introspect.py"
 type: "code"
-community: "validate_extraction"
+community: "introspect_postgres"
 location: "L89"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/validate_extraction
+  - community/introspect_postgres
 ---
 
 # _q()
@@ -19,4 +19,4 @@ tags:
 - [[test_pg_introspect_quoted_identifiers()]] - `calls` [EXTRACTED]
 - [[test_pg_introspect_success()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/validate_extraction
+#graphify/code #graphify/EXTRACTED #community/introspect_postgres

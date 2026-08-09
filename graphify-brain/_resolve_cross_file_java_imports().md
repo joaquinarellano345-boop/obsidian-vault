@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "code"
-community: "_read_text"
+community: "extract.py"
 location: "L2146"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/extractpy
 ---
 
 # _resolve_cross_file_java_imports()
@@ -20,4 +20,4 @@ tags:
 - [[extract.py]] - `imports` [EXTRACTED]
 - [[resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/extractpy

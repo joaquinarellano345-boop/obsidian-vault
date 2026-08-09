@@ -39,7 +39,7 @@ SORT file.name ASC
 ## Connections to other communities
 - 10 edges to [[_COMMUNITY_extract]]
 - 1 edge to [[_COMMUNITY_extract.py]]
-- 1 edge to [[_COMMUNITY__read_text]]
+- 1 edge to [[_COMMUNITY__make_id]]
 
 ## Top bridge nodes
 - [[test_ts_decorators.py]] - degree 16, connects to 2 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_office_limits.py"
 type: "rationale"
-community: "_zip_within_caps"
+community: "detect.py"
 location: "L26"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_zip_within_caps
+  - community/detectpy
 ---
 
 # A tiny file that expands far past the ratio threshold is rejected.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_zip_ratio_bomb_rejected()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_zip_within_caps
+#graphify/rationale #graphify/EXTRACTED #community/detectpy

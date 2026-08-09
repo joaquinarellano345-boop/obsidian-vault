@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/affected.py"
 type: "code"
-community: "affected.py"
+community: "test_affected_cli.py"
 location: "L53"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/affectedpy
+  - community/test_affected_clipy
 ---
 
 # _bare_name()
@@ -17,4 +17,4 @@ tags:
 - [[affected.py]] - `contains` [EXTRACTED]
 - [[resolve_seed()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/affectedpy
+#graphify/code #graphify/EXTRACTED #community/test_affected_clipy

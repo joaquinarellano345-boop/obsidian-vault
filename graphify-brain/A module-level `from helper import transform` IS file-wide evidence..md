@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_symbol_resolution.py"
 type: "rationale"
-community: "symbol_resolution.py"
+community: "parse_python_import_aliases"
 location: "L661"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/symbol_resolutionpy
+  - community/parse_python_import_aliases
 ---
 
 # A module-level `from helper import transform` IS file-wide evidence.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_parse_python_import_aliases_accepts_top_level_import()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/symbol_resolutionpy
+#graphify/rationale #graphify/EXTRACTED #community/parse_python_import_aliases

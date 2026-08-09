@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "rationale"
-community: "_is_noise_dir"
+community: "_is_ignored"
 location: "L837"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_is_noise_dir
+  - community/_is_ignored
 ---
 
 # Return True if this directory name looks like a venv, cache, or dep dir.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_is_noise_dir()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_is_noise_dir
+#graphify/rationale #graphify/EXTRACTED #community/_is_ignored

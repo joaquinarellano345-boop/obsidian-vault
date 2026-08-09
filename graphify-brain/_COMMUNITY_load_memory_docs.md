@@ -33,7 +33,7 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_save_query_result]]
 - 1 edge to [[_COMMUNITY_parse_memory_doc]]
 - 1 edge to [[_COMMUNITY_generate]]
-- 1 edge to [[_COMMUNITY__rebuild_code]]
+- 1 edge to [[_COMMUNITY_cli.py]]
 
 ## Top bridge nodes
 - [[load_memory_docs()]] - degree 15, connects to 5 communities

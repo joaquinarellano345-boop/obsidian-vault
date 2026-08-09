@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "Path"
+community: "test_languages.py"
 location: "L1673"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path
+  - community/test_languagespy
 ---
 
 # extract_csharp()
@@ -34,4 +34,4 @@ tags:
 - [[test_csharp_splits_inherits_and_implements_edges()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path
+#graphify/code #graphify/EXTRACTED #community/test_languagespy

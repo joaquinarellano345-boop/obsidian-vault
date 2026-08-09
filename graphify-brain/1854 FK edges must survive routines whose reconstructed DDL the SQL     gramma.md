@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_pg_introspect.py"
 type: "rationale"
-community: "validate_extraction"
+community: "introspect_postgres"
 location: "L287"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/validate_extraction
+  - community/introspect_postgres
 ---
 
 # #1854: FK edges must survive routines whose reconstructed DDL the SQL     gramma
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_pg_introspect_fk_edges_survive_unparseable_function_stubs()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/validate_extraction
+#graphify/rationale #graphify/EXTRACTED #community/introspect_postgres

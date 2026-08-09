@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "code"
-community: "build_from_json"
+community: "graphify/build.py"
 location: "L507"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build_from_json
+  - community/graphify/buildpy
 ---
 
 # _doc_twin_remap()
@@ -16,4 +16,4 @@ tags:
 - [[build_from_json()]] - `calls` [EXTRACTED]
 - [[graphifybuild.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build_from_json
+#graphify/code #graphify/EXTRACTED #community/graphify/buildpy

@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/parser.py"
 type: "rationale"
-community: "e"
+community: "parser.py"
 location: "L63"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/e
+  - community/parserpy
 ---
 
 # Full pipeline: parse, validate, save. Returns the saved record ID.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[parse_and_save()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/e
+#graphify/rationale #graphify/EXTRACTED #community/parserpy

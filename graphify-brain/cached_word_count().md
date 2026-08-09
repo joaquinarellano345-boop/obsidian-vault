@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/cache.py"
 type: "code"
-community: "file_hash"
+community: "test_cache.py"
 location: "L407"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/file_hash
+  - community/test_cachepy
 ---
 
 # cached_word_count()
@@ -21,4 +21,4 @@ tags:
 - [[test_word_count_augments_existing_hash_entry()]] - `calls` [EXTRACTED]
 - [[test_word_count_cached_until_file_changes()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/file_hash
+#graphify/code #graphify/EXTRACTED #community/test_cachepy

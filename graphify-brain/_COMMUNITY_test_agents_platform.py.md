@@ -48,7 +48,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 1 edge to [[_COMMUNITY_graphify__main__.py]]
-- 1 edge to [[_COMMUNITY_test_install.py]]
+- 1 edge to [[_COMMUNITY_main]]
 
 ## Top bridge nodes
 - [[test_agents_platform.py]] - degree 15, connects to 1 community

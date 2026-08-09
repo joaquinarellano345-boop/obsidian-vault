@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "dedup.py"
+community: "llm.py"
 location: "L1089"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/deduppy
+  - community/llmpy
 ---
 
 # Return user-facing accepted API-key variable names.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_format_backend_env_keys()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/deduppy
+#graphify/rationale #graphify/EXTRACTED #community/llmpy

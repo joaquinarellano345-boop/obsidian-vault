@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "code"
-community: "resolve_cross_file_raw_calls"
+community: "test_symbol_resolution.py"
 location: "L307"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/resolve_cross_file_raw_calls
+  - community/test_symbol_resolutionpy
 ---
 
 # resolve_cross_file_raw_calls()
@@ -29,4 +29,4 @@ tags:
 - [[test_resolve_cross_file_raw_calls_survives_malformed_raw_calls()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/resolve_cross_file_raw_calls
+#graphify/code #graphify/EXTRACTED #community/test_symbol_resolutionpy

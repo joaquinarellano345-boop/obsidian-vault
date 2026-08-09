@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "_cpp_declarator_name"
+community: "engine.py"
 location: "L1347"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_cpp_declarator_name
+  - community/enginepy
 ---
 
 # Collect ``var -> ClassName`` from local variable declarations in a C++     funct
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_cpp_local_var_types()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_cpp_declarator_name
+#graphify/rationale #graphify/EXTRACTED #community/enginepy

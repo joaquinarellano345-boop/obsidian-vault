@@ -52,7 +52,7 @@ SORT file.name ASC
 - 5 edges to [[_COMMUNITY_extract.py]]
 - 4 edges to [[_COMMUNITY_extract]]
 - 1 edge to [[_COMMUNITY_test_pascal.py]]
-- 1 edge to [[_COMMUNITY__extract_pascal_regex]]
+- 1 edge to [[_COMMUNITY__get_extractor]]
 
 ## Top bridge nodes
 - [[run_language_resolvers()]] - degree 11, connects to 2 communities

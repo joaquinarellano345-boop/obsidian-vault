@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L328"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # dedupe_nodes()
@@ -21,4 +21,4 @@ tags:
 - [[test_dedupe_nodes_collapses_by_id_last_wins()]] - `calls` [EXTRACTED]
 - [[watch.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

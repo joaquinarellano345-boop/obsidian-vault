@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/watch.py"
 type: "rationale"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L461"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # Merge fresh extraction with preserved graph entries and evict stale sources.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_reconcile_existing_graph()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_rebuild_code
+#graphify/rationale #graphify/EXTRACTED #community/clipy

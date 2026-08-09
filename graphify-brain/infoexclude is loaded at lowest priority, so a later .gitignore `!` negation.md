@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_detect.py"
 type: "rationale"
-community: "_load_graphifyignore"
+community: "_is_ignored"
 location: "L801"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_load_graphifyignore
+  - community/_is_ignored
 ---
 
 # info/exclude is loaded at lowest priority, so a later .gitignore `!` negation
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_git_info_exclude_ranks_below_gitignore_negation()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_load_graphifyignore
+#graphify/rationale #graphify/EXTRACTED #community/_is_ignored

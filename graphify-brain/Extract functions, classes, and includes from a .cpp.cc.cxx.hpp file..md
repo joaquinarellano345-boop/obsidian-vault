@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "rationale"
-community: "test_languages.py"
+community: "extract_cpp"
 location: "L1664"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/extract_cpp
 ---
 
 # Extract functions, classes, and includes from a .cpp/.cc/.cxx/.hpp file.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_cpp()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_languagespy
+#graphify/rationale #graphify/EXTRACTED #community/extract_cpp

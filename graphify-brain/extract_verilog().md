@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/verilog.py"
 type: "code"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L205"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # extract_verilog()
@@ -31,4 +31,4 @@ tags:
 - [[test_systemverilog_splits_inherits_and_implements()]] - `calls` [INFERRED]
 - [[verilog.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_edge_labels
+#graphify/code #graphify/EXTRACTED #community/test_languagespy

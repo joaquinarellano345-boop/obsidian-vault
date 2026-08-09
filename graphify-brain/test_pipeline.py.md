@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_pipeline.py"
 type: "code"
-community: "test_pipeline.py"
+community: "to_json"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_pipelinepy
+  - community/to_json
 ---
 
 # test_pipeline.py
@@ -42,4 +42,4 @@ tags:
 - [[to_json()]] - `imports` [EXTRACTED]
 - [[to_obsidian()]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_pipelinepy
+#graphify/code #graphify/EXTRACTED #community/to_json

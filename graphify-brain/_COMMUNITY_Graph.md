@@ -55,7 +55,7 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_build_from_json]]
 - 1 edge to [[_COMMUNITY_graphifycluster.py]]
 - 1 edge to [[_COMMUNITY_test_export.py]]
-- 1 edge to [[_COMMUNITY_cli.py]]
+- 1 edge to [[_COMMUNITY_test_global_graph.py]]
 - 1 edge to [[_COMMUNITY_serve.py]]
 - 1 edge to [[_COMMUNITY__make_noisy_graph]]
 - 1 edge to [[_COMMUNITY_validate_extraction]]

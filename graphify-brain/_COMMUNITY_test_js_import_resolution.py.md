@@ -123,11 +123,11 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 27 edges to [[_COMMUNITY_extract]]
-- 16 edges to [[_COMMUNITY__read_text]]
+- 15 edges to [[_COMMUNITY__make_id]]
 - 4 edges to [[_COMMUNITY_extract.py]]
 - 2 edges to [[_COMMUNITY_test_analyze.py]]
-- 1 edge to [[_COMMUNITY_dedup.py]]
-- 1 edge to [[_COMMUNITY_Path]]
+- 2 edges to [[_COMMUNITY_Path]]
+- 1 edge to [[_COMMUNITY__norm]]
 
 ## Top bridge nodes
 - [[_file_node_id()]] - degree 30, connects to 4 communities

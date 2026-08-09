@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "engine.py"
+community: "_extract_generic"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/enginepy
+  - community/_extract_generic
 ---
 
 # Path
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[_extract_generic()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/enginepy
+#graphify/code #graphify/EXTRACTED #community/_extract_generic

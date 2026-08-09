@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_skill_version_warning.py"
 type: "code"
-community: "test_install_references.py"
+community: "_check_skill_version"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_install_referencespy
+  - community/_check_skill_version
 ---
 
 # test_skill_version_warning.py
@@ -20,4 +20,4 @@ tags:
 - [[test_skill_older_than_package_recommends_install()]] - `contains` [EXTRACTED]
 - [[test_version_tuple_orders_numerically()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_install_referencespy
+#graphify/code #graphify/EXTRACTED #community/_check_skill_version

@@ -42,7 +42,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 11 edges to [[_COMMUNITY_extract.py]]
-- 1 edge to [[_COMMUNITY__rewire_unique_stub_nodes]]
+- 1 edge to [[_COMMUNITY_Path]]
 - 1 edge to [[_COMMUNITY_CsharpNameResolver]]
 
 ## Top bridge nodes

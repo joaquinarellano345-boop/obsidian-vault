@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "_resolve_js_import_target"
+community: "engine.py"
 location: "L1233"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_resolve_js_import_target
+  - community/enginepy
 ---
 
 # Detect dynamic import() calls in JS/TS and emit imports_from edges.      Handles
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_dynamic_import_js()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_resolve_js_import_target
+#graphify/rationale #graphify/EXTRACTED #community/enginepy

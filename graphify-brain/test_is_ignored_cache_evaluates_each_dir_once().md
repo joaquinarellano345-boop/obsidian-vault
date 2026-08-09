@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_detect.py"
 type: "code"
-community: "test_detect.py"
+community: "_is_ignored"
 location: "L1106"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_detectpy
+  - community/_is_ignored
 ---
 
 # test_is_ignored_cache_evaluates_each_dir_once()
@@ -16,4 +16,4 @@ tags:
 - [[_is_ignored()]] - `calls` [EXTRACTED]
 - [[test_detect.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_detectpy
+#graphify/code #graphify/EXTRACTED #community/_is_ignored

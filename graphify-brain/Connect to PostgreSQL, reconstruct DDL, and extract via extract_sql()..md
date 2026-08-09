@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/pg_introspect.py"
 type: "rationale"
-community: "validate_extraction"
+community: "introspect_postgres"
 location: "L12"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/validate_extraction
+  - community/introspect_postgres
 ---
 
 # Connect to PostgreSQL, reconstruct DDL, and extract via extract_sql().
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[introspect_postgres()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/validate_extraction
+#graphify/rationale #graphify/EXTRACTED #community/introspect_postgres

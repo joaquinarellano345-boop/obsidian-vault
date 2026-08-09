@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "code"
-community: "graphify/__main__.py"
+community: "test_settings_merge.py"
 location: "L1415"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_settings_mergepy
 ---
 
 # _install_codex_hook()
@@ -25,4 +25,4 @@ tags:
 - [[test_install.py]] - `imports` [EXTRACTED]
 - [[test_settings_merge.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/code #graphify/EXTRACTED #community/test_settings_mergepy

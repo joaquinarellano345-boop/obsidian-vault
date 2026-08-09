@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/parser.py"
 type: "rationale"
-community: "e"
+community: "parser.py"
 location: "L50"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/e
+  - community/parserpy
 ---
 
 # Parse a JSON document into a structured dict.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[parse_json()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/e
+#graphify/rationale #graphify/EXTRACTED #community/parserpy

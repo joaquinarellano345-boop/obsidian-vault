@@ -1,19 +1,20 @@
 ---
 type: community
-cohesion: 0.10
-members: 23
+cohesion: 0.09
+members: 25
 ---
 
 # _pick_seeds
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 25 nodes
 
 ## Members
 - [[DiGraph_2]] - code
 - [[End-to-end for 1900 a German question over a graph with German     heading-noi]] - rationale - tests/test_serve.py
 - [[FooBarService at 1000 vs error nodes at 1.0 → only 1 seed chosen.]] - rationale - tests/test_serve.py
 - [[Gbest_seed_by_term are optional and default to None existing callers     see i]] - rationale - tests/test_serve.py
+- [[Guard against a per-label multiplicity penalty leaking into _score_nodes     (sh]] - rationale - tests/test_serve.py
 - [[Many nodes sharing one generic label (e.g. framework `GET` handlers)     must co]] - rationale - tests/test_serve.py
 - [[Never return more than max_k seeds even when all scores are close.]] - rationale - tests/test_serve.py
 - [[Reproduces 1445 a vague natural-language query where one term's     incidental]] - rationale - tests/test_serve.py
@@ -33,6 +34,7 @@ members: 23
 - [[test_pick_seeds_respects_max_k()]] - code - tests/test_serve.py
 - [[test_pick_seeds_single()]] - code - tests/test_serve.py
 - [[test_pick_seeds_without_diversity_args_is_unchanged()]] - code - tests/test_serve.py
+- [[test_score_nodes_scores_identical_labels_equally()]] - code - tests/test_serve.py
 
 ## Live Query (requires Dataview plugin)
 
@@ -42,7 +44,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 12 edges to [[_COMMUNITY_test_serve.py]]
+- 13 edges to [[_COMMUNITY_test_serve.py]]
 - 4 edges to [[_COMMUNITY_serve.py]]
 - 4 edges to [[_COMMUNITY__score_nodes]]
 - 3 edges to [[_COMMUNITY_bench_query_scoring.py]]

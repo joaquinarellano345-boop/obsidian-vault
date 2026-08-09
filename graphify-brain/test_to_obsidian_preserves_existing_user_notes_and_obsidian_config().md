@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_export.py"
 type: "code"
-community: "export.py"
+community: "to_obsidian"
 location: "L443"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # test_to_obsidian_preserves_existing_user_notes_and_obsidian_config()
@@ -17,4 +17,4 @@ tags:
 - [[test_export.py]] - `contains` [EXTRACTED]
 - [[to_obsidian()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/exportpy
+#graphify/code #graphify/EXTRACTED #community/to_obsidian

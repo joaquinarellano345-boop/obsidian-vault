@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_rewire_unique_stub_nodes"
+community: "Path"
 location: "L1862"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rewire_unique_stub_nodes
+  - community/Path
 ---
 
 # _rewire_unique_stub_nodes()
@@ -26,4 +26,4 @@ tags:
 - [[test_rewire_does_not_bind_function_reference_across_language()]] - `calls` [EXTRACTED]
 - [[test_rewire_does_not_bind_supertype_stub_to_function()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rewire_unique_stub_nodes
+#graphify/code #graphify/EXTRACTED #community/Path

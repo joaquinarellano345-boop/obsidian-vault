@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_cache.py"
 type: "code"
-community: "file_hash"
+community: "test_cache.py"
 location: "L79"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/file_hash
+  - community/test_cachepy
 ---
 
 # test_md_frontmatter_only_change_same_hash()
@@ -16,4 +16,4 @@ tags:
 - [[file_hash()]] - `calls` [EXTRACTED]
 - [[test_cache.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/file_hash
+#graphify/code #graphify/EXTRACTED #community/test_cachepy

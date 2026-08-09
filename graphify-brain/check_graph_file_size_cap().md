@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/security.py"
 type: "code"
-community: "cli.py"
+community: "test_security.py"
 location: "L357"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_securitypy
 ---
 
 # check_graph_file_size_cap()
@@ -50,4 +50,4 @@ tags:
 - [[watch.py]] - `imports` [EXTRACTED]
 - [[write_tree_html()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_securitypy

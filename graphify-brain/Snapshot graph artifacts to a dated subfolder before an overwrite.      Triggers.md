@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "rationale"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L36"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # Snapshot graph artifacts to a dated subfolder before an overwrite.      Triggers
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[backup_if_protected()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_rebuild_code
+#graphify/rationale #graphify/EXTRACTED #community/clipy

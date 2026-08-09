@@ -58,7 +58,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 2 edges to [[_COMMUNITY_ingest.py]]
-- 2 edges to [[_COMMUNITY_test_security.py]]
+- 2 edges to [[_COMMUNITY_validate_url]]
 - 1 edge to [[_COMMUNITY_paths.py]]
 - 1 edge to [[_COMMUNITY_cli.py]]
 

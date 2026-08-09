@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "rationale"
-community: "test_extract.py"
+community: "extract_bash"
 location: "L2210"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_extractpy
+  - community/extract_bash
 ---
 
 # The canonical script-dir idiom must keep working (#2079 regression guard).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_extract_bash_var_source_script_dir_idiom_still_resolves()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_extractpy
+#graphify/rationale #graphify/EXTRACTED #community/extract_bash

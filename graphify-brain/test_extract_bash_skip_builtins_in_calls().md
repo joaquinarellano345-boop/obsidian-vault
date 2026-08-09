@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "code"
-community: "test_extract.py"
+community: "extract_bash"
 location: "L1737"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_extractpy
+  - community/extract_bash
 ---
 
 # test_extract_bash_skip_builtins_in_calls()
@@ -16,4 +16,4 @@ tags:
 - [[extract_bash()]] - `calls` [INFERRED]
 - [[test_extract.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_extractpy
+#graphify/code #graphify/EXTRACTED #community/extract_bash

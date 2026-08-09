@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_mcp_ingest.py"
 type: "code"
-community: "test_mcp_ingest.py"
+community: "_get_extractor"
 location: "L293"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_mcp_ingestpy
+  - community/_get_extractor
 ---
 
 # test_no_package_detected_for_unknown_arg_shape()
@@ -17,4 +17,4 @@ tags:
 - [[extract_mcp_config()]] - `calls` [EXTRACTED]
 - [[test_mcp_ingest.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_mcp_ingestpy
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

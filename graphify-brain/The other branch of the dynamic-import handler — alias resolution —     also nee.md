@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_import_extension_resolution.py"
 type: "rationale"
-community: "extract_js"
+community: "test_import_extension_resolution.py"
 location: "L486"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/extract_js
+  - community/test_import_extension_resolutionpy
 ---
 
 # The other branch of the dynamic-import handler — alias resolution —     also nee
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_ts_dynamic_import_alias_with_bare_path_resolves()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/extract_js
+#graphify/rationale #graphify/EXTRACTED #community/test_import_extension_resolutionpy

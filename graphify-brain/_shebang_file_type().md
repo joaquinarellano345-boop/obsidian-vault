@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "code"
-community: "classify_file"
+community: "detect.py"
 location: "L467"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/classify_file
+  - community/detectpy
 ---
 
 # _shebang_file_type()
@@ -19,4 +19,4 @@ tags:
 - [[classify_file()]] - `calls` [EXTRACTED]
 - [[detect.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/classify_file
+#graphify/code #graphify/EXTRACTED #community/detectpy

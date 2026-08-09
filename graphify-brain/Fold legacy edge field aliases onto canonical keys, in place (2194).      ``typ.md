@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "rationale"
-community: "build_from_json"
+community: "graphify/build.py"
 location: "L146"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build_from_json
+  - community/graphify/buildpy
 ---
 
 # Fold legacy edge field aliases onto canonical keys, in place (#2194).      ``typ
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_fold_edge_aliases()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build_from_json
+#graphify/rationale #graphify/EXTRACTED #community/graphify/buildpy

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_build.py"
 type: "code"
-community: "build"
+community: "graphify/build.py"
 location: "L906"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build
+  - community/graphify/buildpy
 ---
 
 # test_build_merge_replaces_changed_file_stale_edges()
@@ -17,4 +17,4 @@ tags:
 - [[build_merge()]] - `calls` [EXTRACTED]
 - [[test_build.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build
+#graphify/code #graphify/EXTRACTED #community/graphify/buildpy

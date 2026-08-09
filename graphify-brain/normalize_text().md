@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/processor.py"
 type: "code"
-community: "e"
+community: "processor.py"
 location: "L12"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/e
+  - community/processorpy
 ---
 
 # normalize_text()
@@ -18,4 +18,4 @@ tags:
 - [[processor.py]] - `contains` [EXTRACTED]
 - [[validator.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/e
+#graphify/code #graphify/EXTRACTED #community/processorpy

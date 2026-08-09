@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "code"
-community: "build_label_index"
+community: "symbol_resolution.py"
 location: "L74"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build_label_index
+  - community/symbol_resolutionpy
 ---
 
 # existing_edge_pairs()
@@ -19,4 +19,4 @@ tags:
 - [[resolve_python_import_guided_calls()]] - `calls` [EXTRACTED]
 - [[symbol_resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build_label_index
+#graphify/code #graphify/EXTRACTED #community/symbol_resolutionpy

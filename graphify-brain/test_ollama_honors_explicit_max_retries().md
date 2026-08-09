@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_ollama_retry_cap.py"
 type: "code"
-community: "_call_openai_compat"
+community: "test_ollama_retry_cap.py"
 location: "L39"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_call_openai_compat
+  - community/test_ollama_retry_cappy
 ---
 
 # test_ollama_honors_explicit_max_retries()
@@ -16,4 +16,4 @@ tags:
 - [[_capture_client_kwargs()]] - `calls` [EXTRACTED]
 - [[test_ollama_retry_cap.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_call_openai_compat
+#graphify/code #graphify/EXTRACTED #community/test_ollama_retry_cappy

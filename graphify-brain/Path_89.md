@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "test_pipeline.py"
+community: "to_json"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_pipelinepy
+  - community/to_json
 ---
 
 # Path
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[run_pipeline()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_pipelinepy
+#graphify/code #graphify/EXTRACTED #community/to_json

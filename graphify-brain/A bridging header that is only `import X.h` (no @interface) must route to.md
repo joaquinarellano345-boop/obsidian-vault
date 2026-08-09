@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "rationale"
-community: "Path"
+community: "_get_extractor"
 location: "L2932"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Path
+  - community/_get_extractor
 ---
 
 # A bridging header that is only `#import "X.h"` (no @interface) must route to
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_objc_header_with_import_routes_to_objc()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Path
+#graphify/rationale #graphify/EXTRACTED #community/_get_extractor

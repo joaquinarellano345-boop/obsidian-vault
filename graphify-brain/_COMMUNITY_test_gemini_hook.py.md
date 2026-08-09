@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.33
-members: 9
+cohesion: 0.39
+members: 8
 ---
 
 # test_gemini_hook.py
 
-**Cohesion:** 0.33 - loosely connected
-**Members:** 9 nodes
+**Cohesion:** 0.39 - loosely connected
+**Members:** 8 nodes
 
 ## Members
 - [[The Gemini CLI BeforeTool guard nudges toward the graph, shell-agnostically.  Si]] - rationale - tests/test_gemini_hook.py
@@ -17,7 +17,6 @@ members: 9
 - [[test_allows_without_nudge_when_no_graph()]] - code - tests/test_gemini_hook.py
 - [[test_gemini_hook.py]] - code - tests/test_gemini_hook.py
 - [[test_honors_graphify_out_override()]] - code - tests/test_gemini_hook.py
-- [[test_matcher_and_command_shape()]] - code - tests/test_gemini_hook.py
 - [[test_never_blocks()]] - code - tests/test_gemini_hook.py
 
 ## Live Query (requires Dataview plugin)
@@ -28,8 +27,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_graphify__main__.py]]
+- 1 edge to [[_COMMUNITY_graphify__main__.py]]
+- 1 edge to [[_COMMUNITY_test_settings_merge.py]]
 
 ## Top bridge nodes
-- [[test_gemini_hook.py]] - degree 9, connects to 1 community
-- [[test_matcher_and_command_shape()]] - degree 2, connects to 1 community
+- [[test_gemini_hook.py]] - degree 9, connects to 2 communities

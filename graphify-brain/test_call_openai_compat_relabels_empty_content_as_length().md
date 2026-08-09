@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_llm_backends.py"
 type: "code"
-community: "_call_openai_compat"
+community: "test_llm_backends.py"
 location: "L403"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_call_openai_compat
+  - community/test_llm_backendspy
 ---
 
 # test_call_openai_compat_relabels_empty_content_as_length()
@@ -17,4 +17,4 @@ tags:
 - [[_install_fake_openai()]] - `calls` [EXTRACTED]
 - [[test_llm_backends.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_call_openai_compat
+#graphify/code #graphify/EXTRACTED #community/test_llm_backendspy

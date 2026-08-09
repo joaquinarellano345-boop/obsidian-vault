@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/base.py"
 type: "code"
-community: "_read_text"
+community: "extract.py"
 location: "L84"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/extractpy
 ---
 
 # _read_text()
@@ -126,4 +126,4 @@ tags:
 - [[verilog.py]] - `imports` [EXTRACTED]
 - [[zig.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/extractpy

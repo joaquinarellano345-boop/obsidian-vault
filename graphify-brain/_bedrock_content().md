@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "test_image_vision.py"
+community: "llm.py"
 location: "L929"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_image_visionpy
+  - community/llmpy
 ---
 
 # _bedrock_content()
@@ -19,4 +19,4 @@ tags:
 - [[llm.py]] - `contains` [EXTRACTED]
 - [[test_bedrock_content_uses_raw_bytes()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_image_visionpy
+#graphify/code #graphify/EXTRACTED #community/llmpy

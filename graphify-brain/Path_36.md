@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "_read_text"
+community: "_make_id"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # Path
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[extract_zig()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

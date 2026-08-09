@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_mcp_ingest.py"
 type: "code"
-community: "test_mcp_ingest.py"
+community: "_get_extractor"
 location: "L78"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_mcp_ingestpy
+  - community/_get_extractor
 ---
 
 # test_fixture_emits_every_server()
@@ -16,4 +16,4 @@ tags:
 - [[extract_mcp_config()]] - `calls` [EXTRACTED]
 - [[test_mcp_ingest.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_mcp_ingestpy
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

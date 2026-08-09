@@ -1,32 +1,26 @@
 ---
 type: community
-cohesion: 0.04
-members: 144
+cohesion: 0.05
+members: 112
 ---
 
 # graphify/__main__.py
 
-**Cohesion:** 0.04 - loosely connected
-**Members:** 144 nodes
+**Cohesion:** 0.05 - loosely connected
+**Members:** 112 nodes
 
 ## Members
-- [[Abort a hook install rather than clobber a config file we can't parse (2167).]] - rationale - graphify/install.py
-- [[Add graphify PreToolUse hook to .claudesettings.json.]] - rationale - graphify/install.py
-- [[Add graphify PreToolUse hook to .codexhooks.json.]] - rationale - graphify/install.py
 - [[After a successful install, update .graphify_version in all other known skill di]] - rationale - graphify/install.py
 - [[Amber brain banner on graphify install. TTY-only, never raises.]] - rationale - graphify/install.py
 - [[Atomically install a packaged references sidecar next to SKILL.md.      Stages]] - rationale - graphify/install.py
 - [[Best-effort removal of the pre-fix ~.ampskillsgraphify install dir.      Olde]] - rationale - graphify/install.py
 - [[Copy a packaged skill file and write its version stamp.      For progressive pla]] - rationale - graphify/install.py
-- [[Copy skill file, write GEMINI.md section, and install BeforeTool hook.]] - rationale - graphify/install.py
 - [[Drop graphify PreToolUse hooks from a single Claude settings file, if present.]] - rationale - graphify/install.py
-- [[Gemini CLI BeforeTool hook, resolved to a shell-agnostic `graphify` call.]] - rationale - graphify/install.py
 - [[Handle `graphify install-command` dispatch (installuninstall + every     per-]] - rationale - graphify/install.py
 - [[Install graphify for Google Antigravity (global skill + .agentsrules + .agents]] - rationale - graphify/install.py
 - [[Install graphify skill for VS Code Copilot Chat + write .githubcopilot-instruct]] - rationale - graphify/install.py
 - [[Install native Kilo skill + command globally and always-on project wiring locall]] - rationale - graphify/install.py
 - [[Install platform skillconfig files in the current project.]] - rationale - graphify/install.py
-- [[Load an existing settingshooks JSON file for a read-modify-write merge.      A]] - rationale - graphify/install.py
 - [[Path_42]] - code
 - [[Read a packaged always-on instruction block from graphifyalways_on.      The s]] - rationale - graphify/install.py
 - [[Remove .cursorrulesgraphify.mdc.]] - rationale - graphify/install.py
@@ -50,11 +44,9 @@ members: 144
 - [[Remove the graphify section from the local AGENTS.md.]] - rationale - graphify/install.py
 - [[Remove the project-scoped Claude skill registration filesection.]] - rationale - graphify/install.py
 - [[Resolve a CLI platform alias to its real _PLATFORM_CONFIG key.]] - rationale - graphify/install.py
-- [[Return the absolute path to the graphify executable, with forward slashes.]] - rationale - graphify/install.py
 - [[Return the packaged references source dir for a progressive platform, else None.]] - rationale - graphify/install.py
 - [[Return the skill destination for a platform and scope.]] - rationale - graphify/install.py
 - [[Return the top-level project artifact for a project-scoped skill path.]] - rationale - graphify/install.py
-- [[Serialize ``settings`` to ``settings_path``, backing up the previous file.]] - rationale - graphify/install.py
 - [[Strip the  graphify section from one CLAUDE.md-style file.      Returns True i]] - rationale - graphify/install.py
 - [[User-scope Amp install skill into ~.configagentsskills + AGENTS.md.]] - rationale - graphify/install.py
 - [[User-scope Amp uninstall remove the skill and the AGENTS.md section.]] - rationale - graphify/install.py
@@ -79,17 +71,11 @@ members: 144
 - [[_antigravity_install()]] - code - graphify/install.py
 - [[_antigravity_uninstall()]] - code - graphify/install.py
 - [[_canonical_platform()]] - code - graphify/install.py
-- [[_claude_pretooluse_hooks()]] - code - graphify/install.py
 - [[_copy_skill_file()]] - code - graphify/install.py
 - [[_cursor_install()]] - code - graphify/install.py
 - [[_cursor_uninstall()]] - code - graphify/install.py
 - [[_devin_rules_install()]] - code - graphify/install.py
 - [[_devin_rules_uninstall()]] - code - graphify/install.py
-- [[_gemini_hook()]] - code - graphify/install.py
-- [[_install_claude_hook()]] - code - graphify/install.py
-- [[_install_codebuddy_hook()]] - code - graphify/install.py
-- [[_install_codex_hook()]] - code - graphify/install.py
-- [[_install_gemini_hook()]] - code - graphify/install.py
 - [[_install_kilo_plugin()]] - code - graphify/install.py
 - [[_install_opencode_plugin()]] - code - graphify/install.py
 - [[_install_skill_references()]] - code - graphify/install.py
@@ -110,15 +96,11 @@ members: 144
 - [[_project_scope_root()]] - code - graphify/install.py
 - [[_project_uninstall()]] - code - graphify/install.py
 - [[_project_uninstall_all()]] - code - graphify/install.py
-- [[_read_settings_for_merge()]] - code - graphify/install.py
 - [[_refresh_all_version_stamps()]] - code - graphify/install.py
-- [[_refuse_to_modify()]] - code - graphify/install.py
 - [[_remove_claude_skill_registration()]] - code - graphify/install.py
 - [[_remove_marker_section()]] - code - graphify/install.py
 - [[_remove_skill_file()]] - code - graphify/install.py
-- [[_resolve_graphify_exe()]] - code - graphify/install.py
 - [[_run_cli()]] - code - graphify/__main__.py
-- [[_skill_registration()]] - code - graphify/install.py
 - [[_strip_graphify_hook()]] - code - graphify/install.py
 - [[_strip_graphify_md_section()]] - code - graphify/install.py
 - [[_strip_json_comments()]] - code - graphify/install.py
@@ -128,29 +110,15 @@ members: 144
 - [[_uninstall_gemini_hook()]] - code - graphify/install.py
 - [[_uninstall_kilo_plugin()]] - code - graphify/install.py
 - [[_uninstall_opencode_plugin()]] - code - graphify/install.py
-- [[_write_settings_with_backup()]] - code - graphify/install.py
 - [[`graphify agents install` skill into ~.agentsskills + AGENTS.md.      The amp]] - rationale - graphify/install.py
 - [[`graphify agents uninstall` remove the skill and the AGENTS.md section.]] - rationale - graphify/install.py
-- [[cursor uninstall removes the rule file.]] - rationale - tests/test_install.py
 - [[dispatch_install_cli()]] - code - graphify/install.py
-- [[gemini_install()]] - code - graphify/install.py
 - [[gemini_uninstall()]] - code - graphify/install.py
 - [[graphify CLI - `graphify install` sets up the Claude Code skill.]] - rationale - graphify/__main__.py
 - [[graphify installuninstall subsystem.  The per-platform skillhook installers an]] - rationale - graphify/install.py
-- [[graphify's ClaudeCodebuddy PreToolUse hooks, resolved at install time.      The]] - rationale - graphify/install.py
 - [[graphify__main__.py]] - code - graphify/__main__.py
 - [[install()_1]] - code - graphify/install.py
 - [[install.py]] - code - graphify/install.py
-- [[test_claude_hook_install_idempotent_and_replaces_old_bash_hook()]] - code - tests/test_install.py
-- [[test_claude_hook_is_shell_agnostic()]] - code - tests/test_install.py
-- [[test_cursor_uninstall_removes_rule()]] - code - tests/test_install.py
-- [[test_gemini_install_idempotent()]] - code - tests/test_install.py
-- [[test_gemini_install_merges_existing_gemini_md()]] - code - tests/test_install.py
-- [[test_gemini_install_writes_gemini_md()]] - code - tests/test_install.py
-- [[test_gemini_install_writes_hook()]] - code - tests/test_install.py
-- [[test_gemini_uninstall_removes_hook()]] - code - tests/test_install.py
-- [[test_gemini_uninstall_removes_section()]] - code - tests/test_install.py
-- [[test_hook_command_has_no_backslashes()]] - code - tests/test_search_hook.py
 - [[uninstall_all()]] - code - graphify/install.py
 - [[vscode_install()]] - code - graphify/install.py
 - [[vscode_uninstall()]] - code - graphify/install.py
@@ -163,41 +131,43 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
+- 27 edges to [[_COMMUNITY_test_settings_merge.py]]
 - 22 edges to [[_COMMUNITY_test_install.py]]
-- 18 edges to [[_COMMUNITY_claude_install]]
-- 18 edges to [[_COMMUNITY_test_codebuddy.py]]
+- 17 edges to [[_COMMUNITY_test_codebuddy.py]]
+- 16 edges to [[_COMMUNITY_claude_install]]
 - 8 edges to [[_COMMUNITY_cli.py]]
-- 6 edges to [[_COMMUNITY__replace_or_append_section]]
 - 6 edges to [[_COMMUNITY_test_devin.py]]
-- 5 edges to [[_COMMUNITY_test_install_references.py]]
-- 5 edges to [[_COMMUNITY_test_settings_merge.py]]
+- 5 edges to [[_COMMUNITY__replace_or_append_section]]
+- 4 edges to [[_COMMUNITY_test_install_strings.py]]
+- 4 edges to [[_COMMUNITY__check_skill_version]]
 - 4 edges to [[_COMMUNITY_test_uninstall_scope.py]]
-- 3 edges to [[_COMMUNITY_test_search_hook.py]]
+- 3 edges to [[_COMMUNITY_main]]
 - 2 edges to [[_COMMUNITY_paths.py]]
-- 2 edges to [[_COMMUNITY_test_gemini_hook.py]]
-- 2 edges to [[_COMMUNITY_test_install_strings.py]]
-- 2 edges to [[_COMMUNITY_test_read_hook.py]]
 - 2 edges to [[_COMMUNITY_hooks.py]]
-- 2 edges to [[_COMMUNITY__fixture]]
 - 1 edge to [[_COMMUNITY_test_affected_cli.py]]
 - 1 edge to [[_COMMUNITY_test_agents_platform.py]]
 - 1 edge to [[_COMMUNITY_test_antigravity_install.py]]
 - 1 edge to [[_COMMUNITY_test_explain_cli.py]]
 - 1 edge to [[_COMMUNITY_test_extract_cli.py]]
+- 1 edge to [[_COMMUNITY_test_gemini_hook.py]]
 - 1 edge to [[_COMMUNITY_test_god_nodes_cli.py]]
+- 1 edge to [[_COMMUNITY_test_home_sandbox.py]]
 - 1 edge to [[_COMMUNITY_test_hook_guard.py]]
 - 1 edge to [[_COMMUNITY_test_incomplete_build_guard.py]]
+- 1 edge to [[_COMMUNITY_test_install_references.py]]
 - 1 edge to [[_COMMUNITY_test_install_roundtrip.py]]
 - 1 edge to [[_COMMUNITY_test_install_upgrade.py]]
 - 1 edge to [[_COMMUNITY_test_merge_chunks_validation.py]]
 - 1 edge to [[_COMMUNITY_test_multigraph_diagnostics.py]]
 - 1 edge to [[_COMMUNITY_test_path_cli.py]]
 - 1 edge to [[_COMMUNITY_test_query_cli.py]]
+- 1 edge to [[_COMMUNITY_test_read_hook.py]]
+- 1 edge to [[_COMMUNITY_test_search_hook.py]]
 - 1 edge to [[_COMMUNITY_test_skillgen.py]]
 
 ## Top bridge nodes
-- [[graphify__main__.py]] - degree 109, connects to 26 communities
-- [[install.py]] - degree 79, connects to 7 communities
+- [[graphify__main__.py]] - degree 109, connects to 30 communities
+- [[install.py]] - degree 79, connects to 9 communities
+- [[Path_42]] - degree 61, connects to 4 communities
+- [[dispatch_install_cli()]] - degree 35, connects to 3 communities
 - [[_project_uninstall()]] - degree 20, connects to 3 communities
-- [[_platform_skill_destination()]] - degree 17, connects to 3 communities
-- [[uninstall_all()]] - degree 17, connects to 3 communities

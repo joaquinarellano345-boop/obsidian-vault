@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "rationale"
-community: "Path"
+community: "_get_extractor"
 location: "L2879"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Path
+  - community/_get_extractor
 ---
 
 # A plain C header (no C++ signal) must keep its extract_c routing.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_plain_c_header_stays_on_c_extractor()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Path
+#graphify/rationale #graphify/EXTRACTED #community/_get_extractor

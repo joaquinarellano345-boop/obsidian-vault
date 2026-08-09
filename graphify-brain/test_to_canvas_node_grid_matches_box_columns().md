@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_export.py"
 type: "code"
-community: "export.py"
+community: "test_export.py"
 location: "L347"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/test_exportpy
 ---
 
 # test_to_canvas_node_grid_matches_box_columns()
@@ -17,4 +17,4 @@ tags:
 - [[test_export.py]] - `contains` [EXTRACTED]
 - [[to_canvas()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/exportpy
+#graphify/code #graphify/EXTRACTED #community/test_exportpy

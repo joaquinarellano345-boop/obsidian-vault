@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_ollama.py"
 type: "rationale"
-community: "test_ollama.py"
+community: "detect_backend"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_ollamapy
+  - community/detect_backend
 ---
 
 # Tests for the Ollama backend additions in graphify/llm.py.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_ollama.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_ollamapy
+#graphify/rationale #graphify/EXTRACTED #community/detect_backend

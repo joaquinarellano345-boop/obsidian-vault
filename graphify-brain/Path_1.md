@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "affected.py"
+community: "test_affected_cli.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/affectedpy
+  - community/test_affected_clipy
 ---
 
 # Path
@@ -14,4 +14,4 @@ tags:
 - [[_prefer_file_node()]] - `calls` [EXTRACTED]
 - [[load_graph()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/affectedpy
+#graphify/code #graphify/EXTRACTED #community/test_affected_clipy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_xaml_binding_refs"
+community: "extract.py"
 location: "L3426"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_xaml_binding_refs
+  - community/extractpy
 ---
 
 # _xaml_binding_refs()
@@ -18,4 +18,4 @@ tags:
 - [[extract.py]] - `contains` [EXTRACTED]
 - [[extract_xaml()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_xaml_binding_refs
+#graphify/code #graphify/EXTRACTED #community/extractpy

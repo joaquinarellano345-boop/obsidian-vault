@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_llm_backends.py"
 type: "rationale"
-community: "_call_openai_compat"
+community: "test_llm_backends.py"
 location: "L470"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_call_openai_compat
+  - community/test_llm_backendspy
 ---
 
 # Like _install_fake_openai but records kwargs passed to create().
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_install_capturing_openai()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_call_openai_compat
+#graphify/rationale #graphify/EXTRACTED #community/test_llm_backendspy

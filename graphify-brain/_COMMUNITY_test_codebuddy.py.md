@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.05
-members: 68
+members: 64
 ---
 
 # test_codebuddy.py
 
 **Cohesion:** 0.05 - loosely connected
-**Members:** 68 nodes
+**Members:** 64 nodes
 
 ## Members
 - [[graphify skill must mention graphify query (query-first policy).]] - rationale - tests/test_codebuddy.py
@@ -18,7 +18,6 @@ members: 68
 - [[Project-scope destination must be project.codebuddyskillsgraphifySKILL.md.]] - rationale - tests/test_codebuddy.py
 - [[Project-scope install registers PreToolUse hook in .codebuddysettings.json.]] - rationale - tests/test_codebuddy.py
 - [[Project-scope install writes CODEBUDDY.md with graphify section.]] - rationale - tests/test_codebuddy.py
-- [[Project-scoped install via CLI prints a git add hint.]] - rationale - tests/test_codebuddy.py
 - [[Re-install does not duplicate  graphify sections.]] - rationale - tests/test_codebuddy.py
 - [[Re-install replaces an old graphify section with the current template.]] - rationale - tests/test_codebuddy.py
 - [[Remove the graphify skill tree (SKILL.md + references) and the graphify     sec]] - rationale - graphify/install.py
@@ -38,7 +37,6 @@ members: 68
 - [[_settings_path()]] - code - tests/test_codebuddy.py
 - [[_skill_path_project()]] - code - tests/test_codebuddy.py
 - [[_skill_path_user()]] - code - tests/test_codebuddy.py
-- [[`graphify --help` must list codebuddy in the platform list and per-platform sect]] - rationale - tests/test_codebuddy.py
 - [[codebuddy must be registered in _PLATFORM_CONFIG.]] - rationale - tests/test_codebuddy.py
 - [[codebuddy_install()]] - code - graphify/install.py
 - [[codebuddy_uninstall()]] - code - graphify/install.py
@@ -46,9 +44,7 @@ members: 68
 - [[graphify uninstall must clean up CODEBUDDY.md.]] - rationale - tests/test_codebuddy.py
 - [[skill.md must be present in the installed package (shared with claude).]] - rationale - tests/test_codebuddy.py
 - [[test_codebuddy.py]] - code - tests/test_codebuddy.py
-- [[test_codebuddy_in_main_help_text()]] - code - tests/test_codebuddy.py
 - [[test_codebuddy_in_platform_config()]] - code - tests/test_codebuddy.py
-- [[test_codebuddy_install_hint_git_add()]] - code - tests/test_codebuddy.py
 - [[test_codebuddy_install_hook_has_bash_matcher()]] - code - tests/test_codebuddy.py
 - [[test_codebuddy_install_hook_has_read_glob_matcher()]] - code - tests/test_codebuddy.py
 - [[test_codebuddy_install_idempotent()]] - code - tests/test_codebuddy.py
@@ -87,14 +83,16 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 18 edges to [[_COMMUNITY_graphify__main__.py]]
-- 12 edges to [[_COMMUNITY_test_install.py]]
+- 17 edges to [[_COMMUNITY_graphify__main__.py]]
+- 7 edges to [[_COMMUNITY_test_install.py]]
+- 5 edges to [[_COMMUNITY_main]]
 - 1 edge to [[_COMMUNITY__replace_or_append_section]]
 - 1 edge to [[_COMMUNITY_claude_install]]
+- 1 edge to [[_COMMUNITY_test_settings_merge.py]]
 - 1 edge to [[_COMMUNITY_test_uninstall_scope.py]]
 
 ## Top bridge nodes
-- [[codebuddy_install()]] - degree 27, connects to 2 communities
+- [[codebuddy_install()]] - degree 27, connects to 3 communities
 - [[codebuddy_uninstall()]] - degree 20, connects to 2 communities
 - [[test_codebuddy.py]] - degree 32, connects to 1 community
 - [[test_uninstall_all_removes_codebuddy_hook()]] - degree 4, connects to 1 community

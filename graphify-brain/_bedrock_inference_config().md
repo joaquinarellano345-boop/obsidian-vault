@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "_call_llm"
+community: "llm.py"
 location: "L377"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_call_llm
+  - community/llmpy
 ---
 
 # _bedrock_inference_config()
@@ -18,4 +18,4 @@ tags:
 - [[_resolve_temperature()]] - `calls` [EXTRACTED]
 - [[llm.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_call_llm
+#graphify/code #graphify/EXTRACTED #community/llmpy

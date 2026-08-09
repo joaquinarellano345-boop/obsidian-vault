@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "rationale"
-community: "classify_file"
+community: "detect.py"
 location: "L468"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/classify_file
+  - community/detectpy
 ---
 
 # Peek at the first line of an extensionless file for a shebang.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_shebang_file_type()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/classify_file
+#graphify/rationale #graphify/EXTRACTED #community/detectpy

@@ -48,7 +48,7 @@ SORT file.name ASC
 ## Connections to other communities
 - 6 edges to [[_COMMUNITY_test_scip_ingest.py]]
 - 5 edges to [[_COMMUNITY_ingest_scip_json]]
-- 3 edges to [[_COMMUNITY_sanitize_metadata]]
+- 3 edges to [[_COMMUNITY_test_security.py]]
 - 2 edges to [[_COMMUNITY__make_scip_node_id]]
 - 1 edge to [[_COMMUNITY_security.py]]
 

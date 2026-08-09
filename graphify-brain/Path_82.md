@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "test_mcp_ingest.py"
+community: "_get_extractor"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_mcp_ingestpy
+  - community/_get_extractor
 ---
 
 # Path
@@ -15,4 +15,4 @@ tags:
 - [[test_is_mcp_config_path_recognises_known_filenames()]] - `calls` [EXTRACTED]
 - [[test_is_mcp_config_path_rejects_generic_json()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_mcp_ingestpy
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

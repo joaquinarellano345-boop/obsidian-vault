@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_hypergraph.py"
 type: "rationale"
-community: "to_json"
+community: "build_from_json"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/to_json
+  - community/build_from_json
 ---
 
 # Tests for hyperedge support in graphify.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_hypergraph.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/to_json
+#graphify/rationale #graphify/EXTRACTED #community/build_from_json

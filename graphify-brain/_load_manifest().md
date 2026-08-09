@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/global_graph.py"
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L15"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # _load_manifest()
@@ -17,4 +17,4 @@ tags:
 - [[global_list()]] - `calls` [EXTRACTED]
 - [[global_remove()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

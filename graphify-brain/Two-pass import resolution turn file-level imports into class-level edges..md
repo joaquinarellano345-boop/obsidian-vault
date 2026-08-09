@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "rationale"
-community: "extract.py"
+community: "_make_id"
 location: "L1857"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/_make_id
 ---
 
 # Two-pass import resolution: turn file-level imports into class-level edges.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_resolve_cross_file_imports()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/extractpy
+#graphify/rationale #graphify/EXTRACTED #community/_make_id

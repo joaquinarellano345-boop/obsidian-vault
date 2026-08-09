@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/watch.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # watch.py
@@ -71,4 +71,4 @@ tags:
 - [[watch()]] - `contains` [EXTRACTED]
 - [[write_callflow_html()]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

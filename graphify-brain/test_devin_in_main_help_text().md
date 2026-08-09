@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_devin.py"
 type: "code"
-community: "test_devin.py"
+community: "main"
 location: "L283"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_devinpy
+  - community/main
 ---
 
 # test_devin_in_main_help_text()
@@ -16,4 +16,4 @@ tags:
 - [[main()]] - `calls` [EXTRACTED]
 - [[test_devin.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_devinpy
+#graphify/code #graphify/EXTRACTED #community/main

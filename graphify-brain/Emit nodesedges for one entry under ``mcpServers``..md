@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/mcp_ingest.py"
 type: "rationale"
-community: "_extract_pascal_regex"
+community: "_get_extractor"
 location: "L181"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_pascal_regex
+  - community/_get_extractor
 ---
 
 # Emit nodes/edges for one entry under ``mcpServers``.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_emit_server()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_pascal_regex
+#graphify/rationale #graphify/EXTRACTED #community/_get_extractor

@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # Path
@@ -36,4 +36,4 @@ tags:
 - [[check_update()]] - `references` [EXTRACTED]
 - [[watch()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

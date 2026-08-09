@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_export.py"
 type: "rationale"
-community: "export.py"
+community: "to_obsidian"
 location: "L461"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # No regression: a fresh/empty dir still gets every note + .obsidian/graph.json.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_to_obsidian_empty_dir_writes_full_vault()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/exportpy
+#graphify/rationale #graphify/EXTRACTED #community/to_obsidian

@@ -40,13 +40,12 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 8 edges to [[_COMMUNITY_save_semantic_cache]]
+- 2 edges to [[_COMMUNITY_test_cache.py]]
 - 2 edges to [[_COMMUNITY_check_semantic_cache]]
 - 2 edges to [[_COMMUNITY_test_chunking.py]]
-- 1 edge to [[_COMMUNITY_test_cache.py]]
-- 1 edge to [[_COMMUNITY_file_hash]]
 
 ## Top bridge nodes
-- [[test_semantic_cache_out_root.py]] - degree 16, connects to 5 communities
+- [[test_semantic_cache_out_root.py]] - degree 16, connects to 4 communities
 - [[test_checkpoint_with_cache_root_is_found_by_check_semantic_cache()]] - degree 4, connects to 2 communities
 - [[test_final_save_with_out_root_populates_cache()]] - degree 5, connects to 1 community
 - [[test_save_semantic_cache_backward_compat_no_cache_root()]] - degree 5, connects to 1 community

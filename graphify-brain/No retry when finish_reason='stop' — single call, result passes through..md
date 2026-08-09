@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_chunking.py"
 type: "rationale"
-community: "_extract_with_adaptive_retry"
+community: "test_chunking.py"
 location: "L618"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_with_adaptive_retry
+  - community/test_chunkingpy
 ---
 
 # No retry when finish_reason='stop' — single call, result passes through.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_adaptive_retry_returns_directly_when_not_truncated()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_with_adaptive_retry
+#graphify/rationale #graphify/EXTRACTED #community/test_chunkingpy

@@ -45,16 +45,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 15 edges to [[_COMMUNITY_test_cache.py]]
+- 17 edges to [[_COMMUNITY_test_cache.py]]
 - 13 edges to [[_COMMUNITY_save_semantic_cache]]
-- 2 edges to [[_COMMUNITY_file_hash]]
 - 2 edges to [[_COMMUNITY_cli.py]]
 - 2 edges to [[_COMMUNITY_test_semantic_cache_out_root.py]]
 - 1 edge to [[_COMMUNITY_test_stat_index_portability.py]]
 
 ## Top bridge nodes
 - [[check_semantic_cache()]] - degree 22, connects to 5 communities
-- [[test_semantic_cache_deep_mode_roundtrip_under_deep_namespace()]] - degree 5, connects to 3 communities
-- [[test_semantic_cache_mode_none_layout_unchanged()]] - degree 5, connects to 3 communities
+- [[test_semantic_cache_deep_mode_roundtrip_under_deep_namespace()]] - degree 5, connects to 2 communities
+- [[test_semantic_cache_mode_none_layout_unchanged()]] - degree 5, connects to 2 communities
 - [[test_prompt_file_reflects_edited_spec()]] - degree 4, connects to 2 communities
 - [[test_save_semantic_cache_drops_edges_to_ghost_file_nodes()]] - degree 4, connects to 2 communities

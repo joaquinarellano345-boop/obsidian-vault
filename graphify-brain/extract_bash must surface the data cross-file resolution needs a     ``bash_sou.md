@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "rationale"
-community: "test_extract.py"
+community: "extract_bash"
 location: "L1943"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_extractpy
+  - community/extract_bash
 ---
 
 # extract_bash must surface the data cross-file resolution needs: a     ``bash_sou
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_extract_bash_emits_raw_calls_and_bash_sources_for_sourced_calls()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_extractpy
+#graphify/rationale #graphify/EXTRACTED #community/extract_bash

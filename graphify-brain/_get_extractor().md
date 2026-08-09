@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "Path"
+community: "_get_extractor"
 location: "L4217"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path
+  - community/_get_extractor
 ---
 
 # _get_extractor()
@@ -52,4 +52,4 @@ tags:
 - [[test_powershell_psm1_dispatched_and_extracted()]] - `calls` [EXTRACTED]
 - [[watch.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

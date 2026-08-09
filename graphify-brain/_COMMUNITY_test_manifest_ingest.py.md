@@ -51,13 +51,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_classify_file]]
 - 4 edges to [[_COMMUNITY_extract.py]]
 - 3 edges to [[_COMMUNITY_build_from_json]]
+- 3 edges to [[_COMMUNITY_detect.py]]
+- 3 edges to [[_COMMUNITY_classify_file]]
 - 3 edges to [[_COMMUNITY_extract]]
 - 3 edges to [[_COMMUNITY_make_id]]
-- 2 edges to [[_COMMUNITY_detect.py]]
-- 2 edges to [[_COMMUNITY_Path]]
+- 2 edges to [[_COMMUNITY__get_extractor]]
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
 
 ## Top bridge nodes

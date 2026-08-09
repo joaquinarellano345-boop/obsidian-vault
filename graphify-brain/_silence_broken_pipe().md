@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/__main__.py"
 type: "code"
-community: "test_install.py"
+community: "main"
 location: "L448"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_installpy
+  - community/main
 ---
 
 # _silence_broken_pipe()
@@ -16,4 +16,4 @@ tags:
 - [[graphify__main__.py]] - `contains` [EXTRACTED]
 - [[main()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_installpy
+#graphify/code #graphify/EXTRACTED #community/main

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/verilog.py"
 type: "code"
-community: "verilog.py"
+community: "_make_id"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/verilogpy
+  - community/_make_id
 ---
 
 # verilog.py
@@ -27,4 +27,4 @@ tags:
 - [[extractors__init__.py]] - `re_exports` [EXTRACTED]
 - [[extractorsbase.py]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/verilogpy
+#graphify/code #graphify/EXTRACTED #community/_make_id

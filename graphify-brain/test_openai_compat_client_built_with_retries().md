@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_llm_backends.py"
 type: "code"
-community: "_call_openai_compat"
+community: "test_llm_backends.py"
 location: "L1075"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_call_openai_compat
+  - community/test_llm_backendspy
 ---
 
 # test_openai_compat_client_built_with_retries()
@@ -16,4 +16,4 @@ tags:
 - [[_call_openai_compat()]] - `calls` [EXTRACTED]
 - [[test_llm_backends.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_call_openai_compat
+#graphify/code #graphify/EXTRACTED #community/test_llm_backendspy

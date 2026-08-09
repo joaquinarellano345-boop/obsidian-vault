@@ -51,16 +51,15 @@ SORT file.name ASC
 - 17 edges to [[_COMMUNITY_callflow_html.py]]
 - 5 edges to [[_COMMUNITY_load_graph]]
 - 5 edges to [[_COMMUNITY_pick_text]]
+- 4 edges to [[_COMMUNITY_cli.py]]
 - 3 edges to [[_COMMUNITY_generate_section_flowchart]]
 - 2 edges to [[_COMMUNITY_first_present]]
-- 2 edges to [[_COMMUNITY_cli.py]]
-- 2 edges to [[_COMMUNITY__rebuild_code]]
 - 1 edge to [[_COMMUNITY_humanize_label]]
 - 1 edge to [[_COMMUNITY_normalize_sections]]
 - 1 edge to [[_COMMUNITY_Counter]]
 
 ## Top bridge nodes
-- [[write_callflow_html()]] - degree 34, connects to 8 communities
+- [[write_callflow_html()]] - degree 34, connects to 7 communities
 - [[Path_4]] - degree 12, connects to 4 communities
 - [[load_labels()]] - degree 6, connects to 2 communities
 - [[read_json()]] - degree 6, connects to 2 communities

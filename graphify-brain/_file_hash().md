@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/global_graph.py"
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L73"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # _file_hash()
@@ -17,4 +17,4 @@ tags:
 - [[global_add()]] - `calls` [EXTRACTED]
 - [[global_graph.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

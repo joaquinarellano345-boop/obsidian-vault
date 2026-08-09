@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "code"
-community: "_cpp_declarator_name"
+community: "engine.py"
 location: "L1326"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_cpp_declarator_name
+  - community/enginepy
 ---
 
 # _cpp_declarator_name()
@@ -20,4 +20,4 @@ tags:
 - [[extract.py]] - `imports` [EXTRACTED]
 - [[objc.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_cpp_declarator_name
+#graphify/code #graphify/EXTRACTED #community/enginepy

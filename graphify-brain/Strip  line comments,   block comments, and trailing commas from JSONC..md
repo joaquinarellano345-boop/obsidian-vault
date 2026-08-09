@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "rationale"
-community: "extract.py"
+community: "extract_astro"
 location: "L64"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/extract_astro
 ---
 
 # Strip // line comments, /* */ block comments, and trailing commas from JSONC.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_strip_jsonc()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/extractpy
+#graphify/rationale #graphify/EXTRACTED #community/extract_astro

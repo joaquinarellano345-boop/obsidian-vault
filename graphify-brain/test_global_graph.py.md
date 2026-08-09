@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_global_graph.py"
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # test_global_graph.py
@@ -40,4 +40,4 @@ tags:
 - [[test_prune_repo_removes_correct_nodes()]] - `contains` [EXTRACTED]
 - [[test_prune_repo_returns_zero_if_not_present()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

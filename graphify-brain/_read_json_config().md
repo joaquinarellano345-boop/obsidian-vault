@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "code"
-community: "extract.py"
+community: "extract_astro"
 location: "L170"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/extract_astro
 ---
 
 # _read_json_config()
@@ -18,4 +18,4 @@ tags:
 - [[_strip_jsonc()]] - `calls` [EXTRACTED]
 - [[resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extractpy
+#graphify/code #graphify/EXTRACTED #community/extract_astro

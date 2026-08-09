@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/parser.py"
 type: "rationale"
-community: "e"
+community: "parser.py"
 location: "L57"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/e
+  - community/parserpy
 ---
 
 # Split plaintext into paragraphs.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[parse_plaintext()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/e
+#graphify/rationale #graphify/EXTRACTED #community/parserpy

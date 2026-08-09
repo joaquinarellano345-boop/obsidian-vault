@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "rationale"
-community: "test_dedup.py"
+community: "deduplicate_entities"
 location: "L167"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_deduppy
+  - community/deduplicate_entities
 ---
 
 # Chip SKU variants (ASR1603 vs ASR1605) must not be merged (#878).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_dedup_does_not_merge_numeric_variants()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_deduppy
+#graphify/rationale #graphify/EXTRACTED #community/deduplicate_entities

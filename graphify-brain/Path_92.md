@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "extract_python"
+community: "extract_js"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extract_python
+  - community/extract_js
 ---
 
 # Path
@@ -14,4 +14,4 @@ tags:
 - [[_write_py()]] - `references` [EXTRACTED]
 - [[_write_ts()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extract_python
+#graphify/code #graphify/EXTRACTED #community/extract_js

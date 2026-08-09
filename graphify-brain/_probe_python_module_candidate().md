@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "code"
-community: "extract.py"
+community: "test_src_layout_import_resolution.py"
 location: "L1693"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/test_src_layout_import_resolutionpy
 ---
 
 # _probe_python_module_candidate()
@@ -17,4 +17,4 @@ tags:
 - [[_resolve_python_module_path()]] - `calls` [EXTRACTED]
 - [[resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extractpy
+#graphify/code #graphify/EXTRACTED #community/test_src_layout_import_resolutionpy

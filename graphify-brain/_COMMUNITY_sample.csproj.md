@@ -1,18 +1,16 @@
 ---
 type: community
-cohesion: 0.22
-members: 9
+cohesion: 0.29
+members: 7
 ---
 
 # sample.csproj
 
-**Cohesion:** 0.22 - loosely connected
-**Members:** 9 nodes
+**Cohesion:** 0.29 - loosely connected
+**Members:** 7 nodes
 
 ## Members
-- [[Domain.csproj]] - code - tests/Domain/Domain.csproj
 - [[FluentValidation (11.9.0)]] - code - tests/fixtures/sample.csproj
-- [[Infrastructure.csproj]] - code - tests/Infrastructure/Infrastructure.csproj
 - [[MediatR (12.2.0)]] - code - tests/fixtures/sample.csproj
 - [[Microsoft.AspNetCore.Authentication.JwtBearer (8.0.0)]] - code - tests/fixtures/sample.csproj
 - [[Microsoft.NET.Sdk.Web]] - concept - tests/fixtures/sample.csproj

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_obsidian_filename_cap.py"
 type: "code"
-community: "export.py"
+community: "to_obsidian"
 location: "L22"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # _max_name_bytes()
@@ -17,4 +17,4 @@ tags:
 - [[test_obsidian_long_ascii_label_does_not_crash()]] - `calls` [EXTRACTED]
 - [[test_obsidian_long_cjk_label_byte_cap()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/exportpy
+#graphify/code #graphify/EXTRACTED #community/to_obsidian

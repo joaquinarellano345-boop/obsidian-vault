@@ -36,7 +36,7 @@ SORT file.name ASC
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_test_semantic_cleanup.py]]
 - 1 edge to [[_COMMUNITY_graphify__main__.py]]
-- 1 edge to [[_COMMUNITY_test_install.py]]
+- 1 edge to [[_COMMUNITY_main]]
 
 ## Top bridge nodes
 - [[test_merge_chunks_validation.py]] - degree 15, connects to 2 communities

@@ -63,7 +63,7 @@ SORT file.name ASC
 - 8 edges to [[_COMMUNITY__score_nodes]]
 - 3 edges to [[_COMMUNITY__load_graph]]
 - 2 edges to [[_COMMUNITY_cli.py]]
-- 1 edge to [[_COMMUNITY_test_security.py]]
+- 1 edge to [[_COMMUNITY_sanitize_label]]
 - 1 edge to [[_COMMUNITY__query_terms]]
 - 1 edge to [[_COMMUNITY__pick_seeds]]
 - 1 edge to [[_COMMUNITY__make_noisy_graph]]

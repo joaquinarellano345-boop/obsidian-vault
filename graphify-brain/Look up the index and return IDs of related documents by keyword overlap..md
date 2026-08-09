@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/processor.py"
 type: "rationale"
-community: "storage.py"
+community: "processor.py"
 location: "L45"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/storagepy
+  - community/processorpy
 ---
 
 # Look up the index and return IDs of related documents by keyword overlap.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[find_cross_references()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/storagepy
+#graphify/rationale #graphify/EXTRACTED #community/processorpy

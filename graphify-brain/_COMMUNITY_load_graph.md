@@ -37,7 +37,8 @@ SORT file.name ASC
 - 6 edges to [[_COMMUNITY_callflow_html.py]]
 - 5 edges to [[_COMMUNITY_write_callflow_html]]
 - 2 edges to [[_COMMUNITY_first_present]]
-- 2 edges to [[_COMMUNITY_cli.py]]
+- 1 edge to [[_COMMUNITY_cli.py]]
+- 1 edge to [[_COMMUNITY_test_security.py]]
 
 ## Top bridge nodes
 - [[load_graph()_1]] - degree 12, connects to 4 communities

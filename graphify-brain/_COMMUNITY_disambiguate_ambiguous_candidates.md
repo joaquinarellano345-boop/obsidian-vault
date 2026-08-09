@@ -38,7 +38,7 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_extract.py]]
 - 1 edge to [[_COMMUNITY_extract]]
 - 1 edge to [[_COMMUNITY_symbol_resolution.py]]
-- 1 edge to [[_COMMUNITY_resolve_cross_file_raw_calls]]
+- 1 edge to [[_COMMUNITY_test_symbol_resolution.py]]
 
 ## Top bridge nodes
 - [[disambiguate_ambiguous_candidates()]] - degree 13, connects to 5 communities

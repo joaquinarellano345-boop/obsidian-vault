@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/exporters/html.py"
 type: "code"
-community: "test_export.py"
+community: "export.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_exportpy
+  - community/exportpy
 ---
 
 # html.py
@@ -29,4 +29,4 @@ tags:
 - [[to_html()]] - `contains` [EXTRACTED]
 - [[tree_html.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_exportpy
+#graphify/code #graphify/EXTRACTED #community/exportpy

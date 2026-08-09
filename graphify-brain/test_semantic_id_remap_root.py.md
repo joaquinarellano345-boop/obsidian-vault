@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_semantic_id_remap_root.py"
 type: "code"
-community: "graphify/build.py"
+community: "_semantic_id_remap"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/graphify/buildpy
+  - community/_semantic_id_remap
 ---
 
 # test_semantic_id_remap_root.py
@@ -26,4 +26,4 @@ tags:
 - [[test_semantic_id_remap_root_equal_source_file_no_crash()]] - `contains` [EXTRACTED]
 - [[test_semantic_id_remap_still_migrates_genuine_legacy_id()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/graphify/buildpy
+#graphify/code #graphify/EXTRACTED #community/_semantic_id_remap

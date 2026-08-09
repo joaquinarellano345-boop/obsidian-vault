@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L68"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # _edge_labels()
@@ -71,4 +71,4 @@ tags:
 - [[test_systemverilog_qualified_field_references()]] - `calls` [EXTRACTED]
 - [[test_systemverilog_splits_inherits_and_implements()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_edge_labels
+#graphify/code #graphify/EXTRACTED #community/test_languagespy

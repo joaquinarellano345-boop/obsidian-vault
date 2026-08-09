@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_install.py"
 type: "code"
-community: "graphify/__main__.py"
+community: "test_install.py"
 location: "L936"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/graphify/__main__py
+  - community/test_installpy
 ---
 
 # test_gemini_install_writes_gemini_md()
@@ -15,4 +15,4 @@ tags:
 - [[gemini_install()]] - `calls` [INFERRED]
 - [[test_install.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/INFERRED #community/graphify/__main__py
+#graphify/code #graphify/INFERRED #community/test_installpy

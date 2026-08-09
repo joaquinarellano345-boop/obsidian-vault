@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/mcp_ingest.py"
 type: "code"
-community: "test_mcp_ingest.py"
+community: "_get_extractor"
 location: "L81"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_mcp_ingestpy
+  - community/_get_extractor
 ---
 
 # is_mcp_config_path()
@@ -21,4 +21,4 @@ tags:
 - [[test_is_mcp_config_path_rejects_generic_json()]] - `calls` [EXTRACTED]
 - [[test_mcp_ingest.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_mcp_ingestpy
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

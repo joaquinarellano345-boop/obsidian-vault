@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/cache.py"
 type: "rationale"
-community: "file_hash"
+community: "test_cache.py"
 location: "L314"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/file_hash
+  - community/test_cachepy
 ---
 
 # Normalize path for consistent cache keys across Windows path spellings.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_normalize_path()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/file_hash
+#graphify/rationale #graphify/EXTRACTED #community/test_cachepy

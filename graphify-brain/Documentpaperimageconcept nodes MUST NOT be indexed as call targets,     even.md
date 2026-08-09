@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_symbol_resolution.py"
 type: "rationale"
-community: "build_label_index"
+community: "symbol_resolution.py"
 location: "L673"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build_label_index
+  - community/symbol_resolutionpy
 ---
 
 # Document/paper/image/concept nodes MUST NOT be indexed as call targets,     even
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_node_is_resolvable_symbol_requires_code_file_type()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build_label_index
+#graphify/rationale #graphify/EXTRACTED #community/symbol_resolutionpy

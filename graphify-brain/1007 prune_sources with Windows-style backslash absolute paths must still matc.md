@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_build.py"
 type: "rationale"
-community: "build"
+community: "graphify/build.py"
 location: "L885"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build
+  - community/graphify/buildpy
 ---
 
 # #1007: prune_sources with Windows-style backslash absolute paths must still matc
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_build_merge_prune_windows_backslash_paths()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build
+#graphify/rationale #graphify/EXTRACTED #community/graphify/buildpy

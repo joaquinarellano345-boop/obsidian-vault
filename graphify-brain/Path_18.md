@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "test_languages.py"
+community: "_edges_with_relation"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/_edges_with_relation
 ---
 
 # Path
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[extract_elixir()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_languagespy
+#graphify/code #graphify/EXTRACTED #community/_edges_with_relation

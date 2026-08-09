@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/security.py"
 type: "rationale"
-community: "sanitize_metadata"
+community: "test_security.py"
 location: "L442"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/sanitize_metadata
+  - community/test_securitypy
 ---
 
 # Sanitize metadata keys and values before graph export.      Metadata is less con
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[sanitize_metadata()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/sanitize_metadata
+#graphify/rationale #graphify/EXTRACTED #community/test_securitypy

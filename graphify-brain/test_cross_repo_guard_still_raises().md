@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "test_cross_repo_guard_still_raises"
+community: "deduplicate_entities"
 location: "L788"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_cross_repo_guard_still_raises
+  - community/deduplicate_entities
 ---
 
 # test_cross_repo_guard_still_raises()
@@ -16,4 +16,4 @@ tags:
 - [[deduplicate_entities()]] - `calls` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_cross_repo_guard_still_raises
+#graphify/code #graphify/EXTRACTED #community/deduplicate_entities

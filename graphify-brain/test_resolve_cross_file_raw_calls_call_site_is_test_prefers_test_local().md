@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_symbol_resolution.py"
 type: "code"
-community: "resolve_cross_file_raw_calls"
+community: "test_symbol_resolution.py"
 location: "L181"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/resolve_cross_file_raw_calls
+  - community/test_symbol_resolutionpy
 ---
 
 # test_resolve_cross_file_raw_calls_call_site_is_test_prefers_test_local()
@@ -16,4 +16,4 @@ tags:
 - [[resolve_cross_file_raw_calls()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/resolve_cross_file_raw_calls
+#graphify/code #graphify/EXTRACTED #community/test_symbol_resolutionpy

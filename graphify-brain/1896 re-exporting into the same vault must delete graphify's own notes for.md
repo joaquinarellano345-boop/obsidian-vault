@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_export.py"
 type: "rationale"
-community: "export.py"
+community: "to_obsidian"
 location: "L497"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # #1896: re-exporting into the same vault must delete graphify's own notes for
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_to_obsidian_rerun_prunes_removed_nodes()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/exportpy
+#graphify/rationale #graphify/EXTRACTED #community/to_obsidian

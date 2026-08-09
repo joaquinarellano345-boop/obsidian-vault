@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "test_languages.py"
+community: "extract_groovy"
 location: "L1646"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/extract_groovy
 ---
 
 # extract_groovy()
@@ -33,4 +33,4 @@ tags:
 - [[test_groovy_spock_preserves_import_edges()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_languagespy
+#graphify/code #graphify/EXTRACTED #community/extract_groovy

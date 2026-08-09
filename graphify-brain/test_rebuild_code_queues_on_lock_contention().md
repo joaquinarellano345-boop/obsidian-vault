@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "code"
-community: "skipif"
+community: "cli.py"
 location: "L1592"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/skipif
+  - community/clipy
 ---
 
 # test_rebuild_code_queues_on_lock_contention()
@@ -18,4 +18,4 @@ tags:
 - [[skipif_2]] - `references` [EXTRACTED]
 - [[test_watch.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/skipif
+#graphify/code #graphify/EXTRACTED #community/clipy

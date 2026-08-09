@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "code"
-community: "_rebuild_code"
+community: "test_watch.py"
 location: "L89"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/test_watchpy
 ---
 
 # test_watch_raises_without_watchdog()
@@ -15,4 +15,4 @@ tags:
 - [[test_watch.py]] - `contains` [EXTRACTED]
 - [[watch()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/test_watchpy

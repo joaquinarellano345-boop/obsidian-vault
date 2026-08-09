@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_install.py"
 type: "rationale"
-community: "test_install.py"
+community: "main"
 location: "L1065"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_installpy
+  - community/main
 ---
 
 # Project-scope amp install lands in .agents/skills, an Amp project search root.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_amp_project_install_lands_in_dot_agents()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_installpy
+#graphify/rationale #graphify/EXTRACTED #community/main

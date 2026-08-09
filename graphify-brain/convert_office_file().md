@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "code"
-community: "convert_office_file"
+community: "detect.py"
 location: "L693"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/convert_office_file
+  - community/detectpy
 ---
 
 # convert_office_file()
@@ -27,4 +27,4 @@ tags:
 - [[test_unchanged_docx_sidecar_not_rewritten()]] - `calls` [EXTRACTED]
 - [[xlsx_to_markdown()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/convert_office_file
+#graphify/code #graphify/EXTRACTED #community/detectpy

@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.03
-members: 92
+members: 87
 ---
 
 # classify_file
 
 **Cohesion:** 0.03 - loosely connected
-**Members:** 92 nodes
+**Members:** 87 nodes
 
 ## Members
 - [[A .md file with enough paper signals should classify as PAPER.]] - rationale - tests/test_detect.py
@@ -17,9 +17,7 @@ members: 92
 - [[Clumped `-uPYTHONPATH` form (no space between flag and operand) is one arg.]] - rationale - tests/test_detect.py
 - [[Compact `-Spython3 -u` form (no space between -S and packed string).]] - rationale - tests/test_detect.py
 - [[Compact `-vSpython3` (-v plus compact -S).]] - rationale - tests/test_detect.py
-- [[Enum]] - code
 - [[File without shebang returns None.]] - rationale - tests/test_detect.py
-- [[FileType]] - code - graphify/detect.py
 - [[GNU `--chdir tmp python3` (separate operand).]] - rationale - tests/test_detect.py
 - [[GNU `--chdir=tmp python3` (`=` operand form).]] - rationale - tests/test_detect.py
 - [[GNU `--split-string python3 -u` (separate operand) → python3.]] - rationale - tests/test_detect.py
@@ -28,7 +26,6 @@ members: 92
 - [[GNU `--unset=PYTHONPATH python3` (`=` operand form).]] - rationale - tests/test_detect.py
 - [[GNU `-a alias python3` skips both -a and its argv0 operand.]] - rationale - tests/test_detect.py
 - [[GNU signal-handling flags skip transparently.]] - rationale - tests/test_detect.py
-- [[Peek at the first line of an extensionless file for a shebang.]] - rationale - graphify/detect.py
 - [[Plain shebang returns the interpreter basename.]] - rationale - tests/test_detect.py
 - [[Quoted interpreter path with spaces parses correctly via shlex.]] - rationale - tests/test_detect.py
 - [[Return the interpreter name from a shebang line.      Handles forms that a naive]] - rationale - graphify/detect.py
@@ -36,7 +33,6 @@ members: 92
 - [[Unknown hyphen-prefixed env option → return None rather than guessing.]] - rationale - tests/test_detect.py
 - [[Unreadable  nonexistent files return None, never raise.]] - rationale - tests/test_detect.py
 - [[Video and audio file extensions should classify as VIDEO.]] - rationale - tests/test_detect.py
-- [[_shebang_file_type()]] - code - graphify/detect.py
 - [[_shebang_interpreter()]] - code - graphify/detect.py
 - [[`!usrbinenv -S python3 -u` (-S split-args form) recovers the interpreter.]] - rationale - tests/test_detect.py
 - [[`!usrbinenv -i bash` skips env flags and resolves to the interpreter.]] - rationale - tests/test_detect.py
@@ -53,7 +49,6 @@ members: 92
 - [[`env -u VAR python3` skips both -u and its required operand.]] - rationale - tests/test_detect.py
 - [[`env -u` with no operand → not a valid command, return None.]] - rationale - tests/test_detect.py
 - [[classify_file()]] - code - graphify/detect.py
-- [[str]] - code
 - [[test_classify_attention_paper()]] - code - tests/test_detect.py
 - [[test_classify_google_workspace_shortcuts()]] - code - tests/test_detect.py
 - [[test_classify_image()]] - code - tests/test_detect.py
@@ -111,16 +106,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 52 edges to [[_COMMUNITY_test_detect.py]]
+- 51 edges to [[_COMMUNITY_test_detect.py]]
 - 10 edges to [[_COMMUNITY_detect.py]]
-- 4 edges to [[_COMMUNITY_test_manifest_ingest.py]]
-- 1 edge to [[_COMMUNITY__env_command_args]]
+- 3 edges to [[_COMMUNITY_test_manifest_ingest.py]]
 - 1 edge to [[_COMMUNITY_extract.py]]
-- 1 edge to [[_COMMUNITY_Path]]
+- 1 edge to [[_COMMUNITY__get_extractor]]
 
 ## Top bridge nodes
-- [[_shebang_interpreter()]] - degree 39, connects to 5 communities
+- [[_shebang_interpreter()]] - degree 39, connects to 4 communities
 - [[classify_file()]] - degree 48, connects to 3 communities
-- [[FileType]] - degree 7, connects to 3 communities
-- [[_shebang_file_type()]] - degree 6, connects to 1 community
 - [[test_shebang_interpreter_env_chdir_with_operand()]] - degree 4, connects to 1 community
+- [[test_shebang_interpreter_env_clumped_u_operand()]] - degree 4, connects to 1 community
+- [[test_shebang_interpreter_env_compact_dash_s()]] - degree 4, connects to 1 community

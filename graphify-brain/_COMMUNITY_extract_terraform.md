@@ -36,11 +36,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY__read_text]]
+- 3 edges to [[_COMMUNITY__make_id]]
 - 2 edges to [[_COMMUNITY_build_from_json]]
 - 2 edges to [[_COMMUNITY_extract.py]]
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
-- 1 edge to [[_COMMUNITY__extract_pascal_regex]]
+- 1 edge to [[_COMMUNITY__get_extractor]]
 - 1 edge to [[_COMMUNITY_e]]
 - 1 edge to [[_COMMUNITY__fixture]]
 - 1 edge to [[_COMMUNITY_test_extractors_registry.py]]

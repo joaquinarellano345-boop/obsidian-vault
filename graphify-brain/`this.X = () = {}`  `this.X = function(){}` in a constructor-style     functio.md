@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "rationale"
-community: "test_extract.py"
+community: "extract_js"
 location: "L788"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_extractpy
+  - community/extract_js
 ---
 
 # `this.X = () => {}` / `this.X = function(){}` in a constructor-style     functio
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_extract_js_this_assigned_methods()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_extractpy
+#graphify/rationale #graphify/EXTRACTED #community/extract_js

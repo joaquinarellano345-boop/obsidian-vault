@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "test_multilang.py"
+community: "extract_go"
 location: "L1513"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_multilangpy
+  - community/extract_go
 ---
 
 # test_go_receiver_methods_share_type_node()
@@ -16,4 +16,4 @@ tags:
 - [[extract_go()]] - `calls` [INFERRED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_multilangpy
+#graphify/code #graphify/EXTRACTED #community/extract_go

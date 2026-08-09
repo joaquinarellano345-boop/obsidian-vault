@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "code"
-community: "graphify/__main__.py"
+community: "test_settings_merge.py"
 location: "L291"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_settings_mergepy
 ---
 
 # _claude_pretooluse_hooks()
@@ -24,4 +24,4 @@ tags:
 - [[test_hook_strict.py]] - `imports` [EXTRACTED]
 - [[test_install_hook_carries_strict_flag()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/code #graphify/EXTRACTED #community/test_settings_mergepy

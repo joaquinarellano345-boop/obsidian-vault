@@ -33,7 +33,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 1 edge to [[_COMMUNITY_extract.py]]
-- 1 edge to [[_COMMUNITY__read_text]]
+- 1 edge to [[_COMMUNITY__make_id]]
 
 ## Top bridge nodes
 - [[test_extraction_spec_ids.py]] - degree 8, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_codebuddy.py"
 type: "rationale"
-community: "test_codebuddy.py"
+community: "main"
 location: "L301"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_codebuddypy
+  - community/main
 ---
 
 # `graphify --help` must list codebuddy in the platform list and per-platform sect
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_codebuddy_in_main_help_text()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_codebuddypy
+#graphify/rationale #graphify/EXTRACTED #community/main

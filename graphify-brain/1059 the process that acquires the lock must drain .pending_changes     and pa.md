@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "rationale"
-community: "skipif"
+community: "test_watch.py"
 location: "L1628"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/skipif
+  - community/test_watchpy
 ---
 
 # #1059: the process that acquires the lock must drain .pending_changes     and pa
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_rebuild_code_merges_pending_on_acquire()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/skipif
+#graphify/rationale #graphify/EXTRACTED #community/test_watchpy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "rationale"
-community: "_zip_within_caps"
+community: "detect.py"
 location: "L61"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_zip_within_caps
+  - community/detectpy
 ---
 
 # Reject a zip-based office file that is a likely zip/XML bomb.      Two layers, b
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_zip_within_caps()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_zip_within_caps
+#graphify/rationale #graphify/EXTRACTED #community/detectpy

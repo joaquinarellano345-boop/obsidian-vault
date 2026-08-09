@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_symbol_resolution.py"
 type: "code"
-community: "build_label_index"
+community: "symbol_resolution.py"
 location: "L35"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build_label_index
+  - community/symbol_resolutionpy
 ---
 
 # test_build_label_index_collects_unique_symbols()
@@ -15,4 +15,4 @@ tags:
 - [[build_label_index()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build_label_index
+#graphify/code #graphify/EXTRACTED #community/symbol_resolutionpy

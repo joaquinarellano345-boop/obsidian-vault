@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_symbol_resolution.py"
 type: "rationale"
-community: "resolve_cross_file_raw_calls"
+community: "test_symbol_resolution.py"
 location: "L103"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/resolve_cross_file_raw_calls
+  - community/test_symbol_resolutionpy
 ---
 
 # Two genuine NON-test defs of the same name: the god-node guard must still     ho
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_resolve_cross_file_raw_calls_skips_ambiguous_duplicate_labels()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/resolve_cross_file_raw_calls
+#graphify/rationale #graphify/EXTRACTED #community/test_symbol_resolutionpy

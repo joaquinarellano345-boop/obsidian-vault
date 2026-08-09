@@ -44,7 +44,7 @@ SORT file.name ASC
 - 11 edges to [[_COMMUNITY_test_reflect.py]]
 - 2 edges to [[_COMMUNITY_load_memory_docs]]
 - 1 edge to [[_COMMUNITY__run]]
-- 1 edge to [[_COMMUNITY_test_analyze.py]]
+- 1 edge to [[_COMMUNITY_generate]]
 
 ## Top bridge nodes
 - [[_write_raw_doc()]] - degree 14, connects to 3 communities

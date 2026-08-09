@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_hypergraph.py"
 type: "code"
-community: "to_json"
+community: "build_from_json"
 location: "L283"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/to_json
+  - community/build_from_json
 ---
 
 # test_build_canonical_nodes_wins_over_alias()
@@ -15,4 +15,4 @@ tags:
 - [[build_from_json()]] - `calls` [EXTRACTED]
 - [[test_hypergraph.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/to_json
+#graphify/code #graphify/EXTRACTED #community/build_from_json

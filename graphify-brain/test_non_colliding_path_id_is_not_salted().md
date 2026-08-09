@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "code"
-community: "make_id"
+community: "test_extract.py"
 location: "L2631"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/make_id
+  - community/test_extractpy
 ---
 
 # test_non_colliding_path_id_is_not_salted()
@@ -18,4 +18,4 @@ tags:
 - [[make_id()]] - `calls` [EXTRACTED]
 - [[test_extract.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/make_id
+#graphify/code #graphify/EXTRACTED #community/test_extractpy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "code"
-community: "export.py"
+community: "to_obsidian"
 location: "L454"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # to_obsidian()
@@ -44,4 +44,4 @@ tags:
 - [[test_to_obsidian_rerun_prunes_removed_nodes()]] - `calls` [EXTRACTED]
 - [[test_to_obsidian_rerun_updates_own_notes_but_not_user_files()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/exportpy
+#graphify/code #graphify/EXTRACTED #community/to_obsidian

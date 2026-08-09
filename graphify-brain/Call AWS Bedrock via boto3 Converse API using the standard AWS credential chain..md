@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "test_image_vision.py"
+community: "llm.py"
 location: "L1609"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_image_visionpy
+  - community/llmpy
 ---
 
 # Call AWS Bedrock via boto3 Converse API using the standard AWS credential chain.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_call_bedrock()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_image_visionpy
+#graphify/rationale #graphify/EXTRACTED #community/llmpy

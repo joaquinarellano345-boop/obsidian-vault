@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "code"
-community: "_load_graphifyignore"
+community: "detect.py"
 location: "L980"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_load_graphifyignore
+  - community/detectpy
 ---
 
 # _load_graphifyignore()
@@ -39,4 +39,4 @@ tags:
 - [[watch()]] - `calls` [EXTRACTED]
 - [[watch.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_load_graphifyignore
+#graphify/code #graphify/EXTRACTED #community/detectpy

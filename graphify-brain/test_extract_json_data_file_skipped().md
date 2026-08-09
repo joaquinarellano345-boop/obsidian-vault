@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "code"
-community: "test_extract.py"
+community: "extract_json"
 location: "L2359"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_extractpy
+  - community/extract_json
 ---
 
 # test_extract_json_data_file_skipped()
@@ -16,4 +16,4 @@ tags:
 - [[extract_json()]] - `calls` [INFERRED]
 - [[test_extract.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_extractpy
+#graphify/code #graphify/EXTRACTED #community/extract_json

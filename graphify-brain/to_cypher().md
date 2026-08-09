@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "code"
-community: "test_export.py"
+community: "export.py"
 location: "L384"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_exportpy
+  - community/exportpy
 ---
 
 # to_cypher()
@@ -21,4 +21,4 @@ tags:
 - [[test_to_cypher_contains_merge_statements()]] - `calls` [EXTRACTED]
 - [[test_to_cypher_creates_file()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_exportpy
+#graphify/code #graphify/EXTRACTED #community/exportpy

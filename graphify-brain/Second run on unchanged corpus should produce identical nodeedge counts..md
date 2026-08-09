@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_pipeline.py"
 type: "rationale"
-community: "test_pipeline.py"
+community: "to_json"
 location: "L139"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_pipelinepy
+  - community/to_json
 ---
 
 # Second run on unchanged corpus should produce identical node/edge counts.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_pipeline_incremental_update()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_pipelinepy
+#graphify/rationale #graphify/EXTRACTED #community/to_json

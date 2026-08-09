@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "test_extract.py"
+community: "extract_bash"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_extractpy
+  - community/extract_bash
 ---
 
 # Path
@@ -14,4 +14,4 @@ tags:
 - [[_bash_assignment_base()]] - `references` [EXTRACTED]
 - [[extract_bash()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_extractpy
+#graphify/code #graphify/EXTRACTED #community/extract_bash

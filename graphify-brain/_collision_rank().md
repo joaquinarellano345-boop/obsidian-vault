@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "code"
-community: "dedup.py"
+community: "_defines_id"
 location: "L228"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/deduppy
+  - community/_defines_id
 ---
 
 # _collision_rank()
@@ -17,4 +17,4 @@ tags:
 - [[dedup.py]] - `contains` [EXTRACTED]
 - [[deduplicate_entities()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/deduppy
+#graphify/code #graphify/EXTRACTED #community/_defines_id

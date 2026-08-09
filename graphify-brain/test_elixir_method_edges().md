@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "test_languages.py"
+community: "_edges_with_relation"
 location: "L1127"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/test_languagespy
+  - community/_edges_with_relation
 ---
 
 # test_elixir_method_edges()
@@ -15,4 +15,4 @@ tags:
 - [[extract_elixir()]] - `calls` [INFERRED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/INFERRED #community/test_languagespy
+#graphify/code #graphify/INFERRED #community/_edges_with_relation

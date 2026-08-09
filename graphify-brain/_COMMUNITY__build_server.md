@@ -36,19 +36,19 @@ SORT file.name ASC
 - 5 edges to [[_COMMUNITY_prs.py]]
 - 4 edges to [[_COMMUNITY_serve.py]]
 - 3 edges to [[_COMMUNITY_fetch_worktrees]]
-- 2 edges to [[_COMMUNITY_test_analyze.py]]
+- 2 edges to [[_COMMUNITY_cli.py]]
 - 2 edges to [[_COMMUNITY_build_from_json]]
 - 2 edges to [[_COMMUNITY__parse_ci]]
-- 1 edge to [[_COMMUNITY__rebuild_code]]
-- 1 edge to [[_COMMUNITY_cli.py]]
+- 1 edge to [[_COMMUNITY_generate]]
+- 1 edge to [[_COMMUNITY_test_analyze.py]]
 - 1 edge to [[_COMMUNITY_attach_graph_impact]]
 - 1 edge to [[_COMMUNITY_compute_pr_impact]]
-- 1 edge to [[_COMMUNITY_test_security.py]]
+- 1 edge to [[_COMMUNITY_sanitize_label]]
 - 1 edge to [[_COMMUNITY_test_serve_http.py]]
 - 1 edge to [[_COMMUNITY_default_graph_json]]
 
 ## Top bridge nodes
-- [[_build_server()]] - degree 18, connects to 12 communities
+- [[_build_server()]] - degree 18, connects to 13 communities
 - [[_gh()]] - degree 8, connects to 5 communities
 - [[_detect_default_branch()]] - degree 14, connects to 4 communities
 - [[fetch_prs()]] - degree 8, connects to 4 communities

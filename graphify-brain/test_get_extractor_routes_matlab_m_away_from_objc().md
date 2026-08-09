@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "code"
-community: "Path"
+community: "_get_extractor"
 location: "L2743"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path
+  - community/_get_extractor
 ---
 
 # test_get_extractor_routes_matlab_m_away_from_objc()
@@ -15,4 +15,4 @@ tags:
 - [[_get_extractor()]] - `calls` [EXTRACTED]
 - [[test_extract.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

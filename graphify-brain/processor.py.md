@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/processor.py"
 type: "code"
-community: "storage.py"
+community: "processor.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/storagepy
+  - community/processorpy
 ---
 
 # processor.py
@@ -23,4 +23,4 @@ tags:
 - [[save_processed()]] - `imports` [EXTRACTED]
 - [[storage.py]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/storagepy
+#graphify/code #graphify/EXTRACTED #community/processorpy

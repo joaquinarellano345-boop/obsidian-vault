@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # Path
@@ -15,4 +15,4 @@ tags:
 - [[global_add()]] - `references` [EXTRACTED]
 - [[global_path()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

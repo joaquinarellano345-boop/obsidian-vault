@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "extract.py"
+community: "Path"
 location: "L3682"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/Path
 ---
 
 # _xaml_communitytoolkit_members()
@@ -18,4 +18,4 @@ tags:
 - [[extract.py]] - `contains` [EXTRACTED]
 - [[extract_xaml()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extractpy
+#graphify/code #graphify/EXTRACTED #community/Path

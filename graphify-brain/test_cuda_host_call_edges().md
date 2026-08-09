@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "test_languages.py"
+community: "extract_dm"
 location: "L271"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/extract_dm
 ---
 
 # test_cuda_host_call_edges()
@@ -16,4 +16,4 @@ tags:
 - [[extract_cpp()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_languagespy
+#graphify/code #graphify/EXTRACTED #community/extract_dm

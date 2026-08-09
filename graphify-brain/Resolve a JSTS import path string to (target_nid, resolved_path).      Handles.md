@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "rationale"
-community: "_resolve_js_import_target"
+community: "engine.py"
 location: "L529"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_resolve_js_import_target
+  - community/enginepy
 ---
 
 # Resolve a JS/TS import path string to (target_nid, resolved_path).      Handles
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_resolve_js_import_target()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_resolve_js_import_target
+#graphify/rationale #graphify/EXTRACTED #community/enginepy

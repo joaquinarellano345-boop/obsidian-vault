@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "test_file_slice.py"
+community: "test_chunking.py"
 location: "L1783"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_file_slicepy
+  - community/test_chunkingpy
 ---
 
 # Estimate the prompt-token cost of a file or slice under `_read_files` rules.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_estimate_file_tokens()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_file_slicepy
+#graphify/rationale #graphify/EXTRACTED #community/test_chunkingpy

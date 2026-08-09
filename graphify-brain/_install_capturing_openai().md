@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_llm_backends.py"
 type: "code"
-community: "_call_openai_compat"
+community: "test_llm_backends.py"
 location: "L469"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_call_openai_compat
+  - community/test_llm_backendspy
 ---
 
 # _install_capturing_openai()
@@ -29,4 +29,4 @@ tags:
 - [[test_openai_compat_omits_temperature_for_o3_model()]] - `calls` [EXTRACTED]
 - [[test_openai_compat_sends_temperature_for_normal_model()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_call_openai_compat
+#graphify/code #graphify/EXTRACTED #community/test_llm_backendspy

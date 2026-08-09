@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "rationale"
-community: "skipif"
+community: "test_watch.py"
 location: "L1493"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/skipif
+  - community/test_watchpy
 ---
 
 # Changed files under followed symlinks retain their watched lexical path.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_rebuild_code_incremental_rename_preserves_symlink_source_path()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/skipif
+#graphify/rationale #graphify/EXTRACTED #community/test_watchpy

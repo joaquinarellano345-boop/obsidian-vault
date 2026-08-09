@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_ollama.py"
 type: "rationale"
-community: "test_ollama.py"
+community: "detect_backend"
 location: "L16"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_ollamapy
+  - community/detect_backend
 ---
 
 # Link-local / cloud-metadata Ollama targets fail closed (F3).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_ollama_blocks_link_local_and_metadata()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_ollamapy
+#graphify/rationale #graphify/EXTRACTED #community/detect_backend

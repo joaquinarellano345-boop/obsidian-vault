@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/cache.py"
 type: "rationale"
-community: "file_hash"
+community: "test_cache.py"
 location: "L325"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/file_hash
+  - community/test_cachepy
 ---
 
 # SHA256 of file contents + path relative to root.      Uses a stat-based fastpath
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[file_hash()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/file_hash
+#graphify/rationale #graphify/EXTRACTED #community/test_cachepy

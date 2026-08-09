@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "test_minhash.py"
+community: "dedup.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # ndarray
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[_mh_coeffs()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_minhashpy
+#graphify/code #graphify/EXTRACTED #community/deduppy

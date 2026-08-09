@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_cache.py"
 type: "rationale"
-community: "test_cache.py"
+community: "save_semantic_cache"
 location: "L38"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_cachepy
+  - community/save_semantic_cache
 ---
 
 # Save then load returns the same result dict.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_cache_roundtrip()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_cachepy
+#graphify/rationale #graphify/EXTRACTED #community/save_semantic_cache

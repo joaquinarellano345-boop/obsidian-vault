@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_indirect_dispatch_getattr.py"
 type: "code"
-community: "test_indirect_dispatch_getattr.py"
+community: "test_indirect_dispatch.py"
 location: "L122"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_indirect_dispatch_getattrpy
+  - community/test_indirect_dispatchpy
 ---
 
 # test_dynamic_getattr_names_emit_nothing()
@@ -16,4 +16,4 @@ tags:
 - [[_ind()_1]] - `calls` [EXTRACTED]
 - [[test_indirect_dispatch_getattr.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_indirect_dispatch_getattrpy
+#graphify/code #graphify/EXTRACTED #community/test_indirect_dispatchpy

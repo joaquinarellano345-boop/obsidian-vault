@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/mcp_ingest.py"
 type: "code"
-community: "_extract_pascal_regex"
+community: "_get_extractor"
 location: "L319"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_pascal_regex
+  - community/_get_extractor
 ---
 
 # _add_node()
@@ -23,4 +23,4 @@ tags:
 - [[mcp_ingest.py]] - `contains` [EXTRACTED]
 - [[sanitize_label()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_pascal_regex
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

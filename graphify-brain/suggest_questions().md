@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L428"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # suggest_questions()
@@ -29,4 +29,4 @@ tags:
 - [[test_suggest_questions_excludes_rationale_nodes_from_isolated_count()]] - `calls` [EXTRACTED]
 - [[watch.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

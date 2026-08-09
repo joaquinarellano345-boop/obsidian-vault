@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/dm.py"
 type: "rationale"
-community: "_read_text"
+community: "_make_id"
 location: "L276"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # Extract icon state names from a .dmi (BYOND PNG icon sheet).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_dmi()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_read_text
+#graphify/rationale #graphify/EXTRACTED #community/_make_id

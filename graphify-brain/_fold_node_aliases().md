@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "code"
-community: "build"
+community: "graphify/build.py"
 location: "L127"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build
+  - community/graphify/buildpy
 ---
 
 # _fold_node_aliases()
@@ -17,4 +17,4 @@ tags:
 - [[build_from_json()]] - `calls` [EXTRACTED]
 - [[graphifybuild.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build
+#graphify/code #graphify/EXTRACTED #community/graphify/buildpy

@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.06
-members: 57
+members: 55
 ---
 
 # test_extract_cli.py
 
 **Cohesion:** 0.06 - loosely connected
-**Members:** 57 nodes
+**Members:** 55 nodes
 
 ## Members
 - [[1894 repro over a warm manifest + warm standard semantic cache,     `extract -]] - rationale - tests/test_extract_cli.py
@@ -19,7 +19,6 @@ members: 57
 - [[1948 caller-side guard an incremental run that only re-dispatches the     CHAN]] - rationale - tests/test_extract_cli.py
 - [[1948 x 1950 interaction a doc stamped complete on a prior run that     TRUNCA]] - rationale - tests/test_extract_cli.py
 - [[--no-cluster's exclusion-only early exit must still scrub the excluded     file']] - rationale - tests/test_extract_cli.py
-- [[--timing prints per-stage `graphify timing` lines to stderr (1490); omitting]] - rationale - tests/test_extract_cli.py
 - [[A code-only corpus must run with no LLM API key.      Regression graphify extra]] - rationale - tests/test_extract_cli.py
 - [[A corpus with only code — no docspapersimages.]] - rationale - tests/test_extract_cli.py
 - [[Clear every env var that detect_backend() or _get_backend_api_key() reads.]] - rationale - tests/test_extract_cli.py
@@ -54,7 +53,6 @@ members: 57
 - [[test_extract_mode_deep_dispatches_over_warm_cache()]] - code - tests/test_extract_cli.py
 - [[test_extract_out_keeps_project_root_clean()]] - code - tests/test_extract_cli.py
 - [[test_extract_succeeds_when_at_least_one_chunk_completes()]] - code - tests/test_extract_cli.py
-- [[test_extract_timing_flag_emits_stage_timings()]] - code - tests/test_extract_cli.py
 - [[test_extract_without_key_still_errors_when_docs_present()]] - code - tests/test_extract_cli.py
 - [[test_incremental_extract_prunes_excluded_file_listed_in_manifest()]] - code - tests/test_extract_cli.py
 - [[test_incremental_extract_prunes_newly_excluded_file_not_in_manifest()]] - code - tests/test_extract_cli.py
@@ -76,14 +74,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_test_install.py]]
+- 10 edges to [[_COMMUNITY_main]]
 - 3 edges to [[_COMMUNITY_save_semantic_cache]]
 - 3 edges to [[_COMMUNITY_cli.py]]
 - 1 edge to [[_COMMUNITY_graphify__main__.py]]
 - 1 edge to [[_COMMUNITY_test_extract_code_only_cli.py]]
 
 ## Top bridge nodes
-- [[test_extract_cli.py]] - degree 33, connects to 3 communities
+- [[test_extract_cli.py]] - degree 33, connects to 4 communities
 - [[_run_extract()]] - degree 12, connects to 2 communities
 - [[test_no_cluster_incremental_prunes_newly_excluded_file()]] - degree 6, connects to 1 community
 - [[test_extract_codeonly_succeeds_without_api_key()]] - degree 5, connects to 1 community

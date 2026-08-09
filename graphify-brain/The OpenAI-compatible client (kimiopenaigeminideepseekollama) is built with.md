@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_llm_backends.py"
 type: "rationale"
-community: "_call_openai_compat"
+community: "test_llm_backends.py"
 location: "L1076"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_call_openai_compat
+  - community/test_llm_backendspy
 ---
 
 # The OpenAI-compatible client (kimi/openai/gemini/deepseek/ollama) is built with
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_openai_compat_client_built_with_retries()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_call_openai_compat
+#graphify/rationale #graphify/EXTRACTED #community/test_llm_backendspy

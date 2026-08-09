@@ -47,16 +47,18 @@ SORT file.name ASC
 - 9 edges to [[_COMMUNITY_test_prs.py]]
 - 6 edges to [[_COMMUNITY_attach_graph_impact]]
 - 5 edges to [[_COMMUNITY__build_server]]
-- 4 edges to [[_COMMUNITY_test_llm_backends.py]]
-- 3 edges to [[_COMMUNITY_cli.py]]
+- 3 edges to [[_COMMUNITY_detect_backend]]
+- 2 edges to [[_COMMUNITY_cli.py]]
 - 2 edges to [[_COMMUNITY_default_graph_json]]
 - 2 edges to [[_COMMUNITY_fetch_worktrees]]
 - 1 edge to [[_COMMUNITY_llm.py]]
 - 1 edge to [[_COMMUNITY__call_llm]]
+- 1 edge to [[_COMMUNITY_test_llm_backends.py]]
 - 1 edge to [[_COMMUNITY_paths.py]]
 - 1 edge to [[_COMMUNITY_build_community_labels]]
 - 1 edge to [[_COMMUNITY_compute_pr_impact]]
 - 1 edge to [[_COMMUNITY__parse_ci]]
+- 1 edge to [[_COMMUNITY_test_security.py]]
 
 ## Top bridge nodes
 - [[prs.py]] - degree 40, connects to 11 communities

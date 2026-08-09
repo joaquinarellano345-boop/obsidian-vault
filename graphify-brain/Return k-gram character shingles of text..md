@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "rationale"
-community: "dedup.py"
+community: "deduplicate_entities"
 location: "L40"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/deduppy
+  - community/deduplicate_entities
 ---
 
 # Return k-gram character shingles of text.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_shingles()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/deduppy
+#graphify/rationale #graphify/EXTRACTED #community/deduplicate_entities

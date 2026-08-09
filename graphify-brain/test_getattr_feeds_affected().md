@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_indirect_dispatch_getattr.py"
 type: "code"
-community: "test_indirect_dispatch_getattr.py"
+community: "test_indirect_dispatch.py"
 location: "L77"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_indirect_dispatch_getattrpy
+  - community/test_indirect_dispatchpy
 ---
 
 # test_getattr_feeds_affected()
@@ -16,4 +16,4 @@ tags:
 - [[affected_nodes()]] - `calls` [EXTRACTED]
 - [[test_indirect_dispatch_getattr.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_indirect_dispatch_getattrpy
+#graphify/code #graphify/EXTRACTED #community/test_indirect_dispatchpy

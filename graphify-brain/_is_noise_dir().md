@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "code"
-community: "_is_noise_dir"
+community: "_is_ignored"
 location: "L836"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_is_noise_dir
+  - community/_is_ignored
 ---
 
 # _is_noise_dir()
@@ -22,4 +22,4 @@ tags:
 - [[extract.py]] - `imports` [EXTRACTED]
 - [[test_extract.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_is_noise_dir
+#graphify/code #graphify/EXTRACTED #community/_is_ignored

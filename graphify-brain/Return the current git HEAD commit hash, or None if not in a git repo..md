@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "rationale"
-community: "to_json"
+community: "export.py"
 location: "L174"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/to_json
+  - community/exportpy
 ---
 
 # Return the current git HEAD commit hash, or None if not in a git repo.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_git_head()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/to_json
+#graphify/rationale #graphify/EXTRACTED #community/exportpy

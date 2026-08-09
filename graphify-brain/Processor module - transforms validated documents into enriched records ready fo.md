@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/processor.py"
 type: "rationale"
-community: "storage.py"
+community: "processor.py"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/storagepy
+  - community/processorpy
 ---
 
 # Processor module - transforms validated documents into enriched records ready fo
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[processor.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/storagepy
+#graphify/rationale #graphify/EXTRACTED #community/processorpy

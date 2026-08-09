@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "code"
-community: "_read_text"
+community: "extract.py"
 location: "L2367"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/extractpy
 ---
 
 # _php_fqn_from_raw()
@@ -16,4 +16,4 @@ tags:
 - [[_resolve_php_type_references()]] - `calls` [EXTRACTED]
 - [[resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/extractpy

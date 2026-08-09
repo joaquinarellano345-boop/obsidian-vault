@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_multilang.py"
 type: "code"
-community: "test_multilang.py"
+community: "extract_rust"
 location: "L35"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_multilangpy
+  - community/extract_rust
 ---
 
 # _edge_labels()
@@ -25,4 +25,4 @@ tags:
 - [[test_rust_trait_impl_emits_implements()]] - `calls` [EXTRACTED]
 - [[test_rust_tuple_struct_field_references()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_multilangpy
+#graphify/code #graphify/EXTRACTED #community/extract_rust

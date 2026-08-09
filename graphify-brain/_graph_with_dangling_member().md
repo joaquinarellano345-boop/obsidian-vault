@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_obsidian_dangling_member.py"
 type: "code"
-community: "export.py"
+community: "to_obsidian"
 location: "L10"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # _graph_with_dangling_member()
@@ -17,4 +17,4 @@ tags:
 - [[test_obsidian_dangling_community_member_does_not_crash()]] - `calls` [EXTRACTED]
 - [[test_obsidian_dangling_member.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/exportpy
+#graphify/code #graphify/EXTRACTED #community/to_obsidian

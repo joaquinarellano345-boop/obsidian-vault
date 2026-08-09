@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/_minhash.py"
 type: "code"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L61"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # _optimal_lsh_params()
@@ -20,4 +20,4 @@ tags:
 - [[test_optimal_params_cached()]] - `calls` [EXTRACTED]
 - [[test_optimal_params_within_budget()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_minhashpy
+#graphify/code #graphify/EXTRACTED #community/deduppy

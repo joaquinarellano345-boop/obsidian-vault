@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/zig.py"
 type: "rationale"
-community: "_read_text"
+community: "_make_id"
 location: "L11"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # Extract functions, structs, enums, unions, and imports from a .zig file.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_zig()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_read_text
+#graphify/rationale #graphify/EXTRACTED #community/_make_id

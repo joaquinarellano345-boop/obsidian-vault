@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "test_install_references.py"
+community: "_check_skill_version"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_install_referencespy
+  - community/_check_skill_version
 ---
 
 # Path
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[_check_skill_version()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_install_referencespy
+#graphify/code #graphify/EXTRACTED #community/_check_skill_version

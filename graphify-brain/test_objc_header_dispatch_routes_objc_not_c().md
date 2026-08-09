@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "Path"
+community: "_get_extractor"
 location: "L1255"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path
+  - community/_get_extractor
 ---
 
 # test_objc_header_dispatch_routes_objc_not_c()
@@ -16,4 +16,4 @@ tags:
 - [[_get_extractor()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

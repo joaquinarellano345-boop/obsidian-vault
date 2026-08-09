@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L1493"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # prune_repo_from_graph()
@@ -21,4 +21,4 @@ tags:
 - [[test_prune_repo_removes_correct_nodes()]] - `calls` [EXTRACTED]
 - [[test_prune_repo_returns_zero_if_not_present()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

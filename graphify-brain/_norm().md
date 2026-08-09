@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "code"
-community: "dedup.py"
+community: "_norm"
 location: "L19"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/deduppy
+  - community/_norm
 ---
 
 # _norm()
@@ -23,4 +23,4 @@ tags:
 - [[test_prefix_guard_fires_for_extension_pairs()]] - `calls` [EXTRACTED]
 - [[test_ts_type_relationships_and_contexts()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/deduppy
+#graphify/code #graphify/EXTRACTED #community/_norm

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_symbol_resolution.py"
 type: "rationale"
-community: "resolve_cross_file_raw_calls"
+community: "test_symbol_resolution.py"
 location: "L861"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/resolve_cross_file_raw_calls
+  - community/test_symbol_resolutionpy
 ---
 
 # The python cross-file resolver returns [] (not crash) on bad raw_calls.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_resolve_cross_file_raw_calls_survives_malformed_raw_calls()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/resolve_cross_file_raw_calls
+#graphify/rationale #graphify/EXTRACTED #community/test_symbol_resolutionpy

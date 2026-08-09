@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L1537"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # extract_java()
@@ -36,4 +36,4 @@ tags:
 - [[test_languages.py]] - `imports` [EXTRACTED]
 - [[test_nested_types_contained_by_enclosing_type()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_edge_labels
+#graphify/code #graphify/EXTRACTED #community/test_languagespy

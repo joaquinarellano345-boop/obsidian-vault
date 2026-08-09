@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "_extraction_system"
+community: "_call_llm"
 location: "L1105"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extraction_system
+  - community/_call_llm
 ---
 
 # _backend_pkg_hint()
@@ -20,4 +20,4 @@ tags:
 - [[test_backend_extras.py]] - `imports` [EXTRACTED]
 - [[test_backend_pkg_hint_points_at_uv_tool_and_extra()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extraction_system
+#graphify/code #graphify/EXTRACTED #community/_call_llm

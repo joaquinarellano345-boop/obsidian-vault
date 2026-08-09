@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_hypergraph.py"
 type: "code"
-community: "to_json"
+community: "build_from_json"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/to_json
+  - community/build_from_json
 ---
 
 # test_hypergraph.py
@@ -43,4 +43,4 @@ tags:
 - [[test_to_json_includes_hyperedges()]] - `contains` [EXTRACTED]
 - [[to_json()]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/to_json
+#graphify/code #graphify/EXTRACTED #community/build_from_json

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/sql.py"
 type: "code"
-community: "_read_text"
+community: "_make_id"
 location: "L10"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # extract_sql()
@@ -24,4 +24,4 @@ tags:
 - [[introspect_postgres()]] - `calls` [INFERRED]
 - [[sql.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

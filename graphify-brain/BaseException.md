@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "_extract_with_adaptive_retry"
+community: "llm.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_with_adaptive_retry
+  - community/llmpy
 ---
 
 # BaseException
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[_looks_like_context_exceeded()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_with_adaptive_retry
+#graphify/code #graphify/EXTRACTED #community/llmpy

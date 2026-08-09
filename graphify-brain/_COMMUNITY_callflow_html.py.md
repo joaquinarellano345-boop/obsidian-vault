@@ -46,12 +46,13 @@ SORT file.name ASC
 - 4 edges to [[_COMMUNITY_first_present]]
 - 3 edges to [[_COMMUNITY_normalize_sections]]
 - 3 edges to [[_COMMUNITY_humanize_label]]
-- 2 edges to [[_COMMUNITY_cli.py]]
-- 1 edge to [[_COMMUNITY_test_export.py]]
+- 1 edge to [[_COMMUNITY_export.py]]
 - 1 edge to [[_COMMUNITY_paths.py]]
+- 1 edge to [[_COMMUNITY_cli.py]]
+- 1 edge to [[_COMMUNITY_test_security.py]]
 
 ## Top bridge nodes
-- [[callflow_html.py]] - degree 74, connects to 11 communities
+- [[callflow_html.py]] - degree 74, connects to 12 communities
 - [[derive_sections_from_communities()]] - degree 11, connects to 3 communities
 - [[section_keywords()]] - degree 5, connects to 2 communities
 - [[label_for_community()]] - degree 5, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "rationale"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L1538"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # Extract classes, interfaces, methods, constructors, and imports from a .java fil
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_java()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_edge_labels
+#graphify/rationale #graphify/EXTRACTED #community/test_languagespy

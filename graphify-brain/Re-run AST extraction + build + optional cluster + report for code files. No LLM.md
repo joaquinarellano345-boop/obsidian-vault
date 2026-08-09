@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/watch.py"
 type: "rationale"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L849"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # Re-run AST extraction + build + optional cluster + report for code files. No LLM
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_rebuild_code()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_rebuild_code
+#graphify/rationale #graphify/EXTRACTED #community/clipy

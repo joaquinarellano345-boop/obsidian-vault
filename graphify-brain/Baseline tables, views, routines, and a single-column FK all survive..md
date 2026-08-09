@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_pg_introspect.py"
 type: "rationale"
-community: "validate_extraction"
+community: "introspect_postgres"
 location: "L104"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/validate_extraction
+  - community/introspect_postgres
 ---
 
 # Baseline: tables, views, routines, and a single-column FK all survive.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_pg_introspect_success()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/validate_extraction
+#graphify/rationale #graphify/EXTRACTED #community/introspect_postgres

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/paths.py"
 type: "rationale"
-community: "paths.py"
+community: "_stale_graph_sources"
 location: "L308"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/pathspy
+  - community/_stale_graph_sources
 ---
 
 # NFC-normalize a path string.      macOS (HFS+/APFS) reports filenames in NFD whi
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[nfc()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/pathspy
+#graphify/rationale #graphify/EXTRACTED #community/_stale_graph_sources

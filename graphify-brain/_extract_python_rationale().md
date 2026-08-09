@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_extract_python_rationale"
+community: "_make_id"
 location: "L1057"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_python_rationale
+  - community/_make_id
 ---
 
 # _extract_python_rationale()
@@ -20,4 +20,4 @@ tags:
 - [[extract.py]] - `contains` [EXTRACTED]
 - [[extract_python()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_python_rationale
+#graphify/code #graphify/EXTRACTED #community/_make_id

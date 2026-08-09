@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_image_vision.py"
 type: "code"
-community: "test_image_vision.py"
+community: "llm.py"
 location: "L217"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_image_visionpy
+  - community/llmpy
 ---
 
 # test_bedrock_content_uses_raw_bytes()
@@ -17,4 +17,4 @@ tags:
 - [[_make_corpus()_2]] - `calls` [EXTRACTED]
 - [[test_image_vision.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_image_visionpy
+#graphify/code #graphify/EXTRACTED #community/llmpy

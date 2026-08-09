@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/mcp_ingest.py"
 type: "code"
-community: "test_mcp_ingest.py"
+community: "_get_extractor"
 location: "L86"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_mcp_ingestpy
+  - community/_get_extractor
 ---
 
 # extract_mcp_config()
@@ -48,4 +48,4 @@ tags:
 - [[test_same_server_name_in_different_dirs_does_not_collide()]] - `calls` [EXTRACTED]
 - [[test_server_without_command_still_emits_server_node()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_mcp_ingestpy
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

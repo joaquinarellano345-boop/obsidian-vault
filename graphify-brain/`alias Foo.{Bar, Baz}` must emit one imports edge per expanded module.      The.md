@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "rationale"
-community: "test_languages.py"
+community: "_edges_with_relation"
 location: "L1099"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/_edges_with_relation
 ---
 
 # `alias Foo.{Bar, Baz}` must emit one imports edge per expanded module.      The
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_elixir_multi_alias_expands()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_languagespy
+#graphify/rationale #graphify/EXTRACTED #community/_edges_with_relation

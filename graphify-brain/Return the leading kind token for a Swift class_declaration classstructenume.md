@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "engine.py"
+community: "_extract_generic"
 location: "L747"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/enginepy
+  - community/_extract_generic
 ---
 
 # Return the leading kind token for a Swift class_declaration: class/struct/enum/e
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_swift_declaration_keyword()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/enginepy
+#graphify/rationale #graphify/EXTRACTED #community/_extract_generic

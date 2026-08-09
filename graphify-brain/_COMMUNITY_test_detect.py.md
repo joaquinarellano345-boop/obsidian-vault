@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.02
-members: 159
+members: 157
 ---
 
 # test_detect.py
 
 **Cohesion:** 0.02 - loosely connected
-**Members:** 159 nodes
+**Members:** 157 nodes
 
 ## Members
 - [[1666 a bare snapshots dir with no .snap files is a legit code namespace     (]] - rationale - tests/test_detect.py
@@ -50,7 +50,6 @@ members: 159
 - [[Precedence across all three sources a nested `.gitignore` `!` re-include     ou]] - rationale - tests/test_detect.py
 - [[Re-including a child cannot rescue it while its parent stays excluded.]] - rationale - tests/test_detect.py
 - [[Return True if this file likely contains secrets and should be skipped.]] - rationale - graphify/detect.py
-- [[Siblings under the same subtree must share the cached parent result (1235).]] - rationale - tests/test_detect.py
 - [[Symlink directory following is explicit opt-in.]] - rationale - tests/test_detect.py
 - [[Upward search stops at the git repo root (.git directory).]] - rationale - tests/test_detect.py
 - [[Video files do not contribute to total_words.]] - rationale - tests/test_detect.py
@@ -131,7 +130,6 @@ members: 159
 - [[test_graphifyignore_stops_at_git_boundary()]] - code - tests/test_detect.py
 - [[test_graphifyignore_utf8_bom_first_pattern_honored()]] - code - tests/test_detect.py
 - [[test_graphifyinclude_is_inert_and_not_unclassified()]] - code - tests/test_detect.py
-- [[test_is_ignored_cache_evaluates_each_dir_once()]] - code - tests/test_detect.py
 - [[test_negation_does_not_disable_directory_pruning()]] - code - tests/test_detect.py
 - [[test_nested_gitignore_does_not_govern_sibling_project()]] - code - tests/test_detect.py
 - [[test_nested_gitignore_patterns_still_apply_inside_their_dir()]] - code - tests/test_detect.py
@@ -178,23 +176,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 52 edges to [[_COMMUNITY_classify_file]]
-- 48 edges to [[_COMMUNITY_detect.py]]
-- 15 edges to [[_COMMUNITY__load_graphifyignore]]
-- 6 edges to [[_COMMUNITY_convert_office_file]]
-- 3 edges to [[_COMMUNITY_cli.py]]
+- 59 edges to [[_COMMUNITY_detect.py]]
+- 51 edges to [[_COMMUNITY_classify_file]]
+- 14 edges to [[_COMMUNITY__is_ignored]]
+- 5 edges to [[_COMMUNITY_cli.py]]
 - 3 edges to [[_COMMUNITY__stale_graph_sources]]
 - 2 edges to [[_COMMUNITY_google_workspace.py]]
-- 2 edges to [[_COMMUNITY__rebuild_code]]
-- 2 edges to [[_COMMUNITY__zip_within_caps]]
-- 2 edges to [[_COMMUNITY_test_pipeline.py]]
+- 2 edges to [[_COMMUNITY_to_json]]
 - 1 edge to [[_COMMUNITY_test_cache.py]]
-- 1 edge to [[_COMMUNITY__is_noise_dir]]
-- 1 edge to [[_COMMUNITY_test_image_vision.py]]
+- 1 edge to [[_COMMUNITY_test_file_slice.py]]
 
 ## Top bridge nodes
-- [[detect()]] - degree 97, connects to 12 communities
-- [[test_detect.py]] - degree 198, connects to 5 communities
+- [[detect()]] - degree 97, connects to 8 communities
+- [[test_detect.py]] - degree 198, connects to 4 communities
 - [[_is_sensitive()]] - degree 39, connects to 3 communities
-- [[test_is_ignored_cache_evaluates_each_dir_once()]] - degree 3, connects to 1 community
 - [[test_count_words_sample_md()]] - degree 2, connects to 1 community

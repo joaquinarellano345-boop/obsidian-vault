@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/exporters/html.py"
 type: "rationale"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L16"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # Return the effective viz node limit, honoring GRAPHIFY_VIZ_NODE_LIMIT env var.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_viz_node_limit()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_rebuild_code
+#graphify/rationale #graphify/EXTRACTED #community/clipy

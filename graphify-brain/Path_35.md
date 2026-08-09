@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "_edge_labels"
+community: "test_languages.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # Path
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[extract_verilog()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_edge_labels
+#graphify/code #graphify/EXTRACTED #community/test_languagespy

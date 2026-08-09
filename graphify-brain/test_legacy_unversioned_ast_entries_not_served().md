@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_cache.py"
 type: "code"
-community: "file_hash"
+community: "save_semantic_cache"
 location: "L349"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/file_hash
+  - community/save_semantic_cache
 ---
 
 # test_legacy_unversioned_ast_entries_not_served()
@@ -17,4 +17,4 @@ tags:
 - [[load_cached()]] - `calls` [EXTRACTED]
 - [[test_cache.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/file_hash
+#graphify/code #graphify/EXTRACTED #community/save_semantic_cache

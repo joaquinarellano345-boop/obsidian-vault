@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "llm.py"
+community: "test_file_slice.py"
 location: "L497"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/llmpy
+  - community/test_file_slicepy
 ---
 
 # _file_to_text()
@@ -20,4 +20,4 @@ tags:
 - [[llm.py]] - `contains` [EXTRACTED]
 - [[test_non_pdf_still_read_as_plain_text()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/llmpy
+#graphify/code #graphify/EXTRACTED #community/test_file_slicepy

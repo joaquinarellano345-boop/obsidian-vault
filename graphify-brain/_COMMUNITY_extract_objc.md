@@ -62,18 +62,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 25 edges to [[_COMMUNITY_test_languages.py]]
-- 6 edges to [[_COMMUNITY__edge_labels]]
-- 4 edges to [[_COMMUNITY__read_text]]
+- 30 edges to [[_COMMUNITY_test_languages.py]]
+- 3 edges to [[_COMMUNITY__make_id]]
+- 3 edges to [[_COMMUNITY_engine.py]]
 - 2 edges to [[_COMMUNITY_extract.py]]
-- 1 edge to [[_COMMUNITY_Path]]
-- 1 edge to [[_COMMUNITY_engine.py]]
-- 1 edge to [[_COMMUNITY__cpp_declarator_name]]
+- 1 edge to [[_COMMUNITY__get_extractor]]
 - 1 edge to [[_COMMUNITY_e]]
+- 1 edge to [[_COMMUNITY__edges_with_relation]]
 
 ## Top bridge nodes
-- [[extract_objc()]] - degree 37, connects to 7 communities
-- [[test_objc_generic_property_type_extracted()]] - degree 4, connects to 2 communities
-- [[test_objc_macro_free_header_unchanged()]] - degree 4, connects to 2 communities
-- [[test_objc_ns_assume_nonnull_macro_does_not_break_parsing()]] - degree 4, connects to 2 communities
-- [[test_objc_protocol_adopts_protocol()]] - degree 4, connects to 2 communities
+- [[extract_objc()]] - degree 37, connects to 6 communities
+- [[test_objc_generic_property_type_extracted()]] - degree 4, connects to 1 community
+- [[test_objc_macro_free_header_unchanged()]] - degree 4, connects to 1 community
+- [[test_objc_ns_assume_nonnull_macro_does_not_break_parsing()]] - degree 4, connects to 1 community
+- [[test_objc_protocol_adopts_protocol()]] - degree 4, connects to 1 community

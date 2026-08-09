@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "_extract_with_adaptive_retry"
+community: "llm.py"
 location: "L1882"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_with_adaptive_retry
+  - community/llmpy
 ---
 
 # _looks_like_context_exceeded()
@@ -19,4 +19,4 @@ tags:
 - [[test_looks_like_context_exceeded_ignores_unrelated_errors()]] - `calls` [EXTRACTED]
 - [[test_looks_like_context_exceeded_matches_common_messages()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_with_adaptive_retry
+#graphify/code #graphify/EXTRACTED #community/llmpy

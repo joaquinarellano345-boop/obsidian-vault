@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/_minhash.py"
 type: "rationale"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L62"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # Find (bands, rows) that minimise weighted FP+FN error, without scipy.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_optimal_lsh_params()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_minhashpy
+#graphify/rationale #graphify/EXTRACTED #community/deduppy

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "rationale"
-community: "make_id"
+community: "test_extract.py"
 location: "L2632"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/make_id
+  - community/test_extractpy
 ---
 
 # The collision hash must touch only actual colliders — a path with no collision
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_non_colliding_path_id_is_not_salted()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/make_id
+#graphify/rationale #graphify/EXTRACTED #community/test_extractpy

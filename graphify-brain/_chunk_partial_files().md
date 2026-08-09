@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "_extract_with_adaptive_retry"
+community: "llm.py"
 location: "L1915"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_with_adaptive_retry
+  - community/llmpy
 ---
 
 # _chunk_partial_files()
@@ -17,4 +17,4 @@ tags:
 - [[llm.py]] - `contains` [EXTRACTED]
 - [[unit_path()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_with_adaptive_retry
+#graphify/code #graphify/EXTRACTED #community/llmpy

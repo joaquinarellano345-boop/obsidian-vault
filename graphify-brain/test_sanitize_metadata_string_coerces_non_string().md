@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_security.py"
 type: "code"
-community: "sanitize_metadata"
+community: "test_security.py"
 location: "L376"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/sanitize_metadata
+  - community/test_securitypy
 ---
 
 # test_sanitize_metadata_string_coerces_non_string()
@@ -15,4 +15,4 @@ tags:
 - [[_sanitize_metadata_string()]] - `calls` [EXTRACTED]
 - [[test_security.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/sanitize_metadata
+#graphify/code #graphify/EXTRACTED #community/test_securitypy

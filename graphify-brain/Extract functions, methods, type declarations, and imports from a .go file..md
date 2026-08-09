@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/go.py"
 type: "rationale"
-community: "test_multilang.py"
+community: "extract_go"
 location: "L54"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_multilangpy
+  - community/extract_go
 ---
 
 # Extract functions, methods, type declarations, and imports from a .go file.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_go()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_multilangpy
+#graphify/rationale #graphify/EXTRACTED #community/extract_go

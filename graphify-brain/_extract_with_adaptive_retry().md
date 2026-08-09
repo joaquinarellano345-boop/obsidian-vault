@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "_extract_with_adaptive_retry"
+community: "test_chunking.py"
 location: "L1959"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_with_adaptive_retry
+  - community/test_chunkingpy
 ---
 
 # _extract_with_adaptive_retry()
@@ -36,4 +36,4 @@ tags:
 - [[test_chunking.py]] - `imports` [EXTRACTED]
 - [[unit_path()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_with_adaptive_retry
+#graphify/code #graphify/EXTRACTED #community/test_chunkingpy

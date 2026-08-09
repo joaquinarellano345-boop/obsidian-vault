@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_semantic_id_remap_root.py"
 type: "code"
-community: "graphify/build.py"
+community: "_semantic_id_remap"
 location: "L18"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/graphify/buildpy
+  - community/_semantic_id_remap
 ---
 
 # test_file_stem_handles_dot_path()
@@ -15,4 +15,4 @@ tags:
 - [[_file_stem()]] - `calls` [EXTRACTED]
 - [[test_semantic_id_remap_root.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/graphify/buildpy
+#graphify/code #graphify/EXTRACTED #community/_semantic_id_remap

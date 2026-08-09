@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_install.py"
 type: "code"
-community: "test_install.py"
+community: "main"
 location: "L1002"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_installpy
+  - community/main
 ---
 
 # test_amp_user_install_lands_in_config_agents()
@@ -16,4 +16,4 @@ tags:
 - [[main()]] - `calls` [EXTRACTED]
 - [[test_install.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_installpy
+#graphify/code #graphify/EXTRACTED #community/main

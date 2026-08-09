@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_home_sandbox.py"
 type: "code"
-community: "claude_install"
+community: "test_home_sandbox.py"
 location: "L36"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/claude_install
+  - community/test_home_sandboxpy
 ---
 
 # test_claude_config_dir_escape_hatch_is_cleared()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_home_sandbox.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/claude_install
+#graphify/code #graphify/EXTRACTED #community/test_home_sandboxpy

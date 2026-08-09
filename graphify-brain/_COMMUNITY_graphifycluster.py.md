@@ -44,19 +44,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY__rebuild_code]]
-- 4 edges to [[_COMMUNITY_cli.py]]
+- 10 edges to [[_COMMUNITY_cli.py]]
 - 4 edges to [[_COMMUNITY_test_export.py]]
-- 3 edges to [[_COMMUNITY_test_cluster.py]]
 - 3 edges to [[_COMMUNITY_generate]]
 - 3 edges to [[_COMMUNITY_test_watch.py]]
+- 2 edges to [[_COMMUNITY_test_cluster.py]]
 - 1 edge to [[_COMMUNITY_test_analyze.py]]
-- 1 edge to [[_COMMUNITY_test_pipeline.py]]
+- 1 edge to [[_COMMUNITY_to_json]]
 - 1 edge to [[_COMMUNITY_Graph]]
 
 ## Top bridge nodes
-- [[graphifycluster.py]] - degree 18, connects to 6 communities
-- [[community_member_sigs()]] - degree 11, connects to 3 communities
-- [[label_communities_by_hub()]] - degree 13, connects to 2 communities
+- [[graphifycluster.py]] - degree 18, connects to 7 communities
+- [[community_member_sigs()]] - degree 11, connects to 2 communities
 - [[_partition()]] - degree 6, connects to 2 communities
 - [[test_rebuild_code_drops_labels_whose_community_changed()]] - degree 4, connects to 2 communities
+- [[label_communities_by_hub()]] - degree 13, connects to 1 community

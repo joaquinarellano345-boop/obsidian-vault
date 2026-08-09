@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "test_languages.py"
+community: "_edges_with_relation"
 location: "L1658"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/_edges_with_relation
 ---
 
 # extract_c()
@@ -26,4 +26,4 @@ tags:
 - [[test_c_parameter_and_return_type_contexts()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_languagespy
+#graphify/code #graphify/EXTRACTED #community/_edges_with_relation

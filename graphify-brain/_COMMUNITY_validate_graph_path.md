@@ -30,9 +30,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_test_security.py]]
+- 8 edges to [[_COMMUNITY_test_security.py]]
 - 1 edge to [[_COMMUNITY_security.py]]
-- 1 edge to [[_COMMUNITY_cli.py]]
 
 ## Top bridge nodes
 - [[validate_graph_path()]] - degree 10, connects to 2 communities

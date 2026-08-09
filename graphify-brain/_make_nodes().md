@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "test_dedup.py"
+community: "deduplicate_entities"
 location: "L34"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_deduppy
+  - community/deduplicate_entities
 ---
 
 # _make_nodes()
@@ -26,4 +26,4 @@ tags:
 - [[test_typo_merged()]] - `calls` [EXTRACTED]
 - [[test_unrelated_not_merged()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_deduppy
+#graphify/code #graphify/EXTRACTED #community/deduplicate_entities

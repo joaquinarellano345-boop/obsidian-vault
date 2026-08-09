@@ -31,12 +31,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 11 edges to [[_COMMUNITY_test_security.py]]
+- 10 edges to [[_COMMUNITY_test_security.py]]
 - 5 edges to [[_COMMUNITY_ingest.py]]
 - 3 edges to [[_COMMUNITY_security.py]]
+- 1 edge to [[_COMMUNITY_validate_url]]
 
 ## Top bridge nodes
-- [[safe_fetch()]] - degree 13, connects to 3 communities
+- [[safe_fetch()]] - degree 13, connects to 4 communities
 - [[safe_fetch_text()]] - degree 9, connects to 3 communities
 - [[_make_mock_response()]] - degree 5, connects to 1 community
 - [[test_safe_fetch_raises_on_non_2xx()]] - degree 3, connects to 1 community

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "llm.py"
+community: "test_file_slice.py"
 location: "L511"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/llmpy
+  - community/test_file_slicepy
 ---
 
 # _resolve_under_root()
@@ -19,4 +19,4 @@ tags:
 - [[_read_files()]] - `calls` [EXTRACTED]
 - [[llm.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/llmpy
+#graphify/code #graphify/EXTRACTED #community/test_file_slicepy

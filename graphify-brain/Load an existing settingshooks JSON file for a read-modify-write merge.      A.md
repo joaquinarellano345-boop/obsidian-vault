@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "rationale"
-community: "graphify/__main__.py"
+community: "test_settings_merge.py"
 location: "L731"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_settings_mergepy
 ---
 
 # Load an existing settings/hooks JSON file for a read-modify-write merge.      A
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_read_settings_for_merge()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/rationale #graphify/EXTRACTED #community/test_settings_mergepy

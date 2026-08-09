@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/json_config.py"
 type: "code"
-community: "test_extract.py"
+community: "extract_json"
 location: "L24"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_extractpy
+  - community/extract_json
 ---
 
 # _is_config_json()
@@ -18,4 +18,4 @@ tags:
 - [[extract_json()]] - `calls` [EXTRACTED]
 - [[json_config.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_extractpy
+#graphify/code #graphify/EXTRACTED #community/extract_json

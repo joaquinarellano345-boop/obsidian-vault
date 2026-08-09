@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/dm.py"
 type: "code"
-community: "_read_text"
+community: "_make_id"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # dm.py
@@ -27,4 +27,4 @@ tags:
 - [[extractors__init__.py]] - `re_exports` [EXTRACTED]
 - [[extractorsbase.py]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

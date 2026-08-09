@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/watch.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L109"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # _read_build_excludes()
@@ -19,4 +19,4 @@ tags:
 - [[dispatch_command()]] - `calls` [EXTRACTED]
 - [[watch.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

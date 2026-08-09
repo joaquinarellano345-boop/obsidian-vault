@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "_extraction_system"
+community: "_call_llm"
 location: "L1106"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extraction_system
+  - community/_call_llm
 ---
 
 # Package-missing message that works for the recommended `uv tool` install.      `
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_backend_pkg_hint()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extraction_system
+#graphify/rationale #graphify/EXTRACTED #community/_call_llm

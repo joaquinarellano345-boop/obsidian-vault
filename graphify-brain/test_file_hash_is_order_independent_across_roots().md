@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_word_count_cache.py"
 type: "code"
-community: "file_hash"
+community: "test_cache.py"
 location: "L57"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/file_hash
+  - community/test_cachepy
 ---
 
 # test_file_hash_is_order_independent_across_roots()
@@ -17,4 +17,4 @@ tags:
 - [[file_hash()]] - `calls` [EXTRACTED]
 - [[test_word_count_cache.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/file_hash
+#graphify/code #graphify/EXTRACTED #community/test_cachepy

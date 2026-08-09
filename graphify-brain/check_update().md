@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/watch.py"
 type: "code"
-community: "test_watch.py"
+community: "cli.py"
 location: "L1433"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_watchpy
+  - community/clipy
 ---
 
 # check_update()
@@ -22,4 +22,4 @@ tags:
 - [[test_watch.py]] - `imports` [EXTRACTED]
 - [[watch.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_watchpy
+#graphify/code #graphify/EXTRACTED #community/clipy

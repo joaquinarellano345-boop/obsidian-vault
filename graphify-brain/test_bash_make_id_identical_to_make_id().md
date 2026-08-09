@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_symbol_resolution.py"
 type: "code"
-community: "_bash_make_id"
+community: "test_symbol_resolution.py"
 location: "L604"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_bash_make_id
+  - community/test_symbol_resolutionpy
 ---
 
 # test_bash_make_id_identical_to_make_id()
@@ -15,4 +15,4 @@ tags:
 - [[_bash_make_id()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_bash_make_id
+#graphify/code #graphify/EXTRACTED #community/test_symbol_resolutionpy

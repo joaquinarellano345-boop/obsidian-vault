@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_multilang.py"
 type: "rationale"
-community: "test_multilang.py"
+community: "extract_rust"
 location: "L369"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_multilangpy
+  - community/extract_rust
 ---
 
 # Tuple struct fields (`struct Wrapper(A, B);`) nest their positional types     un
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_rust_tuple_struct_field_references()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_multilangpy
+#graphify/rationale #graphify/EXTRACTED #community/extract_rust

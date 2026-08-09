@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "Path"
+community: "_get_extractor"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path
+  - community/_get_extractor
 ---
 
 # Any
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[_get_extractor()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

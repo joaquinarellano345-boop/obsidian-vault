@@ -38,15 +38,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 13 edges to [[_COMMUNITY_test_languages.py]]
-- 6 edges to [[_COMMUNITY__read_text]]
-- 2 edges to [[_COMMUNITY_extract.py]]
+- 14 edges to [[_COMMUNITY_test_languages.py]]
+- 5 edges to [[_COMMUNITY__make_id]]
+- 3 edges to [[_COMMUNITY_extract.py]]
 - 1 edge to [[_COMMUNITY_e]]
-- 1 edge to [[_COMMUNITY__edge_labels]]
 
 ## Top bridge nodes
 - [[extract_fortran()]] - degree 23, connects to 3 communities
 - [[_cpp_preprocess()]] - degree 5, connects to 2 communities
-- [[test_fortran_parameter_and_return_type_contexts()]] - degree 3, connects to 2 communities
 - [[test_fortran_finds_function_call()]] - degree 3, connects to 1 community
+- [[test_fortran_parameter_and_return_type_contexts()]] - degree 3, connects to 1 community
 - [[test_fortran_capital_F_parses_preprocessed()]] - degree 2, connects to 1 community

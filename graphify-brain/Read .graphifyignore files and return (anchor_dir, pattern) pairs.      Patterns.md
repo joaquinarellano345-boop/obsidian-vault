@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "rationale"
-community: "_load_graphifyignore"
+community: "detect.py"
 location: "L981"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_load_graphifyignore
+  - community/detectpy
 ---
 
 # Read .graphifyignore files and return (anchor_dir, pattern) pairs.      Patterns
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_load_graphifyignore()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_load_graphifyignore
+#graphify/rationale #graphify/EXTRACTED #community/detectpy

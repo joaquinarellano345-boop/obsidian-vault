@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/verilog.py"
 type: "code"
-community: "verilog.py"
+community: "_make_id"
 location: "L61"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/verilogpy
+  - community/_make_id
 ---
 
 # _sv_strip_comments()
@@ -15,4 +15,4 @@ tags:
 - [[_augment_systemverilog_semantics()]] - `calls` [EXTRACTED]
 - [[verilog.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/verilogpy
+#graphify/code #graphify/EXTRACTED #community/_make_id

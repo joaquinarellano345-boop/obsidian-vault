@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L412"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # test_rebuild_honors_persisted_no_gitignore()
@@ -16,4 +16,4 @@ tags:
 - [[_write_build_config()]] - `calls` [EXTRACTED]
 - [[test_watch.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

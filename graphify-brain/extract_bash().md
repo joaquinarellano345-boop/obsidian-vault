@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/bash.py"
 type: "code"
-community: "test_extract.py"
+community: "extract_bash"
 location: "L71"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/test_extractpy
+  - community/extract_bash
 ---
 
 # extract_bash()
@@ -56,4 +56,4 @@ tags:
 - [[test_extract_bash_var_source_untracked_var_keeps_script_dir_guess()]] - `calls` [INFERRED]
 - [[test_extract_bash_var_source_uses_tracked_assignment_base()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/INFERRED #community/test_extractpy
+#graphify/code #graphify/INFERRED #community/extract_bash

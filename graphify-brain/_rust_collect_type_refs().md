@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/rust.py"
 type: "code"
-community: "_read_text"
+community: "_make_id"
 location: "L9"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # _rust_collect_type_refs()
@@ -16,4 +16,4 @@ tags:
 - [[_read_text()]] - `calls` [EXTRACTED]
 - [[rust.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

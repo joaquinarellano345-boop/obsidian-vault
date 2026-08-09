@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_global_graph.py"
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L40"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # test_prefix_graph_preserves_label()
@@ -16,4 +16,4 @@ tags:
 - [[prefix_graph_for_global()]] - `calls` [EXTRACTED]
 - [[test_global_graph.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

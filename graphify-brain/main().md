@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/__main__.py"
 type: "code"
-community: "test_install.py"
+community: "main"
 location: "L460"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_installpy
+  - community/main
 ---
 
 # main()
@@ -96,4 +96,4 @@ tags:
 - [[test_uninstall_project_removes_project_skill_only()]] - `calls` [EXTRACTED]
 - [[test_uninstall_project_without_platform_removes_project_installs()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_installpy
+#graphify/code #graphify/EXTRACTED #community/main

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L1683"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # extract_scala()
@@ -30,4 +30,4 @@ tags:
 - [[test_scala_val_definition_field_context()]] - `calls` [EXTRACTED]
 - [[test_scala_var_definition_field_context()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_edge_labels
+#graphify/code #graphify/EXTRACTED #community/test_languagespy

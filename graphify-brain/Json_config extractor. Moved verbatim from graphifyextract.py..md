@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/json_config.py"
 type: "rationale"
-community: "_read_text"
+community: "_make_id"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # Json_config extractor. Moved verbatim from graphify/extract.py.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[json_config.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_read_text
+#graphify/rationale #graphify/EXTRACTED #community/_make_id

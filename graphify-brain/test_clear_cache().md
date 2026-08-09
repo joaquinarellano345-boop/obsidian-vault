@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_cache.py"
 type: "code"
-community: "test_cache.py"
+community: "clear_cache"
 location: "L69"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_cachepy
+  - community/clear_cache
 ---
 
 # test_clear_cache()
@@ -17,4 +17,4 @@ tags:
 - [[save_cached()]] - `calls` [EXTRACTED]
 - [[test_cache.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_cachepy
+#graphify/code #graphify/EXTRACTED #community/clear_cache

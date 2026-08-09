@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_export.py"
 type: "code"
-community: "export.py"
+community: "test_export.py"
 location: "L609"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/test_exportpy
 ---
 
 # test_obsidian_canvas_filenames_agree()
@@ -19,4 +19,4 @@ tags:
 - [[to_canvas()]] - `calls` [EXTRACTED]
 - [[to_obsidian()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/exportpy
+#graphify/code #graphify/EXTRACTED #community/test_exportpy

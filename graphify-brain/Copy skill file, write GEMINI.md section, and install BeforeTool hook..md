@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "rationale"
-community: "graphify/__main__.py"
+community: "test_install.py"
 location: "L694"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_installpy
 ---
 
 # Copy skill file, write GEMINI.md section, and install BeforeTool hook.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[gemini_install()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/rationale #graphify/EXTRACTED #community/test_installpy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/watch.py"
 type: "rationale"
-community: "skipif"
+community: "cli.py"
 location: "L159"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/skipif
+  - community/clipy
 ---
 
 # Per-repo advisory lock around a rebuild.      Yields True if acquired, False if
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_rebuild_lock()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/skipif
+#graphify/rationale #graphify/EXTRACTED #community/clipy

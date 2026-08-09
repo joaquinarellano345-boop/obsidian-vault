@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "code"
-community: "deduplicate_entities"
+community: "_llm_tiebreak"
 location: "L641"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/deduplicate_entities
+  - community/_llm_tiebreak
 ---
 
 # _llm_tiebreak()
@@ -28,4 +28,4 @@ tags:
 - [[dedup.py]] - `contains` [EXTRACTED]
 - [[deduplicate_entities()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/deduplicate_entities
+#graphify/code #graphify/EXTRACTED #community/_llm_tiebreak

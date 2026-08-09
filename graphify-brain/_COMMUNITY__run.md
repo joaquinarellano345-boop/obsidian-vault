@@ -40,7 +40,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 11 edges to [[_COMMUNITY_test_reflect.py]]
-- 4 edges to [[_COMMUNITY_test_analyze.py]]
+- 4 edges to [[_COMMUNITY_generate]]
 - 1 edge to [[_COMMUNITY__write_raw_doc]]
 
 ## Top bridge nodes

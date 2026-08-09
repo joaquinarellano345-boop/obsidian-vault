@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_extract_pascal_regex"
+community: "_make_id"
 location: "L1553"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_pascal_regex
+  - community/_make_id
 ---
 
 # _extract_spock_fallback()
@@ -21,4 +21,4 @@ tags:
 - [[extract.py]] - `contains` [EXTRACTED]
 - [[extract_groovy()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_pascal_regex
+#graphify/code #graphify/EXTRACTED #community/_make_id

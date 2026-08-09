@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "code"
-community: "dedup.py"
+community: "_defines_id"
 location: "L210"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/deduppy
+  - community/_defines_id
 ---
 
 # _defines_id()
@@ -21,4 +21,4 @@ tags:
 - [[test_dedup.py]] - `imports` [EXTRACTED]
 - [[test_defines_id_helper()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/deduppy
+#graphify/code #graphify/EXTRACTED #community/_defines_id

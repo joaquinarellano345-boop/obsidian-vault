@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/cluster.py"
 type: "code"
-community: "test_cluster.py"
+community: "cli.py"
 location: "L272"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_clusterpy
+  - community/clipy
 ---
 
 # remap_communities_to_previous()
@@ -22,4 +22,4 @@ tags:
 - [[test_remap_communities_to_previous_reuses_old_ids()]] - `calls` [EXTRACTED]
 - [[watch.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_clusterpy
+#graphify/code #graphify/EXTRACTED #community/clipy

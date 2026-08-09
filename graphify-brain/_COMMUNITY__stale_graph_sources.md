@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.25
-members: 16
+cohesion: 0.21
+members: 18
 ---
 
 # _stale_graph_sources
 
-**Cohesion:** 0.25 - loosely connected
-**Members:** 16 nodes
+**Cohesion:** 0.21 - loosely connected
+**Members:** 18 nodes
 
 ## Members
 - [[1909 must keep working an alive file excluded by ignore rules is     provably]] - rationale - tests/test_stale_prune.py
@@ -16,10 +16,12 @@ members: 16
 - [[(b) fail-closed a legacy bare-basename source_file whose file is     alive at d]] - rationale - tests/test_stale_prune.py
 - [[(c) a source_file with no file on disk anywhere IS pruned.]] - rationale - tests/test_stale_prune.py
 - [[Fail-closed an alive in-root file missing from the corpus without     provable]] - rationale - tests/test_stale_prune.py
+- [[NFC-normalize a path string.      macOS (HFS+APFS) reports filenames in NFD whi]] - rationale - graphify/paths.py
 - [[Source files graph.json still references but the current scan no longer     cont]] - rationale - graphify/cli.py
 - [[_scan()]] - code - tests/test_stale_prune.py
 - [[_stale_graph_sources()]] - code - graphify/cli.py
 - [[_write_graph()_8]] - code - tests/test_stale_prune.py
+- [[nfc()]] - code - graphify/paths.py
 - [[test_alive_but_ignored_source_is_pruned()]] - code - tests/test_stale_prune.py
 - [[test_alive_unproven_exclusion_kept_with_warning()]] - code - tests/test_stale_prune.py
 - [[test_bare_basename_alive_elsewhere_not_pruned()]] - code - tests/test_stale_prune.py
@@ -35,12 +37,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_cli.py]]
+- 5 edges to [[_COMMUNITY_cli.py]]
 - 3 edges to [[_COMMUNITY_test_detect.py]]
-- 1 edge to [[_COMMUNITY_paths.py]]
 - 1 edge to [[_COMMUNITY_detect.py]]
+- 1 edge to [[_COMMUNITY_paths.py]]
 
 ## Top bridge nodes
-- [[_stale_graph_sources()]] - degree 12, connects to 3 communities
 - [[test_stale_prune.py]] - degree 12, connects to 3 communities
+- [[_stale_graph_sources()]] - degree 12, connects to 2 communities
+- [[nfc()]] - degree 4, connects to 2 communities
 - [[_scan()]] - degree 7, connects to 1 community

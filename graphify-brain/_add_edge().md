@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/mcp_ingest.py"
 type: "code"
-community: "_extract_pascal_regex"
+community: "_get_extractor"
 location: "L343"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_pascal_regex
+  - community/_get_extractor
 ---
 
 # _add_edge()
@@ -21,4 +21,4 @@ tags:
 - [[mcp_ingest.py]] - `contains` [EXTRACTED]
 - [[test_resolver_mutates_edges_in_place()]] - `indirect_call` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_pascal_regex
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

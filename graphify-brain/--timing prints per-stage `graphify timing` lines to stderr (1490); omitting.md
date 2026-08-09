@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract_cli.py"
 type: "rationale"
-community: "test_extract_cli.py"
+community: "main"
 location: "L763"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_extract_clipy
+  - community/main
 ---
 
 # --timing prints per-stage `[graphify timing]` lines to stderr (#1490); omitting
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_extract_timing_flag_emits_stage_timings()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_extract_clipy
+#graphify/rationale #graphify/EXTRACTED #community/main

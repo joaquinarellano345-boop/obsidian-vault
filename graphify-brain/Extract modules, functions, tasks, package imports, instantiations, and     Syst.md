@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/verilog.py"
 type: "rationale"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L206"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # Extract modules, functions, tasks, package imports, instantiations, and     Syst
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_verilog()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_edge_labels
+#graphify/rationale #graphify/EXTRACTED #community/test_languagespy

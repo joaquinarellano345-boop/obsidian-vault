@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/cache.py"
 type: "rationale"
-community: "file_hash"
+community: "test_cache.py"
 location: "L408"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/file_hash
+  - community/test_cachepy
 ---
 
 # Word count with the same (size, mtime_ns) stat-fastpath cache as     :func:`file
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[cached_word_count()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/file_hash
+#graphify/rationale #graphify/EXTRACTED #community/test_cachepy

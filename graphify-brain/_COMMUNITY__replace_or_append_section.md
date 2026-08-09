@@ -28,10 +28,11 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_graphify__main__.py]]
+- 5 edges to [[_COMMUNITY_graphify__main__.py]]
 - 1 edge to [[_COMMUNITY_claude_install]]
 - 1 edge to [[_COMMUNITY_test_codebuddy.py]]
+- 1 edge to [[_COMMUNITY_test_install.py]]
 
 ## Top bridge nodes
-- [[_replace_or_append_section()]] - degree 13, connects to 3 communities
+- [[_replace_or_append_section()]] - degree 13, connects to 4 communities
 - [[test_replace_or_append_section.py]] - degree 7, connects to 1 community

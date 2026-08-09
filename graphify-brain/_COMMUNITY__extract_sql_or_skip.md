@@ -41,7 +41,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 14 edges to [[_COMMUNITY_test_multilang.py]]
-- 1 edge to [[_COMMUNITY__read_text]]
+- 1 edge to [[_COMMUNITY__make_id]]
 
 ## Top bridge nodes
 - [[_extract_sql_or_skip()]] - degree 15, connects to 2 communities

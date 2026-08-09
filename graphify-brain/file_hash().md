@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/cache.py"
 type: "code"
-community: "file_hash"
+community: "test_cache.py"
 location: "L324"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/file_hash
+  - community/test_cachepy
 ---
 
 # file_hash()
@@ -56,4 +56,4 @@ tags:
 - [[test_semantic_prune_sweeps_both_namespaces_against_same_live_set()]] - `calls` [EXTRACTED]
 - [[test_word_count_augments_existing_hash_entry()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/file_hash
+#graphify/code #graphify/EXTRACTED #community/test_cachepy

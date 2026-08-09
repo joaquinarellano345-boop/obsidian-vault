@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L2780"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # test_systemverilog_no_error()
@@ -15,4 +15,4 @@ tags:
 - [[extract_verilog()]] - `calls` [INFERRED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/INFERRED #community/_edge_labels
+#graphify/code #graphify/INFERRED #community/test_languagespy

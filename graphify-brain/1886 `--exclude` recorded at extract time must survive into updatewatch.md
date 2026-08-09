@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "rationale"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L387"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # #1886: `--exclude` recorded at extract time must survive into update/watch/
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_rebuild_honors_persisted_excludes()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_rebuild_code
+#graphify/rationale #graphify/EXTRACTED #community/clipy

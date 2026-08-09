@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_pg_introspect.py"
 type: "code"
-community: "validate_extraction"
+community: "introspect_postgres"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/validate_extraction
+  - community/introspect_postgres
 ---
 
 # test_pg_introspect.py
@@ -27,4 +27,4 @@ tags:
 - [[validate.py]] - `imports_from` [EXTRACTED]
 - [[validate_extraction()]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/validate_extraction
+#graphify/code #graphify/EXTRACTED #community/introspect_postgres

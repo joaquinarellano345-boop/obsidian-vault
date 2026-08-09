@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_llm_backends.py"
 type: "code"
-community: "_extract_with_adaptive_retry"
+community: "test_chunking.py"
 location: "L294"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_with_adaptive_retry
+  - community/test_chunkingpy
 ---
 
 # test_adaptive_retry_gives_up_on_single_file_overflow()
@@ -15,4 +15,4 @@ tags:
 - [[_extract_with_adaptive_retry()]] - `calls` [EXTRACTED]
 - [[test_llm_backends.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_with_adaptive_retry
+#graphify/code #graphify/EXTRACTED #community/test_chunkingpy

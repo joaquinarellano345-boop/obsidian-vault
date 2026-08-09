@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "rationale"
-community: "build_label_index"
+community: "symbol_resolution.py"
 location: "L37"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build_label_index
+  - community/symbol_resolutionpy
 ---
 
 # Return True when a node is suitable for deterministic symbol lookup.      Requir
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[node_is_resolvable_symbol()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build_label_index
+#graphify/rationale #graphify/EXTRACTED #community/symbol_resolutionpy

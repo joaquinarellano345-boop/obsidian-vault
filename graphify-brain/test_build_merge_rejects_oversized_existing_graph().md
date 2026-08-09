@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_build.py"
 type: "code"
-community: "build_from_json"
+community: "graphify/build.py"
 location: "L1008"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build_from_json
+  - community/graphify/buildpy
 ---
 
 # test_build_merge_rejects_oversized_existing_graph()
@@ -16,4 +16,4 @@ tags:
 - [[build_merge()]] - `calls` [EXTRACTED]
 - [[test_build.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build_from_json
+#graphify/code #graphify/EXTRACTED #community/graphify/buildpy

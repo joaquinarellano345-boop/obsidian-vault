@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "code"
-community: "_resolve_js_import_target"
+community: "engine.py"
 location: "L1231"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_resolve_js_import_target
+  - community/enginepy
 ---
 
 # _dynamic_import_js()
@@ -18,4 +18,4 @@ tags:
 - [[engine.py]] - `contains` [EXTRACTED]
 - [[extract.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_resolve_js_import_target
+#graphify/code #graphify/EXTRACTED #community/enginepy

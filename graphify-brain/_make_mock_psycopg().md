@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_pg_introspect.py"
 type: "code"
-community: "validate_extraction"
+community: "introspect_postgres"
 location: "L16"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/validate_extraction
+  - community/introspect_postgres
 ---
 
 # _make_mock_psycopg()
@@ -22,4 +22,4 @@ tags:
 - [[test_pg_introspect_success()]] - `calls` [EXTRACTED]
 - [[test_pg_introspect_uri_forward_slashes()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/validate_extraction
+#graphify/code #graphify/EXTRACTED #community/introspect_postgres

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/json_config.py"
 type: "code"
-community: "test_extract.py"
+community: "extract_json"
 location: "L51"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/test_extractpy
+  - community/extract_json
 ---
 
 # extract_json()
@@ -36,4 +36,4 @@ tags:
 - [[test_extract_json_top_level_array_skipped()]] - `calls` [INFERRED]
 - [[test_extract_json_top_level_keys()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/INFERRED #community/test_extractpy
+#graphify/code #graphify/INFERRED #community/extract_json

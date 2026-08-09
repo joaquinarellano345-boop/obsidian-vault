@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "rationale"
-community: "build_from_json"
+community: "graphify/build.py"
 location: "L508"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build_from_json
+  - community/graphify/buildpy
 ---
 
 # Map a markdown quick-scan's bare doc node ``<slug>`` to the semantic     ``<slug
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_doc_twin_remap()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build_from_json
+#graphify/rationale #graphify/EXTRACTED #community/graphify/buildpy

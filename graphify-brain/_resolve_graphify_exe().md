@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "code"
-community: "graphify/__main__.py"
+community: "test_settings_merge.py"
 location: "L1389"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_settings_mergepy
 ---
 
 # _resolve_graphify_exe()
@@ -21,4 +21,4 @@ tags:
 - [[install.py]] - `contains` [EXTRACTED]
 - [[test_hook_command_has_no_backslashes()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/code #graphify/EXTRACTED #community/test_settings_mergepy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "rationale"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L1679"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # Extract classes, objects, functions, and imports from a .kt/.kts file.
@@ -15,4 +15,4 @@ tags:
 - [[extract_kotlin()]] - `rationale_for` [EXTRACTED]
 - [[extract_scala()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_edge_labels
+#graphify/rationale #graphify/EXTRACTED #community/test_languagespy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/global_graph.py"
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # global_graph.py
@@ -26,4 +26,4 @@ tags:
 - [[prune_repo_from_graph()]] - `imports` [EXTRACTED]
 - [[write_json_atomic()]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

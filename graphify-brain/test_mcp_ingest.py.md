@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_mcp_ingest.py"
 type: "code"
-community: "test_mcp_ingest.py"
+community: "_get_extractor"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_mcp_ingestpy
+  - community/_get_extractor
 ---
 
 # test_mcp_ingest.py
@@ -52,4 +52,4 @@ tags:
 - [[test_same_server_name_in_different_dirs_does_not_collide()]] - `contains` [EXTRACTED]
 - [[test_server_without_command_still_emits_server_node()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_mcp_ingestpy
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

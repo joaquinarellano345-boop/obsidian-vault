@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "test_dedup_no_attribute_merge_when_source_file_missing"
+community: "deduplicate_entities"
 location: "L654"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_dedup_no_attribute_merge_when_source_file_missing
+  - community/deduplicate_entities
 ---
 
 # test_dedup_no_attribute_merge_when_source_file_missing()
@@ -16,4 +16,4 @@ tags:
 - [[deduplicate_entities()]] - `calls` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_dedup_no_attribute_merge_when_source_file_missing
+#graphify/code #graphify/EXTRACTED #community/deduplicate_entities

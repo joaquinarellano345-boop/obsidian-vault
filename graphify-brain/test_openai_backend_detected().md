@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_llm_backends.py"
 type: "code"
-community: "test_llm_backends.py"
+community: "detect_backend"
 location: "L79"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_llm_backendspy
+  - community/detect_backend
 ---
 
 # test_openai_backend_detected()
@@ -17,4 +17,4 @@ tags:
 - [[detect_backend()]] - `calls` [EXTRACTED]
 - [[test_llm_backends.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_llm_backendspy
+#graphify/code #graphify/EXTRACTED #community/detect_backend

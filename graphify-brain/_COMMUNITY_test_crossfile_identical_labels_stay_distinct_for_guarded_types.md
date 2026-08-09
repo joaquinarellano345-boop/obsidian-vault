@@ -26,10 +26,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_deduplicate_entities]]
-- 3 edges to [[_COMMUNITY_test_dedup.py]]
+- 6 edges to [[_COMMUNITY_deduplicate_entities]]
 
 ## Top bridge nodes
-- [[test_crossfile_identical_labels_stay_distinct_for_guarded_types()]] - degree 4, connects to 2 communities
-- [[test_defining_file_wins_over_referencing_file()]] - degree 4, connects to 2 communities
-- [[test_same_id_same_entity_retains_complementary_attributes()]] - degree 4, connects to 2 communities
+- [[test_crossfile_identical_labels_stay_distinct_for_guarded_types()]] - degree 4, connects to 1 community
+- [[test_defining_file_wins_over_referencing_file()]] - degree 4, connects to 1 community
+- [[test_same_id_same_entity_retains_complementary_attributes()]] - degree 4, connects to 1 community

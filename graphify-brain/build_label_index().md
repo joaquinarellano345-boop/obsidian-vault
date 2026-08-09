@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "code"
-community: "build_label_index"
+community: "symbol_resolution.py"
 location: "L57"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build_label_index
+  - community/symbol_resolutionpy
 ---
 
 # build_label_index()
@@ -22,4 +22,4 @@ tags:
 - [[test_build_label_index_excludes_non_code_nodes()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build_label_index
+#graphify/code #graphify/EXTRACTED #community/symbol_resolutionpy

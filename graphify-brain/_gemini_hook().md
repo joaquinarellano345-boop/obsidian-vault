@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "code"
-community: "graphify/__main__.py"
+community: "test_settings_merge.py"
 location: "L684"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_settings_mergepy
 ---
 
 # _gemini_hook()
@@ -19,4 +19,4 @@ tags:
 - [[install.py]] - `contains` [EXTRACTED]
 - [[test_matcher_and_command_shape()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/code #graphify/EXTRACTED #community/test_settings_mergepy

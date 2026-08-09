@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/processor.py"
 type: "code"
-community: "storage.py"
+community: "processor.py"
 location: "L57"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/storagepy
+  - community/processorpy
 ---
 
 # process_and_save()
@@ -20,4 +20,4 @@ tags:
 - [[reprocess_all()]] - `calls` [EXTRACTED]
 - [[save_processed()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/storagepy
+#graphify/code #graphify/EXTRACTED #community/processorpy

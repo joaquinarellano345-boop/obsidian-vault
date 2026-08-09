@@ -37,8 +37,9 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 8 edges to [[_COMMUNITY_test_languages.py]]
-- 4 edges to [[_COMMUNITY__read_text]]
+- 3 edges to [[_COMMUNITY__make_id]]
 - 1 edge to [[_COMMUNITY_extract.py]]
+- 1 edge to [[_COMMUNITY_extract_powershell]]
 - 1 edge to [[_COMMUNITY_e]]
 
 ## Top bridge nodes

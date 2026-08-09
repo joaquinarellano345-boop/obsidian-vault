@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_rewire_unique_stub_nodes"
+community: "Path"
 location: "L1787"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rewire_unique_stub_nodes
+  - community/Path
 ---
 
 # _lang_is_case_insensitive()
@@ -18,4 +18,4 @@ tags:
 - [[extract()]] - `calls` [EXTRACTED]
 - [[extract.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rewire_unique_stub_nodes
+#graphify/code #graphify/EXTRACTED #community/Path

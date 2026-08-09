@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "code"
-community: "to_json"
+community: "export.py"
 location: "L173"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/to_json
+  - community/exportpy
 ---
 
 # _git_head()
@@ -18,4 +18,4 @@ tags:
 - [[export.py]] - `contains` [EXTRACTED]
 - [[to_json()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/to_json
+#graphify/code #graphify/EXTRACTED #community/exportpy

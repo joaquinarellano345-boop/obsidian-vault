@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "code"
-community: "deduplicate_entities"
+community: "_llm_tiebreak"
 location: "L76"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/deduplicate_entities
+  - community/_llm_tiebreak
 ---
 
 # _short_label_blocked()
@@ -19,4 +19,4 @@ tags:
 - [[test_dedup.py]] - `imports` [EXTRACTED]
 - [[test_dedup_still_merges_real_typos()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/deduplicate_entities
+#graphify/code #graphify/EXTRACTED #community/_llm_tiebreak

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/pg_introspect.py"
 type: "code"
-community: "validate_extraction"
+community: "introspect_postgres"
 location: "L11"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/validate_extraction
+  - community/introspect_postgres
 ---
 
 # introspect_postgres()
@@ -28,4 +28,4 @@ tags:
 - [[test_pg_introspect_success()]] - `calls` [EXTRACTED]
 - [[test_pg_introspect_uri_forward_slashes()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/validate_extraction
+#graphify/code #graphify/EXTRACTED #community/introspect_postgres

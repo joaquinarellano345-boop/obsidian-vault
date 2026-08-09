@@ -75,15 +75,15 @@ SORT file.name ASC
 - 8 edges to [[_COMMUNITY_load_memory_docs]]
 - 6 edges to [[_COMMUNITY_parse_memory_doc]]
 - 6 edges to [[_COMMUNITY_lessons_fresh]]
+- 4 edges to [[_COMMUNITY_generate]]
 - 4 edges to [[_COMMUNITY_save_query_result]]
-- 3 edges to [[_COMMUNITY_test_analyze.py]]
-- 2 edges to [[_COMMUNITY_generate]]
+- 1 edge to [[_COMMUNITY_test_analyze.py]]
 - 1 edge to [[_COMMUNITY_build_from_json]]
 - 1 edge to [[_COMMUNITY_test_export.py]]
 - 1 edge to [[_COMMUNITY_to_json]]
 - 1 edge to [[_COMMUNITY_ingest.py]]
 - 1 edge to [[_COMMUNITY__doc_community]]
-- 1 edge to [[_COMMUNITY__rebuild_code]]
+- 1 edge to [[_COMMUNITY_cli.py]]
 
 ## Top bridge nodes
 - [[test_reflect.py]] - degree 84, connects to 13 communities

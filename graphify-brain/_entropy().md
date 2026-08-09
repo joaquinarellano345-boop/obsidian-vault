@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "code"
-community: "test_dedup.py"
+community: "_norm"
 location: "L27"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_deduppy
+  - community/_norm
 ---
 
 # _entropy()
@@ -21,4 +21,4 @@ tags:
 - [[test_entropy_normal_label_high()]] - `calls` [EXTRACTED]
 - [[test_entropy_short_label_low()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_deduppy
+#graphify/code #graphify/EXTRACTED #community/_norm

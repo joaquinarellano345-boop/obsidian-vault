@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "test_llm_backends.py"
+community: "_call_llm"
 location: "L1567"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_llm_backendspy
+  - community/_call_llm
 ---
 
 # _call_azure()
@@ -21,4 +21,4 @@ tags:
 - [[llm.py]] - `contains` [EXTRACTED]
 - [[test_call_azure_uses_correct_client_params_and_max_completion_tokens()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_llm_backendspy
+#graphify/code #graphify/EXTRACTED #community/_call_llm

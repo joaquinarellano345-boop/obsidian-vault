@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_cache.py"
 type: "rationale"
-community: "test_cache.py"
+community: "clear_cache"
 location: "L70"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_cachepy
+  - community/clear_cache
 ---
 
 # clear_cache removes all .json files from graphify-out/cache/ (all subdirs).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_clear_cache()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_cachepy
+#graphify/rationale #graphify/EXTRACTED #community/clear_cache

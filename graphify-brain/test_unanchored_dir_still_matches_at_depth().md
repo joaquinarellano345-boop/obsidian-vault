@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_detect.py"
 type: "code"
-community: "_load_graphifyignore"
+community: "_is_ignored"
 location: "L1026"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_load_graphifyignore
+  - community/_is_ignored
 ---
 
 # test_unanchored_dir_still_matches_at_depth()
@@ -17,4 +17,4 @@ tags:
 - [[inbox (no leading ) must still match srcinbox anywhere in the tree.]] - `rationale_for` [EXTRACTED]
 - [[test_detect.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_load_graphifyignore
+#graphify/code #graphify/EXTRACTED #community/_is_ignored

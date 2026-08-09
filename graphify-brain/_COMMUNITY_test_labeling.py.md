@@ -66,7 +66,7 @@ SORT file.name ASC
 ## Connections to other communities
 - 5 edges to [[_COMMUNITY_llm.py]]
 - 2 edges to [[_COMMUNITY_cli.py]]
-- 1 edge to [[_COMMUNITY_test_llm_backends.py]]
+- 1 edge to [[_COMMUNITY_detect_backend]]
 
 ## Top bridge nodes
 - [[generate_community_labels()]] - degree 11, connects to 3 communities

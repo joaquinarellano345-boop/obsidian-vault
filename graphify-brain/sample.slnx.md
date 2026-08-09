@@ -1,18 +1,13 @@
 ---
 source_file: "tests/fixtures/sample.slnx"
 type: "code"
-community: "sample.sln"
+community: "sample.slnx"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/samplesln
+  - community/sampleslnx
 ---
 
 # sample.slnx
 
-## Connections
-- [[Domain]] - `contains` [EXTRACTED]
-- [[Tests]] - `contains` [EXTRACTED]
-- [[WebApi]] - `contains` [EXTRACTED]
-
-#graphify/code #graphify/EXTRACTED #community/samplesln
+#graphify/code #graphify/EXTRACTED #community/sampleslnx

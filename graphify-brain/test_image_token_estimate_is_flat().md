@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_image_vision.py"
 type: "code"
-community: "test_file_slice.py"
+community: "test_chunking.py"
 location: "L174"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_file_slicepy
+  - community/test_chunkingpy
 ---
 
 # test_image_token_estimate_is_flat()
@@ -16,4 +16,4 @@ tags:
 - [[_make_corpus()_2]] - `calls` [EXTRACTED]
 - [[test_image_vision.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_file_slicepy
+#graphify/code #graphify/EXTRACTED #community/test_chunkingpy

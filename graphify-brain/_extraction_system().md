@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "_extraction_system"
+community: "test_chunking.py"
 location: "L490"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extraction_system
+  - community/test_chunkingpy
 ---
 
 # _extraction_system()
@@ -28,4 +28,4 @@ tags:
 - [[test_native_extraction_prompt_requests_hyperedges()]] - `calls` [EXTRACTED]
 - [[test_truncated_chunk_is_cached_partial_and_missed_on_reload()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extraction_system
+#graphify/code #graphify/EXTRACTED #community/test_chunkingpy

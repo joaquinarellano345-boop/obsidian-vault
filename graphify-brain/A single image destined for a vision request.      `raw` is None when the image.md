@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "test_image_vision.py"
+community: "llm.py"
 location: "L758"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_image_visionpy
+  - community/llmpy
 ---
 
 # A single image destined for a vision request.      `raw` is None when the image
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_ImageRef]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_image_visionpy
+#graphify/rationale #graphify/EXTRACTED #community/llmpy

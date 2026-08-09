@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "llm.py"
+community: "test_file_slice.py"
 location: "L632"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/llmpy
+  - community/test_file_slicepy
 ---
 
 # _dispatched_source_text()
@@ -21,4 +21,4 @@ tags:
 - [[read_slice_text()]] - `calls` [EXTRACTED]
 - [[unit_path()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/llmpy
+#graphify/code #graphify/EXTRACTED #community/test_file_slicepy

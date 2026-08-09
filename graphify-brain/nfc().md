@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/paths.py"
 type: "code"
-community: "paths.py"
+community: "_stale_graph_sources"
 location: "L307"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/pathspy
+  - community/_stale_graph_sources
 ---
 
 # nfc()
@@ -17,4 +17,4 @@ tags:
 - [[cli.py]] - `imports` [EXTRACTED]
 - [[paths.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/pathspy
+#graphify/code #graphify/EXTRACTED #community/_stale_graph_sources

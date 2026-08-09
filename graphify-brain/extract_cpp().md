@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "test_languages.py"
+community: "extract_cpp"
 location: "L1663"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/extract_cpp
 ---
 
 # extract_cpp()
@@ -36,4 +36,4 @@ tags:
 - [[test_metal_finds_kernel_function_and_struct()]] - `calls` [EXTRACTED]
 - [[test_metal_no_error()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_languagespy
+#graphify/code #graphify/EXTRACTED #community/extract_cpp

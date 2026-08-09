@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/validator.py"
 type: "rationale"
-community: "e"
+community: "api.py"
 location: "L33"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/e
+  - community/apipy
 ---
 
 # Raise if the format is not in the allowed list.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[check_format()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/e
+#graphify/rationale #graphify/EXTRACTED #community/apipy

@@ -42,8 +42,9 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 3 edges to [[_COMMUNITY_graphify__main__.py]]
+- 2 edges to [[_COMMUNITY_test_settings_merge.py]]
+- 1 edge to [[_COMMUNITY_graphify__main__.py]]
 
 ## Top bridge nodes
-- [[test_search_hook.py]] - degree 21, connects to 1 community
+- [[test_search_hook.py]] - degree 21, connects to 2 communities
 - [[_search_matcher()]] - degree 4, connects to 1 community

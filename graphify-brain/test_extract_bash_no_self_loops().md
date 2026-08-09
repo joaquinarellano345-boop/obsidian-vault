@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "code"
-community: "test_extract.py"
+community: "extract_bash"
 location: "L1721"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/test_extractpy
+  - community/extract_bash
 ---
 
 # test_extract_bash_no_self_loops()
@@ -15,4 +15,4 @@ tags:
 - [[extract_bash()]] - `calls` [INFERRED]
 - [[test_extract.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/INFERRED #community/test_extractpy
+#graphify/code #graphify/INFERRED #community/extract_bash

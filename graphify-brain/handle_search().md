@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/api.py"
 type: "code"
-community: "storage.py"
+community: "api.py"
 location: "L48"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/storagepy
+  - community/apipy
 ---
 
 # handle_search()
@@ -16,4 +16,4 @@ tags:
 - [[api.py]] - `contains` [EXTRACTED]
 - [[load_index()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/storagepy
+#graphify/code #graphify/EXTRACTED #community/apipy

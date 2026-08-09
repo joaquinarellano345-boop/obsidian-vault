@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "code"
-community: "build_label_index"
+community: "symbol_resolution.py"
 location: "L36"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build_label_index
+  - community/symbol_resolutionpy
 ---
 
 # node_is_resolvable_symbol()
@@ -22,4 +22,4 @@ tags:
 - [[test_node_is_resolvable_symbol_skips_rationale_and_doc_tags()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build_label_index
+#graphify/code #graphify/EXTRACTED #community/symbol_resolutionpy

@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/api.py"
 type: "rationale"
-community: "storage.py"
+community: "list_records"
 location: "L44"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/storagepy
+  - community/list_records
 ---
 
 # List all document IDs in storage.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[handle_list()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/storagepy
+#graphify/rationale #graphify/EXTRACTED #community/list_records

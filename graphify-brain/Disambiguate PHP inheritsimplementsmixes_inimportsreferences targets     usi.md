@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "rationale"
-community: "_read_text"
+community: "extract.py"
 location: "L2398"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/extractpy
 ---
 
 # Disambiguate PHP inherits/implements/mixes_in/imports/references targets     usi
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_resolve_php_type_references()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_read_text
+#graphify/rationale #graphify/EXTRACTED #community/extractpy

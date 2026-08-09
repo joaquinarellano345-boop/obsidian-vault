@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/parser.py"
 type: "rationale"
-community: "e"
+community: "parser.py"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/e
+  - community/parserpy
 ---
 
 # Parser module - reads raw input documents and converts them into a structured fo
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[parser.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/e
+#graphify/rationale #graphify/EXTRACTED #community/parserpy

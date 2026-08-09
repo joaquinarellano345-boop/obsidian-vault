@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_office_limits.py"
 type: "code"
-community: "_zip_within_caps"
+community: "detect.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_zip_within_caps
+  - community/detectpy
 ---
 
 # test_office_limits.py
@@ -24,4 +24,4 @@ tags:
 - [[test_streaming_ceiling_rejects_oversized_actual()]] - `contains` [EXTRACTED]
 - [[test_zip_ratio_bomb_rejected()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_zip_within_caps
+#graphify/code #graphify/EXTRACTED #community/detectpy

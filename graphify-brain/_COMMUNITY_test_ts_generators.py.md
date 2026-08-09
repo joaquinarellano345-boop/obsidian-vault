@@ -32,7 +32,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 6 edges to [[_COMMUNITY_extract]]
-- 3 edges to [[_COMMUNITY__read_text]]
+- 3 edges to [[_COMMUNITY__make_id]]
 - 1 edge to [[_COMMUNITY_extract.py]]
 
 ## Top bridge nodes

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "code"
-community: "_zip_within_caps"
+community: "detect.py"
 location: "L52"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_zip_within_caps
+  - community/detectpy
 ---
 
 # _file_within_size_cap()
@@ -19,4 +19,4 @@ tags:
 - [[extract_pdf_text()]] - `calls` [EXTRACTED]
 - [[test_file_within_size_cap()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_zip_within_caps
+#graphify/code #graphify/EXTRACTED #community/detectpy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "_extract_with_adaptive_retry"
+community: "llm.py"
 location: "L1916"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_with_adaptive_retry
+  - community/llmpy
 ---
 
 # Source paths covered by a chunk, for marking a chunk that truncated to an     EM
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_chunk_partial_files()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_with_adaptive_retry
+#graphify/rationale #graphify/EXTRACTED #community/llmpy

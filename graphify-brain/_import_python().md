@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_read_text"
+community: "Path"
 location: "L312"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/Path
 ---
 
 # _import_python()
@@ -17,4 +17,4 @@ tags:
 - [[_read_text()]] - `calls` [EXTRACTED]
 - [[extract.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/Path

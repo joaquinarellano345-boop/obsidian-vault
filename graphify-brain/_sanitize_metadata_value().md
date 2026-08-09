@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/security.py"
 type: "code"
-community: "sanitize_metadata"
+community: "test_security.py"
 location: "L425"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/sanitize_metadata
+  - community/test_securitypy
 ---
 
 # _sanitize_metadata_value()
@@ -23,4 +23,4 @@ tags:
 - [[test_sanitize_metadata_value_recurses_into_list()]] - `calls` [EXTRACTED]
 - [[test_security.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/sanitize_metadata
+#graphify/code #graphify/EXTRACTED #community/test_securitypy

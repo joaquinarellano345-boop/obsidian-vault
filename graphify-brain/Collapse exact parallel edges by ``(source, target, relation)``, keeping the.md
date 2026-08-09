@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "rationale"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L348"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # Collapse exact parallel edges by ``(source, target, relation)``, keeping the
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[dedupe_edges()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_rebuild_code
+#graphify/rationale #graphify/EXTRACTED #community/clipy

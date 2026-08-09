@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_office_limits.py"
 type: "code"
-community: "_zip_within_caps"
+community: "detect.py"
 location: "L81"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_zip_within_caps
+  - community/detectpy
 ---
 
 # test_pdf_over_cap_returns_empty()
@@ -17,4 +17,4 @@ tags:
 - [[extract_pdf_text()]] - `calls` [EXTRACTED]
 - [[test_office_limits.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_zip_within_caps
+#graphify/code #graphify/EXTRACTED #community/detectpy

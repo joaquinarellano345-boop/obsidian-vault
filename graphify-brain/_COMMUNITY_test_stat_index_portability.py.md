@@ -42,8 +42,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 6 edges to [[_COMMUNITY_test_cache.py]]
-- 5 edges to [[_COMMUNITY_file_hash]]
+- 11 edges to [[_COMMUNITY_test_cache.py]]
 - 2 edges to [[_COMMUNITY_save_semantic_cache]]
 - 1 edge to [[_COMMUNITY_test_extract_cache_location.py]]
 - 1 edge to [[_COMMUNITY_check_semantic_cache]]

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "code"
-community: "graphify/__main__.py"
+community: "test_install.py"
 location: "L693"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_installpy
 ---
 
 # gemini_install()
@@ -32,4 +32,4 @@ tags:
 - [[test_gemini_uninstall_removes_hook()]] - `calls` [INFERRED]
 - [[test_gemini_uninstall_removes_section()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/code #graphify/EXTRACTED #community/test_installpy

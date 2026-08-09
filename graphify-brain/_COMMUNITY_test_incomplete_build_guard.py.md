@@ -39,7 +39,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_test_install.py]]
+- 9 edges to [[_COMMUNITY_main]]
 - 1 edge to [[_COMMUNITY_graphify__main__.py]]
 
 ## Top bridge nodes

@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/validator.py"
 type: "rationale"
-community: "e"
+community: "api.py"
 location: "L26"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/e
+  - community/apipy
 ---
 
 # Raise if any required field is missing.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[check_required_fields()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/e
+#graphify/rationale #graphify/EXTRACTED #community/apipy

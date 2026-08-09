@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "Path"
+community: "test_languages.py"
 location: "L41"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path
+  - community/test_languagespy
 ---
 
 # _references()
@@ -16,4 +16,4 @@ tags:
 - [[test_java_type_parameters_do_not_emit_references()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path
+#graphify/code #graphify/EXTRACTED #community/test_languagespy

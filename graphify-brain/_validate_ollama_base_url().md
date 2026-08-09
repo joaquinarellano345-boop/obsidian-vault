@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "test_ollama.py"
+community: "detect_backend"
 location: "L2680"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_ollamapy
+  - community/detect_backend
 ---
 
 # _validate_ollama_base_url()
@@ -26,4 +26,4 @@ tags:
 - [[test_ollama_loopback_and_lan_do_not_raise()]] - `calls` [EXTRACTED]
 - [[test_ollama_warn_false_still_hard_blocks_but_stays_quiet()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_ollamapy
+#graphify/code #graphify/EXTRACTED #community/detect_backend

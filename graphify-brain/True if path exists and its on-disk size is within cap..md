@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "rationale"
-community: "_zip_within_caps"
+community: "detect.py"
 location: "L53"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_zip_within_caps
+  - community/detectpy
 ---
 
 # True if *path* exists and its on-disk size is within *cap*.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_file_within_size_cap()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_zip_within_caps
+#graphify/rationale #graphify/EXTRACTED #community/detectpy

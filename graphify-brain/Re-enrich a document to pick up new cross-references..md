@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/api.py"
 type: "rationale"
-community: "e"
+community: "handle_enrich"
 location: "L68"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/e
+  - community/handle_enrich
 ---
 
 # Re-enrich a document to pick up new cross-references.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[handle_enrich()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/e
+#graphify/rationale #graphify/EXTRACTED #community/handle_enrich

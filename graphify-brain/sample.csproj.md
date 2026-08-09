@@ -11,9 +11,7 @@ tags:
 # sample.csproj
 
 ## Connections
-- [[Domain.csproj]] - `imports` [EXTRACTED]
 - [[FluentValidation (11.9.0)]] - `imports` [EXTRACTED]
-- [[Infrastructure.csproj]] - `imports` [EXTRACTED]
 - [[MediatR (12.2.0)]] - `imports` [EXTRACTED]
 - [[Microsoft.AspNetCore.Authentication.JwtBearer (8.0.0)]] - `imports` [EXTRACTED]
 - [[Microsoft.NET.Sdk.Web]] - `references` [EXTRACTED]

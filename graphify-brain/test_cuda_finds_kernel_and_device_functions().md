@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "test_languages.py"
+community: "extract_cpp"
 location: "L257"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/extract_cpp
 ---
 
 # test_cuda_finds_kernel_and_device_functions()
@@ -16,4 +16,4 @@ tags:
 - [[extract_cpp()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_languagespy
+#graphify/code #graphify/EXTRACTED #community/extract_cpp

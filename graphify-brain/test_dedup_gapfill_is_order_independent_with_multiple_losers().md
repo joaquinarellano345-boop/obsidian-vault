@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "test_dedup_gapfill_is_order_independent_with_multiple_losers"
+community: "deduplicate_entities"
 location: "L633"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_dedup_gapfill_is_order_independent_with_multiple_losers
+  - community/deduplicate_entities
 ---
 
 # test_dedup_gapfill_is_order_independent_with_multiple_losers()
@@ -16,4 +16,4 @@ tags:
 - [[deduplicate_entities()]] - `calls` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_dedup_gapfill_is_order_independent_with_multiple_losers
+#graphify/code #graphify/EXTRACTED #community/deduplicate_entities

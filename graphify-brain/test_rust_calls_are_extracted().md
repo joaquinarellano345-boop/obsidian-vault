@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_multilang.py"
 type: "code"
-community: "test_multilang.py"
+community: "extract_rust"
 location: "L311"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/test_multilangpy
+  - community/extract_rust
 ---
 
 # test_rust_calls_are_extracted()
@@ -15,4 +15,4 @@ tags:
 - [[extract_rust()]] - `calls` [INFERRED]
 - [[test_multilang.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/INFERRED #community/test_multilangpy
+#graphify/code #graphify/INFERRED #community/extract_rust

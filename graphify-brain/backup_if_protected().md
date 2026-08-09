@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L35"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # backup_if_protected()
@@ -30,4 +30,4 @@ tags:
 - [[test_export.py]] - `imports` [EXTRACTED]
 - [[watch.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

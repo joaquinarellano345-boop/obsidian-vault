@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/report.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L15"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # load_learning_for_report()
@@ -22,4 +22,4 @@ tags:
 - [[report.py]] - `contains` [EXTRACTED]
 - [[watch.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

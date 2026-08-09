@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "Path"
+community: "_get_extractor"
 location: "L2870"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path
+  - community/_get_extractor
 ---
 
 # test_cpp_header_routes_to_cpp_extractor()
@@ -17,4 +17,4 @@ tags:
 - [[_is_cpp_header()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

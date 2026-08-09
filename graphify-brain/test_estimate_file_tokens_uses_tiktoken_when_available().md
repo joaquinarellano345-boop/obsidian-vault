@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_chunking.py"
 type: "code"
-community: "test_file_slice.py"
+community: "test_chunking.py"
 location: "L110"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_file_slicepy
+  - community/test_chunkingpy
 ---
 
 # test_estimate_file_tokens_uses_tiktoken_when_available()
@@ -16,4 +16,4 @@ tags:
 - [[_estimate_file_tokens()]] - `calls` [EXTRACTED]
 - [[test_chunking.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_file_slicepy
+#graphify/code #graphify/EXTRACTED #community/test_chunkingpy

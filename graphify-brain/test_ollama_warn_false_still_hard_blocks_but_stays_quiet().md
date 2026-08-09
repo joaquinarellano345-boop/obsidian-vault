@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_ollama.py"
 type: "code"
-community: "test_ollama.py"
+community: "detect_backend"
 location: "L41"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_ollamapy
+  - community/detect_backend
 ---
 
 # test_ollama_warn_false_still_hard_blocks_but_stays_quiet()
@@ -16,4 +16,4 @@ tags:
 - [[test_ollama.py]] - `contains` [EXTRACTED]
 - [[warn=False suppresses the LAN warning but never the metadata hard-block (F3).]] - `rationale_for` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_ollamapy
+#graphify/code #graphify/EXTRACTED #community/detect_backend

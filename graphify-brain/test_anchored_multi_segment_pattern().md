@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_detect.py"
 type: "code"
-community: "_load_graphifyignore"
+community: "_is_ignored"
 location: "L1040"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_load_graphifyignore
+  - community/_is_ignored
 ---
 
 # test_anchored_multi_segment_pattern()
@@ -17,4 +17,4 @@ tags:
 - [[_load_graphifyignore()]] - `calls` [EXTRACTED]
 - [[test_detect.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_load_graphifyignore
+#graphify/code #graphify/EXTRACTED #community/_is_ignored

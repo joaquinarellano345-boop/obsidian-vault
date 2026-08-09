@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "rationale"
-community: "build_label_index"
+community: "symbol_resolution.py"
 location: "L182"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build_label_index
+  - community/symbol_resolutionpy
 ---
 
 # Build ``(module_stem, normalized_symbol_name) -> node_ids``.      This index is
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[build_python_symbol_index()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build_label_index
+#graphify/rationale #graphify/EXTRACTED #community/symbol_resolutionpy

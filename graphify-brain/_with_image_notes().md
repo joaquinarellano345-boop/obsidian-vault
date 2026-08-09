@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "test_image_vision.py"
+community: "llm.py"
 location: "L891"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_image_visionpy
+  - community/llmpy
 ---
 
 # _with_image_notes()
@@ -20,4 +20,4 @@ tags:
 - [[_openai_content()]] - `calls` [EXTRACTED]
 - [[llm.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_image_visionpy
+#graphify/code #graphify/EXTRACTED #community/llmpy

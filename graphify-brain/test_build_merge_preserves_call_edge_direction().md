@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_build.py"
 type: "code"
-community: "extract_js"
+community: "graphify/build.py"
 location: "L501"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extract_js
+  - community/graphify/buildpy
 ---
 
 # test_build_merge_preserves_call_edge_direction()
@@ -19,4 +19,4 @@ tags:
 - [[test_build.py]] - `contains` [EXTRACTED]
 - [[to_json()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extract_js
+#graphify/code #graphify/EXTRACTED #community/graphify/buildpy

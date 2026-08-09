@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/dm.py"
 type: "code"
-community: "_read_text"
+community: "_make_id"
 location: "L364"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # extract_dmm()
@@ -27,4 +27,4 @@ tags:
 - [[test_dmm_skips_grid_section()]] - `calls` [INFERRED]
 - [[test_dmm_strips_var_overrides()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

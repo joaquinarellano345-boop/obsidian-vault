@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_build.py"
 type: "code"
-community: "build"
+community: "graphify/build.py"
 location: "L734"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build
+  - community/graphify/buildpy
 ---
 
 # test_build_relativizes_absolute_source_file()
@@ -16,4 +16,4 @@ tags:
 - [[build() passes root through to build_from_json (932).]] - `rationale_for` [EXTRACTED]
 - [[test_build.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build
+#graphify/code #graphify/EXTRACTED #community/graphify/buildpy

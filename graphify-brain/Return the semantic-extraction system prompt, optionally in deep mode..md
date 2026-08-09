@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "_extraction_system"
+community: "test_chunking.py"
 location: "L491"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extraction_system
+  - community/test_chunkingpy
 ---
 
 # Return the semantic-extraction system prompt, optionally in deep mode.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_extraction_system()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extraction_system
+#graphify/rationale #graphify/EXTRACTED #community/test_chunkingpy

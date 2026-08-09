@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/watch.py"
 type: "rationale"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L246"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # Return current git HEAD commit hash, or None outside a repo.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_git_head()_1]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_rebuild_code
+#graphify/rationale #graphify/EXTRACTED #community/clipy

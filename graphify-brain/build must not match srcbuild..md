@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_detect.py"
 type: "rationale"
-community: "_load_graphifyignore"
+community: "_is_ignored"
 location: "L1015"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_load_graphifyignore
+  - community/_is_ignored
 ---
 
 # /build must not match src/build.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_anchored_file_not_matched_at_depth()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_load_graphifyignore
+#graphify/rationale #graphify/EXTRACTED #community/_is_ignored

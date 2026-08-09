@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_build.py"
 type: "rationale"
-community: "build"
+community: "graphify/build.py"
 location: "L907"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build
+  - community/graphify/buildpy
 ---
 
 # Re-extracting a CHANGED file must REPLACE its prior nodes/edges, not     accumul
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_build_merge_replaces_changed_file_stale_edges()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build
+#graphify/rationale #graphify/EXTRACTED #community/graphify/buildpy

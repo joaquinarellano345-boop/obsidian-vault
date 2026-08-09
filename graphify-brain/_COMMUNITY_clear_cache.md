@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.27
-members: 12
+cohesion: 0.22
+members: 14
 ---
 
 # clear_cache
 
-**Cohesion:** 0.27 - loosely connected
-**Members:** 12 nodes
+**Cohesion:** 0.22 - loosely connected
+**Members:** 14 nodes
 
 ## Members
 - [[Count files by extension.]] - rationale - tests/bench_extract.py
@@ -18,9 +18,11 @@ members: 12
 - [[_format_languages()]] - code - tests/bench_extract.py
 - [[_run_extraction()]] - code - tests/bench_extract.py
 - [[bench_extract.py]] - code - tests/bench_extract.py
+- [[clear_cache removes all .json files from graphify-outcache (all subdirs).]] - rationale - tests/test_cache.py
 - [[clear_cache sweeps cachesemantic-deep alongside semantic and ast.]] - rationale - tests/test_cache.py
 - [[clear_cache()]] - code - graphify/cache.py
 - [[main()_2]] - code - tests/bench_extract.py
+- [[test_clear_cache()]] - code - tests/test_cache.py
 - [[test_clear_cache_removes_deep_namespace()]] - code - tests/test_cache.py
 
 ## Live Query (requires Dataview plugin)
@@ -31,7 +33,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_test_cache.py]]
+- 8 edges to [[_COMMUNITY_test_cache.py]]
 - 2 edges to [[_COMMUNITY_extract]]
 - 2 edges to [[_COMMUNITY_test_extract.py]]
 - 1 edge to [[_COMMUNITY_save_semantic_cache]]

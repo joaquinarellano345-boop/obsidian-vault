@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "code"
-community: "dedup.py"
+community: "deduplicate_entities"
 location: "L39"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/deduppy
+  - community/deduplicate_entities
 ---
 
 # _shingles()
@@ -19,4 +19,4 @@ tags:
 - [[test_shingles_produces_trigrams()]] - `calls` [EXTRACTED]
 - [[test_shingles_short_string()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/deduppy
+#graphify/code #graphify/EXTRACTED #community/deduplicate_entities

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_install.py"
 type: "code"
-community: "graphify/__main__.py"
+community: "test_install.py"
 location: "L916"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/graphify/__main__py
+  - community/test_installpy
 ---
 
 # test_cursor_uninstall_removes_rule()
@@ -17,4 +17,4 @@ tags:
 - [[cursor uninstall removes the rule file.]] - `rationale_for` [EXTRACTED]
 - [[test_install.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/INFERRED #community/graphify/__main__py
+#graphify/code #graphify/INFERRED #community/test_installpy

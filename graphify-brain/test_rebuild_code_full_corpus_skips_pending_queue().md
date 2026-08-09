@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L1704"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # test_rebuild_code_full_corpus_skips_pending_queue()
@@ -17,4 +17,4 @@ tags:
 - [[_rebuild_code()]] - `calls` [EXTRACTED]
 - [[test_watch.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

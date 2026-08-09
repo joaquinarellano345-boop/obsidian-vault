@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/pg_introspect.py"
 type: "rationale"
-community: "validate_extraction"
+community: "introspect_postgres"
 location: "L7"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/validate_extraction
+  - community/introspect_postgres
 ---
 
 # Double-quote a PostgreSQL identifier, escaping embedded double-quotes.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_quote_ident()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/validate_extraction
+#graphify/rationale #graphify/EXTRACTED #community/introspect_postgres

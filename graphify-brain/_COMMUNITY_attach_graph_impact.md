@@ -37,7 +37,7 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_serve.py]]
 - 1 edge to [[_COMMUNITY__build_server]]
 - 1 edge to [[_COMMUNITY_compute_pr_impact]]
-- 1 edge to [[_COMMUNITY_cli.py]]
+- 1 edge to [[_COMMUNITY_test_security.py]]
 - 1 edge to [[_COMMUNITY_build_community_labels]]
 - 1 edge to [[_COMMUNITY_fetch_worktrees]]
 

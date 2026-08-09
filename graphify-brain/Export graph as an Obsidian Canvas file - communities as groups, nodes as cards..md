@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "rationale"
-community: "export.py"
+community: "test_export.py"
 location: "L792"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/test_exportpy
 ---
 
 # Export graph as an Obsidian Canvas file - communities as groups, nodes as cards.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[to_canvas()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/exportpy
+#graphify/rationale #graphify/EXTRACTED #community/test_exportpy

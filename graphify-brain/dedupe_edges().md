@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L347"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # dedupe_edges()
@@ -22,4 +22,4 @@ tags:
 - [[test_dedupe_edges_is_idempotent()]] - `calls` [EXTRACTED]
 - [[watch.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

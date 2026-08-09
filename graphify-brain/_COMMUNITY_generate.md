@@ -1,17 +1,18 @@
 ---
 type: community
-cohesion: 0.10
-members: 43
+cohesion: 0.09
+members: 47
 ---
 
 # generate
 
-**Cohesion:** 0.10 - loosely connected
-**Members:** 43 nodes
+**Cohesion:** 0.09 - loosely connected
+**Members:** 47 nodes
 
 ## Members
 - [[AMBIGUOUS edges must have confidence_score = 0.4.]] - rationale - tests/test_confidence.py
 - [[Append the `` Work-memory lessons`` section, or nothing when empty.]] - rationale - graphify/report.py
+- [[Build a minimal graph.json + analysislabels in tmp_pathgraphify-out.      Mir]] - rationale - tests/test_reflect.py
 - [[EXTRACTED edges must have confidence_score == 1.0.]] - rationale - tests/test_confidence.py
 - [[INFERRED edges must have confidence_score between 0.0 and 1.0.]] - rationale - tests/test_confidence.py
 - [[Mirrors export.safe_name so community hub filenames and report wikilinks always]] - rationale - graphify/report.py
@@ -19,15 +20,18 @@ members: 43
 - [[Report summary line should include avg confidence for INFERRED edges.]] - rationale - tests/test_confidence.py
 - [[Return True if this node is a file-level hub node (e.g. 'client', 'models')]] - rationale - graphify/analyze.py
 - [[Return a minimal extraction dict with one edge of each confidence type.]] - rationale - tests/test_confidence.py
+- [[Return the top_n most-connected real entities - the core abstractions.      File]] - rationale - graphify/analyze.py
 - [[Surprising connections section shows confidence score next to INFERRED edges.]] - rationale - tests/test_confidence.py
 - [[Tests for confidence_score on edges.]] - rationale - tests/test_confidence.py
 - [[When a work-memory overlay (preferred sources) and query-scoped dead-ends     ar]] - rationale - tests/test_report.py
 - [[_is_file_node()]] - code - graphify/analyze.py
 - [[_learning_section()]] - code - graphify/report.py
 - [[_make_extraction()]] - code - tests/test_confidence.py
+- [[_make_graph()_3]] - code - tests/test_reflect.py
 - [[_safe_community_name()]] - code - graphify/report.py
 - [[confidence_score survives build_from_json → to_json → JSON parse round-trip.]] - rationale - tests/test_confidence.py
 - [[generate()]] - code - graphify/report.py
+- [[god_nodes()]] - code - graphify/analyze.py
 - [[make_inputs()]] - code - tests/test_report.py
 - [[report.py]] - code - graphify/report.py
 - [[score_all()]] - code - graphify/cluster.py
@@ -62,27 +66,30 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 22 edges to [[_COMMUNITY_test_analyze.py]]
-- 10 edges to [[_COMMUNITY_build_from_json]]
-- 7 edges to [[_COMMUNITY_test_export.py]]
-- 6 edges to [[_COMMUNITY__rebuild_code]]
-- 6 edges to [[_COMMUNITY_to_json]]
-- 5 edges to [[_COMMUNITY_test_pipeline.py]]
-- 4 edges to [[_COMMUNITY_cli.py]]
+- 25 edges to [[_COMMUNITY_test_analyze.py]]
+- 14 edges to [[_COMMUNITY_cli.py]]
+- 14 edges to [[_COMMUNITY_build_from_json]]
+- 11 edges to [[_COMMUNITY_to_json]]
+- 8 edges to [[_COMMUNITY_test_export.py]]
+- 4 edges to [[_COMMUNITY_test_cli_export.py]]
+- 4 edges to [[_COMMUNITY_test_reflect.py]]
 - 4 edges to [[_COMMUNITY_test_semantic_similarity.py]]
+- 4 edges to [[_COMMUNITY__run]]
 - 3 edges to [[_COMMUNITY_graphifycluster.py]]
 - 3 edges to [[_COMMUNITY_test_cluster.py]]
+- 2 edges to [[_COMMUNITY_test_swift_builtin_noise.py]]
 - 2 edges to [[_COMMUNITY_graphifybuild.py]]
-- 2 edges to [[_COMMUNITY_test_cli_export.py]]
-- 2 edges to [[_COMMUNITY_test_reflect.py]]
 - 1 edge to [[_COMMUNITY_test_file_label_disambiguation.py]]
+- 1 edge to [[_COMMUNITY_serve.py]]
+- 1 edge to [[_COMMUNITY__build_server]]
 - 1 edge to [[_COMMUNITY_export.py]]
 - 1 edge to [[_COMMUNITY_load_memory_docs]]
 - 1 edge to [[_COMMUNITY_reflect.py]]
+- 1 edge to [[_COMMUNITY__write_raw_doc]]
 
 ## Top bridge nodes
-- [[score_all()]] - degree 20, connects to 8 communities
+- [[god_nodes()]] - degree 32, connects to 8 communities
 - [[report.py]] - degree 15, connects to 8 communities
 - [[test_confidence.py]] - degree 21, connects to 7 communities
-- [[generate()]] - degree 35, connects to 6 communities
-- [[test_report.py]] - degree 25, connects to 5 communities
+- [[_make_graph()_3]] - degree 13, connects to 7 communities
+- [[score_all()]] - degree 20, connects to 6 communities

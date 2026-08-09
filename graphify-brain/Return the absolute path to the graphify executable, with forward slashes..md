@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "rationale"
-community: "graphify/__main__.py"
+community: "test_settings_merge.py"
 location: "L1390"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_settings_mergepy
 ---
 
 # Return the absolute path to the graphify executable, with forward slashes.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_resolve_graphify_exe()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/rationale #graphify/EXTRACTED #community/test_settings_mergepy

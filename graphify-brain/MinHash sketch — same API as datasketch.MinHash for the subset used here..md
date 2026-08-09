@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/_minhash.py"
 type: "rationale"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L37"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # MinHash sketch — same API as datasketch.MinHash for the subset used here.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[MinHash]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_minhashpy
+#graphify/rationale #graphify/EXTRACTED #community/deduppy

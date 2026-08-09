@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "build_label_index"
+community: "symbol_resolution.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build_label_index
+  - community/symbol_resolutionpy
 ---
 
 # Any
@@ -20,4 +20,4 @@ tags:
 - [[resolve_cross_file_raw_calls()]] - `references` [EXTRACTED]
 - [[resolve_python_import_guided_calls()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build_label_index
+#graphify/code #graphify/EXTRACTED #community/symbol_resolutionpy

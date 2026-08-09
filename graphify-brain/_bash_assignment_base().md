@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/bash.py"
 type: "code"
-community: "test_extract.py"
+community: "extract_bash"
 location: "L42"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_extractpy
+  - community/extract_bash
 ---
 
 # _bash_assignment_base()
@@ -17,4 +17,4 @@ tags:
 - [[bash.py]] - `contains` [EXTRACTED]
 - [[extract_bash()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_extractpy
+#graphify/code #graphify/EXTRACTED #community/extract_bash

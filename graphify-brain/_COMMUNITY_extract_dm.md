@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.17
-members: 20
+cohesion: 0.16
+members: 21
 ---
 
 # extract_dm
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 20 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 21 nodes
 
 ## Members
 - [[Extract types, procs, includes, and calls from a .dm.dme file.]] - rationale - graphify/extractors/dm.py
@@ -15,6 +15,7 @@ members: 20
 - [[_calls()_2]] - code - tests/test_languages.py
 - [[_needs_dm]] - code
 - [[extract_dm()]] - code - graphify/extractors/dm.py
+- [[test_cuda_host_call_edges()]] - code - tests/test_languages.py
 - [[test_dm_ambiguous_member_call_left_unresolved()]] - code - tests/test_languages.py
 - [[test_dm_call_edges_have_call_context()]] - code - tests/test_languages.py
 - [[test_dm_emits_include_edge()]] - code - tests/test_languages.py
@@ -39,16 +40,17 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 20 edges to [[_COMMUNITY_test_languages.py]]
-- 6 edges to [[_COMMUNITY__read_text]]
+- 18 edges to [[_COMMUNITY_test_languages.py]]
 - 5 edges to [[_COMMUNITY__labels]]
-- 1 edge to [[_COMMUNITY_extract.py]]
-- 1 edge to [[_COMMUNITY__edge_labels]]
+- 5 edges to [[_COMMUNITY__make_id]]
+- 3 edges to [[_COMMUNITY__edges_with_relation]]
+- 2 edges to [[_COMMUNITY_extract.py]]
+- 1 edge to [[_COMMUNITY_extract_cpp]]
 - 1 edge to [[_COMMUNITY_e]]
 
 ## Top bridge nodes
 - [[extract_dm()]] - degree 22, connects to 3 communities
+- [[test_dm_call_edges_have_call_context()]] - degree 4, connects to 2 communities
+- [[test_dm_emits_include_edge()]] - degree 4, connects to 2 communities
 - [[test_dm_finds_global_proc()]] - degree 4, connects to 2 communities
 - [[test_dm_finds_path_form_proc_definition()]] - degree 4, connects to 2 communities
-- [[test_dm_finds_type_definition()]] - degree 4, connects to 2 communities
-- [[test_dm_qualifies_proc_with_type_path()]] - degree 4, connects to 2 communities

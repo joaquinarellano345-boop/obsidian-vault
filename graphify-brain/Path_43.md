@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "llm.py"
+community: "test_file_slice.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/llmpy
+  - community/test_file_slicepy
 ---
 
 # Path
@@ -24,4 +24,4 @@ tags:
 - [[extract_corpus_parallel()]] - `references` [EXTRACTED]
 - [[extract_files_direct()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/llmpy
+#graphify/code #graphify/EXTRACTED #community/test_file_slicepy

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "rationale"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L679"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # `class Foo : Bar by baz` wraps the delegated interface in an     `explicit_deleg
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_kotlin_interface_delegation_emits_implements()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_edge_labels
+#graphify/rationale #graphify/EXTRACTED #community/test_languagespy

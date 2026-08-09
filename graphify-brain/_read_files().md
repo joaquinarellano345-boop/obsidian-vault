@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "llm.py"
+community: "test_file_slice.py"
 location: "L564"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/llmpy
+  - community/test_file_slicepy
 ---
 
 # _read_files()
@@ -25,4 +25,4 @@ tags:
 - [[test_read_files_skips_out_of_root_symlink()]] - `calls` [EXTRACTED]
 - [[unit_path()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/llmpy
+#graphify/code #graphify/EXTRACTED #community/test_file_slicepy

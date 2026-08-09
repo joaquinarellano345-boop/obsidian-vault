@@ -1,18 +1,17 @@
 ---
 type: community
 cohesion: 0.04
-members: 103
+members: 99
 ---
 
 # test_analyze.py
 
 **Cohesion:** 0.04 - loosely connected
-**Members:** 103 nodes
+**Members:** 99 nodes
 
 ## Members
 - [[IMPORTANT resolve endpoints using source_file only; never infer from labelid]] - rationale - graphify/analyze.py
 - [[AMBIGUOUS edge should score higher than an otherwise identical EXTRACTED edge.]] - rationale - tests/test_analyze.py
-- [[Build a minimal graph.json + analysislabels in tmp_pathgraphify-out.      Mir]] - rationale - tests/test_reflect.py
 - [[Code→doc INFERRED calls edge should score lower than same-language EXTRACTED.]] - rationale - tests/test_analyze.py
 - [[Code↔paper INFERRED calls should still surface — it is a meaningful link.]] - rationale - tests/test_analyze.py
 - [[Code↔paper edge should score higher than code↔code edge.]] - rationale - tests/test_analyze.py
@@ -37,7 +36,6 @@ members: 103
 - [[Return True if this node is a manually-injected semantic concept node     rather]] - rationale - graphify/analyze.py
 - [[Return True if two source files belong to different language families.]] - rationale - graphify/analyze.py
 - [[Return the first path component - used to detect cross-repo edges.]] - rationale - graphify/analyze.py
-- [[Return the top_n most-connected real entities - the core abstractions.      File]] - rationale - graphify/analyze.py
 - [[Score how surprising a cross-file edge is. Returns (score, reasons).]] - rationale - graphify/analyze.py
 - [[Single-file graph should return cross-community edges, not empty list.]] - rationale - tests/test_analyze.py
 - [[Tests for analyze.py.]] - rationale - tests/test_analyze.py
@@ -52,7 +50,6 @@ members: 103
 - [[_make_cross_lang_graph()]] - code - tests/test_analyze.py
 - [[_make_cycle_graph_directed()]] - code - tests/test_analyze.py
 - [[_make_file_node()]] - code - tests/test_analyze.py
-- [[_make_graph()_3]] - code - tests/test_reflect.py
 - [[_make_simple_graph()]] - code - tests/test_analyze.py
 - [[_surprise_score()]] - code - graphify/analyze.py
 - [[_top_level_dir()]] - code - graphify/analyze.py
@@ -60,7 +57,6 @@ members: 103
 - [[`semantically_similar_to` across languages is a genuine insight — must not be su]] - rationale - tests/test_analyze.py
 - [[find_import_cycles()]] - code - graphify/analyze.py
 - [[god_nodes must not return generic JSON key nodes like 'name' or 'id'.]] - rationale - tests/test_analyze.py
-- [[god_nodes()]] - code - graphify/analyze.py
 - [[graph_diff()]] - code - graphify/analyze.py
 - [[graphifyanalyze.py]] - code - graphify/analyze.py
 - [[make_graph()]] - code - tests/test_analyze.py
@@ -122,34 +118,30 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 22 edges to [[_COMMUNITY_generate]]
-- 8 edges to [[_COMMUNITY__rebuild_code]]
-- 8 edges to [[_COMMUNITY_test_export.py]]
-- 5 edges to [[_COMMUNITY_export.py]]
-- 5 edges to [[_COMMUNITY_build_from_json]]
-- 5 edges to [[_COMMUNITY_test_pipeline.py]]
+- 25 edges to [[_COMMUNITY_generate]]
+- 8 edges to [[_COMMUNITY_cli.py]]
+- 6 edges to [[_COMMUNITY_export.py]]
+- 6 edges to [[_COMMUNITY_test_export.py]]
 - 5 edges to [[_COMMUNITY_test_semantic_similarity.py]]
-- 4 edges to [[_COMMUNITY_cli.py]]
-- 4 edges to [[_COMMUNITY_test_cli_export.py]]
-- 4 edges to [[_COMMUNITY__run]]
-- 3 edges to [[_COMMUNITY_test_swift_builtin_noise.py]]
-- 3 edges to [[_COMMUNITY_test_reflect.py]]
+- 4 edges to [[_COMMUNITY_build_from_json]]
+- 3 edges to [[_COMMUNITY_to_json]]
 - 2 edges to [[_COMMUNITY_graphifybuild.py]]
-- 2 edges to [[_COMMUNITY_serve.py]]
-- 2 edges to [[_COMMUNITY__build_server]]
+- 2 edges to [[_COMMUNITY_test_cli_export.py]]
 - 2 edges to [[_COMMUNITY_test_cross_extension_reexport_self_cycle.py]]
 - 2 edges to [[_COMMUNITY_test_js_import_resolution.py]]
 - 1 edge to [[_COMMUNITY_test_file_label_disambiguation.py]]
 - 1 edge to [[_COMMUNITY_test_cluster.py]]
 - 1 edge to [[_COMMUNITY_detect.py]]
+- 1 edge to [[_COMMUNITY_test_swift_builtin_noise.py]]
+- 1 edge to [[_COMMUNITY_serve.py]]
+- 1 edge to [[_COMMUNITY__build_server]]
+- 1 edge to [[_COMMUNITY_test_reflect.py]]
 - 1 edge to [[_COMMUNITY_graphifycluster.py]]
-- 1 edge to [[_COMMUNITY_to_json]]
 - 1 edge to [[_COMMUNITY_extract.py]]
-- 1 edge to [[_COMMUNITY__write_raw_doc]]
 
 ## Top bridge nodes
-- [[graphifyanalyze.py]] - degree 31, connects to 12 communities
-- [[god_nodes()]] - degree 32, connects to 9 communities
-- [[surprising_connections()]] - degree 28, connects to 9 communities
-- [[_make_graph()_3]] - degree 13, connects to 7 communities
-- [[test_analyze.py]] - degree 67, connects to 6 communities
+- [[graphifyanalyze.py]] - degree 31, connects to 11 communities
+- [[surprising_connections()]] - degree 28, connects to 8 communities
+- [[test_analyze.py]] - degree 67, connects to 7 communities
+- [[find_import_cycles()]] - degree 18, connects to 3 communities
+- [[_cross_community_surprises()]] - degree 7, connects to 3 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "rationale"
-community: "_extract_pascal_regex"
+community: "_make_id"
 location: "L1554"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_pascal_regex
+  - community/_make_id
 ---
 
 # Regex-based fallback for Spock spec files where tree-sitter-groovy cannot parse
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_extract_spock_fallback()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_pascal_regex
+#graphify/rationale #graphify/EXTRACTED #community/_make_id

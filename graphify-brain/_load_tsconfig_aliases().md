@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "code"
-community: "extract.py"
+community: "extract_astro"
 location: "L206"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/extract_astro
 ---
 
 # _load_tsconfig_aliases()
@@ -23,4 +23,4 @@ tags:
 - [[extract_vue()]] - `calls` [EXTRACTED]
 - [[resolution.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extractpy
+#graphify/code #graphify/EXTRACTED #community/extract_astro

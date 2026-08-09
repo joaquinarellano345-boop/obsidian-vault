@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/security.py"
 type: "code"
-community: "test_security.py"
+community: "validate_url"
 location: "L103"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_securitypy
+  - community/validate_url
 ---
 
 # validate_url()
@@ -29,4 +29,4 @@ tags:
 - [[test_validate_url_rejects_ftp()]] - `calls` [EXTRACTED]
 - [[transcribe.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_securitypy
+#graphify/code #graphify/EXTRACTED #community/validate_url

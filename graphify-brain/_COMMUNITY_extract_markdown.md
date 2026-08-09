@@ -44,7 +44,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 11 edges to [[_COMMUNITY_test_languages.py]]
-- 5 edges to [[_COMMUNITY__read_text]]
+- 5 edges to [[_COMMUNITY__make_id]]
 - 4 edges to [[_COMMUNITY__labels]]
 - 1 edge to [[_COMMUNITY_extract.py]]
 - 1 edge to [[_COMMUNITY_extract]]

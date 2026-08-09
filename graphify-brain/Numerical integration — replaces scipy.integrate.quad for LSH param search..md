@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/_minhash.py"
 type: "rationale"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L53"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # Numerical integration — replaces scipy.integrate.quad for LSH param search.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_lsh_integrate()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_minhashpy
+#graphify/rationale #graphify/EXTRACTED #community/deduppy

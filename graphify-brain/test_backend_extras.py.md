@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_backend_extras.py"
 type: "code"
-community: "_extraction_system"
+community: "_call_llm"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extraction_system
+  - community/_call_llm
 ---
 
 # test_backend_extras.py
@@ -20,4 +20,4 @@ tags:
 - [[test_anthropic_in_all_extra()]] - `contains` [EXTRACTED]
 - [[test_backend_pkg_hint_points_at_uv_tool_and_extra()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extraction_system
+#graphify/code #graphify/EXTRACTED #community/_call_llm

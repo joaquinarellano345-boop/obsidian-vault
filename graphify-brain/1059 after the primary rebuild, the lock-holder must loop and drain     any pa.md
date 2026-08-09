@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "rationale"
-community: "skipif"
+community: "test_watch.py"
 location: "L1668"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/skipif
+  - community/test_watchpy
 ---
 
 # #1059: after the primary rebuild, the lock-holder must loop and drain     any pa
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_rebuild_code_drains_late_arrivals()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/skipif
+#graphify/rationale #graphify/EXTRACTED #community/test_watchpy

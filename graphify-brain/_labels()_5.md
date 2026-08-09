@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_multilang.py"
 type: "code"
-community: "test_multilang.py"
+community: "_labels"
 location: "L13"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_multilangpy
+  - community/_labels
 ---
 
 # _labels()
@@ -23,4 +23,4 @@ tags:
 - [[test_ts_finds_function()]] - `calls` [EXTRACTED]
 - [[test_ts_finds_methods()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_multilangpy
+#graphify/code #graphify/EXTRACTED #community/_labels

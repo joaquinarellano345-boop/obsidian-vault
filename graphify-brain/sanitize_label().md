@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/security.py"
 type: "code"
-community: "test_security.py"
+community: "sanitize_label"
 location: "L394"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_securitypy
+  - community/sanitize_label
 ---
 
 # sanitize_label()
@@ -32,4 +32,4 @@ tags:
 - [[test_security.py]] - `imports` [EXTRACTED]
 - [[to_html()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_securitypy
+#graphify/code #graphify/EXTRACTED #community/sanitize_label

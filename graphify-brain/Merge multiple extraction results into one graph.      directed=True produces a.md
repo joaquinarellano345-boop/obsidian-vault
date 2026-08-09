@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "rationale"
-community: "build"
+community: "graphify/build.py"
 location: "L1027"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build
+  - community/graphify/buildpy
 ---
 
 # Merge multiple extraction results into one graph.      directed=True produces a
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[build()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build
+#graphify/rationale #graphify/EXTRACTED #community/graphify/buildpy

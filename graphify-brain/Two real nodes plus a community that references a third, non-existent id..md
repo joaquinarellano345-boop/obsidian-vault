@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_obsidian_dangling_member.py"
 type: "rationale"
-community: "export.py"
+community: "to_obsidian"
 location: "L11"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # Two real nodes plus a community that references a third, non-existent id.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_graph_with_dangling_member()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/exportpy
+#graphify/rationale #graphify/EXTRACTED #community/to_obsidian

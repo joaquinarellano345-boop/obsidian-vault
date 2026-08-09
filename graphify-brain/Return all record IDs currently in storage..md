@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/storage.py"
 type: "rationale"
-community: "storage.py"
+community: "list_records"
 location: "L88"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/storagepy
+  - community/list_records
 ---
 
 # Return all record IDs currently in storage.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[list_records()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/storagepy
+#graphify/rationale #graphify/EXTRACTED #community/list_records

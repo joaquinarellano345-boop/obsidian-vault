@@ -10,9 +10,4 @@ tags:
 
 # sample.sln
 
-## Connections
-- [[Domain]] - `contains` [EXTRACTED]
-- [[Tests]] - `contains` [EXTRACTED]
-- [[WebApi]] - `contains` [EXTRACTED]
-
 #graphify/code #graphify/EXTRACTED #community/samplesln

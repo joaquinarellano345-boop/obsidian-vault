@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/processor.py"
 type: "rationale"
-community: "e"
+community: "processor.py"
 location: "L13"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/e
+  - community/processorpy
 ---
 
 # Lowercase, strip extra whitespace, remove control characters.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[normalize_text()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/e
+#graphify/rationale #graphify/EXTRACTED #community/processorpy

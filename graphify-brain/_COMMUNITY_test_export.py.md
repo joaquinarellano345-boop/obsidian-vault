@@ -1,18 +1,19 @@
 ---
 type: community
 cohesion: 0.05
-members: 83
+members: 86
 ---
 
 # test_export.py
 
 **Cohesion:** 0.05 - loosely connected
-**Members:** 83 nodes
+**Members:** 86 nodes
 
 ## Members
 - [[1324 empty communities (e.g. --no-cluster builds) on a populated graph     mus]] - rationale - tests/test_export.py
 - [[1409 an all-punctuation label (e.g. `@`) must not produce a `@.md`-style]] - rationale - tests/test_export.py
 - [[1409 same guard on the canvas exporter's file-node names.]] - rationale - tests/test_export.py
+- [[1452 a community's node cards are laid out in the same ceil(sqrt(n))-column]] - rationale - tests/test_export.py
 - [[1775 a node with source_file=None or label=None must not crash to_html     (sy]] - rationale - tests/test_export.py
 - [[1838 neighbor links dropped an unescaped JSON.stringify(nid) into a     quoted]] - rationale - tests/test_export.py
 - [[A 2-node graph where one node's label is all-punctuation (e.g. a `@`     tscon]] - rationale - tests/test_export.py
@@ -24,27 +25,27 @@ members: 83
 - [[Changed graph.json on same day overwrites the existing backup in place.]] - rationale - tests/test_export.py
 - [[Coercion must leave GraphML-native scalars (intfloatboolstr) untouched,     o]] - rationale - tests/test_export.py
 - [[Export graph as GraphML - opens in Gephi, yEd, and any GraphML-compatible tool.]] - rationale - graphify/export.py
+- [[Export graph as an Obsidian Canvas file - communities as groups, nodes as cards.]] - rationale - graphify/export.py
 - [[Extract the RAW_NODES JSON array embedded in the generated HTML.]] - rationale - tests/test_export.py
 - [[GRAPHIFY_NO_BACKUP=1 disables backup entirely.]] - rationale - tests/test_export.py
 - [[Generate an interactive vis.js HTML visualization of the graph.      Features n]] - rationale - graphify/exporters/html.py
 - [[No graph.json → no backup.]] - rationale - tests/test_export.py
+- [[Node count of an existing graph.json.      Returns       - an ``int`` node coun]] - rationale - graphify/export.py
 - [[Node file paths in canvas must be vault-root-relative (just fname.md), not hardc]] - rationale - tests/test_export.py
+- [[Path_9]] - code
 - [[Run Leiden community detection. Returns {community_id node_ids}.      Communi]] - rationale - graphify/cluster.py
 - [[Same content on same day returns existing backup dir without re-copying.]] - rationale - tests/test_export.py
+- [[The CLI calls to_obsidian and to_canvas separately with no shared map, so     th]] - rationale - tests/test_export.py
 - [[Two nodes whose labels differ only by case - on macOSAPFS and WindowsNTFS]] - rationale - tests/test_export.py
 - [[With no overlay, the HTML is byte-identical whether learning_overlay is     omit]] - rationale - tests/test_export.py
 - [[_case_collision_graph()]] - code - tests/test_export.py
-- [[_html_script()]] - code - graphify/exporters/html.py
-- [[_html_styles()]] - code - graphify/exporters/html.py
-- [[_hyperedge_script()]] - code - graphify/exporters/html.py
 - [[_punct_graph()]] - code - tests/test_export.py
 - [[_vis_nodes_from_html()]] - code - tests/test_export.py
 - [[cluster()]] - code - graphify/cluster.py
+- [[existing_graph_node_count()]] - code - graphify/export.py
 - [[graph.json + .graphify_semantic_marker → backup taken.]] - rationale - tests/test_export.py
 - [[graph.json + non-default label in .graphify_labels.json → backup taken.]] - rationale - tests/test_export.py
 - [[graph.json present but no sentinel and no curated labels → no backup.]] - rationale - tests/test_export.py
-- [[html — moved verbatim from graphifyexport.py.]] - rationale - graphify/exporters/html.py
-- [[html.py]] - code - graphify/exporters/html.py
 - [[make_graph()_2]] - code - tests/test_export.py
 - [[nx.write_graphml only accepts scalars; a dictlist attribute (per-node     metad]] - rationale - tests/test_export.py
 - [[nx.write_graphml raises ValueError on a None attribute value; to_graphml     mus]] - rationale - tests/test_export.py
@@ -58,10 +59,12 @@ members: 83
 - [[test_backup_semantic_marker()]] - code - tests/test_export.py
 - [[test_existing_graph_node_count()]] - code - tests/test_export.py
 - [[test_export.py]] - code - tests/test_export.py
+- [[test_obsidian_canvas_filenames_agree()]] - code - tests/test_export.py
 - [[test_to_canvas_case_only_distinct_labels_get_distinct_files()]] - code - tests/test_export.py
 - [[test_to_canvas_file_paths_relative_to_vault()]] - code - tests/test_export.py
 - [[test_to_canvas_never_emits_punctuation_only_filenames()]] - code - tests/test_export.py
 - [[test_to_canvas_no_communities_still_populates()]] - code - tests/test_export.py
+- [[test_to_canvas_node_grid_matches_box_columns()]] - code - tests/test_export.py
 - [[test_to_cypher_contains_merge_statements()]] - code - tests/test_export.py
 - [[test_to_cypher_creates_file()]] - code - tests/test_export.py
 - [[test_to_graphml_creates_file()]] - code - tests/test_export.py
@@ -88,7 +91,7 @@ members: 83
 - [[test_to_obsidian_case_only_distinct_labels_dont_overwrite()]] - code - tests/test_export.py
 - [[test_to_obsidian_generated_suffix_doesnt_overwrite_literal()]] - code - tests/test_export.py
 - [[test_to_obsidian_never_emits_punctuation_only_filenames()]] - code - tests/test_export.py
-- [[to_cypher()]] - code - graphify/export.py
+- [[to_canvas()]] - code - graphify/export.py
 - [[to_graphml()]] - code - graphify/export.py
 - [[to_html accepts member_counts without raising.]] - rationale - tests/test_export.py
 - [[to_html()]] - code - graphify/exporters/html.py
@@ -102,30 +105,26 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 33 edges to [[_COMMUNITY_export.py]]
-- 14 edges to [[_COMMUNITY__rebuild_code]]
-- 9 edges to [[_COMMUNITY_cli.py]]
-- 9 edges to [[_COMMUNITY_to_json]]
-- 8 edges to [[_COMMUNITY_test_analyze.py]]
+- 23 edges to [[_COMMUNITY_cli.py]]
+- 19 edges to [[_COMMUNITY_to_obsidian]]
+- 14 edges to [[_COMMUNITY_export.py]]
+- 13 edges to [[_COMMUNITY_to_json]]
+- 8 edges to [[_COMMUNITY_build_from_json]]
 - 8 edges to [[_COMMUNITY_test_cluster.py]]
-- 7 edges to [[_COMMUNITY_build_from_json]]
-- 7 edges to [[_COMMUNITY_generate]]
+- 8 edges to [[_COMMUNITY_generate]]
+- 6 edges to [[_COMMUNITY_test_analyze.py]]
 - 4 edges to [[_COMMUNITY_graphifycluster.py]]
-- 3 edges to [[_COMMUNITY_test_pipeline.py]]
 - 2 edges to [[_COMMUNITY_test_cli_export.py]]
-- 2 edges to [[_COMMUNITY_reflect.py]]
-- 2 edges to [[_COMMUNITY_test_security.py]]
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
-- 1 edge to [[_COMMUNITY_callflow_html.py]]
 - 1 edge to [[_COMMUNITY_test_reflect.py]]
-- 1 edge to [[_COMMUNITY_CsharpNameResolver]]
-- 1 edge to [[_COMMUNITY_security.py]]
-- 1 edge to [[_COMMUNITY_test_file_label_disambiguation.py]]
+- 1 edge to [[_COMMUNITY_test_security.py]]
+- 1 edge to [[_COMMUNITY_reflect.py]]
+- 1 edge to [[_COMMUNITY_sanitize_label]]
 - 1 edge to [[_COMMUNITY_Graph]]
 
 ## Top bridge nodes
-- [[cluster()]] - degree 65, connects to 12 communities
-- [[html.py]] - degree 16, connects to 9 communities
+- [[cluster()]] - degree 65, connects to 9 communities
 - [[test_export.py]] - degree 69, connects to 7 communities
-- [[to_html()]] - degree 26, connects to 7 communities
-- [[to_graphml()]] - degree 13, connects to 2 communities
+- [[to_html()]] - degree 26, connects to 6 communities
+- [[to_canvas()]] - degree 17, connects to 3 communities
+- [[existing_graph_node_count()]] - degree 8, connects to 3 communities

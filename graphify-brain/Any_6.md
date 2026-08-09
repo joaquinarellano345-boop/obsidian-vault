@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "_extract_pascal_regex"
+community: "_get_extractor"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_pascal_regex
+  - community/_get_extractor
 ---
 
 # Any
@@ -17,4 +17,4 @@ tags:
 - [[_emit_server()]] - `references` [EXTRACTED]
 - [[extract_mcp_config()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_pascal_regex
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

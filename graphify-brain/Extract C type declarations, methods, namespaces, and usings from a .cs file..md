@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "rationale"
-community: "Path"
+community: "test_languages.py"
 location: "L1674"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Path
+  - community/test_languagespy
 ---
 
 # Extract C# type declarations, methods, namespaces, and usings from a .cs file.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_csharp()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Path
+#graphify/rationale #graphify/EXTRACTED #community/test_languagespy

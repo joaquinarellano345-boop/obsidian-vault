@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "code"
-community: "iter_raw_calls"
+community: "test_symbol_resolution.py"
 location: "L91"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/iter_raw_calls
+  - community/test_symbol_resolutionpy
 ---
 
 # iter_raw_calls()
@@ -21,4 +21,4 @@ tags:
 - [[test_iter_raw_calls_skips_non_list_raw_calls()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/iter_raw_calls
+#graphify/code #graphify/EXTRACTED #community/test_symbol_resolutionpy

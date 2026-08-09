@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "Path"
+community: "_is_ignored"
 location: "L3617"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path
+  - community/_is_ignored
 ---
 
 # _xaml_csharp_class_nodes()
@@ -21,4 +21,4 @@ tags:
 - [[extract_csharp()]] - `calls` [EXTRACTED]
 - [[extract_xaml()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path
+#graphify/code #graphify/EXTRACTED #community/_is_ignored

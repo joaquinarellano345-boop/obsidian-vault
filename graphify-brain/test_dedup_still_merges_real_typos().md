@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "_is_variant_pair"
+community: "_llm_tiebreak"
 location: "L187"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_is_variant_pair
+  - community/_llm_tiebreak
 ---
 
 # test_dedup_still_merges_real_typos()
@@ -17,4 +17,4 @@ tags:
 - [[_short_label_blocked()]] - `calls` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_is_variant_pair
+#graphify/code #graphify/EXTRACTED #community/_llm_tiebreak

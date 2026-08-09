@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "code"
-community: "skipif"
+community: "test_watch.py"
 location: "L1228"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/skipif
+  - community/test_watchpy
 ---
 
 # test_rebuild_code_prunes_deleted_file_nodes()
@@ -17,4 +17,4 @@ tags:
 - [[skipif_2]] - `references` [EXTRACTED]
 - [[test_watch.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/skipif
+#graphify/code #graphify/EXTRACTED #community/test_watchpy

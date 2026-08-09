@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract.py"
 type: "rationale"
-community: "test_extract.py"
+community: "extract_bash"
 location: "L1899"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_extractpy
+  - community/extract_bash
 ---
 
 # Calls made inside a nested (inner) function body must be collected.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_extract_bash_nested_function_calls_recorded()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_extractpy
+#graphify/rationale #graphify/EXTRACTED #community/extract_bash

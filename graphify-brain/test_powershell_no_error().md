@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "test_languages.py"
+community: "extract_powershell"
 location: "L1732"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/test_languagespy
+  - community/extract_powershell
 ---
 
 # test_powershell_no_error()
@@ -15,4 +15,4 @@ tags:
 - [[extract_powershell()]] - `calls` [INFERRED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/INFERRED #community/test_languagespy
+#graphify/code #graphify/INFERRED #community/extract_powershell

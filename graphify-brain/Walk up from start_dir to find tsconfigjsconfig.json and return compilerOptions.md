@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "rationale"
-community: "extract.py"
+community: "extract_astro"
 location: "L207"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/extract_astro
 ---
 
 # Walk up from start_dir to find tsconfig/jsconfig.json and return compilerOptions
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_load_tsconfig_aliases()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/extractpy
+#graphify/rationale #graphify/EXTRACTED #community/extract_astro

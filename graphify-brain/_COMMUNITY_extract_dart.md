@@ -38,7 +38,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY__read_text]]
+- 5 edges to [[_COMMUNITY__make_id]]
 - 2 edges to [[_COMMUNITY_extract.py]]
 - 1 edge to [[_COMMUNITY_test_extract.py]]
 

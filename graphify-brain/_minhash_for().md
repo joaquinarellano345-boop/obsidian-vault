@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_minhash.py"
 type: "code"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L8"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # _minhash_for()
@@ -22,4 +22,4 @@ tags:
 - [[test_unrelated_strings_not_candidates()]] - `calls` [EXTRACTED]
 - [[test_unrelated_texts_share_few_hashvalues()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_minhashpy
+#graphify/code #graphify/EXTRACTED #community/deduppy

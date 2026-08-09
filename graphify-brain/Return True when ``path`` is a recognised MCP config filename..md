@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/mcp_ingest.py"
 type: "rationale"
-community: "test_mcp_ingest.py"
+community: "_get_extractor"
 location: "L82"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_mcp_ingestpy
+  - community/_get_extractor
 ---
 
 # Return True when ``path`` is a recognised MCP config filename.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[is_mcp_config_path()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_mcp_ingestpy
+#graphify/rationale #graphify/EXTRACTED #community/_get_extractor

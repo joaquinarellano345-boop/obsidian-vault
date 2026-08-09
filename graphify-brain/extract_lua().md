@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "engine.py"
+community: "_extract_generic"
 location: "L1697"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/enginepy
+  - community/_extract_generic
 ---
 
 # extract_lua()
@@ -17,4 +17,4 @@ tags:
 - [[_extract_generic()]] - `calls` [EXTRACTED]
 - [[extract.py]] - `indirect_call` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/enginepy
+#graphify/code #graphify/EXTRACTED #community/_extract_generic

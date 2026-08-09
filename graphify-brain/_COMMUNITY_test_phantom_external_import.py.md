@@ -29,7 +29,7 @@ SORT file.name ASC
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_build_from_json]]
 - 3 edges to [[_COMMUNITY_extract]]
-- 2 edges to [[_COMMUNITY__resolve_js_import_target]]
+- 2 edges to [[_COMMUNITY_engine.py]]
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
 - 1 edge to [[_COMMUNITY_extract.py]]
 

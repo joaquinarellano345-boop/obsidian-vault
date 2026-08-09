@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_read_text"
+community: "_make_id"
 location: "L571"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # _import_csharp()
@@ -17,4 +17,4 @@ tags:
 - [[extract.py]] - `contains` [EXTRACTED]
 - [[sanitize_metadata()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

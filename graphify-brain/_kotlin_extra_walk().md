@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "code"
-community: "_read_text"
+community: "engine.py"
 location: "L1991"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/enginepy
 ---
 
 # _kotlin_extra_walk()
@@ -17,4 +17,4 @@ tags:
 - [[_read_text()]] - `calls` [EXTRACTED]
 - [[engine.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/enginepy

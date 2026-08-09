@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "rationale"
-community: "export.py"
+community: "to_obsidian"
 location: "L117"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # Escape a value for safe embedding in a YAML double-quoted scalar (F-009).      S
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_yaml_str()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/exportpy
+#graphify/rationale #graphify/EXTRACTED #community/to_obsidian

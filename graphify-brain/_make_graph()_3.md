@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_reflect.py"
 type: "code"
-community: "test_analyze.py"
+community: "generate"
 location: "L560"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/generate
 ---
 
 # _make_graph()
@@ -26,4 +26,4 @@ tags:
 - [[test_reflect.py]] - `contains` [EXTRACTED]
 - [[to_json()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_analyzepy
+#graphify/code #graphify/EXTRACTED #community/generate

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_build.py"
 type: "rationale"
-community: "build_from_json"
+community: "graphify/build.py"
 location: "L1009"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build_from_json
+  - community/graphify/buildpy
 ---
 
 # #F4: build_merge must refuse to read an existing graph.json that     exceeds the
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_build_merge_rejects_oversized_existing_graph()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build_from_json
+#graphify/rationale #graphify/EXTRACTED #community/graphify/buildpy

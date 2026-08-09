@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "rationale"
-community: "build_label_index"
+community: "symbol_resolution.py"
 location: "L31"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/build_label_index
+  - community/symbol_resolutionpy
 ---
 
 # Normalize a node label into the key used for call resolution.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[normalise_callable_label()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/build_label_index
+#graphify/rationale #graphify/EXTRACTED #community/symbol_resolutionpy

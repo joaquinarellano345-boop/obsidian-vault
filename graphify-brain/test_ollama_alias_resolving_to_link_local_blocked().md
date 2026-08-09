@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_ollama.py"
 type: "code"
-community: "test_ollama.py"
+community: "detect_backend"
 location: "L29"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_ollamapy
+  - community/detect_backend
 ---
 
 # test_ollama_alias_resolving_to_link_local_blocked()
@@ -16,4 +16,4 @@ tags:
 - [[_validate_ollama_base_url()]] - `calls` [EXTRACTED]
 - [[test_ollama.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_ollamapy
+#graphify/code #graphify/EXTRACTED #community/detect_backend

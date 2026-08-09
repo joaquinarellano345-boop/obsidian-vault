@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_evidence_binding.py"
 type: "code"
-community: "test_multigraph_diagnostics.py"
+community: "test_evidence_binding.py"
 location: "L201"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_multigraph_diagnosticspy
+  - community/test_evidence_bindingpy
 ---
 
 # test_diagnostics_reports_unverified_node_count()
@@ -16,4 +16,4 @@ tags:
 - [[format_diagnostic_report()]] - `calls` [EXTRACTED]
 - [[test_evidence_binding.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_multigraph_diagnosticspy
+#graphify/code #graphify/EXTRACTED #community/test_evidence_bindingpy

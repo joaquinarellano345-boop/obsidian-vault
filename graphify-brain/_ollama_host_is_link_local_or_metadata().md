@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "test_ollama.py"
+community: "detect_backend"
 location: "L2653"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_ollamapy
+  - community/detect_backend
 ---
 
 # _ollama_host_is_link_local_or_metadata()
@@ -16,4 +16,4 @@ tags:
 - [[_validate_ollama_base_url()]] - `calls` [EXTRACTED]
 - [[llm.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_ollamapy
+#graphify/code #graphify/EXTRACTED #community/detect_backend

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "code"
-community: "_zip_within_caps"
+community: "detect.py"
 location: "L60"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_zip_within_caps
+  - community/detectpy
 ---
 
 # _zip_within_caps()
@@ -24,4 +24,4 @@ tags:
 - [[test_zip_ratio_bomb_rejected()]] - `calls` [EXTRACTED]
 - [[xlsx_to_markdown()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_zip_within_caps
+#graphify/code #graphify/EXTRACTED #community/detectpy

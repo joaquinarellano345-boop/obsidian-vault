@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_llm_backends.py"
 type: "code"
-community: "_call_claude_cli"
+community: "llm.py"
 location: "L835"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_call_claude_cli
+  - community/llmpy
 ---
 
 # test_estimate_cost_azure_no_keyerror()
@@ -15,4 +15,4 @@ tags:
 - [[estimate_cost()]] - `calls` [EXTRACTED]
 - [[test_llm_backends.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_call_claude_cli
+#graphify/code #graphify/EXTRACTED #community/llmpy

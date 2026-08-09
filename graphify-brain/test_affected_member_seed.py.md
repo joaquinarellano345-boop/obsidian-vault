@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_affected_member_seed.py"
 type: "code"
-community: "affected.py"
+community: "test_indirect_dispatch.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/affectedpy
+  - community/test_indirect_dispatchpy
 ---
 
 # test_affected_member_seed.py
@@ -21,4 +21,4 @@ tags:
 - [[test_member_method_node_not_reported_as_hit()]] - `contains` [EXTRACTED]
 - [[test_method_contains_still_excluded_from_general_walk()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/affectedpy
+#graphify/code #graphify/EXTRACTED #community/test_indirect_dispatchpy

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_home_sandbox.py"
 type: "code"
-community: "claude_install"
+community: "test_home_sandbox.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/claude_install
+  - community/test_home_sandboxpy
 ---
 
 # test_home_sandbox.py
@@ -19,4 +19,4 @@ tags:
 - [[test_global_uninstall_is_captured_by_sandbox()]] - `contains` [EXTRACTED]
 - [[test_path_home_is_sandboxed()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/claude_install
+#graphify/code #graphify/EXTRACTED #community/test_home_sandboxpy

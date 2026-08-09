@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_pg_introspect.py"
 type: "rationale"
-community: "validate_extraction"
+community: "introspect_postgres"
 location: "L252"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/validate_extraction
+  - community/introspect_postgres
 ---
 
 # #1746: information_schema.referential_constraints only shows constraints     whe
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_pg_introspect_fk_query_avoids_privilege_filtered_view()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/validate_extraction
+#graphify/rationale #graphify/EXTRACTED #community/introspect_postgres

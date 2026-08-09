@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/blade.py"
 type: "code"
-community: "_read_text"
+community: "_make_id"
 location: "L9"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # extract_blade()
@@ -20,4 +20,4 @@ tags:
 - [[extract.py]] - `imports` [EXTRACTED]
 - [[extractors__init__.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

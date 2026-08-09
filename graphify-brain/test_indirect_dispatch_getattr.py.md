@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_indirect_dispatch_getattr.py"
 type: "code"
-community: "test_indirect_dispatch_getattr.py"
+community: "test_indirect_dispatch.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_indirect_dispatch_getattrpy
+  - community/test_indirect_dispatchpy
 ---
 
 # test_indirect_dispatch_getattr.py
@@ -28,4 +28,4 @@ tags:
 - [[test_method_named_getattr_is_not_the_builtin()]] - `contains` [EXTRACTED]
 - [[test_module_level_getattr_emits()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_indirect_dispatch_getattrpy
+#graphify/code #graphify/EXTRACTED #community/test_indirect_dispatchpy

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_global_graph.py"
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L323"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # test_global_add_rejects_oversized_source_graph()
@@ -18,4 +18,4 @@ tags:
 - [[global_add()]] - `calls` [EXTRACTED]
 - [[test_global_graph.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "rationale"
-community: "test_languages.py"
+community: "_edges_with_relation"
 location: "L1659"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/_edges_with_relation
 ---
 
 # Extract functions and includes from a .c/.h file.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_c()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_languagespy
+#graphify/rationale #graphify/EXTRACTED #community/_edges_with_relation

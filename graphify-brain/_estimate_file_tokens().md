@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "test_file_slice.py"
+community: "test_chunking.py"
 location: "L1782"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_file_slicepy
+  - community/test_chunkingpy
 ---
 
 # _estimate_file_tokens()
@@ -23,4 +23,4 @@ tags:
 - [[test_estimate_tokens_for_slice_scales_with_range()]] - `calls` [EXTRACTED]
 - [[test_image_token_estimate_is_flat()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_file_slicepy
+#graphify/code #graphify/EXTRACTED #community/test_chunkingpy

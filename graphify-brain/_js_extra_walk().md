@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "code"
-community: "_read_text"
+community: "engine.py"
 location: "L1696"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/enginepy
 ---
 
 # _js_extra_walk()
@@ -22,4 +22,4 @@ tags:
 - [[extract.py]] - `imports` [EXTRACTED]
 - [[normalize_id()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/enginepy

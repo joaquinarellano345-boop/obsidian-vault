@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_rationale.py"
 type: "code"
-community: "extract_python"
+community: "extract_js"
 location: "L325"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extract_python
+  - community/extract_js
 ---
 
 # test_js_adr_in_string_literal_not_extracted()
@@ -16,4 +16,4 @@ tags:
 - [[extract_js()]] - `calls` [EXTRACTED]
 - [[test_rationale.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extract_python
+#graphify/code #graphify/EXTRACTED #community/extract_js

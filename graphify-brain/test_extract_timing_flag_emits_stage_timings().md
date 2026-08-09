@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_extract_cli.py"
 type: "code"
-community: "test_extract_cli.py"
+community: "main"
 location: "L762"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_extract_clipy
+  - community/main
 ---
 
 # test_extract_timing_flag_emits_stage_timings()
@@ -16,4 +16,4 @@ tags:
 - [[main()]] - `calls` [EXTRACTED]
 - [[test_extract_cli.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_extract_clipy
+#graphify/code #graphify/EXTRACTED #community/main

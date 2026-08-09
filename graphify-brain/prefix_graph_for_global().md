@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L1449"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # prefix_graph_for_global()
@@ -24,4 +24,4 @@ tags:
 - [[test_prefix_graph_rewrites_edges()]] - `calls` [EXTRACTED]
 - [[test_prefix_graph_sets_repo_and_local_id()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

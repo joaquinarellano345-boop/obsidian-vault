@@ -29,7 +29,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 1 edge to [[_COMMUNITY_graphify__main__.py]]
-- 1 edge to [[_COMMUNITY_test_install.py]]
+- 1 edge to [[_COMMUNITY_main]]
 
 ## Top bridge nodes
 - [[test_god_nodes_cli.py]] - degree 9, connects to 1 community

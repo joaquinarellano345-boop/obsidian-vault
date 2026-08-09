@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/elixir.py"
 type: "rationale"
-community: "test_languages.py"
+community: "_edges_with_relation"
 location: "L11"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/_edges_with_relation
 ---
 
 # Extract modules, functions, imports, and calls from a .ex/.exs file.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_elixir()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_languagespy
+#graphify/rationale #graphify/EXTRACTED #community/_edges_with_relation

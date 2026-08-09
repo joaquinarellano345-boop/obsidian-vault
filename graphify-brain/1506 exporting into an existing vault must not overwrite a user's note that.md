@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_export.py"
 type: "rationale"
-community: "export.py"
+community: "to_obsidian"
 location: "L444"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # #1506: exporting into an existing vault must not overwrite a user's note that
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_to_obsidian_preserves_existing_user_notes_and_obsidian_config()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/exportpy
+#graphify/rationale #graphify/EXTRACTED #community/to_obsidian

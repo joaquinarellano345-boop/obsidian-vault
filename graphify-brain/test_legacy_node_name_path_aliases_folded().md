@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_build.py"
 type: "code"
-community: "build_from_json"
+community: "validate_extraction"
 location: "L138"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build_from_json
+  - community/validate_extraction
 ---
 
 # test_legacy_node_name_path_aliases_folded()
@@ -17,4 +17,4 @@ tags:
 - [[test_build.py]] - `contains` [EXTRACTED]
 - [[validate_extraction()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build_from_json
+#graphify/code #graphify/EXTRACTED #community/validate_extraction

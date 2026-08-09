@@ -97,14 +97,15 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 14 edges to [[_COMMUNITY_test_languages.py]]
-- 12 edges to [[_COMMUNITY_extract.py]]
-- 8 edges to [[_COMMUNITY__read_text]]
-- 7 edges to [[_COMMUNITY_Path]]
+- 13 edges to [[_COMMUNITY_extract.py]]
+- 8 edges to [[_COMMUNITY__make_id]]
 - 7 edges to [[_COMMUNITY__relations]]
 - 6 edges to [[_COMMUNITY__labels]]
+- 5 edges to [[_COMMUNITY_Path]]
 - 4 edges to [[_COMMUNITY_extract]]
-- 2 edges to [[_COMMUNITY__xaml_binding_refs]]
+- 2 edges to [[_COMMUNITY__get_extractor]]
 - 1 edge to [[_COMMUNITY_test_pascal.py]]
+- 1 edge to [[_COMMUNITY__is_ignored]]
 
 ## Top bridge nodes
 - [[extract_xaml()]] - degree 34, connects to 5 communities

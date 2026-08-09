@@ -36,14 +36,15 @@ SORT file.name ASC
 ## Connections to other communities
 - 10 edges to [[_COMMUNITY_test_serve.py]]
 - 3 edges to [[_COMMUNITY__make_graph]]
-- 2 edges to [[_COMMUNITY_cli.py]]
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
+- 1 edge to [[_COMMUNITY_cli.py]]
 - 1 edge to [[_COMMUNITY_reflect.py]]
+- 1 edge to [[_COMMUNITY_test_security.py]]
 - 1 edge to [[_COMMUNITY_serve.py]]
 - 1 edge to [[_COMMUNITY__pick_seeds]]
 
 ## Top bridge nodes
-- [[_load_graph()]] - degree 13, connects to 5 communities
+- [[_load_graph()]] - degree 13, connects to 6 communities
 - [[_write_graph()_7]] - degree 5, connects to 2 communities
 - [[test_load_graph_accepts_under_cap()]] - degree 3, connects to 2 communities
 - [[test_load_graph_rejects_oversized_file()_1]] - degree 3, connects to 2 communities

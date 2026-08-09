@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/processor.py"
 type: "rationale"
-community: "storage.py"
+community: "processor.py"
 location: "L58"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/storagepy
+  - community/processorpy
 ---
 
 # Enrich a validated document and persist it. Returns the record ID.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[process_and_save()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/storagepy
+#graphify/rationale #graphify/EXTRACTED #community/processorpy

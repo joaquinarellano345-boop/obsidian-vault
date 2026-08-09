@@ -35,11 +35,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_test_cache.py]]
-- 1 edge to [[_COMMUNITY_file_hash]]
+- 10 edges to [[_COMMUNITY_test_cache.py]]
 
 ## Top bridge nodes
-- [[_body_content()]] - degree 11, connects to 2 communities
+- [[_body_content()]] - degree 11, connects to 1 community
 - [[test_body_content_dash_text_line_is_not_close_delimiter()]] - degree 3, connects to 1 community
 - [[test_body_content_dash_title_start_is_not_frontmatter()]] - degree 3, connects to 1 community
 - [[test_body_content_hr_start_is_not_frontmatter()]] - degree 3, connects to 1 community

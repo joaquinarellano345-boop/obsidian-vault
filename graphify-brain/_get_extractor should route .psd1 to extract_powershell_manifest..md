@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "rationale"
-community: "Path"
+community: "_get_extractor"
 location: "L1841"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Path
+  - community/_get_extractor
 ---
 
 # _get_extractor should route .psd1 to extract_powershell_manifest.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_powershell_psd1_dispatched()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Path
+#graphify/rationale #graphify/EXTRACTED #community/_get_extractor

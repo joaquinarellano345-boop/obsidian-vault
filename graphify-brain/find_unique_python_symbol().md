@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "code"
-community: "symbol_resolution.py"
+community: "parse_python_import_aliases"
 location: "L206"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/symbol_resolutionpy
+  - community/parse_python_import_aliases
 ---
 
 # find_unique_python_symbol()
@@ -19,4 +19,4 @@ tags:
 - [[test_find_unique_python_symbol_returns_none_when_ambiguous()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/symbol_resolutionpy
+#graphify/code #graphify/EXTRACTED #community/parse_python_import_aliases

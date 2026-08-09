@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_watch.py"
 type: "code"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L1566"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # test_drain_pending_dedupes_and_skips_blank_lines()
@@ -17,4 +17,4 @@ tags:
 - [[_queue_pending()]] - `calls` [EXTRACTED]
 - [[test_watch.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rebuild_code
+#graphify/code #graphify/EXTRACTED #community/clipy

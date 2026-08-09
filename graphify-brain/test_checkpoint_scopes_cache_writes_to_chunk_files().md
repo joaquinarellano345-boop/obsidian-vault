@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_chunking.py"
 type: "code"
-community: "save_semantic_cache"
+community: "test_chunking.py"
 location: "L282"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/save_semantic_cache
+  - community/test_chunkingpy
 ---
 
 # test_checkpoint_scopes_cache_writes_to_chunk_files()
@@ -19,4 +19,4 @@ tags:
 - [[save_semantic_cache()]] - `calls` [EXTRACTED]
 - [[test_chunking.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/save_semantic_cache
+#graphify/code #graphify/EXTRACTED #community/test_chunkingpy

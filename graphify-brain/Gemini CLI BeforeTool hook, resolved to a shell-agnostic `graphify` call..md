@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "rationale"
-community: "graphify/__main__.py"
+community: "test_settings_merge.py"
 location: "L685"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_settings_mergepy
 ---
 
 # Gemini CLI BeforeTool hook, resolved to a shell-agnostic `graphify` call.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_gemini_hook()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/rationale #graphify/EXTRACTED #community/test_settings_mergepy

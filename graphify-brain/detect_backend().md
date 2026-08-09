@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "test_llm_backends.py"
+community: "detect_backend"
 location: "L2727"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_llm_backendspy
+  - community/detect_backend
 ---
 
 # detect_backend()
@@ -34,4 +34,4 @@ tags:
 - [[test_ollama.py]] - `imports` [EXTRACTED]
 - [[test_openai_backend_detected()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_llm_backendspy
+#graphify/code #graphify/EXTRACTED #community/detect_backend

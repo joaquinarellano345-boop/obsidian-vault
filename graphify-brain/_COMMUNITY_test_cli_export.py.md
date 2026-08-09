@@ -67,10 +67,10 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_test_analyze.py]]
+- 4 edges to [[_COMMUNITY_generate]]
+- 2 edges to [[_COMMUNITY_test_analyze.py]]
 - 2 edges to [[_COMMUNITY_build_from_json]]
 - 2 edges to [[_COMMUNITY_test_export.py]]
-- 2 edges to [[_COMMUNITY_generate]]
 - 2 edges to [[_COMMUNITY_to_json]]
 - 1 edge to [[_COMMUNITY_test_indirect_dispatch.py]]
 

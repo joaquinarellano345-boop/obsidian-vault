@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/__main__.py"
 type: "code"
-community: "test_install_references.py"
+community: "_check_skill_version"
 location: "L210"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_install_referencespy
+  - community/_check_skill_version
 ---
 
 # _version_tuple()
@@ -16,4 +16,4 @@ tags:
 - [[_check_skill_version()]] - `calls` [EXTRACTED]
 - [[graphify__main__.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_install_referencespy
+#graphify/code #graphify/EXTRACTED #community/_check_skill_version

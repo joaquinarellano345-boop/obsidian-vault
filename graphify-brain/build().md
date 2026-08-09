@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "code"
-community: "build"
+community: "graphify/build.py"
 location: "L1019"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/build
+  - community/graphify/buildpy
 ---
 
 # build()
@@ -37,4 +37,4 @@ tags:
 - [[test_graph_json_has_no_target_file_and_no_absolute_path()]] - `calls` [EXTRACTED]
 - [[test_graph_json_is_checkout_location_independent()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/build
+#graphify/code #graphify/EXTRACTED #community/graphify/buildpy

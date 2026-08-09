@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/rust.py"
 type: "rationale"
-community: "test_multilang.py"
+community: "extract_rust"
 location: "L62"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_multilangpy
+  - community/extract_rust
 ---
 
 # Extract functions, structs, enums, traits, impl methods, and use declarations fr
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_rust()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_multilangpy
+#graphify/rationale #graphify/EXTRACTED #community/extract_rust

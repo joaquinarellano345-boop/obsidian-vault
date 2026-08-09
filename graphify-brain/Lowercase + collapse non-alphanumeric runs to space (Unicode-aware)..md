@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "rationale"
-community: "dedup.py"
+community: "_norm"
 location: "L20"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/deduppy
+  - community/_norm
 ---
 
 # Lowercase + collapse non-alphanumeric runs to space (Unicode-aware).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_norm()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/deduppy
+#graphify/rationale #graphify/EXTRACTED #community/_norm

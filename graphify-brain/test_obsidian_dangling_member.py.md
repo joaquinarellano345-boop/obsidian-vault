@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_obsidian_dangling_member.py"
 type: "code"
-community: "export.py"
+community: "to_obsidian"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # test_obsidian_dangling_member.py
@@ -21,4 +21,4 @@ tags:
 - [[to_canvas()]] - `imports` [EXTRACTED]
 - [[to_obsidian()]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/exportpy
+#graphify/code #graphify/EXTRACTED #community/to_obsidian

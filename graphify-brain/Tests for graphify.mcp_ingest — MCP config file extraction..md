@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_mcp_ingest.py"
 type: "rationale"
-community: "test_mcp_ingest.py"
+community: "_get_extractor"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_mcp_ingestpy
+  - community/_get_extractor
 ---
 
 # Tests for graphify.mcp_ingest — MCP config file extraction.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_mcp_ingest.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_mcp_ingestpy
+#graphify/rationale #graphify/EXTRACTED #community/_get_extractor

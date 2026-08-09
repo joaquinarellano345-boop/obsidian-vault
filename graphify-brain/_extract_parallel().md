@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_extract_parallel"
+community: "Path"
 location: "L4320"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_parallel
+  - community/Path
 ---
 
 # _extract_parallel()
@@ -21,4 +21,4 @@ tags:
 - [[test_extract_parallel_skips_pool_when_max_workers_is_one()]] - `calls` [EXTRACTED]
 - [[test_extract_parallel_still_spawns_pool_for_multiple_workers()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_parallel
+#graphify/code #graphify/EXTRACTED #community/Path

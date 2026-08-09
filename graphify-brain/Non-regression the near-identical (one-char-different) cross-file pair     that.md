@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "rationale"
-community: "test_crossfile_one_char_typo_concepts_still_merge"
+community: "deduplicate_entities"
 location: "L728"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_crossfile_one_char_typo_concepts_still_merge
+  - community/deduplicate_entities
 ---
 
 # Non-regression: the near-identical (one-char-different) cross-file pair     that
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_crossfile_one_char_typo_concepts_still_merge()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_crossfile_one_char_typo_concepts_still_merge
+#graphify/rationale #graphify/EXTRACTED #community/deduplicate_entities

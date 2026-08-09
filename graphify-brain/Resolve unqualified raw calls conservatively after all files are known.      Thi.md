@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "rationale"
-community: "resolve_cross_file_raw_calls"
+community: "test_symbol_resolution.py"
 location: "L312"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/resolve_cross_file_raw_calls
+  - community/test_symbol_resolutionpy
 ---
 
 # Resolve unqualified raw calls conservatively after all files are known.      Thi
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[resolve_cross_file_raw_calls()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/resolve_cross_file_raw_calls
+#graphify/rationale #graphify/EXTRACTED #community/test_symbol_resolutionpy

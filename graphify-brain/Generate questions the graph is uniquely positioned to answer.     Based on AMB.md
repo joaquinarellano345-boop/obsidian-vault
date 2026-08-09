@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "rationale"
-community: "_rebuild_code"
+community: "cli.py"
 location: "L434"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_rebuild_code
+  - community/clipy
 ---
 
 # Generate questions the graph is uniquely positioned to answer.     Based on: AMB
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[suggest_questions()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_rebuild_code
+#graphify/rationale #graphify/EXTRACTED #community/clipy

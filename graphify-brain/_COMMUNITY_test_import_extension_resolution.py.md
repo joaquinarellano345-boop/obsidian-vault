@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.05
-members: 74
+members: 76
 ---
 
 # test_import_extension_resolution.py
 
 **Cohesion:** 0.05 - loosely connected
-**Members:** 74 nodes
+**Members:** 76 nodes
 
 ## Members
 - [[A directory with no index file should fall through to the     return as-is p]] - rationale - tests/test_import_extension_resolution.py
@@ -34,6 +34,7 @@ members: 74
 - [[Tests for 716 — TypeScript bare-path imports, Svelte 5 rune file imports (`from]] - rationale - tests/test_import_extension_resolution.py
 - [[The 716 reproducer TS file imports a sibling without an extension.]] - rationale - tests/test_import_extension_resolution.py
 - [[The most common case — import with explicit .ts extension — must     continue to]] - rationale - tests/test_import_extension_resolution.py
+- [[The other branch of the dynamic-import handler — alias resolution —     also nee]] - rationale - tests/test_import_extension_resolution.py
 - [[The regex pass for `import('...')` in .svelte files must also use     the new re]] - rationale - tests/test_import_extension_resolution.py
 - [[Vite resolver order .ts wins over .svelte for ambiguous bare paths.]] - rationale - tests/test_import_extension_resolution.py
 - [[When both `.svelte.ts` and `.svelte.js` exist (hybrid project mid-     migration]] - rationale - tests/test_import_extension_resolution.py
@@ -82,6 +83,7 @@ members: 74
 - [[test_resolve_svelte_prefers_svelte_ts_over_svelte_js()]] - code - tests/test_import_extension_resolution.py
 - [[test_resolve_svelte_to_svelte_js_for_javascript_rune_files()]] - code - tests/test_import_extension_resolution.py
 - [[test_resolve_svelte_to_svelte_ts_for_rune_files()]] - code - tests/test_import_extension_resolution.py
+- [[test_ts_dynamic_import_alias_with_bare_path_resolves()]] - code - tests/test_import_extension_resolution.py
 - [[test_ts_dynamic_import_bare_path_resolves()]] - code - tests/test_import_extension_resolution.py
 - [[test_type_only_import_with_bare_path_resolves()]] - code - tests/test_import_extension_resolution.py
 
@@ -93,14 +95,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 16 edges to [[_COMMUNITY_extract_js]]
-- 10 edges to [[_COMMUNITY_extract.py]]
-- 3 edges to [[_COMMUNITY_extract_astro]]
-- 1 edge to [[_COMMUNITY__resolve_js_import_target]]
+- 15 edges to [[_COMMUNITY_extract_js]]
+- 8 edges to [[_COMMUNITY_extract.py]]
+- 5 edges to [[_COMMUNITY_extract_astro]]
+- 1 edge to [[_COMMUNITY_engine.py]]
 
 ## Top bridge nodes
 - [[test_import_extension_resolution.py]] - degree 44, connects to 3 communities
 - [[_resolve_js_module_path()]] - degree 35, connects to 3 communities
-- [[_write()_7]] - degree 39, connects to 1 community
 - [[test_alias_directory_import_resolves_to_index_ts()]] - degree 5, connects to 1 community
 - [[test_alias_import_with_bare_path_resolves()]] - degree 5, connects to 1 community
+- [[test_bare_path_import_resolves_in_ts_file()]] - degree 5, connects to 1 community

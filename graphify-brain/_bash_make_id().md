@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "code"
-community: "_bash_make_id"
+community: "make_id"
 location: "L380"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_bash_make_id
+  - community/make_id
 ---
 
 # _bash_make_id()
@@ -22,4 +22,4 @@ tags:
 - [[test_id_normalization_contract.py]] - `imports` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_bash_make_id
+#graphify/code #graphify/EXTRACTED #community/make_id

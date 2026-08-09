@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "rationale"
-community: "_read_text"
+community: "extract.py"
 location: "L2150"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/extractpy
 ---
 
 # Two-pass Java import resolution.      Pass 1: build a global index {ClassName: [
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_resolve_cross_file_java_imports()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_read_text
+#graphify/rationale #graphify/EXTRACTED #community/extractpy

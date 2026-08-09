@@ -44,13 +44,14 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 4 edges to [[_COMMUNITY_extract.py]]
-- 3 edges to [[_COMMUNITY__read_text]]
 - 2 edges to [[_COMMUNITY_extract]]
-- 1 edge to [[_COMMUNITY_test_export.py]]
+- 2 edges to [[_COMMUNITY__make_id]]
+- 1 edge to [[_COMMUNITY_export.py]]
 - 1 edge to [[_COMMUNITY__is_type_like_definition]]
+- 1 edge to [[_COMMUNITY_engine.py]]
 
 ## Top bridge nodes
-- [[csharp.py]] - degree 12, connects to 3 communities
+- [[csharp.py]] - degree 12, connects to 4 communities
 - [[_resolve_csharp_type_references()]] - degree 9, connects to 3 communities
 - [[CsharpNameResolver]] - degree 14, connects to 2 communities
 - [[_resolve_cross_file_csharp_imports()]] - degree 7, connects to 2 communities

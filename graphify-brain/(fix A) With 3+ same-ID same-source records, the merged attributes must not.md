@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "rationale"
-community: "test_dedup_gapfill_is_order_independent_with_multiple_losers"
+community: "deduplicate_entities"
 location: "L634"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_dedup_gapfill_is_order_independent_with_multiple_losers
+  - community/deduplicate_entities
 ---
 
 # (fix A) With 3+ same-ID same-source records, the merged attributes must not
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_dedup_gapfill_is_order_independent_with_multiple_losers()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_dedup_gapfill_is_order_independent_with_multiple_losers
+#graphify/rationale #graphify/EXTRACTED #community/deduplicate_entities

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_minhash.py"
 type: "code"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L95"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # test_dedup_import_does_not_pull_scipy_or_numpy_testing()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_minhash.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_minhashpy
+#graphify/code #graphify/EXTRACTED #community/deduppy

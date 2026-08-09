@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/security.py"
 type: "rationale"
-community: "sanitize_metadata"
+community: "test_security.py"
 location: "L426"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/sanitize_metadata
+  - community/test_securitypy
 ---
 
 # Sanitize a metadata value while preserving simple JSON-compatible types.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_sanitize_metadata_value()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/sanitize_metadata
+#graphify/rationale #graphify/EXTRACTED #community/test_securitypy

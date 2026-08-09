@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "test_image_vision.py"
+community: "llm.py"
 location: "L757"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_image_visionpy
+  - community/llmpy
 ---
 
 # _ImageRef
@@ -29,4 +29,4 @@ tags:
 - [[_with_image_notes()]] - `references` [EXTRACTED]
 - [[llm.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_image_visionpy
+#graphify/code #graphify/EXTRACTED #community/llmpy

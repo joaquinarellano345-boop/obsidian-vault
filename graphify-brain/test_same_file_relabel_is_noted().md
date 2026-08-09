@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "test_same_file_relabel_is_noted"
+community: "deduplicate_entities"
 location: "L521"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_same_file_relabel_is_noted
+  - community/deduplicate_entities
 ---
 
 # test_same_file_relabel_is_noted()
@@ -16,4 +16,4 @@ tags:
 - [[deduplicate_entities()]] - `calls` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_same_file_relabel_is_noted
+#graphify/code #graphify/EXTRACTED #community/deduplicate_entities

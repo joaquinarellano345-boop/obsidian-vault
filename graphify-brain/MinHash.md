@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/_minhash.py"
 type: "code"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L36"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # MinHash
@@ -25,4 +25,4 @@ tags:
 - [[test_minhash.py]] - `imports` [EXTRACTED]
 - [[test_update_mutates_hashvalues()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_minhashpy
+#graphify/code #graphify/EXTRACTED #community/deduppy

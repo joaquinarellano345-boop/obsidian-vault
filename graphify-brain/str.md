@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "classify_file"
+community: "detect.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/classify_file
+  - community/detectpy
 ---
 
 # str
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[FileType]] - `inherits` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/classify_file
+#graphify/code #graphify/EXTRACTED #community/detectpy

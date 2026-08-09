@@ -52,15 +52,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 4 edges to [[_COMMUNITY_llm.py]]
+- 5 edges to [[_COMMUNITY_llm.py]]
 - 4 edges to [[_COMMUNITY__call_claude_cli]]
+- 2 edges to [[_COMMUNITY__call_llm]]
 - 1 edge to [[_COMMUNITY_test_llm_backends.py]]
-- 1 edge to [[_COMMUNITY_test_image_vision.py]]
-- 1 edge to [[_COMMUNITY__extraction_system]]
-- 1 edge to [[_COMMUNITY__call_openai_compat]]
 
 ## Top bridge nodes
-- [[_parse_llm_json()]] - degree 19, connects to 6 communities
+- [[_parse_llm_json()]] - degree 19, connects to 4 communities
 - [[test_llm_parser.py]] - degree 13, connects to 1 community
 - [[test_semantic_fragment_sanitize.py]] - degree 9, connects to 1 community
 - [[_sanitize_fragment()]] - degree 6, connects to 1 community

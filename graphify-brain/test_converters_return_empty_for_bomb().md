@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_office_limits.py"
 type: "code"
-community: "_zip_within_caps"
+community: "detect.py"
 location: "L45"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_zip_within_caps
+  - community/detectpy
 ---
 
 # test_converters_return_empty_for_bomb()
@@ -18,4 +18,4 @@ tags:
 - [[test_office_limits.py]] - `contains` [EXTRACTED]
 - [[xlsx_to_markdown()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_zip_within_caps
+#graphify/code #graphify/EXTRACTED #community/detectpy

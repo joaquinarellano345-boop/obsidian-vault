@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "rationale"
-community: "test_dedup.py"
+community: "_norm"
 location: "L28"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_deduppy
+  - community/_norm
 ---
 
 # Shannon entropy in bits/char of the normalised label.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_entropy()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_deduppy
+#graphify/rationale #graphify/EXTRACTED #community/_norm

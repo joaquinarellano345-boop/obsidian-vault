@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_rewire_unique_stub_nodes"
+community: "Path"
 location: "L1846"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_rewire_unique_stub_nodes
+  - community/Path
 ---
 
 # _is_top_level_function_definition()
@@ -16,4 +16,4 @@ tags:
 - [[_rewire_unique_stub_nodes()]] - `calls` [EXTRACTED]
 - [[extract.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_rewire_unique_stub_nodes
+#graphify/code #graphify/EXTRACTED #community/Path

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/_minhash.py"
 type: "code"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L84"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # MinHashLSH
@@ -26,4 +26,4 @@ tags:
 - [[test_query_always_returns_self()]] - `calls` [EXTRACTED]
 - [[test_unrelated_strings_not_candidates()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_minhashpy
+#graphify/code #graphify/EXTRACTED #community/deduppy

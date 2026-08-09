@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "code"
-community: "_env_command_args"
+community: "detect.py"
 location: "L309"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_env_command_args
+  - community/detectpy
 ---
 
 # _env_command_args()
@@ -17,4 +17,4 @@ tags:
 - [[_split_env_s()]] - `calls` [EXTRACTED]
 - [[detect.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_env_command_args
+#graphify/code #graphify/EXTRACTED #community/detectpy

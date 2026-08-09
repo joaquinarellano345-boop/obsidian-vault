@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_detect.py"
 type: "rationale"
-community: "_load_graphifyignore"
+community: "_is_ignored"
 location: "L998"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_load_graphifyignore
+  - community/_is_ignored
 ---
 
 # /inbox/ must still match inbox/ at the anchor root (positive case).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_anchored_dir_matches_at_root()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_load_graphifyignore
+#graphify/rationale #graphify/EXTRACTED #community/_is_ignored

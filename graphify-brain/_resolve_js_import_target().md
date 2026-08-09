@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "code"
-community: "_resolve_js_import_target"
+community: "engine.py"
 location: "L528"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_resolve_js_import_target
+  - community/enginepy
 ---
 
 # _resolve_js_import_target()
@@ -25,4 +25,4 @@ tags:
 - [[test_scoped_package_import_is_ref_namespaced()]] - `calls` [INFERRED]
 - [[test_unresolved_bare_import_is_ref_namespaced()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/_resolve_js_import_target
+#graphify/code #graphify/EXTRACTED #community/enginepy

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_multilang.py"
 type: "code"
-community: "test_multilang.py"
+community: "extract_go"
 location: "L167"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_multilangpy
+  - community/extract_go
 ---
 
 # test_go_method_declaration_emits_refs_only_when_name_present()
@@ -16,4 +16,4 @@ tags:
 - [[extract_go()]] - `indirect_call` [INFERRED]
 - [[test_multilang.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_multilangpy
+#graphify/code #graphify/EXTRACTED #community/extract_go

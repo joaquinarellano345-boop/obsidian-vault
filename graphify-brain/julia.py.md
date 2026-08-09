@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/julia.py"
 type: "code"
-community: "_read_text"
+community: "engine.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/enginepy
 ---
 
 # julia.py
@@ -23,4 +23,4 @@ tags:
 - [[extractorsbase.py]] - `imports_from` [EXTRACTED]
 - [[julia — moved verbatim from graphifyextract.py.]] - `rationale_for` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/enginepy

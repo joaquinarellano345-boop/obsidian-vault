@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "_extraction_system"
+community: "_call_llm"
 location: "L1270"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extraction_system
+  - community/_call_llm
 ---
 
 # _call_claude()
@@ -25,4 +25,4 @@ tags:
 - [[llm.py]] - `contains` [EXTRACTED]
 - [[test_call_claude_sends_image_block()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extraction_system
+#graphify/code #graphify/EXTRACTED #community/_call_llm

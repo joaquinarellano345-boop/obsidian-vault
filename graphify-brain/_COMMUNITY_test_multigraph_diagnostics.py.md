@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.08
-members: 61
+members: 60
 ---
 
 # test_multigraph_diagnostics.py
 
 **Cohesion:** 0.08 - loosely connected
-**Members:** 61 nodes
+**Members:** 60 nodes
 
 ## Members
 - [[Any_1]] - code
@@ -64,7 +64,6 @@ members: 61
 - [[test_diagnose_multigraph_cli_usage_errors()]] - code - tests/test_multigraph_diagnostics.py
 - [[test_diagnostic_json_report_is_serializable()]] - code - tests/test_multigraph_diagnostics.py
 - [[test_diagnostics_read_corrupt_raises_runtimeerror()]] - code - tests/test_corrupt_graph_json.py
-- [[test_diagnostics_reports_unverified_node_count()]] - code - tests/test_evidence_binding.py
 - [[test_format_diagnostic_report_includes_build_and_suppression_errors()]] - code - tests/test_multigraph_diagnostics.py
 - [[test_multigraph_diagnostics.py]] - code - tests/test_multigraph_diagnostics.py
 - [[test_scan_producer_suppression_sites_finds_seen_sets()]] - code - tests/test_multigraph_diagnostics.py
@@ -80,17 +79,19 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 10 edges to [[_COMMUNITY_cli.py]]
-- 6 edges to [[_COMMUNITY_test_install.py]]
+- 8 edges to [[_COMMUNITY_cli.py]]
+- 6 edges to [[_COMMUNITY_main]]
 - 4 edges to [[_COMMUNITY_graphifybuild.py]]
-- 3 edges to [[_COMMUNITY_affected.py]]
-- 3 edges to [[_COMMUNITY_test_evidence_binding.py]]
+- 4 edges to [[_COMMUNITY_test_evidence_binding.py]]
+- 2 edges to [[_COMMUNITY_test_indirect_dispatch.py]]
 - 2 edges to [[_COMMUNITY_build_from_json]]
+- 2 edges to [[_COMMUNITY_test_security.py]]
 - 1 edge to [[_COMMUNITY_graphify__main__.py]]
+- 1 edge to [[_COMMUNITY_test_affected_cli.py]]
 
 ## Top bridge nodes
+- [[load_graph()]] - degree 7, connects to 3 communities
 - [[diagnose_extraction()]] - degree 25, connects to 2 communities
 - [[diagnostics.py]] - degree 19, connects to 2 communities
 - [[test_corrupt_graph_json.py]] - degree 12, connects to 2 communities
 - [[format_diagnostic_report()]] - degree 9, connects to 2 communities
-- [[load_graph()]] - degree 7, connects to 2 communities

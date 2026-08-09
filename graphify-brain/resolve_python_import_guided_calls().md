@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/symbol_resolution.py"
 type: "code"
-community: "test_symbol_resolution.py"
+community: "resolve_python_import_guided_calls"
 location: "L218"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_symbol_resolutionpy
+  - community/resolve_python_import_guided_calls
 ---
 
 # resolve_python_import_guided_calls()
@@ -30,4 +30,4 @@ tags:
 - [[test_resolve_python_import_guided_calls_survives_malformed_raw_calls()]] - `calls` [EXTRACTED]
 - [[test_symbol_resolution.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_symbol_resolutionpy
+#graphify/code #graphify/EXTRACTED #community/resolve_python_import_guided_calls

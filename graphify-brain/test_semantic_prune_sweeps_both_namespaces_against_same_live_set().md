@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_cache.py"
 type: "code"
-community: "file_hash"
+community: "test_cache.py"
 location: "L683"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/file_hash
+  - community/test_cachepy
 ---
 
 # test_semantic_prune_sweeps_both_namespaces_against_same_live_set()
@@ -18,4 +18,4 @@ tags:
 - [[save_semantic_cache()]] - `calls` [EXTRACTED]
 - [[test_cache.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/file_hash
+#graphify/code #graphify/EXTRACTED #community/test_cachepy

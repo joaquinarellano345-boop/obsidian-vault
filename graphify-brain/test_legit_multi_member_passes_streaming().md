@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_office_limits.py"
 type: "code"
-community: "_zip_within_caps"
+community: "detect.py"
 location: "L54"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_zip_within_caps
+  - community/detectpy
 ---
 
 # test_legit_multi_member_passes_streaming()
@@ -16,4 +16,4 @@ tags:
 - [[_zip_within_caps()]] - `calls` [EXTRACTED]
 - [[test_office_limits.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_zip_within_caps
+#graphify/code #graphify/EXTRACTED #community/detectpy

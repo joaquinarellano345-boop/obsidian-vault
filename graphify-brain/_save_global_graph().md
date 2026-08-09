@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/global_graph.py"
 type: "code"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L63"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # _save_global_graph()
@@ -17,4 +17,4 @@ tags:
 - [[global_remove()]] - `calls` [EXTRACTED]
 - [[write_json_atomic()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/clipy
+#graphify/code #graphify/EXTRACTED #community/test_global_graphpy

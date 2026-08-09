@@ -34,14 +34,13 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 5 edges to [[_COMMUNITY_extract]]
-- 2 edges to [[_COMMUNITY_file_hash]]
+- 3 edges to [[_COMMUNITY_test_cache.py]]
 - 2 edges to [[_COMMUNITY_save_semantic_cache]]
-- 1 edge to [[_COMMUNITY_test_cache.py]]
 - 1 edge to [[_COMMUNITY_test_stat_index_portability.py]]
 - 1 edge to [[_COMMUNITY_extract.py]]
 
 ## Top bridge nodes
-- [[test_extract_cache_location.py]] - degree 12, connects to 4 communities
+- [[test_extract_cache_location.py]] - degree 12, connects to 3 communities
 - [[test_default_cache_does_not_leave_stat_index_in_source_tree()]] - degree 6, connects to 2 communities
 - [[test_default_cache_round_trips_via_extract()]] - degree 6, connects to 2 communities
 - [[test_cache_keys_stay_relative_for_out_of_cwd_corpus()]] - degree 5, connects to 2 communities

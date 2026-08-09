@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_read_text"
+community: "_make_id"
 location: "L1213"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # _extract_js_rationale()
@@ -19,4 +19,4 @@ tags:
 - [[extract.py]] - `contains` [EXTRACTED]
 - [[extract_js()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

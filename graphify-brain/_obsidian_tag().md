@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "code"
-community: "export.py"
+community: "to_obsidian"
 location: "L99"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # _obsidian_tag()
@@ -16,4 +16,4 @@ tags:
 - [[export.py]] - `contains` [EXTRACTED]
 - [[to_obsidian()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/exportpy
+#graphify/code #graphify/EXTRACTED #community/to_obsidian

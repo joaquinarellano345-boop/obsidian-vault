@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.17
-members: 21
+cohesion: 0.16
+members: 22
 ---
 
 # test_evidence_binding.py
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 21 nodes
+**Cohesion:** 0.16 - loosely connected
+**Members:** 22 nodes
 
 ## Members
 - [[Downgrade code-typed nodes whose symbol name has no evidence in the source     t]] - rationale - graphify/llm.py
@@ -19,6 +19,7 @@ members: 21
 - [[_label_identifiers()]] - code - graphify/llm.py
 - [[_run()_2]] - code - tests/test_evidence_binding.py
 - [[test_bind_node_evidence_returns_downgrade_count()]] - code - tests/test_evidence_binding.py
+- [[test_diagnostics_reports_unverified_node_count()]] - code - tests/test_evidence_binding.py
 - [[test_document_and_sourceless_nodes_are_never_flagged()]] - code - tests/test_evidence_binding.py
 - [[test_downgrade_emits_stderr_summary()]] - code - tests/test_evidence_binding.py
 - [[test_evidence_binding.py]] - code - tests/test_evidence_binding.py
@@ -40,15 +41,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 5 edges to [[_COMMUNITY_llm.py]]
-- 3 edges to [[_COMMUNITY_test_multigraph_diagnostics.py]]
-- 2 edges to [[_COMMUNITY_test_file_slice.py]]
+- 4 edges to [[_COMMUNITY_test_multigraph_diagnostics.py]]
+- 4 edges to [[_COMMUNITY_test_file_slice.py]]
+- 3 edges to [[_COMMUNITY_llm.py]]
 - 2 edges to [[_COMMUNITY_test_llm_backends.py]]
 - 2 edges to [[_COMMUNITY_validate_extraction]]
 
 ## Top bridge nodes
 - [[test_evidence_binding.py]] - degree 21, connects to 4 communities
-- [[_bind_node_evidence()]] - degree 9, connects to 2 communities
+- [[_bind_node_evidence()]] - degree 9, connects to 3 communities
 - [[_run()_2]] - degree 10, connects to 1 community
 - [[_label_identifiers()]] - degree 4, connects to 1 community
-- [[test_evidence_binding_handles_file_slice()]] - degree 3, connects to 1 community
+- [[test_diagnostics_reports_unverified_node_count()]] - degree 3, connects to 1 community

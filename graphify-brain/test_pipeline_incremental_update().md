@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_pipeline.py"
 type: "code"
-community: "test_pipeline.py"
+community: "to_json"
 location: "L138"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_pipelinepy
+  - community/to_json
 ---
 
 # test_pipeline_incremental_update()
@@ -16,4 +16,4 @@ tags:
 - [[run_pipeline()]] - `calls` [EXTRACTED]
 - [[test_pipeline.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_pipelinepy
+#graphify/code #graphify/EXTRACTED #community/to_json

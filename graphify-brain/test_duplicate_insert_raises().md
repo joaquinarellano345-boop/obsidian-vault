@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_minhash.py"
 type: "code"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L71"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # test_duplicate_insert_raises()
@@ -16,4 +16,4 @@ tags:
 - [[_minhash_for()]] - `calls` [EXTRACTED]
 - [[test_minhash.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_minhashpy
+#graphify/code #graphify/EXTRACTED #community/deduppy

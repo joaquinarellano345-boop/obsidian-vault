@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "engine.py"
+community: "_extract_generic"
 location: "L1181"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/enginepy
+  - community/_extract_generic
 ---
 
 # Module-scope names rebound to NON-function data (`const X = {...}`, `let y = 5`)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_js_module_bound_names()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/enginepy
+#graphify/rationale #graphify/EXTRACTED #community/_extract_generic

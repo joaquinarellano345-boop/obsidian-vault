@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "code"
-community: "graphify/__main__.py"
+community: "test_settings_merge.py"
 location: "L722"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/graphify/__main__py
+  - community/test_settings_mergepy
 ---
 
 # _refuse_to_modify()
@@ -21,4 +21,4 @@ tags:
 - [[_read_settings_for_merge()]] - `calls` [EXTRACTED]
 - [[install.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/graphify/__main__py
+#graphify/code #graphify/EXTRACTED #community/test_settings_mergepy

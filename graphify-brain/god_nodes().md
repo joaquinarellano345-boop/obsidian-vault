@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "code"
-community: "test_analyze.py"
+community: "generate"
 location: "L109"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/generate
 ---
 
 # god_nodes()
@@ -45,4 +45,4 @@ tags:
 - [[test_swift_builtin_noise.py]] - `imports` [EXTRACTED]
 - [[watch.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_analyzepy
+#graphify/code #graphify/EXTRACTED #community/generate

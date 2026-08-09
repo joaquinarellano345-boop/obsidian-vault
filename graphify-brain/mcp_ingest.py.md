@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/mcp_ingest.py"
 type: "code"
-community: "_extract_pascal_regex"
+community: "_get_extractor"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_pascal_regex
+  - community/_get_extractor
 ---
 
 # mcp_ingest.py
@@ -30,4 +30,4 @@ tags:
 - [[security.py]] - `imports_from` [EXTRACTED]
 - [[test_mcp_ingest.py]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_pascal_regex
+#graphify/code #graphify/EXTRACTED #community/_get_extractor

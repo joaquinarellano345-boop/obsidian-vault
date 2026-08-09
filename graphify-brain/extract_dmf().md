@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/dm.py"
 type: "code"
-community: "_read_text"
+community: "_make_id"
 location: "L436"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # extract_dmf()
@@ -26,4 +26,4 @@ tags:
 - [[test_dmf_no_dangling_edges()]] - `calls` [INFERRED]
 - [[test_dmf_no_error()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/_make_id

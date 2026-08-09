@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/detect.py"
 type: "code"
-community: "classify_file"
+community: "detect.py"
 location: "L21"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/classify_file
+  - community/detectpy
 ---
 
 # FileType
@@ -20,4 +20,4 @@ tags:
 - [[test_detect.py]] - `imports` [EXTRACTED]
 - [[test_manifest_ingest.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/classify_file
+#graphify/code #graphify/EXTRACTED #community/detectpy

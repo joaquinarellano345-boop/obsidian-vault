@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/watch.py"
 type: "rationale"
-community: "test_watch.py"
+community: "cli.py"
 location: "L1434"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_watchpy
+  - community/clipy
 ---
 
 # Check for pending semantic update flag and notify the user if set.      Cron-saf
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[check_update()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_watchpy
+#graphify/rationale #graphify/EXTRACTED #community/clipy

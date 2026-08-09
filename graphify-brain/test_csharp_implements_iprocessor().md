@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "code"
-community: "Path"
+community: "test_languages.py"
 location: "L364"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Path
+  - community/test_languagespy
 ---
 
 # test_csharp_implements_iprocessor()
@@ -15,4 +15,4 @@ tags:
 - [[extract_csharp()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Path
+#graphify/code #graphify/EXTRACTED #community/test_languagespy

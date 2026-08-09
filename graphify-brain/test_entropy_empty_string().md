@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "test_dedup.py"
+community: "_norm"
 location: "L15"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_deduppy
+  - community/_norm
 ---
 
 # test_entropy_empty_string()
@@ -15,4 +15,4 @@ tags:
 - [[_entropy()]] - `calls` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_deduppy
+#graphify/code #graphify/EXTRACTED #community/_norm

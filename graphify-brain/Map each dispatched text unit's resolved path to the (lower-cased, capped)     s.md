@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "rationale"
-community: "llm.py"
+community: "test_file_slice.py"
 location: "L633"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/llmpy
+  - community/test_file_slicepy
 ---
 
 # Map each dispatched text unit's resolved path to the (lower-cased, capped)     s
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_dispatched_source_text()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/llmpy
+#graphify/rationale #graphify/EXTRACTED #community/test_file_slicepy

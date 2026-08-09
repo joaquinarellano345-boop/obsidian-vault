@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/_minhash.py"
 type: "rationale"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L85"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # Band-hashing LSH — same API as datasketch.MinHashLSH for the subset used here.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[MinHashLSH]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_minhashpy
+#graphify/rationale #graphify/EXTRACTED #community/deduppy

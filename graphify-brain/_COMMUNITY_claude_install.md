@@ -1,22 +1,20 @@
 ---
 type: community
-cohesion: 0.07
-members: 47
+cohesion: 0.08
+members: 40
 ---
 
 # claude_install
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 47 nodes
+**Cohesion:** 0.08 - loosely connected
+**Members:** 40 nodes
 
 ## Members
 - [[A hook relocated to .claudesettings.local.json is removed on uninstall.]] - rationale - tests/test_claude_md.py
 - [[A non-UTF-8 CLAUDE.local.md must not abort uninstall (it has no marker to strip)]] - rationale - tests/test_claude_md.py
 - [[Appends to an existing CLAUDE.md without clobbering it.]] - rationale - tests/test_claude_md.py
 - [[Creates CLAUDE.md when none exists.]] - rationale - tests/test_claude_md.py
-- [[Global skill deletes land inside the sandbox home, never the real one.      Sinc]] - rationale - tests/test_home_sandbox.py
 - [[Instructions relocated to .claudeCLAUDE.local.md are removed on uninstall.]] - rationale - tests/test_claude_md.py
-- [[Regression tests for the repo-wide HOME sandbox (issue 2168).  The autouse ``_s]] - rationale - tests/test_home_sandbox.py
 - [[Removes the graphify section after it was installed.]] - rationale - tests/test_claude_md.py
 - [[Running claude_install twice does not duplicate the PreToolUse hook.]] - rationale - tests/test_claude_md.py
 - [[Running install twice does not duplicate the section.]] - rationale - tests/test_claude_md.py
@@ -33,11 +31,7 @@ members: 47
 - [[claude_install()]] - code - graphify/install.py
 - [[claude_uninstall removes the PreToolUse hook from settings.json.]] - rationale - tests/test_claude_md.py
 - [[claude_uninstall()]] - code - graphify/install.py
-- [[test_claude_config_dir_escape_hatch_is_cleared()]] - code - tests/test_home_sandbox.py
 - [[test_claude_md.py]] - code - tests/test_claude_md.py
-- [[test_expanduser_is_sandboxed()]] - code - tests/test_home_sandbox.py
-- [[test_global_uninstall_is_captured_by_sandbox()]] - code - tests/test_home_sandbox.py
-- [[test_home_sandbox.py]] - code - tests/test_home_sandbox.py
 - [[test_install_appends_to_existing_claude_md()]] - code - tests/test_claude_md.py
 - [[test_install_contains_expected_rules()]] - code - tests/test_claude_md.py
 - [[test_install_creates_claude_md()]] - code - tests/test_claude_md.py
@@ -45,7 +39,6 @@ members: 47
 - [[test_install_idempotent_message()]] - code - tests/test_claude_md.py
 - [[test_install_is_idempotent()]] - code - tests/test_claude_md.py
 - [[test_install_settings_json_idempotent()]] - code - tests/test_claude_md.py
-- [[test_path_home_is_sandboxed()]] - code - tests/test_home_sandbox.py
 - [[test_uninstall_cleans_both_standard_and_local()]] - code - tests/test_claude_md.py
 - [[test_uninstall_no_op_when_no_file()]] - code - tests/test_claude_md.py
 - [[test_uninstall_no_op_when_not_installed()]] - code - tests/test_claude_md.py
@@ -66,13 +59,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 18 edges to [[_COMMUNITY_graphify__main__.py]]
+- 16 edges to [[_COMMUNITY_graphify__main__.py]]
 - 1 edge to [[_COMMUNITY__replace_or_append_section]]
+- 1 edge to [[_COMMUNITY_test_settings_merge.py]]
 - 1 edge to [[_COMMUNITY_test_codebuddy.py]]
+- 1 edge to [[_COMMUNITY_test_home_sandbox.py]]
 - 1 edge to [[_COMMUNITY_test_uninstall_scope.py]]
 
 ## Top bridge nodes
-- [[claude_uninstall()]] - degree 23, connects to 3 communities
-- [[claude_install()]] - degree 25, connects to 2 communities
+- [[claude_uninstall()]] - degree 23, connects to 4 communities
+- [[claude_install()]] - degree 25, connects to 3 communities
 - [[test_claude_md.py]] - degree 20, connects to 1 community
-- [[test_home_sandbox.py]] - degree 6, connects to 1 community

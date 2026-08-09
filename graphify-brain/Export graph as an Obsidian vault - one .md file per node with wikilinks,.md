@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/export.py"
 type: "rationale"
-community: "export.py"
+community: "to_obsidian"
 location: "L461"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/exportpy
+  - community/to_obsidian
 ---
 
 # Export graph as an Obsidian vault - one .md file per node with [[wikilinks]],
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[to_obsidian()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/exportpy
+#graphify/rationale #graphify/EXTRACTED #community/to_obsidian

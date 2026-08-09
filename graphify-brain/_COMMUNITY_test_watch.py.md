@@ -1,17 +1,19 @@
 ---
 type: community
 cohesion: 0.02
-members: 121
+members: 140
 ---
 
 # test_watch.py
 
 **Cohesion:** 0.02 - loosely connected
-**Members:** 121 nodes
+**Members:** 140 nodes
 
 ## Members
 - [[09b33b7 guard a doc with NO semantic layer still gets the AST     quick-scan s]] - rationale - tests/test_watch.py
 - [[1007 graphify update (_rebuild_code with no changed_paths) must remove     nod]] - rationale - tests/test_watch.py
+- [[1059 after the primary rebuild, the lock-holder must loop and drain     any pa]] - rationale - tests/test_watch.py
+- [[1059 the process that acquires the lock must drain .pending_changes     and pa]] - rationale - tests/test_watch.py
 - [[1116 a symbol removed from a re-extracted file is a legitimate shrink —     ev]] - rationale - tests/test_watch.py
 - [[1116 graphify update (_rebuild_code with no changed_paths) must prune a     sy]] - rationale - tests/test_watch.py
 - [[1118 backward-compat a graph.json built before 1116 has no `_origin`     mark]] - rationale - tests/test_watch.py
@@ -37,15 +39,19 @@ members: 121
 - [[Build a code-only graph, then add guide.md represented ONLY semantically.      M]] - rationale - tests/test_watch.py
 - [[Build a minimal graph-data dict with n placeholder nodes.]] - rationale - tests/test_watch.py
 - [[Caller declared deletions → shrink is expected → guard skipped silently.]] - rationale - tests/test_watch.py
-- [[Check for pending semantic update flag and notify the user if set.      Cron-saf]] - rationale - graphify/watch.py
+- [[Changed files under followed symlinks retain their watched lexical path.]] - rationale - tests/test_watch.py
 - [[Crossing the viz node limit must not leave the project with no graph.html.     _]] - rationale - tests/test_watch.py
 - [[Default case smaller new graph + no force + no declared deletions = refuse.]] - rationale - tests/test_watch.py
 - [[Deleting the final code file must reconcile the existing graph.]] - rationale - tests/test_watch.py
 - [[Destination-only rename reconciliation also covers AST-backed docs.]] - rationale - tests/test_watch.py
 - [[Detached hooks can inherit a CWD that no longer exists.      Without GRAPHIFY_RE]] - rationale - tests/test_watch.py
 - [[Empty change set must not create an empty .pending_changes file.]] - rationale - tests/test_watch.py
+- [[End-to-end probe of the post-commit-delete bug fix.      Build a tiny graph, del]] - rationale - tests/test_watch.py
 - [[Fail-closed eviction a file that leaves the scan corpus (newly ignored)     but]] - rationale - tests/test_watch.py
 - [[First-run case no existing graph → guard inert.]] - rationale - tests/test_watch.py
+- [[GH-858 a non-blocking caller that fails to acquire the lock must not     trunca]] - rationale - tests/test_watch.py
+- [[GH-858 each acquisition truncates and rewrites the PID line rather     than app]] - rationale - tests/test_watch.py
+- [[GH-858 lock file must be unlinked once the rebuild completes so     downstream]] - rationale - tests/test_watch.py
 - [[GRAPHIFY_REPO_ROOT lets detached hook rebuilds recover from a deleted CWD.]] - rationale - tests/test_watch.py
 - [[Like ``_seed_semantic_doc_graph``, but guide.md's semantic layer is     ONLY con]] - rationale - tests/test_watch.py
 - [[Mirror of the above if the caller declared deletions, the tmp file is NOT unlin]] - rationale - tests/test_watch.py
@@ -70,10 +76,12 @@ members: 121
 - [[check_update never removes the needs_update flag (clearing is LLM's job).]] - rationale - tests/test_watch.py
 - [[check_update returns True and is silent when needs_update flag is absent.]] - rationale - tests/test_watch.py
 - [[check_update returns True and prints notification when flag exists.]] - rationale - tests/test_watch.py
-- [[check_update()]] - code - graphify/watch.py
 - [[force=True bypasses the guard regardless of node delta.]] - rationale - tests/test_watch.py
+- [[gh-928 .graphifyignore must be parsed exactly once at watch() startup,     not]] - rationale - tests/test_watch.py
+- [[gh-928 the watch Handler must short-circuit paths matching     .graphifyignore]] - rationale - tests/test_watch.py
 - [[new  existing is always fine.]] - rationale - tests/test_watch.py
 - [[parametrize_25]] - code
+- [[skipif_2]] - code
 - [[test_check_shrink_allows_explicit_deletions()]] - code - tests/test_watch.py
 - [[test_check_shrink_allows_force_override()]] - code - tests/test_watch.py
 - [[test_check_shrink_allows_growth()]] - code - tests/test_watch.py
@@ -99,20 +107,24 @@ members: 121
 - [[test_rebuild_code_deleted_cwd_uses_graphify_repo_root()]] - code - tests/test_watch.py
 - [[test_rebuild_code_deleted_cwd_without_repo_root_returns_false()]] - code - tests/test_watch.py
 - [[test_rebuild_code_does_not_update_root_marker_when_write_is_refused()]] - code - tests/test_watch.py
+- [[test_rebuild_code_drains_late_arrivals()]] - code - tests/test_watch.py
 - [[test_rebuild_code_evicts_nodes_from_deleted_files()]] - code - tests/test_watch.py
 - [[test_rebuild_code_evicts_removed_symbol_from_surviving_file()]] - code - tests/test_watch.py
 - [[test_rebuild_code_evicts_semantic_nodes_from_deleted_non_ast_source()]] - code - tests/test_watch.py
 - [[test_rebuild_code_incremental_preserves_concept_only_semantic_doc_nodes_and_edges()]] - code - tests/test_watch.py
 - [[test_rebuild_code_incremental_preserves_present_non_ast_source()]] - code - tests/test_watch.py
 - [[test_rebuild_code_incremental_preserves_semantic_doc_nodes_and_edges()]] - code - tests/test_watch.py
+- [[test_rebuild_code_incremental_rename_preserves_symlink_source_path()]] - code - tests/test_watch.py
 - [[test_rebuild_code_is_idempotent_when_cluster_ids_flap()]] - code - tests/test_watch.py
 - [[test_rebuild_code_keeps_a_visualization_when_over_the_viz_cap()]] - code - tests/test_watch.py
+- [[test_rebuild_code_merges_pending_on_acquire()]] - code - tests/test_watch.py
 - [[test_rebuild_code_normalizes_preserved_source_paths()]] - code - tests/test_watch.py
 - [[test_rebuild_code_polluted_graph_self_heals_on_full_rebuild()]] - code - tests/test_watch.py
 - [[test_rebuild_code_preserves_hyperedges_for_rebuilt_surviving_source()]] - code - tests/test_watch.py
 - [[test_rebuild_code_preserves_nodes_from_excluded_but_alive_file()]] - code - tests/test_watch.py
 - [[test_rebuild_code_preserves_semantic_edges_from_reextracted_doc()]] - code - tests/test_watch.py
 - [[test_rebuild_code_preupgrade_marker_less_node_one_cycle_lag()]] - code - tests/test_watch.py
+- [[test_rebuild_code_prunes_deleted_file_nodes()]] - code - tests/test_watch.py
 - [[test_rebuild_code_prunes_final_deleted_file()]] - code - tests/test_watch.py
 - [[test_rebuild_code_prunes_legacy_watch_relative_subdir_source()]] - code - tests/test_watch.py
 - [[test_rebuild_code_prunes_renamed_ast_backed_document()]] - code - tests/test_watch.py
@@ -124,9 +136,16 @@ members: 121
 - [[test_rebuild_code_subdir_preserves_outside_ast_nodes()]] - code - tests/test_watch.py
 - [[test_rebuild_code_subdir_survives_absolute_to_relative_invocation()]] - code - tests/test_watch.py
 - [[test_rebuild_code_writes_community_name()]] - code - tests/test_watch.py
+- [[test_rebuild_lock_does_not_accumulate_pids_across_runs()]] - code - tests/test_watch.py
+- [[test_rebuild_lock_non_blocking_does_not_clobber_holder()]] - code - tests/test_watch.py
+- [[test_rebuild_lock_removed_after_release()]] - code - tests/test_watch.py
+- [[test_rebuild_lock_writes_pid_with_newline()]] - code - tests/test_watch.py
 - [[test_update_discovers_newly_added_files_and_dirs()]] - code - tests/test_watch.py
 - [[test_update_rebuilds_with_nested_star_gitignore()]] - code - tests/test_watch.py
 - [[test_watch.py]] - code - tests/test_watch.py
+- [[test_watch_handler_honors_graphifyignore()]] - code - tests/test_watch.py
+- [[test_watch_loads_graphifyignore_once()]] - code - tests/test_watch.py
+- [[test_watch_raises_without_watchdog()]] - code - tests/test_watch.py
 - [[test_watched_extensions_excludes_noise()]] - code - tests/test_watch.py
 - [[test_watched_extensions_includes_code()]] - code - tests/test_watch.py
 - [[test_watched_extensions_includes_docs()]] - code - tests/test_watch.py
@@ -140,16 +159,14 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 62 edges to [[_COMMUNITY__rebuild_code]]
-- 12 edges to [[_COMMUNITY_skipif]]
+- 74 edges to [[_COMMUNITY_cli.py]]
 - 3 edges to [[_COMMUNITY_graphifycluster.py]]
-- 2 edges to [[_COMMUNITY_cli.py]]
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
 - 1 edge to [[_COMMUNITY_detect.py]]
 
 ## Top bridge nodes
-- [[test_watch.py]] - degree 97, connects to 4 communities
+- [[test_watch.py]] - degree 97, connects to 3 communities
 - [[_check_shrink()]] - degree 14, connects to 2 communities
-- [[check_update()]] - degree 9, connects to 2 communities
+- [[skipif_2]] - degree 11, connects to 1 community
 - [[_notify_only()]] - degree 8, connects to 1 community
 - [[_seed_semantic_doc_graph()]] - degree 5, connects to 1 community

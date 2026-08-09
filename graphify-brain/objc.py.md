@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/objc.py"
 type: "code"
-community: "_read_text"
+community: "engine.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/enginepy
 ---
 
 # objc.py
@@ -27,4 +27,4 @@ tags:
 - [[objc — moved verbatim from graphifyextract.py.]] - `rationale_for` [EXTRACTED]
 - [[resolution.py]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_read_text
+#graphify/code #graphify/EXTRACTED #community/enginepy

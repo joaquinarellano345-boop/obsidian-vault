@@ -51,12 +51,12 @@ SORT file.name ASC
 - 4 edges to [[_COMMUNITY__build_server]]
 - 4 edges to [[_COMMUNITY__query_terms]]
 - 4 edges to [[_COMMUNITY__pick_seeds]]
-- 2 edges to [[_COMMUNITY_test_analyze.py]]
+- 2 edges to [[_COMMUNITY_cli.py]]
 - 2 edges to [[_COMMUNITY_graphifybuild.py]]
 - 2 edges to [[_COMMUNITY_build_from_json]]
-- 2 edges to [[_COMMUNITY_cli.py]]
 - 2 edges to [[_COMMUNITY_test_serve_http.py]]
-- 1 edge to [[_COMMUNITY__rebuild_code]]
+- 1 edge to [[_COMMUNITY_generate]]
+- 1 edge to [[_COMMUNITY_test_analyze.py]]
 - 1 edge to [[_COMMUNITY_test_benchmark.py]]
 - 1 edge to [[_COMMUNITY_paths.py]]
 - 1 edge to [[_COMMUNITY__parse_ci]]
@@ -68,12 +68,13 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_reflect.py]]
 - 1 edge to [[_COMMUNITY_security.py]]
 - 1 edge to [[_COMMUNITY_test_security.py]]
+- 1 edge to [[_COMMUNITY_sanitize_label]]
 - 1 edge to [[_COMMUNITY__load_graph]]
 - 1 edge to [[_COMMUNITY__MCPASGIApp]]
 - 1 edge to [[_COMMUNITY_Graph]]
 
 ## Top bridge nodes
-- [[serve.py]] - degree 63, connects to 27 communities
+- [[serve.py]] - degree 63, connects to 28 communities
 - [[_score_query()]] - degree 22, connects to 5 communities
 - [[_compute_idf()]] - degree 8, connects to 3 communities
 - [[_strip_diacritics()_1]] - degree 8, connects to 2 communities

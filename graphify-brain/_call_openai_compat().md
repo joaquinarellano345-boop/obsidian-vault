@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/llm.py"
 type: "code"
-community: "_call_openai_compat"
+community: "test_llm_backends.py"
 location: "L1120"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_call_openai_compat
+  - community/test_llm_backendspy
 ---
 
 # _call_openai_compat()
@@ -47,4 +47,4 @@ tags:
 - [[test_openai_compat_client_built_with_retries()]] - `calls` [EXTRACTED]
 - [[test_openai_compat_forces_non_streaming_response()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_call_openai_compat
+#graphify/code #graphify/EXTRACTED #community/test_llm_backendspy

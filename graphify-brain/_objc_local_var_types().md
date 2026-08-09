@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/objc.py"
 type: "code"
-community: "_cpp_declarator_name"
+community: "engine.py"
 location: "L11"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_cpp_declarator_name
+  - community/enginepy
 ---
 
 # _objc_local_var_types()
@@ -19,4 +19,4 @@ tags:
 - [[extract_objc()]] - `calls` [EXTRACTED]
 - [[objc.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_cpp_declarator_name
+#graphify/code #graphify/EXTRACTED #community/enginepy

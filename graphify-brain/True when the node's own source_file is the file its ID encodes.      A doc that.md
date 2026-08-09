@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "rationale"
-community: "dedup.py"
+community: "_defines_id"
 location: "L211"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/deduppy
+  - community/_defines_id
 ---
 
 # True when the node's own source_file is the file its ID encodes.      A doc that
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_defines_id()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/deduppy
+#graphify/rationale #graphify/EXTRACTED #community/_defines_id

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_indirect_dispatch_assign_return.py"
 type: "code"
-community: "test_indirect_dispatch_assign_return.py"
+community: "test_indirect_dispatch.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_indirect_dispatch_assign_returnpy
+  - community/test_indirect_dispatchpy
 ---
 
 # test_indirect_dispatch_assign_return.py
@@ -27,4 +27,4 @@ tags:
 - [[test_non_callable_value_emits_nothing()]] - `contains` [EXTRACTED]
 - [[test_param_shadow_emits_nothing()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_indirect_dispatch_assign_returnpy
+#graphify/code #graphify/EXTRACTED #community/test_indirect_dispatchpy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/dedup.py"
 type: "code"
-community: "deduplicate_entities"
+community: "_llm_tiebreak"
 location: "L96"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/deduplicate_entities
+  - community/_llm_tiebreak
 ---
 
 # _numeric_tokens_differ()
@@ -19,4 +19,4 @@ tags:
 - [[test_dedup.py]] - `imports` [EXTRACTED]
 - [[test_numeric_tokens_differ_helper()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/deduplicate_entities
+#graphify/code #graphify/EXTRACTED #community/_llm_tiebreak

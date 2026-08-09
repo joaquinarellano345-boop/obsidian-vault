@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/go.py"
 type: "code"
-community: "test_multilang.py"
+community: "extract_go"
 location: "L53"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/test_multilangpy
+  - community/extract_go
 ---
 
 # extract_go()
@@ -37,4 +37,4 @@ tags:
 - [[test_go_receiver_uses_pkg_scope()]] - `calls` [INFERRED]
 - [[test_go_struct_named_field_emits_field_context()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/INFERRED #community/test_multilangpy
+#graphify/code #graphify/INFERRED #community/extract_go

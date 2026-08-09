@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_ollama.py"
 type: "rationale"
-community: "test_ollama.py"
+community: "detect_backend"
 location: "L91"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_ollamapy
+  - community/detect_backend
 ---
 
 # extract_files_direct with backend=ollama and no OLLAMA_API_KEY should use sentin
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_ollama_api_key_sentinel()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_ollamapy
+#graphify/rationale #graphify/EXTRACTED #community/detect_backend

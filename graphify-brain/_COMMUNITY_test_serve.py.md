@@ -67,8 +67,8 @@ SORT file.name ASC
 ## Connections to other communities
 - 33 edges to [[_COMMUNITY__make_graph]]
 - 23 edges to [[_COMMUNITY_serve.py]]
-- 22 edges to [[_COMMUNITY__score_nodes]]
-- 12 edges to [[_COMMUNITY__pick_seeds]]
+- 21 edges to [[_COMMUNITY__score_nodes]]
+- 13 edges to [[_COMMUNITY__pick_seeds]]
 - 10 edges to [[_COMMUNITY__load_graph]]
 - 10 edges to [[_COMMUNITY__query_terms]]
 - 10 edges to [[_COMMUNITY_Graph]]
@@ -76,7 +76,7 @@ SORT file.name ASC
 - 3 edges to [[_COMMUNITY__make_noisy_graph]]
 - 2 edges to [[_COMMUNITY_cli.py]]
 - 2 edges to [[_COMMUNITY_test_file_label_disambiguation.py]]
-- 1 edge to [[_COMMUNITY_test_security.py]]
+- 1 edge to [[_COMMUNITY_sanitize_label]]
 
 ## Top bridge nodes
 - [[test_serve.py]] - degree 138, connects to 9 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_dedup.py"
 type: "code"
-community: "dedup.py"
+community: "_defines_id"
 location: "L613"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/deduppy
+  - community/_defines_id
 ---
 
 # test_bare_file_node_defines_its_own_id()
@@ -16,4 +16,4 @@ tags:
 - [[_defines_id()]] - `calls` [EXTRACTED]
 - [[test_dedup.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/deduppy
+#graphify/code #graphify/EXTRACTED #community/_defines_id

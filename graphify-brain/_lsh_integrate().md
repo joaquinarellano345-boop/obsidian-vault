@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/_minhash.py"
 type: "code"
-community: "test_minhash.py"
+community: "dedup.py"
 location: "L52"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_minhashpy
+  - community/deduppy
 ---
 
 # _lsh_integrate()
@@ -16,4 +16,4 @@ tags:
 - [[_minhash.py]] - `contains` [EXTRACTED]
 - [[_optimal_lsh_params()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_minhashpy
+#graphify/code #graphify/EXTRACTED #community/deduppy

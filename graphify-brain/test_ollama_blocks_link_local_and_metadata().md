@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_ollama.py"
 type: "code"
-community: "test_ollama.py"
+community: "detect_backend"
 location: "L15"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_ollamapy
+  - community/detect_backend
 ---
 
 # test_ollama_blocks_link_local_and_metadata()
@@ -17,4 +17,4 @@ tags:
 - [[parametrize_16]] - `references` [EXTRACTED]
 - [[test_ollama.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_ollamapy
+#graphify/code #graphify/EXTRACTED #community/detect_backend

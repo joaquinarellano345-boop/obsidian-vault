@@ -45,13 +45,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 7 edges to [[_COMMUNITY_extract.py]]
+- 5 edges to [[_COMMUNITY_extract.py]]
+- 3 edges to [[_COMMUNITY_extract_astro]]
 - 2 edges to [[_COMMUNITY_extract]]
 - 1 edge to [[_COMMUNITY_detect.py]]
 - 1 edge to [[_COMMUNITY_Path]]
-- 1 edge to [[_COMMUNITY_extract_astro]]
-- 1 edge to [[_COMMUNITY__read_text]]
-- 1 edge to [[_COMMUNITY_engine.py]]
+- 1 edge to [[_COMMUNITY__make_id]]
+- 1 edge to [[_COMMUNITY__extract_generic]]
 
 ## Top bridge nodes
 - [[extract_vue()]] - degree 19, connects to 5 communities

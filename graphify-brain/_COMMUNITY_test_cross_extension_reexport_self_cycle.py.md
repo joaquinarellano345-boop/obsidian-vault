@@ -39,15 +39,14 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 10 edges to [[_COMMUNITY_extract]]
-- 4 edges to [[_COMMUNITY_build]]
+- 5 edges to [[_COMMUNITY_graphifybuild.py]]
 - 3 edges to [[_COMMUNITY_to_json]]
 - 2 edges to [[_COMMUNITY_test_analyze.py]]
-- 1 edge to [[_COMMUNITY_graphifybuild.py]]
 - 1 edge to [[_COMMUNITY_export.py]]
 - 1 edge to [[_COMMUNITY_extract.py]]
 
 ## Top bridge nodes
-- [[test_cross_extension_reexport_self_cycle.py]] - degree 21, connects to 7 communities
+- [[test_cross_extension_reexport_self_cycle.py]] - degree 21, connects to 6 communities
 - [[test_graph_json_has_no_target_file_and_no_absolute_path()]] - degree 6, connects to 3 communities
 - [[test_graph_json_is_checkout_location_independent()]] - degree 6, connects to 3 communities
 - [[test_cross_ext_reexport_no_phantom_import_cycle()]] - degree 5, connects to 2 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/parser.py"
 type: "code"
-community: "e"
+community: "parser.py"
 location: "L62"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/e
+  - community/parserpy
 ---
 
 # parse_and_save()
@@ -19,4 +19,4 @@ tags:
 - [[save_parsed()]] - `calls` [EXTRACTED]
 - [[validate_document()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/e
+#graphify/code #graphify/EXTRACTED #community/parserpy

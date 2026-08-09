@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/powershell.py"
 type: "code"
-community: "_read_text"
+community: "extract_powershell"
 location: "L11"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/_read_text
+  - community/extract_powershell
 ---
 
 # extract_powershell()
@@ -34,4 +34,4 @@ tags:
 - [[test_powershell_property_field_type_context()]] - `calls` [INFERRED]
 - [[test_powershell_psm1_dispatched_and_extracted()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/INFERRED #community/_read_text
+#graphify/code #graphify/INFERRED #community/extract_powershell

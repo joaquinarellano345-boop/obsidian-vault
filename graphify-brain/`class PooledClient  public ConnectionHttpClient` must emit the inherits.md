@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_languages.py"
 type: "rationale"
-community: "test_languages.py"
+community: "extract_cpp"
 location: "L240"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_languagespy
+  - community/extract_cpp
 ---
 
 # `class PooledClient : public Connection<HttpClient>` must emit the inherits
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_cpp_generic_parents_include_type_argument_references()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_languagespy
+#graphify/rationale #graphify/EXTRACTED #community/extract_cpp

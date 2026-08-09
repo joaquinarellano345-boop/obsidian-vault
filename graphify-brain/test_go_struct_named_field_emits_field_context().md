@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_multilang.py"
 type: "code"
-community: "test_multilang.py"
+community: "extract_go"
 location: "L156"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_multilangpy
+  - community/extract_go
 ---
 
 # test_go_struct_named_field_emits_field_context()
@@ -16,4 +16,4 @@ tags:
 - [[extract_go()]] - `calls` [INFERRED]
 - [[test_multilang.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_multilangpy
+#graphify/code #graphify/EXTRACTED #community/extract_go

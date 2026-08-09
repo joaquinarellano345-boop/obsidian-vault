@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "test_symbol_resolution.py"
+community: "resolve_bash_source_edges"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_symbol_resolutionpy
+  - community/resolve_bash_source_edges
 ---
 
 # Path
@@ -22,4 +22,4 @@ tags:
 - [[test_resolve_python_import_guided_calls_metadata_is_sanitized()]] - `references` [EXTRACTED]
 - [[test_resolve_python_import_guided_calls_metadata_sanitizes_hostile_alias()]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_symbol_resolutionpy
+#graphify/code #graphify/EXTRACTED #community/resolve_bash_source_edges

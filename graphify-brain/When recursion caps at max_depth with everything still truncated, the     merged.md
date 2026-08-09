@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_chunking.py"
 type: "rationale"
-community: "_extract_with_adaptive_retry"
+community: "test_chunking.py"
 location: "L762"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_with_adaptive_retry
+  - community/test_chunkingpy
 ---
 
 # When recursion caps at max_depth with everything still truncated, the     merged
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_adaptive_retry_marks_max_depth_giveup_partial()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_with_adaptive_retry
+#graphify/rationale #graphify/EXTRACTED #community/test_chunkingpy

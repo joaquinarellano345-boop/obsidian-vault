@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "_edge_labels"
+community: "test_languages.py"
 location: "L1678"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_edge_labels
+  - community/test_languagespy
 ---
 
 # extract_kotlin()
@@ -30,4 +30,4 @@ tags:
 - [[test_kotlin_user_types_still_emit_references()]] - `calls` [EXTRACTED]
 - [[test_languages.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_edge_labels
+#graphify/code #graphify/EXTRACTED #community/test_languagespy

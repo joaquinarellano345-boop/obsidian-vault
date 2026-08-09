@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/dm.py"
 type: "rationale"
-community: "_read_text"
+community: "_make_id"
 location: "L365"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_read_text
+  - community/_make_id
 ---
 
 # Extract type-path references from a .dmm map file's tile dictionary.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_dmm()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_read_text
+#graphify/rationale #graphify/EXTRACTED #community/_make_id

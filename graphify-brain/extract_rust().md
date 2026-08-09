@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/rust.py"
 type: "code"
-community: "test_multilang.py"
+community: "extract_rust"
 location: "L61"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/test_multilangpy
+  - community/extract_rust
 ---
 
 # extract_rust()
@@ -36,4 +36,4 @@ tags:
 - [[test_rust_trait_impl_emits_implements()]] - `calls` [INFERRED]
 - [[test_rust_tuple_struct_field_references()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/INFERRED #community/test_multilangpy
+#graphify/code #graphify/INFERRED #community/extract_rust

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/build.py"
 type: "rationale"
-community: "cli.py"
+community: "test_global_graph.py"
 location: "L1494"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/clipy
+  - community/test_global_graphpy
 ---
 
 # Remove all nodes tagged with repo_tag from G in-place. Returns count removed.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[prune_repo_from_graph()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/clipy
+#graphify/rationale #graphify/EXTRACTED #community/test_global_graphpy

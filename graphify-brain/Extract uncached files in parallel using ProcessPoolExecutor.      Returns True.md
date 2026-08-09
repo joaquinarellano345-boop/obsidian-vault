@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "rationale"
-community: "_extract_parallel"
+community: "Path"
 location: "L4328"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_parallel
+  - community/Path
 ---
 
 # Extract uncached files in parallel using ProcessPoolExecutor.      Returns True
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_extract_parallel()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_parallel
+#graphify/rationale #graphify/EXTRACTED #community/Path
