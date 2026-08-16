@@ -57,7 +57,7 @@ SORT file.name ASC
 - 3 edges to [[_COMMUNITY_extract_dm]]
 - 2 edges to [[_COMMUNITY_extract.py]]
 - 1 edge to [[_COMMUNITY_Path]]
-- 1 edge to [[_COMMUNITY__extract_generic]]
+- 1 edge to [[_COMMUNITY_engine.py]]
 - 1 edge to [[_COMMUNITY_extract_cpp]]
 - 1 edge to [[_COMMUNITY_extract_objc]]
 - 1 edge to [[_COMMUNITY_extract_groovy]]

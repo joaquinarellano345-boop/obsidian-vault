@@ -23,7 +23,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_api.py]]
+- 2 edges to [[_COMMUNITY_e]]
 - 2 edges to [[_COMMUNITY_storage.py]]
 
 ## Top bridge nodes

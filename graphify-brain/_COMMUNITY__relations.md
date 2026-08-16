@@ -18,8 +18,8 @@ members: 35
 - [[_relations()_1]] - code - tests/test_languages.py
 - [[extract_php()]] - code - graphify/extract.py
 - [[extract_sln()]] - code - graphify/extractors/sln.py
-- [[test_apex_soql_uses_edge()]] - code - tests/test_languages.py
-- [[test_cpp_finds_includes()]] - code - tests/test_languages.py
+- [[test_apex_trigger_uses_sobject()]] - code - tests/test_languages.py
+- [[test_cuda_finds_includes()]] - code - tests/test_languages.py
 - [[test_java_finds_imports()]] - code - tests/test_languages.py
 - [[test_js_module_level_arrow_produces_node_and_call_edges()]] - code - tests/test_languages.py
 - [[test_php_config_helper_target_matches_first_segment()]] - code - tests/test_languages.py
@@ -64,7 +64,7 @@ SORT file.name ASC
 - 2 edges to [[_COMMUNITY_extract_groovy]]
 - 1 edge to [[_COMMUNITY_Path]]
 - 1 edge to [[_COMMUNITY_extract_js]]
-- 1 edge to [[_COMMUNITY__extract_generic]]
+- 1 edge to [[_COMMUNITY_engine.py]]
 - 1 edge to [[_COMMUNITY_extract_markdown]]
 
 ## Top bridge nodes
@@ -72,4 +72,4 @@ SORT file.name ASC
 - [[extract_php()]] - degree 23, connects to 5 communities
 - [[extract_sln()]] - degree 14, connects to 3 communities
 - [[test_js_module_level_arrow_produces_node_and_call_edges()]] - degree 5, connects to 3 communities
-- [[test_apex_soql_uses_edge()]] - degree 4, connects to 2 communities
+- [[test_apex_trigger_uses_sobject()]] - degree 4, connects to 2 communities

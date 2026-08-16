@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/api.py"
 type: "rationale"
-community: "api.py"
+community: "storage.py"
 location: "L49"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/apipy
+  - community/storagepy
 ---
 
 # Simple keyword search over the index.     Returns documents whose keyword list o
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[handle_search()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/apipy
+#graphify/rationale #graphify/EXTRACTED #community/storagepy

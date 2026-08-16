@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/parser.py"
 type: "code"
-community: "e"
+community: "parser.py"
 location: "L70"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/e
+  - community/parserpy
 ---
 
 # batch_parse()
@@ -19,4 +19,4 @@ tags:
 - [[parse_and_save()]] - `calls` [EXTRACTED]
 - [[parser.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/e
+#graphify/code #graphify/EXTRACTED #community/parserpy

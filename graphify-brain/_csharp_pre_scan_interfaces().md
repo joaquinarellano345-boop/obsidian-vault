@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "code"
-community: "_extract_generic"
+community: "engine.py"
 location: "L131"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_generic
+  - community/enginepy
 ---
 
 # _csharp_pre_scan_interfaces()
@@ -18,4 +18,4 @@ tags:
 - [[engine.py]] - `contains` [EXTRACTED]
 - [[extract.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_generic
+#graphify/code #graphify/EXTRACTED #community/enginepy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "code"
-community: "test_analyze.py"
+community: "export.py"
 location: "L47"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/exportpy
 ---
 
 # _cross_language()
@@ -16,4 +16,4 @@ tags:
 - [[_surprise_score()]] - `calls` [EXTRACTED]
 - [[graphifyanalyze.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_analyzepy
+#graphify/code #graphify/EXTRACTED #community/exportpy

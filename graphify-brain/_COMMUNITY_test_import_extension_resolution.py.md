@@ -96,9 +96,9 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 15 edges to [[_COMMUNITY_extract_js]]
-- 8 edges to [[_COMMUNITY_extract.py]]
-- 5 edges to [[_COMMUNITY_extract_astro]]
-- 1 edge to [[_COMMUNITY_engine.py]]
+- 10 edges to [[_COMMUNITY_extract.py]]
+- 3 edges to [[_COMMUNITY_Path]]
+- 1 edge to [[_COMMUNITY__resolve_js_import_target]]
 
 ## Top bridge nodes
 - [[test_import_extension_resolution.py]] - degree 44, connects to 3 communities

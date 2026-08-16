@@ -96,9 +96,9 @@ SORT file.name ASC
 - 5 edges to [[_COMMUNITY_test_file_label_disambiguation.py]]
 - 5 edges to [[_COMMUNITY__semantic_id_remap]]
 - 5 edges to [[_COMMUNITY_test_cross_extension_reexport_self_cycle.py]]
+- 4 edges to [[_COMMUNITY_deduplicate_entities]]
 - 4 edges to [[_COMMUNITY_test_multigraph_diagnostics.py]]
-- 3 edges to [[_COMMUNITY_deduplicate_entities]]
-- 2 edges to [[_COMMUNITY_test_analyze.py]]
+- 2 edges to [[_COMMUNITY_export.py]]
 - 2 edges to [[_COMMUNITY_semantic_cleanup.py]]
 - 2 edges to [[_COMMUNITY_test_global_graph.py]]
 - 2 edges to [[_COMMUNITY__make_id]]
@@ -110,8 +110,8 @@ SORT file.name ASC
 - 2 edges to [[_COMMUNITY_to_json]]
 - 1 edge to [[_COMMUNITY_test_benchmark.py]]
 - 1 edge to [[_COMMUNITY_paths.py]]
-- 1 edge to [[_COMMUNITY_export.py]]
 - 1 edge to [[_COMMUNITY_to_wiki]]
+- 1 edge to [[_COMMUNITY_test_analyze.py]]
 - 1 edge to [[_COMMUNITY_test_cluster.py]]
 - 1 edge to [[_COMMUNITY_test_cpp_objc_cross_file_calls.py]]
 - 1 edge to [[_COMMUNITY_test_export.py]]
@@ -121,7 +121,7 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_test_manifest_ingest.py]]
 - 1 edge to [[_COMMUNITY_test_phantom_external_import.py]]
 - 1 edge to [[_COMMUNITY_extract_python]]
-- 1 edge to [[_COMMUNITY_test_semantic_similarity.py]]
+- 1 edge to [[_COMMUNITY__surprise_score]]
 - 1 edge to [[_COMMUNITY_test_src_layout_import_resolution.py]]
 - 1 edge to [[_COMMUNITY_test_swift_cross_file_calls.py]]
 - 1 edge to [[_COMMUNITY_test_swift_import_resolution.py]]
@@ -129,12 +129,11 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_test_watch.py]]
 - 1 edge to [[_COMMUNITY__load_graph]]
 - 1 edge to [[_COMMUNITY_test_build_calls_dedup]]
-- 1 edge to [[_COMMUNITY_test_build_dedup_preserves_semantic_attributes]]
 - 1 edge to [[_COMMUNITY_extract_js]]
 
 ## Top bridge nodes
 - [[graphifybuild.py]] - degree 72, connects to 36 communities
-- [[build()]] - degree 24, connects to 6 communities
 - [[graph_has_legacy_ids()]] - degree 14, connects to 6 communities
+- [[build()]] - degree 24, connects to 5 communities
 - [[build_merge()]] - degree 33, connects to 4 communities
 - [[_norm_source_file()]] - degree 11, connects to 4 communities

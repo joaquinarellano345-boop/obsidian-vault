@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/api.py"
 type: "code"
-community: "handle_enrich"
+community: "handle_get"
 location: "L27"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/handle_enrich
+  - community/handle_get
 ---
 
 # handle_get()
@@ -16,4 +16,4 @@ tags:
 - [[api.py]] - `contains` [EXTRACTED]
 - [[load_record()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/handle_enrich
+#graphify/code #graphify/EXTRACTED #community/handle_get

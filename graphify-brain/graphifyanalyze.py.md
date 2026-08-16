@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "code"
-community: "test_analyze.py"
+community: "export.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/exportpy
 ---
 
 # graphify/analyze.py
@@ -44,4 +44,4 @@ tags:
 - [[test_semantic_similarity.py]] - `imports_from` [EXTRACTED]
 - [[test_swift_builtin_noise.py]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_analyzepy
+#graphify/code #graphify/EXTRACTED #community/exportpy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "_extract_generic"
+community: "engine.py"
 location: "L2183"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_generic
+  - community/enginepy
 ---
 
 # Generic AST extractor driven by LanguageConfig.      ``source_override`` parses
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_extract_generic()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_generic
+#graphify/rationale #graphify/EXTRACTED #community/enginepy

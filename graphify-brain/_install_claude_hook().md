@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "code"
-community: "test_settings_merge.py"
+community: "_install_claude_hook"
 location: "L1728"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_settings_mergepy
+  - community/_install_claude_hook
 ---
 
 # _install_claude_hook()
@@ -25,4 +25,4 @@ tags:
 - [[test_claude_hook_is_shell_agnostic()]] - `calls` [INFERRED]
 - [[test_settings_merge.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_settings_mergepy
+#graphify/code #graphify/EXTRACTED #community/_install_claude_hook

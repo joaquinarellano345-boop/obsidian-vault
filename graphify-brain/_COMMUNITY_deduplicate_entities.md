@@ -1,16 +1,17 @@
 ---
 type: community
 cohesion: 0.04
-members: 79
+members: 83
 ---
 
 # deduplicate_entities
 
 **Cohesion:** 0.04 - loosely connected
-**Members:** 79 nodes
+**Members:** 83 nodes
 
 ## Members
 - [[1851 definer + same-file relabel + cross-file reference. Across every     inse]] - rationale - tests/test_dedup.py
+- [[2182 determinism, 17532074 precedent the survivor must not depend on     PY]] - rationale - tests/test_dedup.py
 - [[(fix A) With 3+ same-ID same-source records, the merged attributes must not]] - rationale - tests/test_dedup.py
 - [[(fix B) Two provenance-less records sharing an ID must NOT cross-pollinate     a]] - rationale - tests/test_dedup.py
 - [[(fix C) An LLM survivor must not inherit _origin='ast' from a dropped     same-s]] - rationale - tests/test_dedup.py
@@ -34,6 +35,7 @@ members: 79
 - [[Tests for graphifydedup.py entity deduplication pipeline.]] - rationale - tests/test_dedup.py
 - [[The 1243 guard only drops the prefix bonus — a genuine cross-file     duplicate]] - rationale - tests/test_dedup.py
 - [[The cross-repo guard is untouched by 2182 identical concepts from     differen]] - rationale - tests/test_dedup.py
+- [[The default build path must not discard semantic enrichment (2091).]] - rationale - tests/test_dedup.py
 - [[The file-anchored guard only blocks cross-file pairs — near-identical     ration]] - rationale - tests/test_dedup.py
 - [[Three identical-norm concepts across three files every input order must     yie]] - rationale - tests/test_dedup.py
 - [[Two `concept` nodes whose labels are byte-identical after _norm() but     live i]] - rationale - tests/test_dedup.py
@@ -48,11 +50,13 @@ members: 79
 - [[deduplicate_entities()]] - code - graphify/dedup.py
 - [[source_file is absolute in some pipelines and repo-relative in others; the     d]] - rationale - tests/test_dedup.py
 - [[test_absolute_source_path_still_defines_id()]] - code - tests/test_dedup.py
+- [[test_build_dedup_preserves_semantic_attributes()]] - code - tests/test_dedup.py
 - [[test_collision_survivor_is_order_independent()]] - code - tests/test_dedup.py
 - [[test_community_boost_aids_merge()]] - code - tests/test_dedup.py
 - [[test_cross_chunk_id_collision_emits_warning()]] - code - tests/test_dedup.py
 - [[test_cross_file_id_collision_does_not_mix_attributes()]] - code - tests/test_dedup.py
 - [[test_cross_repo_guard_still_raises()]] - code - tests/test_dedup.py
+- [[test_crossfile_concept_merge_deterministic_across_hash_seeds()]] - code - tests/test_dedup.py
 - [[test_crossfile_concept_merge_is_order_independent()]] - code - tests/test_dedup.py
 - [[test_crossfile_concept_merge_is_transitive()]] - code - tests/test_dedup.py
 - [[test_crossfile_identical_concepts_merge_and_rewire()]] - code - tests/test_dedup.py
@@ -103,13 +107,12 @@ SORT file.name ASC
 - 9 edges to [[_COMMUNITY__norm]]
 - 6 edges to [[_COMMUNITY_test_crossfile_identical_labels_stay_distinct_for_guarded_types]]
 - 5 edges to [[_COMMUNITY__defines_id]]
+- 4 edges to [[_COMMUNITY_graphifybuild.py]]
 - 4 edges to [[_COMMUNITY_test_global_graph.py]]
-- 3 edges to [[_COMMUNITY_graphifybuild.py]]
 - 1 edge to [[_COMMUNITY_test_build_calls_dedup]]
-- 1 edge to [[_COMMUNITY_test_build_dedup_preserves_semantic_attributes]]
-- 1 edge to [[_COMMUNITY_test_crossfile_concept_merge_deterministic_across_hash_seeds]]
 
 ## Top bridge nodes
-- [[test_dedup.py]] - degree 70, connects to 9 communities
 - [[deduplicate_entities()]] - degree 70, connects to 7 communities
+- [[test_dedup.py]] - degree 70, connects to 7 communities
 - [[_shingles()]] - degree 6, connects to 1 community
+- [[test_build_dedup_preserves_semantic_attributes()]] - degree 3, connects to 1 community

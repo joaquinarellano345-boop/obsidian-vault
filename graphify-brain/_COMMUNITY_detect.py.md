@@ -180,7 +180,7 @@ SORT file.name ASC
 - 3 edges to [[_COMMUNITY_test_office_incremental.py]]
 - 2 edges to [[_COMMUNITY_test_cache.py]]
 - 2 edges to [[_COMMUNITY_extract.py]]
-- 1 edge to [[_COMMUNITY_test_analyze.py]]
+- 1 edge to [[_COMMUNITY_export.py]]
 - 1 edge to [[_COMMUNITY_extract_astro]]
 - 1 edge to [[_COMMUNITY_to_json]]
 - 1 edge to [[_COMMUNITY__stale_graph_sources]]

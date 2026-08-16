@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "_extract_generic"
+community: "engine.py"
 location: "L1092"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_generic
+  - community/enginepy
 ---
 
 # Names rebound by assignment at MODULE scope (top-level `x = ...`, `for`, walrus)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_python_module_bound_names()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_generic
+#graphify/rationale #graphify/EXTRACTED #community/enginepy

@@ -1,17 +1,16 @@
 ---
 type: community
 cohesion: 0.03
-members: 130
+members: 126
 ---
 
 # cli.py
 
 **Cohesion:** 0.03 - loosely connected
-**Members:** 130 nodes
+**Members:** 126 nodes
 
 ## Members
 - [[1059 changed_paths=None means a full-corpus rebuild — the queue     must not b]] - rationale - tests/test_watch.py
-- [[1059 when the rebuild lock is held, an incremental hook must queue     its cha]] - rationale - tests/test_watch.py
 - [[1886 `--exclude` recorded at extract time must survive into updatewatch]] - rationale - tests/test_watch.py
 - [[2051 follow-up a node whose source_file is a URLvirtual scheme     (gdoc,]] - rationale - tests/test_watch.py
 - [[.__init__()_3]] - code - graphify/cli.py
@@ -44,7 +43,6 @@ members: 130
 - [[Path_6]] - code
 - [[Path_46]] - code
 - [[Path_56]] - code
-- [[Per-repo advisory lock around a rebuild.      Yields True if acquired, False if]] - rationale - graphify/watch.py
 - [[Persist corpus-shaping options under ``out_dir``.      Best effort and non clobb]] - rationale - graphify/watch.py
 - [[Pick a path endpoint from a _score_nodes result, preferring full-token matches.]] - rationale - graphify/serve.py
 - [[Print per-stage wall-clock timings to stderr when --timing is set (1490).]] - rationale - graphify/cli.py
@@ -99,7 +97,6 @@ members: 130
 - [[_read_build_gitignore()]] - code - graphify/watch.py
 - [[_rebase_relative_source_files()]] - code - graphify/watch.py
 - [[_rebuild_code()]] - code - graphify/watch.py
-- [[_rebuild_lock()]] - code - graphify/watch.py
 - [[_reconcile_existing_graph()]] - code - graphify/watch.py
 - [[_reenter_main()]] - code - graphify/cli.py
 - [[_relativize_source_files()]] - code - graphify/watch.py
@@ -133,7 +130,6 @@ members: 130
 - [[test_queue_and_drain_pending_round_trip()]] - code - tests/test_watch.py
 - [[test_rebuild_code_full_corpus_skips_pending_queue()]] - code - tests/test_watch.py
 - [[test_rebuild_code_preserves_remote_source_across_repeated_updates()]] - code - tests/test_watch.py
-- [[test_rebuild_code_queues_on_lock_contention()]] - code - tests/test_watch.py
 - [[test_rebuild_honors_persisted_excludes()]] - code - tests/test_watch.py
 - [[test_rebuild_honors_persisted_no_gitignore()]] - code - tests/test_watch.py
 - [[test_strict_enabled_env_precedence()]] - code - tests/test_hook_strict.py
@@ -149,22 +145,22 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 74 edges to [[_COMMUNITY_test_watch.py]]
+- 71 edges to [[_COMMUNITY_test_watch.py]]
 - 23 edges to [[_COMMUNITY_test_export.py]]
 - 14 edges to [[_COMMUNITY_generate]]
 - 14 edges to [[_COMMUNITY_graphifybuild.py]]
 - 13 edges to [[_COMMUNITY_build_from_json]]
 - 12 edges to [[_COMMUNITY_test_global_graph.py]]
+- 11 edges to [[_COMMUNITY_export.py]]
 - 10 edges to [[_COMMUNITY_graphifycluster.py]]
 - 10 edges to [[_COMMUNITY_detect.py]]
 - 10 edges to [[_COMMUNITY_paths.py]]
-- 9 edges to [[_COMMUNITY_export.py]]
 - 8 edges to [[_COMMUNITY_graphify__main__.py]]
 - 8 edges to [[_COMMUNITY_test_multigraph_diagnostics.py]]
-- 8 edges to [[_COMMUNITY_test_analyze.py]]
 - 7 edges to [[_COMMUNITY_save_semantic_cache]]
 - 7 edges to [[_COMMUNITY_llm.py]]
 - 7 edges to [[_COMMUNITY_test_security.py]]
+- 6 edges to [[_COMMUNITY_test_analyze.py]]
 - 6 edges to [[_COMMUNITY_to_json]]
 - 6 edges to [[_COMMUNITY_test_benchmark.py]]
 - 6 edges to [[_COMMUNITY_detect_backend]]

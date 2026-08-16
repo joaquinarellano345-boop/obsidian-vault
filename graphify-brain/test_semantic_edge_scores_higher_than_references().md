@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_semantic_similarity.py"
 type: "code"
-community: "test_semantic_similarity.py"
+community: "_surprise_score"
 location: "L97"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_semantic_similaritypy
+  - community/_surprise_score
 ---
 
 # test_semantic_edge_scores_higher_than_references()
@@ -16,4 +16,4 @@ tags:
 - [[_surprise_score()]] - `calls` [EXTRACTED]
 - [[test_semantic_similarity.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_semantic_similaritypy
+#graphify/code #graphify/EXTRACTED #community/_surprise_score

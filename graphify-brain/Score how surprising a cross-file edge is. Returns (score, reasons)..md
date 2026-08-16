@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "rationale"
-community: "test_analyze.py"
+community: "_surprise_score"
 location: "L213"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/_surprise_score
 ---
 
 # Score how surprising a cross-file edge is. Returns (score, reasons).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_surprise_score()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_analyzepy
+#graphify/rationale #graphify/EXTRACTED #community/_surprise_score

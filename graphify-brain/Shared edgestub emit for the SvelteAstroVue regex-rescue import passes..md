@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "rationale"
-community: "extract_astro"
+community: "Path"
 location: "L1300"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/extract_astro
+  - community/Path
 ---
 
 # Shared edge/stub emit for the Svelte/Astro/Vue regex-rescue import passes.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_emit_rescued_import()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/extract_astro
+#graphify/rationale #graphify/EXTRACTED #community/Path

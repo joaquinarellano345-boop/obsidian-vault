@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "engine.py"
+community: "extract.py"
 location: "L958"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/enginepy
+  - community/extractpy
 ---
 
 # Walk a Scala type expression; append (name, role) tuples.     Handles type_ident
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_scala_collect_type_refs()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/enginepy
+#graphify/rationale #graphify/EXTRACTED #community/extractpy

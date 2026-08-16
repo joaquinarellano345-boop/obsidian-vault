@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/validator.py"
 type: "code"
-community: "api.py"
+community: "e"
 location: "L17"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/apipy
+  - community/e
 ---
 
 # validate_document()
@@ -23,4 +23,4 @@ tags:
 - [[validate_batch()]] - `calls` [EXTRACTED]
 - [[validator.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/apipy
+#graphify/code #graphify/EXTRACTED #community/e

@@ -28,8 +28,8 @@ members: 45
 - [[test_apex_method_extraction()]] - code - tests/test_languages.py
 - [[test_apex_missing_file_returns_empty()]] - code - tests/test_languages.py
 - [[test_apex_no_dangling_edges()]] - code - tests/test_languages.py
+- [[test_apex_soql_uses_edge()]] - code - tests/test_languages.py
 - [[test_apex_trigger_extraction()]] - code - tests/test_languages.py
-- [[test_apex_trigger_uses_sobject()]] - code - tests/test_languages.py
 - [[test_dmf_elem_labels_carry_control_type()]] - code - tests/test_languages.py
 - [[test_dmf_extracts_windows()]] - code - tests/test_languages.py
 - [[test_dmi_emits_state_nodes()]] - code - tests/test_languages.py
@@ -79,11 +79,11 @@ SORT file.name ASC
 - 2 edges to [[_COMMUNITY_test_swift_computed_properties.py]]
 - 1 edge to [[_COMMUNITY_build_from_json]]
 - 1 edge to [[_COMMUNITY_Path]]
-- 1 edge to [[_COMMUNITY__extract_generic]]
+- 1 edge to [[_COMMUNITY_engine.py]]
 
 ## Top bridge nodes
 - [[_labels()_3]] - degree 74, connects to 8 communities
 - [[extract_swift()]] - degree 33, connects to 8 communities
 - [[extract_apex()]] - degree 20, connects to 3 communities
-- [[test_apex_trigger_uses_sobject()]] - degree 4, connects to 2 communities
+- [[test_apex_soql_uses_edge()]] - degree 4, connects to 2 communities
 - [[test_js_local_const_does_not_emit_phantom_node()]] - degree 4, connects to 2 communities

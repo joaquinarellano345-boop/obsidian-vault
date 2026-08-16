@@ -1,20 +1,19 @@
 ---
 type: community
 cohesion: 0.03
-members: 101
+members: 97
 ---
 
 # test_install.py
 
 **Cohesion:** 0.03 - loosely connected
-**Members:** 101 nodes
+**Members:** 97 nodes
 
 ## Members
 - [[1403 on Windows, Hermes scans %LOCALAPPDATA%hermesskills, so the global]] - rationale - tests/test_install.py
 - [[2062 end-to-end uninstall strips graphify's own H2 section but leaves a     us]] - rationale - tests/test_install.py
 - [[2062 a file with only a user ` graphify` H3 (graphify never installed)]] - rationale - tests/test_install.py
 - [[2062 the strip helper must match graphify's own ` graphify` heading     exac]] - rationale - tests/test_install.py
-- [[2165 the PreToolUse command in .codexhooks.json must be a command the CLI]] - rationale - tests/test_install.py
 - [[All installable platform skill files must be present in the installed package.]] - rationale - tests/test_install.py
 - [[Claude platform install writes CLAUDE.md; others do not.]] - rationale - tests/test_install.py
 - [[Codex skill file must reference spawn_agent.]] - rationale - tests/test_install.py
@@ -28,14 +27,12 @@ members: 101
 - [[OpenClaw rides the shared Agent-tool disk-collect dispatch.      The consolidate]] - rationale - tests/test_install.py
 - [[OpenCode skill file must reference @mention.]] - rationale - tests/test_install.py
 - [[OpenCode's dispatch slot uses @mention, not the Claude Agent-tool example.]] - rationale - tests/test_install.py
-- [[Subcommand names the CLI actually dispatches.      `graphify`'s dispatcher is an]] - rationale - tests/test_install.py
 - [[Tests for graphify install --platform routing.]] - rationale - tests/test_install.py
 - [[The bash reminder string must not contain backticks or $(...) (regression test f]] - rationale - tests/test_install.py
 - [[The reminder must be joined to the user's command with ';', not '&&'     (1646)]] - rationale - tests/test_install.py
 - [[Uninstall keeps pre-existing content.]] - rationale - tests/test_install.py
 - [[_agents_install()_1]] - code - tests/test_install.py
 - [[_agents_uninstall()_1]] - code - tests/test_install.py
-- [[_cli_dispatched_commands()]] - code - tests/test_install.py
 - [[_install()]] - code - tests/test_install.py
 - [[_kilo_install()_1]] - code - tests/test_install.py
 - [[_kilo_uninstall()_1]] - code - tests/test_install.py
@@ -60,7 +57,6 @@ members: 101
 - [[test_claw_skill_uses_agent_tool_dispatch()]] - code - tests/test_install.py
 - [[test_codex_agents_install_mentions_dirty_graph_output()]] - code - tests/test_install.py
 - [[test_codex_agents_install_writes_agents_md()]] - code - tests/test_install.py
-- [[test_codex_hook_command_is_a_real_cli_subcommand()]] - code - tests/test_install.py
 - [[test_codex_install_does_not_write_claude_md()]] - code - tests/test_install.py
 - [[test_codex_skill_contains_spawn_agent()]] - code - tests/test_install.py
 - [[test_codex_skill_uses_graphify_with_existing_graph()]] - code - tests/test_install.py
@@ -123,13 +119,13 @@ SORT file.name ASC
 - 22 edges to [[_COMMUNITY_graphify__main__.py]]
 - 18 edges to [[_COMMUNITY_main]]
 - 7 edges to [[_COMMUNITY_test_codebuddy.py]]
-- 5 edges to [[_COMMUNITY_test_settings_merge.py]]
+- 6 edges to [[_COMMUNITY__install_claude_hook]]
 - 1 edge to [[_COMMUNITY_cli.py]]
 - 1 edge to [[_COMMUNITY__replace_or_append_section]]
 
 ## Top bridge nodes
 - [[test_install.py]] - degree 99, connects to 5 communities
 - [[gemini_install()]] - degree 19, connects to 3 communities
-- [[test_codex_hook_command_is_a_real_cli_subcommand()]] - degree 4, connects to 1 community
 - [[test_cursor_uninstall_removes_rule()]] - degree 4, connects to 1 community
 - [[test_cursor_install_idempotent()]] - degree 3, connects to 1 community
+- [[test_cursor_install_writes_rule()]] - degree 3, connects to 1 community

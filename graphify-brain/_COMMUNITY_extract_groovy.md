@@ -42,7 +42,7 @@ SORT file.name ASC
 - 2 edges to [[_COMMUNITY__relations]]
 - 1 edge to [[_COMMUNITY_extract.py]]
 - 1 edge to [[_COMMUNITY__make_id]]
-- 1 edge to [[_COMMUNITY__extract_generic]]
+- 1 edge to [[_COMMUNITY_engine.py]]
 - 1 edge to [[_COMMUNITY__edges_with_relation]]
 
 ## Top bridge nodes

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "rationale"
-community: "test_analyze.py"
+community: "export.py"
 location: "L166"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/exportpy
 ---
 
 # Return True if this node is a manually-injected semantic concept node     rather
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_is_concept_node()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_analyzepy
+#graphify/rationale #graphify/EXTRACTED #community/exportpy

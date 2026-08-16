@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/parser.py"
 type: "rationale"
-community: "e"
+community: "parser.py"
 location: "L71"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/e
+  - community/parserpy
 ---
 
 # Parse a list of files and return their record IDs.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[batch_parse()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/e
+#graphify/rationale #graphify/EXTRACTED #community/parserpy

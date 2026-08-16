@@ -69,7 +69,7 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
 - 1 edge to [[_COMMUNITY_Path]]
 - 1 edge to [[_COMMUNITY__make_id]]
-- 1 edge to [[_COMMUNITY__extract_generic]]
+- 1 edge to [[_COMMUNITY_engine.py]]
 
 ## Top bridge nodes
 - [[extract_python()]] - degree 40, connects to 6 communities

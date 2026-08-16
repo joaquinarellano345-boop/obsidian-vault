@@ -131,7 +131,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 27 edges to [[_COMMUNITY_test_settings_merge.py]]
+- 26 edges to [[_COMMUNITY__install_claude_hook]]
 - 22 edges to [[_COMMUNITY_test_install.py]]
 - 17 edges to [[_COMMUNITY_test_codebuddy.py]]
 - 16 edges to [[_COMMUNITY_claude_install]]
@@ -164,10 +164,11 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_test_read_hook.py]]
 - 1 edge to [[_COMMUNITY_test_search_hook.py]]
 - 1 edge to [[_COMMUNITY_test_skillgen.py]]
+- 1 edge to [[_COMMUNITY_test_settings_merge.py]]
 
 ## Top bridge nodes
 - [[graphify__main__.py]] - degree 109, connects to 30 communities
-- [[install.py]] - degree 79, connects to 9 communities
+- [[install.py]] - degree 79, connects to 10 communities
 - [[Path_42]] - degree 61, connects to 4 communities
 - [[dispatch_install_cli()]] - degree 35, connects to 3 communities
 - [[_project_uninstall()]] - degree 20, connects to 3 communities

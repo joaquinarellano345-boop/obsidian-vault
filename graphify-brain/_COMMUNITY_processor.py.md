@@ -34,11 +34,10 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 6 edges to [[_COMMUNITY_storage.py]]
-- 4 edges to [[_COMMUNITY_api.py]]
-- 1 edge to [[_COMMUNITY_handle_enrich]]
+- 5 edges to [[_COMMUNITY_e]]
 
 ## Top bridge nodes
-- [[process_and_save()]] - degree 7, connects to 3 communities
+- [[process_and_save()]] - degree 7, connects to 2 communities
 - [[processor.py]] - degree 10, connects to 1 community
 - [[enrich_document()]] - degree 6, connects to 1 community
 - [[normalize_text()]] - degree 5, connects to 1 community

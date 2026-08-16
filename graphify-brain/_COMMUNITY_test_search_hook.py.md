@@ -42,7 +42,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_test_settings_merge.py]]
+- 2 edges to [[_COMMUNITY__install_claude_hook]]
 - 1 edge to [[_COMMUNITY_graphify__main__.py]]
 
 ## Top bridge nodes

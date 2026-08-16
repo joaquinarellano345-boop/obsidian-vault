@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "extract_astro"
+community: "Path"
 location: "L1290"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extract_astro
+  - community/Path
 ---
 
 # _emit_rescued_import()
@@ -22,4 +22,4 @@ tags:
 - [[extract_svelte()]] - `calls` [EXTRACTED]
 - [[extract_vue()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extract_astro
+#graphify/code #graphify/EXTRACTED #community/Path

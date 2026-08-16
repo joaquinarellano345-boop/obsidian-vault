@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_analyze.py"
 type: "code"
-community: "test_analyze.py"
+community: "_surprise_score"
 location: "L193"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/_surprise_score
 ---
 
 # test_cross_language_semantically_similar_not_suppressed()
@@ -17,4 +17,4 @@ tags:
 - [[`semantically_similar_to` across languages is a genuine insight — must not be su]] - `rationale_for` [EXTRACTED]
 - [[test_analyze.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_analyzepy
+#graphify/code #graphify/EXTRACTED #community/_surprise_score

@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/validator.py"
 type: "rationale"
-community: "api.py"
+community: "e"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/apipy
+  - community/e
 ---
 
 # Validator module - checks that parsed documents meet schema requirements before
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[validator.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/apipy
+#graphify/rationale #graphify/EXTRACTED #community/e

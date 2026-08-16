@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "rationale"
-community: "test_analyze.py"
+community: "export.py"
 location: "L199"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/exportpy
 ---
 
 # Return the first path component - used to detect cross-repo edges.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_top_level_dir()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_analyzepy
+#graphify/rationale #graphify/EXTRACTED #community/exportpy

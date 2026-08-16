@@ -61,7 +61,7 @@ SORT file.name ASC
 ## Connections to other communities
 - 16 edges to [[_COMMUNITY_graphify__main__.py]]
 - 1 edge to [[_COMMUNITY__replace_or_append_section]]
-- 1 edge to [[_COMMUNITY_test_settings_merge.py]]
+- 1 edge to [[_COMMUNITY__install_claude_hook]]
 - 1 edge to [[_COMMUNITY_test_codebuddy.py]]
 - 1 edge to [[_COMMUNITY_test_home_sandbox.py]]
 - 1 edge to [[_COMMUNITY_test_uninstall_scope.py]]

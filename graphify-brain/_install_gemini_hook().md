@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/install.py"
 type: "code"
-community: "test_settings_merge.py"
+community: "_install_claude_hook"
 location: "L764"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_settings_mergepy
+  - community/_install_claude_hook
 ---
 
 # _install_gemini_hook()
@@ -22,4 +22,4 @@ tags:
 - [[install.py]] - `contains` [EXTRACTED]
 - [[test_settings_merge.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_settings_mergepy
+#graphify/code #graphify/EXTRACTED #community/_install_claude_hook

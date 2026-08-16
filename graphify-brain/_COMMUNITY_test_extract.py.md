@@ -158,13 +158,12 @@ SORT file.name ASC
 - 2 edges to [[_COMMUNITY_extract.py]]
 - 2 edges to [[_COMMUNITY_clear_cache]]
 - 2 edges to [[_COMMUNITY__make_id]]
+- 2 edges to [[_COMMUNITY_engine.py]]
 - 2 edges to [[_COMMUNITY_make_id]]
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
 - 1 edge to [[_COMMUNITY_build_from_json]]
 - 1 edge to [[_COMMUNITY_to_json]]
-- 1 edge to [[_COMMUNITY_engine.py]]
 - 1 edge to [[_COMMUNITY_extract_dart]]
-- 1 edge to [[_COMMUNITY__extract_generic]]
 
 ## Top bridge nodes
 - [[test_extract.py]] - degree 172, connects to 16 communities

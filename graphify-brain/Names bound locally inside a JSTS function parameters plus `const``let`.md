@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "engine.py"
+community: "_resolve_js_import_target"
 location: "L1155"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/enginepy
+  - community/_resolve_js_import_target
 ---
 
 # Names bound locally inside a JS/TS function: parameters plus `const`/`let`/
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_js_local_bound_names()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/enginepy
+#graphify/rationale #graphify/EXTRACTED #community/_resolve_js_import_target

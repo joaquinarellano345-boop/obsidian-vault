@@ -145,11 +145,10 @@ SORT file.name ASC
 - 8 edges to [[_COMMUNITY_test_export.py]]
 - 6 edges to [[_COMMUNITY_make_id]]
 - 6 edges to [[_COMMUNITY_validate_extraction]]
+- 5 edges to [[_COMMUNITY_export.py]]
 - 5 edges to [[_COMMUNITY__semantic_id_remap]]
-- 4 edges to [[_COMMUNITY_test_analyze.py]]
 - 4 edges to [[_COMMUNITY_test_src_layout_import_resolution.py]]
 - 3 edges to [[_COMMUNITY_test_file_label_disambiguation.py]]
-- 3 edges to [[_COMMUNITY_export.py]]
 - 3 edges to [[_COMMUNITY_to_wiki]]
 - 3 edges to [[_COMMUNITY_test_cpp_objc_cross_file_calls.py]]
 - 3 edges to [[_COMMUNITY_test_falkordb_integration.py]]
@@ -162,10 +161,11 @@ SORT file.name ASC
 - 2 edges to [[_COMMUNITY_serve.py]]
 - 2 edges to [[_COMMUNITY__build_server]]
 - 2 edges to [[_COMMUNITY_test_multigraph_diagnostics.py]]
+- 2 edges to [[_COMMUNITY_test_analyze.py]]
 - 2 edges to [[_COMMUNITY_test_cli_export.py]]
 - 2 edges to [[_COMMUNITY_test_cluster.py]]
 - 2 edges to [[_COMMUNITY_extract_python]]
-- 2 edges to [[_COMMUNITY_test_semantic_similarity.py]]
+- 2 edges to [[_COMMUNITY__surprise_score]]
 - 2 edges to [[_COMMUNITY_test_swift_cross_file_calls.py]]
 - 2 edges to [[_COMMUNITY_test_swift_import_resolution.py]]
 - 2 edges to [[_COMMUNITY_extract_terraform]]
@@ -183,7 +183,7 @@ SORT file.name ASC
 
 ## Top bridge nodes
 - [[build_from_json()]] - degree 155, connects to 36 communities
-- [[edge_data()]] - degree 24, connects to 9 communities
 - [[test_build.py]] - degree 76, connects to 8 communities
+- [[edge_data()]] - degree 24, connects to 8 communities
 - [[test_hypergraph.py]] - degree 30, connects to 4 communities
 - [[edge_datas()]] - degree 11, connects to 4 communities

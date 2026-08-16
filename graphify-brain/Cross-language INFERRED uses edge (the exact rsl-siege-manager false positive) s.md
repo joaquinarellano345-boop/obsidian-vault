@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_analyze.py"
 type: "rationale"
-community: "test_analyze.py"
+community: "_surprise_score"
 location: "L177"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/_surprise_score
 ---
 
 # Cross-language INFERRED uses edge (the exact rsl-siege-manager false positive) s
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_cross_language_inferred_uses_suppressed()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_analyzepy
+#graphify/rationale #graphify/EXTRACTED #community/_surprise_score

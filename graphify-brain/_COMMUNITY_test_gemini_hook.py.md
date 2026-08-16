@@ -28,7 +28,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 1 edge to [[_COMMUNITY_graphify__main__.py]]
-- 1 edge to [[_COMMUNITY_test_settings_merge.py]]
+- 1 edge to [[_COMMUNITY__install_claude_hook]]
 
 ## Top bridge nodes
 - [[test_gemini_hook.py]] - degree 9, connects to 2 communities

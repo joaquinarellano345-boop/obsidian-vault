@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/validator.py"
 type: "rationale"
-community: "api.py"
+community: "e"
 location: "L18"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/apipy
+  - community/e
 ---
 
 # Run all validation checks on a parsed document. Raises ValidationError on failur
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[validate_document()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/apipy
+#graphify/rationale #graphify/EXTRACTED #community/e

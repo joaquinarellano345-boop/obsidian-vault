@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "code"
-community: "extract_astro"
+community: "Path"
 location: "L1370"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extract_astro
+  - community/Path
 ---
 
 # extract_svelte()
@@ -23,4 +23,4 @@ tags:
 - [[test_dynamic_import_bare_path_resolves()]] - `calls` [EXTRACTED]
 - [[test_import_extension_resolution.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extract_astro
+#graphify/code #graphify/EXTRACTED #community/Path

@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_cpp_preprocess.py"
 type: "code"
-community: "test_cpp_preprocess.py"
+community: "Path"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_cpp_preprocesspy
+  - community/Path
 ---
 
 # test_cpp_preprocess.py
@@ -16,4 +16,4 @@ tags:
 - [[extract.py]] - `imports_from` [EXTRACTED]
 - [[test_cpp_preprocess_passes_absolute_path()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_cpp_preprocesspy
+#graphify/code #graphify/EXTRACTED #community/Path

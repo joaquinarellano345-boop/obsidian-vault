@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "_extract_generic"
+community: "engine.py"
 location: "L132"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/_extract_generic
+  - community/enginepy
 ---
 
 # Return names declared as `interface` in this C# compilation unit.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_csharp_pre_scan_interfaces()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/_extract_generic
+#graphify/rationale #graphify/EXTRACTED #community/enginepy

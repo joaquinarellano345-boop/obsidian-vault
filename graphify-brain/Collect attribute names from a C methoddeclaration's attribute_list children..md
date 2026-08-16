@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "extract.py"
+community: "engine.py"
 location: "L243"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/enginepy
 ---
 
 # Collect attribute names from a C# method/declaration's attribute_list children.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_csharp_attribute_names()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/extractpy
+#graphify/rationale #graphify/EXTRACTED #community/enginepy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "code"
-community: "engine.py"
+community: "extract.py"
 location: "L1032"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/enginepy
+  - community/extractpy
 ---
 
 # _python_collect_assignment_targets()
@@ -17,4 +17,4 @@ tags:
 - [[engine.py]] - `contains` [EXTRACTED]
 - [[extract.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/enginepy
+#graphify/code #graphify/EXTRACTED #community/extractpy

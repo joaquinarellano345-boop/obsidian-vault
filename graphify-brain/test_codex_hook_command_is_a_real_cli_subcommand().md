@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_install.py"
 type: "code"
-community: "test_install.py"
+community: "_install_claude_hook"
 location: "L1141"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_installpy
+  - community/_install_claude_hook
 ---
 
 # test_codex_hook_command_is_a_real_cli_subcommand()
@@ -17,4 +17,4 @@ tags:
 - [[_install_codex_hook()]] - `calls` [EXTRACTED]
 - [[test_install.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_installpy
+#graphify/code #graphify/EXTRACTED #community/_install_claude_hook

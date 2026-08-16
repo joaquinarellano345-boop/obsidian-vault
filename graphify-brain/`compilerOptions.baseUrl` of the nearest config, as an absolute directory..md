@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/resolution.py"
 type: "rationale"
-community: "extract_astro"
+community: "extract.py"
 location: "L224"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/extract_astro
+  - community/extractpy
 ---
 
 # `compilerOptions.baseUrl` of the nearest config, as an absolute directory.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_load_tsconfig_base_url()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/extract_astro
+#graphify/rationale #graphify/EXTRACTED #community/extractpy

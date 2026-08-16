@@ -75,6 +75,7 @@ SORT file.name ASC
 - 2 edges to [[_COMMUNITY_graphifybuild.py]]
 - 2 edges to [[_COMMUNITY_test_multigraph_diagnostics.py]]
 - 2 edges to [[_COMMUNITY__make_id]]
+- 2 edges to [[_COMMUNITY_engine.py]]
 - 2 edges to [[_COMMUNITY_test_file_label_disambiguation.py]]
 - 1 edge to [[_COMMUNITY_callflow_html.py]]
 - 1 edge to [[_COMMUNITY_load_graph]]
@@ -83,8 +84,6 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_to_json]]
 - 1 edge to [[_COMMUNITY_extract.py]]
 - 1 edge to [[_COMMUNITY_extract_bash]]
-- 1 edge to [[_COMMUNITY_engine.py]]
-- 1 edge to [[_COMMUNITY__extract_generic]]
 - 1 edge to [[_COMMUNITY_paths.py]]
 - 1 edge to [[_COMMUNITY_prs.py]]
 - 1 edge to [[_COMMUNITY_attach_graph_impact]]
@@ -95,7 +94,7 @@ SORT file.name ASC
 
 ## Top bridge nodes
 - [[check_graph_file_size_cap()]] - degree 37, connects to 17 communities
-- [[sanitize_metadata()]] - degree 22, connects to 9 communities
+- [[sanitize_metadata()]] - degree 22, connects to 8 communities
 - [[test_security.py]] - degree 68, connects to 5 communities
 - [[_max_graph_file_bytes()]] - degree 13, connects to 1 community
 - [[_sanitize_metadata_string()]] - degree 10, connects to 1 community

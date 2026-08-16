@@ -66,14 +66,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 25 edges to [[_COMMUNITY_test_analyze.py]]
+- 16 edges to [[_COMMUNITY_test_analyze.py]]
 - 14 edges to [[_COMMUNITY_cli.py]]
 - 14 edges to [[_COMMUNITY_build_from_json]]
 - 11 edges to [[_COMMUNITY_to_json]]
+- 10 edges to [[_COMMUNITY_export.py]]
 - 8 edges to [[_COMMUNITY_test_export.py]]
 - 4 edges to [[_COMMUNITY_test_cli_export.py]]
 - 4 edges to [[_COMMUNITY_test_reflect.py]]
-- 4 edges to [[_COMMUNITY_test_semantic_similarity.py]]
+- 4 edges to [[_COMMUNITY__surprise_score]]
 - 4 edges to [[_COMMUNITY__run]]
 - 3 edges to [[_COMMUNITY_graphifycluster.py]]
 - 3 edges to [[_COMMUNITY_test_cluster.py]]
@@ -82,14 +83,13 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY_test_file_label_disambiguation.py]]
 - 1 edge to [[_COMMUNITY_serve.py]]
 - 1 edge to [[_COMMUNITY__build_server]]
-- 1 edge to [[_COMMUNITY_export.py]]
 - 1 edge to [[_COMMUNITY_load_memory_docs]]
 - 1 edge to [[_COMMUNITY_reflect.py]]
 - 1 edge to [[_COMMUNITY__write_raw_doc]]
 
 ## Top bridge nodes
-- [[god_nodes()]] - degree 32, connects to 8 communities
-- [[report.py]] - degree 15, connects to 8 communities
+- [[god_nodes()]] - degree 32, connects to 9 communities
+- [[report.py]] - degree 15, connects to 9 communities
 - [[test_confidence.py]] - degree 21, connects to 7 communities
 - [[_make_graph()_3]] - degree 13, connects to 7 communities
-- [[score_all()]] - degree 20, connects to 6 communities
+- [[generate()]] - degree 35, connects to 6 communities

@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "api.py"
+community: "e"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/apipy
+  - community/e
 ---
 
 # Exception
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[ValidationError]] - `inherits` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/apipy
+#graphify/code #graphify/EXTRACTED #community/e

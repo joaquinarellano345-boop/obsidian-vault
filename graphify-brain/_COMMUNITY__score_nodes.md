@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.07
-members: 37
+cohesion: 0.06
+members: 39
 ---
 
 # _score_nodes
 
-**Cohesion:** 0.07 - loosely connected
-**Members:** 37 nodes
+**Cohesion:** 0.06 - loosely connected
+**Members:** 39 nodes
 
 ## Members
 - [[A lone generic-word exact match must not bury a multi-term match.      Reproduce]] - rationale - tests/test_serve.py
@@ -15,6 +15,7 @@ members: 37
 - [[Across many deterministic random graphs and many random multi-term     queries,]] - rationale - tests/test_serve.py
 - [[Combined query scorer returning the existing ranked `(score, node_id)` list.]] - rationale - graphify/serve.py
 - [[Coverage scaling must not touch full-coverage queries (coverage == 1).      A si]] - rationale - tests/test_serve.py
+- [[Guard against a per-label multiplicity penalty leaking into _score_nodes     (sh]] - rationale - tests/test_serve.py
 - [[IDF results are stored in G.graph so repeated queries don't recompute.]] - rationale - tests/test_serve.py
 - [[Per-token winner the single-pass scorer records matches the legacy     `_score_n]] - rationale - tests/test_serve.py
 - [[Reproducible broad-match DiGraph short constructed labels + edge noise.      La_1]] - rationale - tests/test_serve.py
@@ -41,6 +42,7 @@ members: 37
 - [[test_score_nodes_ignores_trailing_punctuation()]] - code - tests/test_serve.py
 - [[test_score_nodes_multiword_exact_label_outranks_superset()]] - code - tests/test_serve.py
 - [[test_score_nodes_no_match()]] - code - tests/test_serve.py
+- [[test_score_nodes_scores_identical_labels_equally()]] - code - tests/test_serve.py
 - [[test_score_nodes_source_file_partial()]] - code - tests/test_serve.py
 - [[test_score_query_best_seed_by_term_matches_legacy_singleton_scoring()]] - code - tests/test_serve.py
 - [[test_score_query_collect_per_term_seeds_false_omits_tracking()]] - code - tests/test_serve.py
@@ -56,7 +58,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 21 edges to [[_COMMUNITY_test_serve.py]]
+- 22 edges to [[_COMMUNITY_test_serve.py]]
 - 10 edges to [[_COMMUNITY_serve.py]]
 - 8 edges to [[_COMMUNITY__make_graph]]
 - 4 edges to [[_COMMUNITY_bench_query_scoring.py]]
@@ -66,7 +68,7 @@ SORT file.name ASC
 - 1 edge to [[_COMMUNITY__make_noisy_graph]]
 
 ## Top bridge nodes
-- [[_score_nodes()]] - degree 28, connects to 6 communities
+- [[_score_nodes()]] - degree 28, connects to 5 communities
 - [[test_pick_seeds_with_optimized_best_seed_matches_legacy_semantics()]] - degree 7, connects to 3 communities
 - [[test_score_query_matches_legacy_across_random_deterministic_graphs()]] - degree 7, connects to 3 communities
 - [[test_query_graph_text_makes_exactly_one_score_query_call()]] - degree 6, connects to 3 communities

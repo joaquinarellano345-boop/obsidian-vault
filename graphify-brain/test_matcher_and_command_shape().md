@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_gemini_hook.py"
 type: "code"
-community: "test_settings_merge.py"
+community: "_install_claude_hook"
 location: "L32"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/test_settings_mergepy
+  - community/_install_claude_hook
 ---
 
 # test_matcher_and_command_shape()
@@ -15,4 +15,4 @@ tags:
 - [[_gemini_hook()]] - `calls` [INFERRED]
 - [[test_gemini_hook.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/INFERRED #community/test_settings_mergepy
+#graphify/code #graphify/INFERRED #community/_install_claude_hook

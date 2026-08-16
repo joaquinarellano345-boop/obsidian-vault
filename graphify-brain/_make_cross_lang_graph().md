@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_analyze.py"
 type: "code"
-community: "test_analyze.py"
+community: "_surprise_score"
 location: "L149"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/_surprise_score
 ---
 
 # _make_cross_lang_graph()
@@ -19,4 +19,4 @@ tags:
 - [[test_cross_language_inferred_uses_suppressed()]] - `calls` [EXTRACTED]
 - [[test_cross_language_semantically_similar_not_suppressed()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_analyzepy
+#graphify/code #graphify/EXTRACTED #community/_surprise_score

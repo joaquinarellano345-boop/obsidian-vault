@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extract.py"
 type: "rationale"
-community: "extract_astro"
+community: "Path"
 location: "L1371"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/extract_astro
+  - community/Path
 ---
 
 # Extract imports from .svelte files: script-block via JS AST + template regex fal
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[extract_svelte()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/extract_astro
+#graphify/rationale #graphify/EXTRACTED #community/Path

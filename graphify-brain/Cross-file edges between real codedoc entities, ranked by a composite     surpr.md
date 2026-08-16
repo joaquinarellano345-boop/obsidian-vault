@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "rationale"
-community: "test_analyze.py"
+community: "export.py"
 location: "L278"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/exportpy
 ---
 
 # Cross-file edges between real code/doc entities, ranked by a composite     surpr
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_cross_file_surprises()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_analyzepy
+#graphify/rationale #graphify/EXTRACTED #community/exportpy

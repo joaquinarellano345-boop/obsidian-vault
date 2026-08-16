@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/api.py"
 type: "code"
-community: "api.py"
+community: "e"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/apipy
+  - community/e
 ---
 
 # api.py
@@ -34,4 +34,4 @@ tags:
 - [[validate_document()]] - `imports` [EXTRACTED]
 - [[validator.py]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/apipy
+#graphify/code #graphify/EXTRACTED #community/e

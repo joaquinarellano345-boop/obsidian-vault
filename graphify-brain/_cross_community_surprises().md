@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "code"
-community: "test_analyze.py"
+community: "export.py"
 location: "L340"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/exportpy
 ---
 
 # _cross_community_surprises()
@@ -20,4 +20,4 @@ tags:
 - [[graphifyanalyze.py]] - `contains` [EXTRACTED]
 - [[surprising_connections()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_analyzepy
+#graphify/code #graphify/EXTRACTED #community/exportpy

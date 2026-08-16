@@ -88,7 +88,7 @@ SORT file.name ASC
 - 5 edges to [[_COMMUNITY_main]]
 - 1 edge to [[_COMMUNITY__replace_or_append_section]]
 - 1 edge to [[_COMMUNITY_claude_install]]
-- 1 edge to [[_COMMUNITY_test_settings_merge.py]]
+- 1 edge to [[_COMMUNITY__install_claude_hook]]
 - 1 edge to [[_COMMUNITY_test_uninstall_scope.py]]
 
 ## Top bridge nodes

@@ -59,7 +59,7 @@ SORT file.name ASC
 - 2 edges to [[_COMMUNITY__semantic_id_remap]]
 - 2 edges to [[_COMMUNITY_test_extract.py]]
 - 1 edge to [[_COMMUNITY_extract.py]]
-- 1 edge to [[_COMMUNITY__extract_generic]]
+- 1 edge to [[_COMMUNITY__resolve_js_import_target]]
 - 1 edge to [[_COMMUNITY_extract_json]]
 - 1 edge to [[_COMMUNITY_resolve_bash_source_edges]]
 

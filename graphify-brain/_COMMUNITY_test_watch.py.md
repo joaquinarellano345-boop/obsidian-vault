@@ -1,19 +1,20 @@
 ---
 type: community
 cohesion: 0.02
-members: 140
+members: 144
 ---
 
 # test_watch.py
 
 **Cohesion:** 0.02 - loosely connected
-**Members:** 140 nodes
+**Members:** 144 nodes
 
 ## Members
 - [[09b33b7 guard a doc with NO semantic layer still gets the AST     quick-scan s]] - rationale - tests/test_watch.py
 - [[1007 graphify update (_rebuild_code with no changed_paths) must remove     nod]] - rationale - tests/test_watch.py
 - [[1059 after the primary rebuild, the lock-holder must loop and drain     any pa]] - rationale - tests/test_watch.py
 - [[1059 the process that acquires the lock must drain .pending_changes     and pa]] - rationale - tests/test_watch.py
+- [[1059 when the rebuild lock is held, an incremental hook must queue     its cha]] - rationale - tests/test_watch.py
 - [[1116 a symbol removed from a re-extracted file is a legitimate shrink —     ev]] - rationale - tests/test_watch.py
 - [[1116 graphify update (_rebuild_code with no changed_paths) must prune a     sy]] - rationale - tests/test_watch.py
 - [[1118 backward-compat a graph.json built before 1116 has no `_origin`     mark]] - rationale - tests/test_watch.py
@@ -55,6 +56,7 @@ members: 140
 - [[GRAPHIFY_REPO_ROOT lets detached hook rebuilds recover from a deleted CWD.]] - rationale - tests/test_watch.py
 - [[Like ``_seed_semantic_doc_graph``, but guide.md's semantic layer is     ONLY con]] - rationale - tests/test_watch.py
 - [[Mirror of the above if the caller declared deletions, the tmp file is NOT unlin]] - rationale - tests/test_watch.py
+- [[Per-repo advisory lock around a rebuild.      Yields True if acquired, False if]] - rationale - graphify/watch.py
 - [[Persisted source paths keep their meaning when invocation style changes.]] - rationale - tests/test_watch.py
 - [[Pre-rebase subdirectory graphs stored source_file relative to watch_root.]] - rationale - tests/test_watch.py
 - [[Return True (ok to proceed) or False (shrink refused).      When False, cleans u]] - rationale - graphify/watch.py
@@ -68,6 +70,7 @@ members: 140
 - [[_check_shrink()]] - code - graphify/watch.py
 - [[_merge_changed_paths preserves first-seen order and drops dupes.]] - rationale - tests/test_watch.py
 - [[_notify_only()]] - code - graphify/watch.py
+- [[_rebuild_lock()]] - code - graphify/watch.py
 - [[_seed_semantic_doc_graph()]] - code - tests/test_watch.py
 - [[_seed_semantic_doc_graph_code_only()]] - code - tests/test_watch.py
 - [[_seed_semantic_doc_graph_concept_only()]] - code - tests/test_watch.py
@@ -129,6 +132,7 @@ members: 140
 - [[test_rebuild_code_prunes_legacy_watch_relative_subdir_source()]] - code - tests/test_watch.py
 - [[test_rebuild_code_prunes_renamed_ast_backed_document()]] - code - tests/test_watch.py
 - [[test_rebuild_code_prunes_renamed_source_not_listed_by_hook()]] - code - tests/test_watch.py
+- [[test_rebuild_code_queues_on_lock_contention()]] - code - tests/test_watch.py
 - [[test_rebuild_code_quick_scans_doc_without_semantic_nodes()]] - code - tests/test_watch.py
 - [[test_rebuild_code_semantic_doc_not_double_represented_on_full_rebuild()]] - code - tests/test_watch.py
 - [[test_rebuild_code_skips_cluster_when_topology_unchanged()]] - code - tests/test_watch.py
@@ -159,7 +163,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 74 edges to [[_COMMUNITY_cli.py]]
+- 71 edges to [[_COMMUNITY_cli.py]]
 - 3 edges to [[_COMMUNITY_graphifycluster.py]]
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
 - 1 edge to [[_COMMUNITY_detect.py]]
@@ -167,6 +171,6 @@ SORT file.name ASC
 ## Top bridge nodes
 - [[test_watch.py]] - degree 97, connects to 3 communities
 - [[_check_shrink()]] - degree 14, connects to 2 communities
-- [[skipif_2]] - degree 11, connects to 1 community
+- [[_rebuild_lock()]] - degree 10, connects to 1 community
 - [[_notify_only()]] - degree 8, connects to 1 community
 - [[_seed_semantic_doc_graph()]] - degree 5, connects to 1 community

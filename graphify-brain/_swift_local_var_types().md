@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "code"
-community: "_extract_generic"
+community: "engine.py"
 location: "L1385"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_generic
+  - community/enginepy
 ---
 
 # _swift_local_var_types()
@@ -20,4 +20,4 @@ tags:
 - [[engine.py]] - `contains` [EXTRACTED]
 - [[extract.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_generic
+#graphify/code #graphify/EXTRACTED #community/enginepy

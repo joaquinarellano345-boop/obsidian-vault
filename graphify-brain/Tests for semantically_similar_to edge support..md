@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_semantic_similarity.py"
 type: "rationale"
-community: "test_semantic_similarity.py"
+community: "_surprise_score"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_semantic_similaritypy
+  - community/_surprise_score
 ---
 
 # Tests for semantically_similar_to edge support.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_semantic_similarity.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_semantic_similaritypy
+#graphify/rationale #graphify/EXTRACTED #community/_surprise_score

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "rationale"
-community: "extract.py"
+community: "engine.py"
 location: "L195"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/enginepy
 ---
 
 # Walk a C# type expression; append (name, role, qualified, qualifier) tuples.
@@ -15,4 +15,4 @@ tags:
 - [[_cpp_collect_type_refs()]] - `rationale_for` [EXTRACTED]
 - [[_csharp_collect_type_refs()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/extractpy
+#graphify/rationale #graphify/EXTRACTED #community/enginepy

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "rationale"
-community: "test_analyze.py"
+community: "export.py"
 location: "L48"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/exportpy
 ---
 
 # Return True if two source files belong to different language families.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_cross_language()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_analyzepy
+#graphify/rationale #graphify/EXTRACTED #community/exportpy

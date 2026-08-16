@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/pascal_resolution.py"
 type: "code"
-community: "pascal_resolution.py"
+community: "Path"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/pascal_resolutionpy
+  - community/Path
 ---
 
 # pascal_resolution.py
@@ -17,4 +17,4 @@ tags:
 - [[extract.py]] - `imports_from` [EXTRACTED]
 - [[resolve_pascal_inherited_calls()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/pascal_resolutionpy
+#graphify/code #graphify/EXTRACTED #community/Path

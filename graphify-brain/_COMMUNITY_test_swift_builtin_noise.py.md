@@ -29,7 +29,7 @@ SORT file.name ASC
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_extract]]
 - 2 edges to [[_COMMUNITY_generate]]
-- 1 edge to [[_COMMUNITY_test_analyze.py]]
+- 1 edge to [[_COMMUNITY_export.py]]
 - 1 edge to [[_COMMUNITY_extract.py]]
 
 ## Top bridge nodes

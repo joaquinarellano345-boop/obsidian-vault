@@ -41,7 +41,7 @@ SORT file.name ASC
 - 3 edges to [[_COMMUNITY_generate]]
 - 2 edges to [[_COMMUNITY_build_from_json]]
 - 2 edges to [[_COMMUNITY_graphifycluster.py]]
-- 1 edge to [[_COMMUNITY_test_analyze.py]]
+- 1 edge to [[_COMMUNITY_export.py]]
 - 1 edge to [[_COMMUNITY_graphifybuild.py]]
 
 ## Top bridge nodes

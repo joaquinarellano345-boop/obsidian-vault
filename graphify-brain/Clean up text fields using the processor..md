@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/validator.py"
 type: "rationale"
-community: "api.py"
+community: "e"
 location: "L40"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/apipy
+  - community/e
 ---
 
 # Clean up text fields using the processor.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[normalize_fields()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/apipy
+#graphify/rationale #graphify/EXTRACTED #community/e

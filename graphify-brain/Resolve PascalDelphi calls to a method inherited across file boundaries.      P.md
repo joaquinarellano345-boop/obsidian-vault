@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/pascal_resolution.py"
 type: "rationale"
-community: "pascal_resolution.py"
+community: "Path"
 location: "L47"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/pascal_resolutionpy
+  - community/Path
 ---
 
 # Resolve Pascal/Delphi calls to a method inherited across file boundaries.      P
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[resolve_pascal_inherited_calls()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/pascal_resolutionpy
+#graphify/rationale #graphify/EXTRACTED #community/Path

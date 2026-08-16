@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "code"
-community: "extract.py"
+community: "engine.py"
 location: "L921"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/extractpy
+  - community/enginepy
 ---
 
 # _cpp_collect_type_refs()
@@ -17,4 +17,4 @@ tags:
 - [[engine.py]] - `contains` [EXTRACTED]
 - [[extract.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/extractpy
+#graphify/code #graphify/EXTRACTED #community/enginepy

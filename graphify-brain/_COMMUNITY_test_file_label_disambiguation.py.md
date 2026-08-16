@@ -51,12 +51,11 @@ SORT file.name ASC
 - 5 edges to [[_COMMUNITY_graphifybuild.py]]
 - 5 edges to [[_COMMUNITY_cli.py]]
 - 3 edges to [[_COMMUNITY_build_from_json]]
+- 2 edges to [[_COMMUNITY_export.py]]
 - 2 edges to [[_COMMUNITY_extract]]
 - 2 edges to [[_COMMUNITY_test_security.py]]
 - 2 edges to [[_COMMUNITY_test_serve.py]]
-- 1 edge to [[_COMMUNITY_test_analyze.py]]
 - 1 edge to [[_COMMUNITY_generate]]
-- 1 edge to [[_COMMUNITY_export.py]]
 
 ## Top bridge nodes
 - [[test_file_label_disambiguation.py]] - degree 16, connects to 5 communities

@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/analyze.py"
 type: "code"
-community: "test_analyze.py"
+community: "_surprise_score"
 location: "L203"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/_surprise_score
 ---
 
 # _surprise_score()
@@ -37,4 +37,4 @@ tags:
 - [[test_surprising_connections_ambiguous_scores_higher_than_extracted()]] - `calls` [EXTRACTED]
 - [[test_surprising_connections_cross_type_scores_higher()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/test_analyzepy
+#graphify/code #graphify/EXTRACTED #community/_surprise_score

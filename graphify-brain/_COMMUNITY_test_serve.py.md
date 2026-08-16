@@ -67,8 +67,8 @@ SORT file.name ASC
 ## Connections to other communities
 - 33 edges to [[_COMMUNITY__make_graph]]
 - 23 edges to [[_COMMUNITY_serve.py]]
-- 21 edges to [[_COMMUNITY__score_nodes]]
-- 13 edges to [[_COMMUNITY__pick_seeds]]
+- 22 edges to [[_COMMUNITY__score_nodes]]
+- 12 edges to [[_COMMUNITY__pick_seeds]]
 - 10 edges to [[_COMMUNITY__load_graph]]
 - 10 edges to [[_COMMUNITY__query_terms]]
 - 10 edges to [[_COMMUNITY_Graph]]

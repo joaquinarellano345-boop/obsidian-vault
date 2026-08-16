@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/api.py"
 type: "code"
-community: "e"
+community: "parser.py"
 location: "L11"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/e
+  - community/parserpy
 ---
 
 # handle_upload()
@@ -16,4 +16,4 @@ tags:
 - [[api.py]] - `contains` [EXTRACTED]
 - [[batch_parse()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/e
+#graphify/code #graphify/EXTRACTED #community/parserpy

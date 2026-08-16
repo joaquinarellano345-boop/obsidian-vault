@@ -45,7 +45,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 3 edges to [[_COMMUNITY_cli.py]]
-- 2 edges to [[_COMMUNITY_test_settings_merge.py]]
+- 2 edges to [[_COMMUNITY__install_claude_hook]]
 - 2 edges to [[_COMMUNITY_test_cache.py]]
 - 1 edge to [[_COMMUNITY_extract_terraform]]
 - 1 edge to [[_COMMUNITY__sandbox_home]]

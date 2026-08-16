@@ -1,12 +1,12 @@
 ---
 source_file: "tests/test_analyze.py"
 type: "rationale"
-community: "test_analyze.py"
+community: "_surprise_score"
 location: "L230"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/test_analyzepy
+  - community/_surprise_score
 ---
 
 # EXTRACTED cross-language edges are real structural facts — must not be penalised
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[test_cross_language_extracted_calls_not_suppressed()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/test_analyzepy
+#graphify/rationale #graphify/EXTRACTED #community/_surprise_score

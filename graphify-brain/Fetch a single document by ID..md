@@ -1,12 +1,12 @@
 ---
 source_file: "worked/example/raw/storage.py"
 type: "rationale"
-community: "handle_enrich"
+community: "storage.py"
 location: "L66"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/handle_enrich
+  - community/storagepy
 ---
 
 # Fetch a single document by ID.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[load_record()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/handle_enrich
+#graphify/rationale #graphify/EXTRACTED #community/storagepy

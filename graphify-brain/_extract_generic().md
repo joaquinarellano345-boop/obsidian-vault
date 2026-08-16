@@ -1,12 +1,12 @@
 ---
 source_file: "graphify/extractors/engine.py"
 type: "code"
-community: "_extract_generic"
+community: "engine.py"
 location: "L2180"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_extract_generic
+  - community/enginepy
 ---
 
 # _extract_generic()
@@ -51,4 +51,4 @@ tags:
 - [[sanitize_metadata()]] - `calls` [EXTRACTED]
 - [[test_extract_generic_surfaces_tree_sitter_version_mismatch_hint()]] - `calls` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/_extract_generic
+#graphify/code #graphify/EXTRACTED #community/enginepy
